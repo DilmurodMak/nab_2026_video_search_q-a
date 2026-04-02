@@ -1,0 +1,29 @@
+# --- Environment / Python ---
+# Ignore the virtual environment folder
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# --- Node.js / Web App ---
+# Ignore the massive node_modules folder
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# --- Media / Videos ---
+# Ignore a specific root folder named 'video'
+/video/
+
+# Alternatively, ignore all common video formats regardless of folder
+# *.mp4
+# *.mov
+# *.avi
+# *.mkv
+
+# --- OS / System Files ---
+.DS_Store
+Thumbs.db
