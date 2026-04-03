@@ -49,6 +49,7 @@ Important files:
 You need:
 
 * Python 3
+* The project virtual environment in `.venv` for Azure SDK commands
 * Input files in `video_index/`
 * Matching file names for each video
 
@@ -67,7 +68,7 @@ requires the JSON inputs in `video_index/`.
 Run the pipeline from the repository root:
 
 ```bash
-python3 main.py
+.venv/bin/python main.py
 ```
 
 This uses the default folders:
@@ -78,13 +79,13 @@ This uses the default folders:
 If you want to pass them explicitly, run:
 
 ```bash
-python3 main.py --video-dir video --video-index-dir video_index
+.venv/bin/python main.py --video-dir video --video-index-dir video_index
 ```
 
 If you want to build a single video only, run:
 
 ```bash
-python3 main.py --video-name flight_simulator
+.venv/bin/python main.py --video-name flight_simulator
 ```
 
 Successful output looks like this:
@@ -99,7 +100,7 @@ Built flight_simulator_final_output.json: 6 segments, 6 with CU descriptions
 If you want to run the single-video builder without the batch wrapper, use:
 
 ```bash
-python3 src/build_final_output.py \
+.venv/bin/python src/build_final_output.py \
   video_index/flight_simulator_vi_output.json \
   --cu-json video_index/flight_simulator_cu_output.json
 ```
@@ -111,14 +112,14 @@ Final output generation and Azure AI Search upload are separate steps.
 After `main.py` creates the final JSON, upload it with:
 
 ```bash
-python3 src/index_builder.py \
+.venv/bin/python src/index_builder.py \
   --input video_index/flight_simulator_final_output.json
 ```
 
 If you want to recreate the index first, run:
 
 ```bash
-python3 src/index_builder.py \
+.venv/bin/python src/index_builder.py \
   --input video_index/flight_simulator_final_output.json \
   --recreate-index
 ```
@@ -132,13 +133,18 @@ Azure settings are only required when running `src/index_builder.py`.
 
 You can use `src/.env.example` as the template for `src/.env`.
 
+For the current Azure OpenAI resource in this workspace, use:
+
+* `AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small`
+* `AZURE_OPENAI_EMBEDDING_DIMENSIONS=1536`
+
 ## Current Flow
 
 Use this sequence when running the pipeline:
 
 1. Place `*_vi_output.json` and optional `*_cu_output.json` files in
    `video_index/`
-2. Run `python3 main.py`
+2. Run `.venv/bin/python main.py`
 3. Confirm that `*_final_output.json` was created in `video_index/`
-4. Run `python3 src/index_builder.py --input <final_output_file>` if you want
-   to upload the results to Azure AI Search
+4. Run `.venv/bin/python src/index_builder.py --input <final_output_file>` if
+  you want to upload the results to Azure AI Search

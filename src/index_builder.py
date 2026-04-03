@@ -20,26 +20,35 @@ import sys
 import argparse
 from pathlib import Path
 
-from dotenv import load_dotenv
-from openai import AzureOpenAI
-from azure.identity import DefaultAzureCredential, get_bearer_token_provider
-from azure.search.documents import SearchClient
-from azure.search.documents.indexes import SearchIndexClient
-from azure.search.documents.indexes.models import (
-    SearchIndex,
-    SearchField,
-    SearchFieldDataType,
-    SimpleField,
-    SearchableField,
-    VectorSearch,
-    HnswAlgorithmConfiguration,
-    VectorSearchProfile,
-    SemanticConfiguration,
-    SemanticSearch,
-    SemanticPrioritizedFields,
-    SemanticField,
-)
-from azure.core.credentials import AzureKeyCredential
+try:
+    from dotenv import load_dotenv
+    from openai import AzureOpenAI
+    from azure.identity import (
+        DefaultAzureCredential,
+        get_bearer_token_provider,
+    )
+    from azure.search.documents import SearchClient
+    from azure.search.documents.indexes import SearchIndexClient
+    from azure.search.documents.indexes.models import (
+        SearchIndex,
+        SearchField,
+        SearchFieldDataType,
+        SimpleField,
+        SearchableField,
+        VectorSearch,
+        HnswAlgorithmConfiguration,
+        VectorSearchProfile,
+        SemanticConfiguration,
+        SemanticSearch,
+        SemanticPrioritizedFields,
+        SemanticField,
+    )
+    from azure.core.credentials import AzureKeyCredential
+except ModuleNotFoundError as exc:
+    raise SystemExit(
+        "Missing Python dependencies for index upload. "
+        "Use '.venv/bin/python' or install the Azure SDK packages first."
+    ) from exc
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = Path(__file__).resolve().parent
@@ -51,14 +60,38 @@ SEARCH_ENDPOINT = os.getenv("AZURE_SEARCH_ENDPOINT")
 SEARCH_KEY = os.getenv("AZURE_SEARCH_API_KEY")
 INDEX_NAME = os.getenv("AZURE_SEARCH_INDEX_NAME", "nab-video-segments")
 OPENAI_ENDPOINT = os.getenv("AZURE_OPENAI_ENDPOINT")
-OPENAI_KEY = os.getenv("AZURE_OPENAI_API_KEY")
 EMBEDDING_MODEL = os.getenv(
     "AZURE_OPENAI_EMBEDDING_DEPLOYMENT",
     "text-embedding-3-large",
 )
 
-# text-embedding-3-large = 3072 dims; text-embedding-3-small = 1536
-VECTOR_DIMENSIONS = 3072
+KNOWN_EMBEDDING_DIMENSIONS = {
+    "text-embedding-3-large": 3072,
+    "text-embedding-3-small": 1536,
+}
+
+
+def resolve_vector_dimensions() -> int:
+    """Resolve vector dimensions from env or known embedding deployments."""
+    configured_dimensions = os.getenv("AZURE_OPENAI_EMBEDDING_DIMENSIONS")
+    if configured_dimensions:
+        try:
+            return int(configured_dimensions)
+        except ValueError as exc:
+            raise SystemExit(
+                "ERROR: AZURE_OPENAI_EMBEDDING_DIMENSIONS must be an integer."
+            ) from exc
+
+    if EMBEDDING_MODEL in KNOWN_EMBEDDING_DIMENSIONS:
+        return KNOWN_EMBEDDING_DIMENSIONS[EMBEDDING_MODEL]
+
+    raise SystemExit(
+        "ERROR: Unknown embedding deployment dimensions. "
+        "Set AZURE_OPENAI_EMBEDDING_DIMENSIONS in src/.env."
+    )
+
+
+VECTOR_DIMENSIONS = resolve_vector_dimensions()
 
 
 def check_env():
