@@ -6,15 +6,20 @@
     "startTimeMs": 0,
     "endTimeMs": 11366,
     "transcript": "When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [],
     "labels": [
       "cloud",
-      "aircraft",
-      "human face",
-      "person",
-      "clothing",
       "outdoor",
       "sky",
-      "grass"
+      "clothing",
+      "human face",
+      "person",
+      "grass",
+      "aircraft"
     ],
     "brands": [],
     "locations": [],
@@ -30,7 +35,10 @@
       "Computational Linguistics",
       "Linguistics"
     ],
-    "searchText": "Transcript: When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data.. Visual: cloud, aircraft, human face, person, clothing, outdoor, sky, grass. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science, Technology, Computational Linguistics, Linguistics. Keywords: data",
+    "objects": [
+      "potted plant"
+    ],
+    "searchText": "Dialogue: When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data. Speakers: Speaker #1, Speaker #2. Detected objects: potted plant. Visual elements: cloud, outdoor, sky, clothing, human face, person, grass, aircraft. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=0&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=0"
   },
@@ -41,6 +49,11 @@
     "startTimeMs": 11366,
     "endTimeMs": 13566,
     "transcript": "To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
+    "speakers": [
+      "Speaker #2",
+      "Speaker #1"
+    ],
+    "ocrText": [],
     "labels": [],
     "brands": [],
     "locations": [],
@@ -56,9 +69,10 @@
       "Computational Linguistics",
       "Linguistics"
     ],
-    "searchText": "Transcript: To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science, Technology, Computational Linguistics, Linguistics. Keywords: data",
-    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=11&location=trial",
-    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=11"
+    "objects": [],
+    "searchText": "Dialogue: To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #2, Speaker #1. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=11.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=11.366"
   },
   {
     "id": "flight_simulator_scene_3",
@@ -67,17 +81,21 @@
     "startTimeMs": 13566,
     "endTimeMs": 19433,
     "transcript": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
     "labels": [
-      "cloud",
-      "aircraft",
+      "outdoor",
+      "clothing",
       "human face",
       "person",
-      "clothing",
-      "outdoor",
+      "cloud",
       "sky",
+      "aircraft",
       "glasses",
-      "transport",
-      "mountain"
+      "mountain",
+      "transport"
     ],
     "brands": [],
     "locations": [],
@@ -93,9 +111,12 @@
       "Computational Linguistics",
       "Linguistics"
     ],
-    "searchText": "Transcript: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.. Visual: cloud, aircraft, human face, person, clothing, outdoor, sky, glasses, transport, mountain. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science, Technology, Computational Linguistics, Linguistics. Keywords: data",
-    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=14&location=trial",
-    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=14"
+    "objects": [
+      "potted plant"
+    ],
+    "searchText": "Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #1. Detected objects: potted plant. Visual elements: outdoor, clothing, human face, person, cloud, sky, aircraft, glasses. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=13.566&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=13.566"
   },
   {
     "id": "flight_simulator_scene_4",
@@ -104,15 +125,20 @@
     "startTimeMs": 19433,
     "endTimeMs": 33200,
     "transcript": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #3"
+    ],
+    "ocrText": [],
     "labels": [
       "human face",
       "person",
       "clothing",
       "outdoor",
       "sky",
+      "window",
       "mountain",
-      "landscape",
-      "window"
+      "landscape"
     ],
     "brands": [],
     "locations": [],
@@ -120,18 +146,19 @@
       "data"
     ],
     "topics": [
+      "Technology",
       "Natural Language Processing",
       "Artificial Intelligence",
       "Machine Learning",
-      "Science",
-      "Technology",
       "Computational Linguistics",
+      "Linguistics",
       "Hearing Loss",
-      "Linguistics"
+      "Science"
     ],
-    "searchText": "Transcript: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice.. Visual: human face, person, clothing, outdoor, sky, mountain, landscape, window. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science, Technology, Computational Linguistics, Hearing Loss, Linguistics. Keywords: data",
-    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=19&location=trial",
-    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=19"
+    "objects": [],
+    "searchText": "Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice. Speakers: Speaker #1, Speaker #3. Visual elements: human face, person, clothing, outdoor, sky, window, mountain, landscape. Speech keywords: data. Topics: Technology, Natural Language Processing, Artificial Intelligence, Machine Learning.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=19.433&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=19.433"
   },
   {
     "id": "flight_simulator_scene_5",
@@ -140,6 +167,10 @@
     "startTimeMs": 33200,
     "endTimeMs": 35266,
     "transcript": "Orlando Ground 9555 requesting the end of push back.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [],
     "labels": [
       "outdoor"
     ],
@@ -154,9 +185,10 @@
     "topics": [
       "Technology"
     ],
-    "searchText": "Transcript: Orlando Ground 9555 requesting the end of push back.. Visual: outdoor. Locations: Orlando Ground. Topics: Technology. Keywords: push back, 9555 request",
-    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=33&location=trial",
-    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=33"
+    "objects": [],
+    "searchText": "Dialogue: Orlando Ground 9555 requesting the end of push back. Speakers: Speaker #4. Named locations: Orlando Ground. Visual elements: outdoor. Speech keywords: push back, 9555 request. Topics: Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=33.2&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=33.2"
   },
   {
     "id": "flight_simulator_scene_6",
@@ -165,21 +197,27 @@
     "startTimeMs": 35266,
     "endTimeMs": 43866,
     "transcript": "Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [
+      "AIRBUS"
+    ],
     "labels": [
-      "aircraft",
-      "outdoor",
+      "air travel",
+      "plane",
       "sky",
       "transport",
-      "plane",
       "vehicle",
-      "air travel",
+      "outdoor",
       "airplane",
-      "aviation",
-      "airliner",
       "airline",
+      "airliner",
+      "aviation",
+      "aircraft",
       "aircraft engine",
-      "jet engine",
-      "jet aircraft"
+      "jet aircraft",
+      "jet engine"
     ],
     "brands": [
       "Airbus"
@@ -194,8 +232,11 @@
     "topics": [
       "Technology"
     ],
-    "searchText": "Transcript: Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received.. Visual: aircraft, outdoor, sky, transport, plane, vehicle, air travel, airplane, aviation, airliner, airline, aircraft engine, jet engine, jet aircraft. Brands: Airbus. Locations: Orlando Ground. Topics: Technology. Keywords: push back, 9555 request",
-    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=35&location=trial",
-    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=35"
+    "objects": [
+      "airplane"
+    ],
+    "searchText": "Dialogue: Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received. Speakers: Speaker #4. On-screen text: AIRBUS. Brands and logos: Airbus. Named locations: Orlando Ground. Detected objects: airplane. Visual elements: air travel, plane, sky, transport, vehicle, outdoor, airplane, airline. Speech keywords: push back, 9555 request. Topics: Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=35.266&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=35.266"
   }
 ]

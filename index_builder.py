@@ -85,13 +85,14 @@ def create_index(index_client: SearchIndexClient, recreate: bool = False):
         SearchableField(name="transcript",  type=SearchFieldDataType.String),
         SearchableField(name="searchText",  type=SearchFieldDataType.String),
         # Collection fields for labels, brands, locations etc — filterable and searchable
+        SearchField(name="speakers",  type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
+        SearchField(name="ocrText",   type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
         SearchField(name="labels",    type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
         SearchField(name="brands",    type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
         SearchField(name="locations", type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
+        SearchField(name="objects",   type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
         SearchField(name="topics",    type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
         SearchField(name="keywords",  type=SearchFieldDataType.Collection(SearchFieldDataType.String), searchable=True, filterable=True),
-        SimpleField(name="videoUrl",      type=SearchFieldDataType.String, retrievable=True),
-        SimpleField(name="viPlayerUrl",   type=SearchFieldDataType.String, retrievable=True),
         SimpleField(name="viInsightsUrl", type=SearchFieldDataType.String, retrievable=True),
         SimpleField(name="url",           type=SearchFieldDataType.String, retrievable=True),
         SearchField(

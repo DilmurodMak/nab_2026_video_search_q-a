@@ -39,8 +39,7 @@ These must be completed before either Copilot Studio path works:
    - `id`, `videoName`, `segmentId`
    - `description` (CU segment description)
    - `startTimeMs`, `endTimeMs`
-   - `videoUrl` (SAS URL to `.mp4`)
-   - `seekUrl` / `url` (SAS URL + `#t={seconds}` fragment — **must be named `url` for Copilot Studio citations**)
+   - `seekUrl` / `url` (playback URL + `#t={seconds}` fragment, **must be named `url` for Copilot Studio citations**)
    - `content_vector` (embedding of description + transcript)
 3. `.env` values filled: `AZURE_SEARCH_ENDPOINT`, `AZURE_SEARCH_API_KEY`
 
@@ -55,7 +54,7 @@ Azure Blob Storage (indexed-video)
         │ CU JSON per video
         ▼
 Python Index Builder (local)
-  - injects videoUrl + seekUrl (named "url")
+   - builds url field from playback URL + `#t=` fragment
   - embeds description + transcript
         │
         ▼
@@ -94,7 +93,6 @@ doc = {
     "description": segment["description"],
     "startTimeMs": segment["startTimeMs"],
     "endTimeMs": segment["endTimeMs"],
-    "videoUrl": video_url,
     "url": seek_url,          # ← must be "url" for Copilot Studio citations
     "content_vector": embed(text)
 }
@@ -266,13 +264,13 @@ In gallery template:
   - Label1.Text: ThisItem.videoName
   - Label2.Text: ThisItem.description
   - Label3.Text: "▶ " & Text(ThisItem.startTimeMs/1000, "[$-en-US]0.0") & "s"
-  - Button "Watch" → OnSelect: Set(varVideoUrl, ThisItem.url)
+   - Button "Watch" → OnSelect: Set(varClipUrl, ThisItem.url)
 ```
 
 **Video control:**
 ```
 Insert → Media → Video → Name: videoPlayer
-Media: varVideoUrl
+Media: varClipUrl
 ```
 
 > **Note on video playback**: The Power Apps Video control docs state external videos must be accessible anonymously. SAS URLs embed the token in the query string (no browser auth challenge) and work in most cases, but are not officially supported. For guaranteed compatibility, use Azure CDN with a custom domain or a public container for demo purposes.
