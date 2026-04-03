@@ -5,6 +5,7 @@
     "sceneId": "1",
     "startTimeMs": 0,
     "endTimeMs": 11366,
+    "description": "The video begins with a scenic aerial view of an island, showcasing the collaboration between Flight Simulator and Microsoft Azure AI. This is followed by a brief glimpse of a person speaking in an office setting, and then transitions to a visual representation of audio waveforms, indicating a discussion about neural TTS and the importance of good data for generating natural voices.",
     "transcript": "When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data.",
     "speakers": [
       "Speaker #1",
@@ -38,7 +39,7 @@
     "objects": [
       "potted plant"
     ],
-    "searchText": "Dialogue: When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data. Speakers: Speaker #1, Speaker #2. Detected objects: potted plant. Visual elements: cloud, outdoor, sky, clothing, human face, person, grass, aircraft. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
+    "searchText": "Scene description: The video begins with a scenic aerial view of an island, showcasing the collaboration between Flight Simulator and Microsoft Azure AI. This is followed by a brief glimpse of a person speaking in an office setting, and then transitions to a visual representation of audio waveforms, indicating a discussion about neural TTS and the importance of good data for generating natural voices. Dialogue: When it comes to the neural TTS, in order to get a good voice, it's better to have good data. To achieve life, we build a universal TTS model based on 3000 hours of data. Speakers: Speaker #1, Speaker #2. Detected objects: potted plant. Visual elements: cloud, outdoor, sky, clothing, human face, person, grass, aircraft. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=0&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=0"
   },
@@ -48,6 +49,7 @@
     "sceneId": "2",
     "startTimeMs": 11366,
     "endTimeMs": 13566,
+    "description": "The segment continues with a person speaking, followed by a wide shot of a vast landscape with fields and a data center, emphasizing the scale of data accumulation. The scene then shifts to the interior of a data center, highlighting the infrastructure supporting the TTS model.",
     "transcript": "To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
     "speakers": [
       "Speaker #2",
@@ -70,7 +72,7 @@
       "Linguistics"
     ],
     "objects": [],
-    "searchText": "Dialogue: To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #2, Speaker #1. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
+    "searchText": "Scene description: The segment continues with a person speaking, followed by a wide shot of a vast landscape with fields and a data center, emphasizing the scale of data accumulation. The scene then shifts to the interior of a data center, highlighting the infrastructure supporting the TTS model. Dialogue: To achieve life, we build a universal TTS model based on 3000 hours of data. We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #2, Speaker #1. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=11.366&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=11.366"
   },
@@ -80,6 +82,7 @@
     "sceneId": "3",
     "startTimeMs": 13566,
     "endTimeMs": 19433,
+    "description": "A person continues to speak about the TTS model, and the video transitions to stunning aerial views of a biplane flying over a coastal region and a castle, illustrating the capabilities of the Flight Simulator enhanced by Azure AI's TTS technology.",
     "transcript": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
     "speakers": [
       "Speaker #1"
@@ -114,7 +117,7 @@
     "objects": [
       "potted plant"
     ],
-    "searchText": "Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #1. Detected objects: potted plant. Visual elements: outdoor, clothing, human face, person, cloud, sky, aircraft, glasses. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
+    "searchText": "Scene description: A person continues to speak about the TTS model, and the video transitions to stunning aerial views of a biplane flying over a coastal region and a castle, illustrating the capabilities of the Flight Simulator enhanced by Azure AI's TTS technology. Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. Speakers: Speaker #1. Detected objects: potted plant. Visual elements: outdoor, clothing, human face, person, cloud, sky, aircraft, glasses. Speech keywords: data. Topics: Natural Language Processing, Artificial Intelligence, Machine Learning, Science.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=13.566&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=13.566"
   },
@@ -124,6 +127,7 @@
     "sceneId": "4",
     "startTimeMs": 19433,
     "endTimeMs": 33200,
+    "description": "The video features another person speaking in an office environment, followed by a close-up of an airplane on a runway, indicating the practical applications of the TTS technology in aviation scenarios.",
     "transcript": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice.",
     "speakers": [
       "Speaker #1",
@@ -156,7 +160,7 @@
       "Science"
     ],
     "objects": [],
-    "searchText": "Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice. Speakers: Speaker #1, Speaker #3. Visual elements: human face, person, clothing, outdoor, sky, window, mountain, landscape. Speech keywords: data. Topics: Technology, Natural Language Processing, Artificial Intelligence, Machine Learning.",
+    "searchText": "Scene description: The video features another person speaking in an office environment, followed by a close-up of an airplane on a runway, indicating the practical applications of the TTS technology in aviation scenarios. Dialogue: We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm. What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice. Speakers: Speaker #1, Speaker #3. Visual elements: human face, person, clothing, outdoor, sky, window, mountain, landscape. Speech keywords: data. Topics: Technology, Natural Language Processing, Artificial Intelligence, Machine Learning.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=19.433&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=19.433"
   },
@@ -166,6 +170,7 @@
     "sceneId": "5",
     "startTimeMs": 33200,
     "endTimeMs": 35266,
+    "description": "The final segment shows ground crew guiding an airplane on the tarmac, followed by a close-up of an Airbus aircraft at an airport. The video concludes with the Microsoft logo, signifying the company's involvement in the project.",
     "transcript": "Orlando Ground 9555 requesting the end of push back.",
     "speakers": [
       "Speaker #4"
@@ -186,7 +191,7 @@
       "Technology"
     ],
     "objects": [],
-    "searchText": "Dialogue: Orlando Ground 9555 requesting the end of push back. Speakers: Speaker #4. Named locations: Orlando Ground. Visual elements: outdoor. Speech keywords: push back, 9555 request. Topics: Technology.",
+    "searchText": "Scene description: The final segment shows ground crew guiding an airplane on the tarmac, followed by a close-up of an Airbus aircraft at an airport. The video concludes with the Microsoft logo, signifying the company's involvement in the project. Dialogue: Orlando Ground 9555 requesting the end of push back. Speakers: Speaker #4. Named locations: Orlando Ground. Visual elements: outdoor. Speech keywords: push back, 9555 request. Topics: Technology.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=33.2&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=33.2"
   },
@@ -196,6 +201,7 @@
     "sceneId": "6",
     "startTimeMs": 35266,
     "endTimeMs": 43866,
+    "description": "The final segment shows ground crew guiding an airplane on the tarmac, followed by a close-up of an Airbus aircraft at an airport. The video concludes with the Microsoft logo, signifying the company's involvement in the project.",
     "transcript": "Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received.",
     "speakers": [
       "Speaker #4"
@@ -235,7 +241,7 @@
     "objects": [
       "airplane"
     ],
-    "searchText": "Dialogue: Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received. Speakers: Speaker #4. On-screen text: AIRBUS. Brands and logos: Airbus. Named locations: Orlando Ground. Detected objects: airplane. Visual elements: air travel, plane, sky, transport, vehicle, outdoor, airplane, airline. Speech keywords: push back, 9555 request. Topics: Technology.",
+    "searchText": "Scene description: The final segment shows ground crew guiding an airplane on the tarmac, followed by a close-up of an Airbus aircraft at an airport. The video concludes with the Microsoft logo, signifying the company's involvement in the project. Dialogue: Orlando Ground 9555 requesting the end of push back. 9555 Request to end push back received. Speakers: Speaker #4. On-screen text: AIRBUS. Brands and logos: Airbus. Named locations: Orlando Ground. Detected objects: airplane. Visual elements: air travel, plane, sky, transport, vehicle, outdoor, airplane, airline. Speech keywords: push back, 9555 request. Topics: Technology.",
     "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon?t=35.266&location=trial",
     "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/c1v8ekuoon/?t=35.266"
   }
