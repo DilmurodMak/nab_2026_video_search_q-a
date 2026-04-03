@@ -37,9 +37,6 @@ dist/
 *.avi
 *.mkv
 
-# Generated search/index artifacts
-*_segments.json
-
 # --- OS / System Files ---
 .DS_Store
 Thumbs.db
