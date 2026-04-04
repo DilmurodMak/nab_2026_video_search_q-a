@@ -50,10 +50,8 @@ except ModuleNotFoundError as exc:
         "Use '.venv/bin/python' or install the Azure SDK packages first."
     ) from exc
 
-ROOT_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = Path(__file__).resolve().parent
 
-load_dotenv(ROOT_DIR / ".env")
 load_dotenv(SRC_DIR / ".env")
 
 SEARCH_ENDPOINT = os.getenv("AZURE_SEARCH_ENDPOINT")

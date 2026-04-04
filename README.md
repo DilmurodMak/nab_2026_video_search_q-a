@@ -43,6 +43,7 @@ Important files:
 * `src/build_all_final_outputs.py`: Batch builder for all videos
 * `src/build_final_output.py`: Single-video final-output builder
 * `src/index_builder.py`: Uploads final output JSON into Azure AI Search
+* `src/video_indexer_api.py`: Reusable Azure Video Indexer REST wrapper
 
 ## Prerequisites
 
@@ -137,6 +138,107 @@ For the current Azure OpenAI resource in this workspace, use:
 
 * `AZURE_OPENAI_EMBEDDING_DEPLOYMENT=text-embedding-3-small`
 * `AZURE_OPENAI_EMBEDDING_DIMENSIONS=1536`
+
+For Azure Video Indexer API calls, configure:
+
+* `AZURE_VIDEO_INDEXER_API_BASE_URL`
+* `AZURE_VIDEO_INDEXER_LOCATION`
+* `AZURE_VIDEO_INDEXER_ACCOUNT_ID`
+* `AZURE_VIDEO_INDEXER_SUBSCRIPTION_KEY`
+
+## Azure Video Indexer REST Wrapper
+
+The workspace includes a reusable Video Indexer REST client for future upload,
+polling, and index download operations.
+
+To validate the first step, get an account access token with:
+
+```bash
+.venv/bin/python src/video_indexer_api.py get-account-access-token
+```
+
+That command returns a safe JSON summary with the token length.
+
+If you need a contributor-scoped token for write operations such as upload, run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py get-account-access-token \
+  --allow-edit
+```
+
+If you need the raw token for manual chaining, run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py get-account-access-token \
+  --print-token
+```
+
+To upload a local video file and let the client request a contributor-scoped
+token automatically, run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py upload-video \
+  --file video/flight_simulator.mp4 \
+  --name flight-simulator-upload
+```
+
+To process one local video end to end, upload it, wait for indexing to finish,
+and save the raw Video Indexer JSON into `video_index/`, run:
+
+```bash
+.venv/bin/python src/process_video_indexer_end_to_end.py \
+  --video-file video/flight_simulator.mp4 \
+  --output-video-name flight_simulator \
+  --video-indexer-name flight-simulator-upload \
+  --overwrite
+```
+
+That command writes `video_index/flight_simulator_vi_output.json`.
+
+Use `--output-video-name` to control the saved pipeline filename. Use
+`--video-indexer-name` when you want the uploaded Video Indexer display name to
+be different from the saved local filename.
+
+The upload response includes `id`, which is the Video Indexer video id used for
+status polling and index download.
+
+To check the current indexing state and percentage completion, run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py get-video-status \
+  --video-id swo33fsr52
+```
+
+To wait until indexing completes and save the full Video Indexer JSON into
+`video_index/` using the pipeline naming convention, run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py wait-for-video-index \
+  --video-id swo33fsr52 \
+  --output-video-name flight_simulator
+```
+
+That command writes `video_index/flight_simulator_vi_output.json`.
+
+If indexing is already complete and you only want to download the full JSON,
+run:
+
+```bash
+.venv/bin/python src/video_indexer_api.py download-video-index \
+  --video-id swo33fsr52 \
+  --output-video-name flight_simulator
+```
+
+You can also provide `--description`, `--language`, `--privacy`,
+`--indexing-preset`, `--streaming-preset`, and the other supported upload query
+parameters from the Video Indexer REST API.
+
+If you pass `--access-token` to `upload-video`, it must be a contributor-scoped
+token. Reader tokens can fetch data, but they cannot upload media.
+
+For `wait-for-video-index` and `download-video-index`, use
+`--output-video-name` when the uploaded Video Indexer display name differs from
+the local video file stem that the downstream pipeline expects.
 
 ## Current Flow
 
