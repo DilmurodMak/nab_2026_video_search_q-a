@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict
+import os
 from pathlib import Path
 from typing import Any
 
@@ -27,6 +28,10 @@ from src.helper.video_indexer_helpers import normalize_output_video_name
 
 APP_TITLE = "Video Index Workflow"
 VIDEO_EXTENSIONS = {".mp4", ".mov", ".avi", ".mkv", ".m4v", ".wmv"}
+SEARCH_INDEX_NAME = os.getenv(
+    "AZURE_SEARCH_INDEX_NAME",
+    "nab-video-segments",
+)
 STEP_ORDER = [
     "get_token",
     "upload_video",
@@ -293,7 +298,6 @@ def _run_all_steps() -> None:
         outcome = _run_step(step_key, should_rerun=False)
         if not outcome.success:
             break
-    st.rerun()
 
 
 def _render_step(step_key: str) -> None:
@@ -368,6 +372,7 @@ def _render_sidebar() -> None:
 
         st.markdown("## Workflow controls")
         st.checkbox("Recreate AI Search index", key="recreate_index")
+        st.caption(f"Azure AI Search index: {SEARCH_INDEX_NAME}")
         if st.button("Reset Step Status"):
             st.session_state.step_results = {}
 
