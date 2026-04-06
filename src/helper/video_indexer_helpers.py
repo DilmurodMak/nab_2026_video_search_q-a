@@ -12,6 +12,7 @@ from typing import Any
 
 
 VIDEO_INDEX_OUTPUT_SUFFIX = "_vi_output.json"
+DEFAULT_VIDEO_INDEXER_PRIVACY = "Public"
 
 
 def parse_bool_arg(value: str) -> bool:
@@ -225,6 +226,15 @@ class VideoUploadRequest:
         if not normalized_name:
             raise ValueError("Video upload name cannot be empty.")
         object.__setattr__(self, "name", normalized_name)
+
+        normalized_privacy = (
+            str(self.privacy).strip() if self.privacy is not None else ""
+        )
+        object.__setattr__(
+            self,
+            "privacy",
+            normalized_privacy or DEFAULT_VIDEO_INDEXER_PRIVACY,
+        )
 
         has_file_path = self.file_path is not None
         has_video_url = bool(self.video_url)

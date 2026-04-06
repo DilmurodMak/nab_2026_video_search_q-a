@@ -30,6 +30,11 @@ import json
 import sys
 from pathlib import Path
 
+try:
+    from src.helper.video_indexer_helpers import normalize_output_video_name
+except ImportError:
+    from helper.video_indexer_helpers import normalize_output_video_name
+
 
 VI_OUTPUT_SUFFIX = "_vi_output"
 CU_OUTPUT_SUFFIX = "_cu_output"
@@ -119,7 +124,8 @@ def build_final_output_path(
 ) -> Path:
     """Build the canonical final output path for a video."""
     output_dir = Path(base_dir) if base_dir else Path.cwd()
-    return output_dir / f"{video_name}{FINAL_OUTPUT_SUFFIX}"
+    normalized_video_name = normalize_output_video_name(video_name)
+    return output_dir / f"{normalized_video_name}{FINAL_OUTPUT_SUFFIX}"
 
 
 def collect_insights(
@@ -370,7 +376,7 @@ def build_final_output(
     with open(vi_json_path, "r") as file_handle:
         data = json.load(file_handle)
 
-    video_name = data.get("name") or derive_video_name(vi_json_path)
+    video_name = normalize_output_video_name(derive_video_name(vi_json_path))
 
     vi_account_id = data.get("accountId", "")
     vi_video_id = data.get("id", "")

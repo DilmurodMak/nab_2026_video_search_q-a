@@ -1,0 +1,2691 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Public",
+  "state": "Processed",
+  "accountId": "e882f867-bf61-4e19-97dd-57932097b728",
+  "id": "f2ft3vbkt2",
+  "name": "flight_simulator",
+  "userName": "Dilmurod Makhamadaliev (Mak)",
+  "created": "2026-04-06T22:10:53.6833333+00:00",
+  "isOwned": true,
+  "isEditable": false,
+  "isBase": true,
+  "durationInSeconds": 43,
+  "duration": "0:00:43.904",
+  "summarizedInsights": {
+    "name": "flight_simulator",
+    "id": "f2ft3vbkt2",
+    "privacyMode": "Public",
+    "duration": {
+      "time": "0:00:43.904",
+      "seconds": 43.9
+    },
+    "thumbnailVideoId": "f2ft3vbkt2",
+    "thumbnailId": "1ad62d37-bae3-4236-adf8-0c09cd87a73e",
+    "faces": [
+      {
+        "videoId": "f2ft3vbkt2",
+        "confidence": 0,
+        "description": null,
+        "title": null,
+        "thumbnailId": "af5330ff-ef21-443e-8753-128bbbd79bd9",
+        "seenDuration": 9.2,
+        "seenDurationRatio": 0.2095,
+        "id": 1023,
+        "name": "Unknown #1",
+        "appearances": [
+          {
+            "startTime": "0:00:23.9666667",
+            "endTime": "0:00:33.2",
+            "startSeconds": 24,
+            "endSeconds": 33.2
+          }
+        ]
+      },
+      {
+        "videoId": "f2ft3vbkt2",
+        "confidence": 0,
+        "description": null,
+        "title": null,
+        "thumbnailId": "e9e6f371-ea2d-4615-abb8-8015b9670f5e",
+        "seenDuration": 4.9,
+        "seenDurationRatio": 0.1116,
+        "id": 1000,
+        "name": "Unknown #2",
+        "appearances": [
+          {
+            "startTime": "0:00:01.4666667",
+            "endTime": "0:00:03.2333333",
+            "startSeconds": 1.5,
+            "endSeconds": 3.2
+          },
+          {
+            "startTime": "0:00:13.5666667",
+            "endTime": "0:00:16.8333333",
+            "startSeconds": 13.6,
+            "endSeconds": 16.8
+          }
+        ]
+      },
+      {
+        "videoId": "f2ft3vbkt2",
+        "confidence": 0,
+        "description": null,
+        "title": null,
+        "thumbnailId": "33bfbe0d-965c-41f6-a523-822522f79432",
+        "seenDuration": 0.8,
+        "seenDurationRatio": 0.0182,
+        "id": 1003,
+        "name": "Unknown #3",
+        "appearances": [
+          {
+            "startTime": "0:00:07.3666667",
+            "endTime": "0:00:08.2",
+            "startSeconds": 7.4,
+            "endSeconds": 8.2
+          }
+        ]
+      }
+    ],
+    "keywords": [
+      {
+        "isTranscript": true,
+        "id": 1,
+        "name": "push back",
+        "appearances": [
+          {
+            "startTime": "0:00:33.76",
+            "endTime": "0:00:41.24",
+            "startSeconds": 33.8,
+            "endSeconds": 41.2
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 2,
+        "name": "data",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:23.68",
+            "startSeconds": 1.4,
+            "endSeconds": 23.7
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 3,
+        "name": "9555 request",
+        "appearances": [
+          {
+            "startTime": "0:00:33.76",
+            "endTime": "0:00:41.24",
+            "startSeconds": 33.8,
+            "endSeconds": 41.2
+          }
+        ]
+      }
+    ],
+    "sentiments": [
+      {
+        "sentimentKey": "Neutral",
+        "seenDurationRatio": 0.9225,
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:00:33.76",
+            "startSeconds": 0,
+            "endSeconds": 33.8
+          },
+          {
+            "startTime": "0:00:37.2",
+            "endTime": "0:00:43.904",
+            "startSeconds": 37.2,
+            "endSeconds": 43.9
+          }
+        ]
+      },
+      {
+        "sentimentKey": "Negative",
+        "seenDurationRatio": 0.0774,
+        "appearances": [
+          {
+            "startTime": "0:00:33.76",
+            "endTime": "0:00:37.2",
+            "startSeconds": 33.8,
+            "endSeconds": 37.2
+          }
+        ]
+      }
+    ],
+    "emotions": [
+      {
+        "type": "Anger",
+        "seenDurationRatio": 0.0774,
+        "appearances": [
+          {
+            "startTime": "0:00:33.76",
+            "endTime": "0:00:37.2",
+            "startSeconds": 33.8,
+            "endSeconds": 37.2
+          }
+        ]
+      }
+    ],
+    "audioEffects": [],
+    "labels": [
+      {
+        "id": 6,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9817,
+            "startTime": "0:00:09",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 9,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9843,
+            "startTime": "0:00:17",
+            "endTime": "0:00:23.0333333",
+            "startSeconds": 17,
+            "endSeconds": 23
+          },
+          {
+            "confidence": 0.9777,
+            "startTime": "0:00:34",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 34,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.9807,
+            "startTime": "0:00:09",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 9,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9858,
+            "startTime": "0:00:17",
+            "endTime": "0:00:23.0333333",
+            "startSeconds": 17,
+            "endSeconds": 23
+          },
+          {
+            "confidence": 0.9778,
+            "startTime": "0:00:36",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 36,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.9959,
+            "startTime": "0:00:02",
+            "endTime": "0:00:03.0333333",
+            "startSeconds": 2,
+            "endSeconds": 3
+          },
+          {
+            "confidence": 0.998,
+            "startTime": "0:00:08",
+            "endTime": "0:00:08.0333333",
+            "startSeconds": 8,
+            "endSeconds": 8
+          },
+          {
+            "confidence": 0.9942,
+            "startTime": "0:00:14",
+            "endTime": "0:00:16.0333333",
+            "startSeconds": 14,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9967,
+            "startTime": "0:00:24",
+            "endTime": "0:00:33.0333333",
+            "startSeconds": 24,
+            "endSeconds": 33
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.9791,
+            "startTime": "0:00:02",
+            "endTime": "0:00:03.0333333",
+            "startSeconds": 2,
+            "endSeconds": 3
+          },
+          {
+            "confidence": 0.9882,
+            "startTime": "0:00:08",
+            "endTime": "0:00:08.0333333",
+            "startSeconds": 8,
+            "endSeconds": 8
+          },
+          {
+            "confidence": 0.9714,
+            "startTime": "0:00:14",
+            "endTime": "0:00:16.0333333",
+            "startSeconds": 14,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9823,
+            "startTime": "0:00:24",
+            "endTime": "0:00:33.0333333",
+            "startSeconds": 24,
+            "endSeconds": 33
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "clothing",
+        "appearances": [
+          {
+            "confidence": 0.9636,
+            "startTime": "0:00:02",
+            "endTime": "0:00:03.0333333",
+            "startSeconds": 2,
+            "endSeconds": 3
+          },
+          {
+            "confidence": 0.9678,
+            "startTime": "0:00:08",
+            "endTime": "0:00:08.0333333",
+            "startSeconds": 8,
+            "endSeconds": 8
+          },
+          {
+            "confidence": 0.9525,
+            "startTime": "0:00:14",
+            "endTime": "0:00:16.0333333",
+            "startSeconds": 14,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9877,
+            "startTime": "0:00:24",
+            "endTime": "0:00:30.0333333",
+            "startSeconds": 24,
+            "endSeconds": 30
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "transport",
+        "appearances": [
+          {
+            "confidence": 0.958,
+            "startTime": "0:00:17",
+            "endTime": "0:00:17.0333333",
+            "startSeconds": 17,
+            "endSeconds": 17
+          },
+          {
+            "confidence": 0.9854,
+            "startTime": "0:00:36",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 36,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "plane",
+        "appearances": [
+          {
+            "confidence": 0.9983,
+            "startTime": "0:00:36",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 36,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "vehicle",
+        "appearances": [
+          {
+            "confidence": 0.9818,
+            "startTime": "0:00:36",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 36,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "air travel",
+        "appearances": [
+          {
+            "confidence": 0.9778,
+            "startTime": "0:00:36",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 36,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "cloud",
+        "appearances": [
+          {
+            "confidence": 0.9852,
+            "startTime": "0:00:00",
+            "endTime": "0:00:01.0333333",
+            "startSeconds": 0,
+            "endSeconds": 1
+          },
+          {
+            "confidence": 0.9874,
+            "startTime": "0:00:09",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 9,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9579,
+            "startTime": "0:00:18",
+            "endTime": "0:00:19.0333333",
+            "startSeconds": 18,
+            "endSeconds": 19
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "aviation",
+        "appearances": [
+          {
+            "confidence": 0.9575,
+            "startTime": "0:00:38",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 38,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "aircraft",
+        "appearances": [
+          {
+            "confidence": 0.9524,
+            "startTime": "0:00:00",
+            "endTime": "0:00:00.0333333",
+            "startSeconds": 0,
+            "endSeconds": 0
+          },
+          {
+            "confidence": 0.9787,
+            "startTime": "0:00:17",
+            "endTime": "0:00:17.0333333",
+            "startSeconds": 17,
+            "endSeconds": 17
+          },
+          {
+            "confidence": 0.9528,
+            "startTime": "0:00:38",
+            "endTime": "0:00:41.0333333",
+            "startSeconds": 38,
+            "endSeconds": 41
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "grass",
+        "appearances": [
+          {
+            "confidence": 0.9564,
+            "startTime": "0:00:09",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 9,
+            "endSeconds": 11
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "window",
+        "appearances": [
+          {
+            "confidence": 0.9565,
+            "startTime": "0:00:28",
+            "endTime": "0:00:30.0333333",
+            "startSeconds": 28,
+            "endSeconds": 30
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "airplane",
+        "appearances": [
+          {
+            "confidence": 0.9637,
+            "startTime": "0:00:36",
+            "endTime": "0:00:37.0333333",
+            "startSeconds": 36,
+            "endSeconds": 37
+          },
+          {
+            "confidence": 0.9687,
+            "startTime": "0:00:41",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 41,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "airliner",
+        "appearances": [
+          {
+            "confidence": 0.9868,
+            "startTime": "0:00:40",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 40,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "airline",
+        "appearances": [
+          {
+            "confidence": 0.9805,
+            "startTime": "0:00:40",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 40,
+            "endSeconds": 42
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "mountain",
+        "appearances": [
+          {
+            "confidence": 0.9641,
+            "startTime": "0:00:18",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 18,
+            "endSeconds": 18
+          },
+          {
+            "confidence": 0.9551,
+            "startTime": "0:00:22",
+            "endTime": "0:00:23.0333333",
+            "startSeconds": 22,
+            "endSeconds": 23
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "glasses",
+        "appearances": [
+          {
+            "confidence": 0.9583,
+            "startTime": "0:00:14",
+            "endTime": "0:00:14.0333333",
+            "startSeconds": 14,
+            "endSeconds": 14
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "landscape",
+        "appearances": [
+          {
+            "confidence": 0.9643,
+            "startTime": "0:00:22",
+            "endTime": "0:00:22.0333333",
+            "startSeconds": 22,
+            "endSeconds": 22
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "aircraft engine",
+        "appearances": [
+          {
+            "confidence": 0.9548,
+            "startTime": "0:00:40",
+            "endTime": "0:00:40.0333333",
+            "startSeconds": 40,
+            "endSeconds": 40
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "jet engine",
+        "appearances": [
+          {
+            "confidence": 0.9529,
+            "startTime": "0:00:40",
+            "endTime": "0:00:40.0333333",
+            "startSeconds": 40,
+            "endSeconds": 40
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "jet aircraft",
+        "appearances": [
+          {
+            "confidence": 0.9528,
+            "startTime": "0:00:40",
+            "endTime": "0:00:40.0333333",
+            "startSeconds": 40,
+            "endSeconds": 40
+          }
+        ]
+      }
+    ],
+    "framePatterns": [
+      {
+        "displayName": null,
+        "id": 1,
+        "name": "Black",
+        "appearances": [
+          {
+            "confidence": 0,
+            "startTime": "0:00:42.3",
+            "endTime": "0:00:43.8666667",
+            "startSeconds": 42.3,
+            "endSeconds": 43.9
+          }
+        ]
+      }
+    ],
+    "brands": [
+      {
+        "referenceId": "Airbus",
+        "referenceUrl": "http://en.wikipedia.org/wiki/Airbus",
+        "confidence": 1,
+        "description": "Airbus SAS is a division of the multinational Airbus Group SE that manufactures civil aircraft. It is based in Blagnac, France, a suburb of Toulouse, with production and manufacturing facilities mainly in France, Germany, Spain, China, United Kingdom and the United States. The company employs 73,958.",
+        "seenDuration": 1,
+        "id": 1,
+        "name": "Airbus",
+        "appearances": [
+          {
+            "startTime": "0:00:36",
+            "endTime": "0:00:37.0333333",
+            "startSeconds": 36,
+            "endSeconds": 37
+          }
+        ]
+      }
+    ],
+    "namedLocations": [
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.8,
+        "description": null,
+        "seenDuration": 3.4,
+        "id": 1,
+        "name": "Orlando Ground",
+        "appearances": [
+          {
+            "startTime": "0:00:33.76",
+            "endTime": "0:00:37.2",
+            "startSeconds": 33.8,
+            "endSeconds": 37.2
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 4,
+      "speakerTalkToListenRatio": {
+        "1": 0.423,
+        "2": 0.17,
+        "3": 0.242,
+        "4": 0.163
+      },
+      "speakerLongestMonolog": {
+        "1": 10,
+        "2": 6,
+        "3": 8,
+        "4": 6
+      },
+      "speakerNumberOfFragments": {
+        "1": 2,
+        "2": 1,
+        "3": 1,
+        "4": 2
+      },
+      "speakerWordCount": {
+        "1": 50,
+        "2": 15,
+        "3": 26,
+        "4": 16
+      }
+    },
+    "topics": [
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/social sciences/linguistics",
+        "iabName": "Science",
+        "confidence": 0.8702,
+        "id": 1,
+        "name": "Science/Natural Language Processing",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:32.92",
+            "startSeconds": 1.4,
+            "endSeconds": 32.9
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/technology and engineering/information technology and computer science/artificial intelligence",
+        "iabName": "Science",
+        "confidence": 0.8627,
+        "id": 2,
+        "name": "Science/Cognitive Science/Artificial Intelligence",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:32.92",
+            "startSeconds": 1.4,
+            "endSeconds": 32.9
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/technology and engineering/information technology and computer science/artificial intelligence",
+        "iabName": "Science",
+        "confidence": 0.7796,
+        "id": 3,
+        "name": "Science/Mathematics/Machine Learning",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:32.92",
+            "startSeconds": 1.4,
+            "endSeconds": 32.9
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology",
+        "iabName": "Science",
+        "confidence": 0.769,
+        "id": 4,
+        "name": "Science",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:23.68",
+            "startSeconds": 1.4,
+            "endSeconds": 23.7
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology",
+        "iabName": "Education",
+        "confidence": 0.762,
+        "id": 5,
+        "name": "Education/Technology",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:41.24",
+            "startSeconds": 1.4,
+            "endSeconds": 41.2
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/social sciences/linguistics",
+        "iabName": "Science",
+        "confidence": 0.7078,
+        "id": 6,
+        "name": "Science/Computational Linguistics",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:32.92",
+            "startSeconds": 1.4,
+            "endSeconds": 32.9
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "society/mankind/disabilities",
+        "iabName": "Medical Health",
+        "confidence": 0.6811,
+        "id": 7,
+        "name": "Health and Wellbeing/Medicine and Healthcare/Hearing Loss",
+        "appearances": [
+          {
+            "startTime": "0:00:24",
+            "endTime": "0:00:32.92",
+            "startSeconds": 24,
+            "endSeconds": 32.9
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/social sciences/linguistics",
+        "iabName": "Books and Literature",
+        "confidence": 0.6303,
+        "id": 8,
+        "name": "History/Science/Linguistics",
+        "appearances": [
+          {
+            "startTime": "0:00:01.36",
+            "endTime": "0:00:32.92",
+            "startSeconds": 1.4,
+            "endSeconds": 32.9
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "accountId": "e882f867-bf61-4e19-97dd-57932097b728",
+      "id": "f2ft3vbkt2",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Public",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:00:43.904",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "transcript": [
+          {
+            "id": 1,
+            "text": "When it comes to the neural TTS, in order to get a good voice, it's better to have good data.",
+            "confidence": 0.8892,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:06.64",
+                "start": "0:00:01.36",
+                "end": "0:00:06.64"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "To achieve life, we build a universal TTS model based on 3000 hours of data.",
+            "confidence": 0.7304,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07.12",
+                "adjustedEnd": "0:00:13.4",
+                "start": "0:00:07.12",
+                "end": "0:00:13.4"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "We actually accumulated tons of the data so that this universal model is able to capture the nuance of the audio and generate a more natural voice for the algorithm.",
+            "confidence": 0.8756,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.4",
+                "adjustedEnd": "0:00:23.68",
+                "start": "0:00:13.4",
+                "end": "0:00:23.68"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "What we liked about cognitive services offerings were that they had a much higher fidelity and they sounded a lot more like an actual human voice.",
+            "confidence": 0.9427,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:24",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Orlando Ground 9555 requesting the end of push back.",
+            "confidence": 0.6787,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "9555 Request to end push back received.",
+            "confidence": 0.4814,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:38.68",
+                "adjustedEnd": "0:00:41.24",
+                "start": "0:00:38.68",
+                "end": "0:00:41.24"
+              }
+            ]
+          }
+        ],
+        "ocrMaxTokenCount": 50000,
+        "ocrAnalyzedTokenCount": 11,
+        "ocr": [
+          {
+            "id": 1,
+            "text": "AIRBUS",
+            "confidence": 0.963,
+            "left": 594,
+            "top": 337,
+            "width": 66,
+            "height": 31,
+            "angle": -9,
+            "language": "fr-FR",
+            "instances": [
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:37.0333333",
+                "start": "0:00:36",
+                "end": "0:00:37.0333333"
+              },
+              {
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:40",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "push back",
+            "confidence": 0.9847,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              },
+              {
+                "adjustedStart": "0:00:38.68",
+                "adjustedEnd": "0:00:41.24",
+                "start": "0:00:38.68",
+                "end": "0:00:41.24"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "data",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:06.64",
+                "start": "0:00:01.36",
+                "end": "0:00:06.64"
+              },
+              {
+                "adjustedStart": "0:00:07.12",
+                "adjustedEnd": "0:00:13.4",
+                "start": "0:00:07.12",
+                "end": "0:00:13.4"
+              },
+              {
+                "adjustedStart": "0:00:13.4",
+                "adjustedEnd": "0:00:23.68",
+                "start": "0:00:13.4",
+                "end": "0:00:23.68"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "9555 request",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              },
+              {
+                "adjustedStart": "0:00:38.68",
+                "adjustedEnd": "0:00:41.24",
+                "start": "0:00:38.68",
+                "end": "0:00:41.24"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "id": 1,
+            "name": "Natural Language Processing",
+            "referenceId": "Science/Natural Language Processing",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/social sciences/linguistics",
+            "confidence": 0.8702,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:01.36",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Artificial Intelligence",
+            "referenceId": "Science/Cognitive Science/Artificial Intelligence",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/technology and engineering/information technology and computer science/artificial intelligence",
+            "confidence": 0.8627,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:01.36",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Machine Learning",
+            "referenceId": "Science/Mathematics/Machine Learning",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/technology and engineering/information technology and computer science/artificial intelligence",
+            "confidence": 0.7796,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:01.36",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Science",
+            "referenceId": "Science",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology",
+            "confidence": 0.769,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:23.68",
+                "start": "0:00:01.36",
+                "end": "0:00:23.68"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Technology",
+            "referenceId": "Education/Technology",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology",
+            "confidence": 0.762,
+            "iabName": "Education",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:41.24",
+                "start": "0:00:01.36",
+                "end": "0:00:41.24"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Computational Linguistics",
+            "referenceId": "Science/Computational Linguistics",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/social sciences/linguistics",
+            "confidence": 0.7078,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:01.36",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Hearing Loss",
+            "referenceId": "Health and Wellbeing/Medicine and Healthcare/Hearing Loss",
+            "referenceType": "VideoIndexer",
+            "iptcName": "society/mankind/disabilities",
+            "confidence": 0.6811,
+            "iabName": "Medical Health",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:24",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Linguistics",
+            "referenceId": "History/Science/Linguistics",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/social sciences/linguistics",
+            "confidence": 0.6303,
+            "iabName": "Books and Literature",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:01.36",
+                "end": "0:00:32.92"
+              }
+            ]
+          }
+        ],
+        "faces": [
+          {
+            "id": 1023,
+            "name": "Unknown #1",
+            "confidence": 0,
+            "description": null,
+            "thumbnailId": "af5330ff-ef21-443e-8753-128bbbd79bd9",
+            "title": null,
+            "imageUrl": null,
+            "highQuality": true,
+            "thumbnails": [
+              {
+                "id": "7ba96154-1c95-4290-bb77-638dd4912783",
+                "fileName": "FaceInstanceThumbnail_7ba96154-1c95-4290-bb77-638dd4912783.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:24.2666666",
+                    "adjustedEnd": "0:00:24.2999999",
+                    "start": "0:00:24.2666666",
+                    "end": "0:00:24.2999999"
+                  }
+                ]
+              },
+              {
+                "id": "24c2fd48-f9e8-4615-940c-5c684e596033",
+                "fileName": "FaceInstanceThumbnail_24c2fd48-f9e8-4615-940c-5c684e596033.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:29.4",
+                    "adjustedEnd": "0:00:29.4333333",
+                    "start": "0:00:29.4",
+                    "end": "0:00:29.4333333"
+                  }
+                ]
+              },
+              {
+                "id": "d175b7ff-2bac-494c-962f-23ac48f0863e",
+                "fileName": "FaceInstanceThumbnail_d175b7ff-2bac-494c-962f-23ac48f0863e.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:30.8",
+                    "adjustedEnd": "0:00:30.8333333",
+                    "start": "0:00:30.8",
+                    "end": "0:00:30.8333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "thumbnailsIds": [
+                  "7ba96154-1c95-4290-bb77-638dd4912783",
+                  "d175b7ff-2bac-494c-962f-23ac48f0863e",
+                  "24c2fd48-f9e8-4615-940c-5c684e596033"
+                ],
+                "adjustedStart": "0:00:23.9666667",
+                "adjustedEnd": "0:00:33.2",
+                "start": "0:00:23.9666667",
+                "end": "0:00:33.2"
+              }
+            ]
+          },
+          {
+            "id": 1000,
+            "name": "Unknown #2",
+            "confidence": 0,
+            "description": null,
+            "thumbnailId": "e9e6f371-ea2d-4615-abb8-8015b9670f5e",
+            "title": null,
+            "imageUrl": null,
+            "highQuality": true,
+            "thumbnails": [
+              {
+                "id": "c18897ba-9b12-487d-a2b5-bedaa83fec2b",
+                "fileName": "FaceInstanceThumbnail_c18897ba-9b12-487d-a2b5-bedaa83fec2b.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:01.8666666",
+                    "adjustedEnd": "0:00:01.8999999",
+                    "start": "0:00:01.8666666",
+                    "end": "0:00:01.8999999"
+                  }
+                ]
+              },
+              {
+                "id": "ae5efb49-52c7-4aae-8789-c8ecb9b9f046",
+                "fileName": "FaceInstanceThumbnail_ae5efb49-52c7-4aae-8789-c8ecb9b9f046.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:02.8",
+                    "adjustedEnd": "0:00:02.8333333",
+                    "start": "0:00:02.8",
+                    "end": "0:00:02.8333333"
+                  }
+                ]
+              },
+              {
+                "id": "fd8d16f5-9924-4d84-9c33-f49349fa6860",
+                "fileName": "FaceInstanceThumbnail_fd8d16f5-9924-4d84-9c33-f49349fa6860.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:14",
+                    "adjustedEnd": "0:00:14.0333333",
+                    "start": "0:00:14",
+                    "end": "0:00:14.0333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "thumbnailsIds": [
+                  "c18897ba-9b12-487d-a2b5-bedaa83fec2b",
+                  "ae5efb49-52c7-4aae-8789-c8ecb9b9f046"
+                ],
+                "adjustedStart": "0:00:01.4666667",
+                "adjustedEnd": "0:00:03.2333333",
+                "start": "0:00:01.4666667",
+                "end": "0:00:03.2333333"
+              },
+              {
+                "thumbnailsIds": [
+                  "fd8d16f5-9924-4d84-9c33-f49349fa6860"
+                ],
+                "adjustedStart": "0:00:13.5666667",
+                "adjustedEnd": "0:00:16.8333333",
+                "start": "0:00:13.5666667",
+                "end": "0:00:16.8333333"
+              }
+            ]
+          },
+          {
+            "id": 1003,
+            "name": "Unknown #3",
+            "confidence": 0,
+            "description": null,
+            "thumbnailId": "33bfbe0d-965c-41f6-a523-822522f79432",
+            "title": null,
+            "imageUrl": null,
+            "highQuality": true,
+            "thumbnails": [
+              {
+                "id": "8f2e2f0e-0107-4b0d-bb13-4ab24c517041",
+                "fileName": "FaceInstanceThumbnail_8f2e2f0e-0107-4b0d-bb13-4ab24c517041.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:07.4666666",
+                    "adjustedEnd": "0:00:07.4999999",
+                    "start": "0:00:07.4666666",
+                    "end": "0:00:07.4999999"
+                  }
+                ]
+              },
+              {
+                "id": "5f6204e2-9cec-4c3a-b2ec-db25d4f9910e",
+                "fileName": "FaceInstanceThumbnail_5f6204e2-9cec-4c3a-b2ec-db25d4f9910e.jpg",
+                "instances": [
+                  {
+                    "adjustedStart": "0:00:07.9333333",
+                    "adjustedEnd": "0:00:07.9666666",
+                    "start": "0:00:07.9333333",
+                    "end": "0:00:07.9666666"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "thumbnailsIds": [
+                  "8f2e2f0e-0107-4b0d-bb13-4ab24c517041",
+                  "5f6204e2-9cec-4c3a-b2ec-db25d4f9910e"
+                ],
+                "adjustedStart": "0:00:07.3666667",
+                "adjustedEnd": "0:00:08.2",
+                "start": "0:00:07.3666667",
+                "end": "0:00:08.2"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "cloud",
+            "referenceId": "natural phenomenon/weather/cloud",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9852,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.0333333",
+                "start": "0:00:00",
+                "end": "0:00:01.0333333"
+              },
+              {
+                "confidence": 0.9874,
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:09",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9579,
+                "adjustedStart": "0:00:18",
+                "adjustedEnd": "0:00:19.0333333",
+                "start": "0:00:18",
+                "end": "0:00:19.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "aircraft",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9524,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:00.0333333",
+                "start": "0:00:00",
+                "end": "0:00:00.0333333"
+              },
+              {
+                "confidence": 0.9787,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:17.0333333",
+                "start": "0:00:17",
+                "end": "0:00:17.0333333"
+              },
+              {
+                "confidence": 0.9739,
+                "adjustedStart": "0:00:38",
+                "adjustedEnd": "0:00:38.0333333",
+                "start": "0:00:38",
+                "end": "0:00:38.0333333"
+              },
+              {
+                "confidence": 0.9528,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:41.0333333",
+                "start": "0:00:41",
+                "end": "0:00:41.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9959,
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:03.0333333",
+                "start": "0:00:02",
+                "end": "0:00:03.0333333"
+              },
+              {
+                "confidence": 0.998,
+                "adjustedStart": "0:00:08",
+                "adjustedEnd": "0:00:08.0333333",
+                "start": "0:00:08",
+                "end": "0:00:08.0333333"
+              },
+              {
+                "confidence": 0.9942,
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:16.0333333",
+                "start": "0:00:14",
+                "end": "0:00:16.0333333"
+              },
+              {
+                "confidence": 0.9967,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:33.0333333",
+                "start": "0:00:24",
+                "end": "0:00:33.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9791,
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:03.0333333",
+                "start": "0:00:02",
+                "end": "0:00:03.0333333"
+              },
+              {
+                "confidence": 0.9882,
+                "adjustedStart": "0:00:08",
+                "adjustedEnd": "0:00:08.0333333",
+                "start": "0:00:08",
+                "end": "0:00:08.0333333"
+              },
+              {
+                "confidence": 0.9714,
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:16.0333333",
+                "start": "0:00:14",
+                "end": "0:00:16.0333333"
+              },
+              {
+                "confidence": 0.9823,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:33.0333333",
+                "start": "0:00:24",
+                "end": "0:00:33.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "clothing",
+            "referenceId": "consumer goods/clothing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9636,
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:03.0333333",
+                "start": "0:00:02",
+                "end": "0:00:03.0333333"
+              },
+              {
+                "confidence": 0.9678,
+                "adjustedStart": "0:00:08",
+                "adjustedEnd": "0:00:08.0333333",
+                "start": "0:00:08",
+                "end": "0:00:08.0333333"
+              },
+              {
+                "confidence": 0.9525,
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:16.0333333",
+                "start": "0:00:14",
+                "end": "0:00:16.0333333"
+              },
+              {
+                "confidence": 0.9877,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:24",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9817,
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:09",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9843,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:23.0333333",
+                "start": "0:00:17",
+                "end": "0:00:23.0333333"
+              },
+              {
+                "confidence": 0.978,
+                "adjustedStart": "0:00:34",
+                "adjustedEnd": "0:00:35.0333333",
+                "start": "0:00:34",
+                "end": "0:00:35.0333333"
+              },
+              {
+                "confidence": 0.9777,
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:37",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9807,
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:09",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.953,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:17",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "confidence": 0.9858,
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:23.0333333",
+                "start": "0:00:20",
+                "end": "0:00:23.0333333"
+              },
+              {
+                "confidence": 0.9778,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:36",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "grass",
+            "referenceId": "plant/herb/grass",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9679,
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:09.0333333",
+                "start": "0:00:09",
+                "end": "0:00:09.0333333"
+              },
+              {
+                "confidence": 0.9564,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "glasses",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9583,
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "transport",
+            "referenceId": "conveyance/transport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.958,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:17.0333333",
+                "start": "0:00:17",
+                "end": "0:00:17.0333333"
+              },
+              {
+                "confidence": 0.9854,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:36",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "mountain",
+            "referenceId": "geological formation/natural elevation/mountain",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9641,
+                "adjustedStart": "0:00:18",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:18",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "confidence": 0.9551,
+                "adjustedStart": "0:00:22",
+                "adjustedEnd": "0:00:23.0333333",
+                "start": "0:00:22",
+                "end": "0:00:23.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "landscape",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9643,
+                "adjustedStart": "0:00:22",
+                "adjustedEnd": "0:00:22.0333333",
+                "start": "0:00:22",
+                "end": "0:00:22.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "window",
+            "referenceId": "structure/framework/window",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9565,
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:28",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "plane",
+            "referenceId": "vehicle/airplane",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9983,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:36",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "vehicle",
+            "referenceId": "instrumentality/conveyance/vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9818,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:36",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "air travel",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9778,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:36",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "airplane",
+            "referenceId": "vehicle/aircraft/airplane",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9637,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:37.0333333",
+                "start": "0:00:36",
+                "end": "0:00:37.0333333"
+              },
+              {
+                "confidence": 0.9687,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:41",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "aviation",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9585,
+                "adjustedStart": "0:00:38",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:38",
+                "end": "0:00:39.0333333"
+              },
+              {
+                "confidence": 0.9575,
+                "adjustedStart": "0:00:42",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:42",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "airliner",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9868,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:40",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "airline",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9805,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:40",
+                "end": "0:00:42.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "aircraft engine",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9548,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.0333333",
+                "start": "0:00:40",
+                "end": "0:00:40.0333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "jet engine",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9529,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.0333333",
+                "start": "0:00:40",
+                "end": "0:00:40.0333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "jet aircraft",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9528,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.0333333",
+                "start": "0:00:40",
+                "end": "0:00:40.0333333"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:11.3666667",
+                "start": "0:00:00",
+                "end": "0:00:11.3666667"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:11.3666667",
+                "adjustedEnd": "0:00:13.5666667",
+                "start": "0:00:11.3666667",
+                "end": "0:00:13.5666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.5666667",
+                "adjustedEnd": "0:00:19.4333333",
+                "start": "0:00:13.5666667",
+                "end": "0:00:19.4333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.4333333",
+                "adjustedEnd": "0:00:33.2",
+                "start": "0:00:19.4333333",
+                "end": "0:00:33.2"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.2",
+                "adjustedEnd": "0:00:35.2666667",
+                "start": "0:00:33.2",
+                "end": "0:00:35.2666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "instances": [
+              {
+                "adjustedStart": "0:00:35.2666667",
+                "adjustedEnd": "0:00:43.8666667",
+                "start": "0:00:35.2666667",
+                "end": "0:00:43.8666667"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "4893e501-60d9-47a7-b911-b6d0fce5ef4e",
+                    "adjustedStart": "0:00:00.1666667",
+                    "adjustedEnd": "0:00:00.2",
+                    "start": "0:00:00.1666667",
+                    "end": "0:00:00.2"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "1f1c7588-fb14-4cb9-9c0e-1a67e98cd435",
+                    "adjustedStart": "0:00:00.2333333",
+                    "adjustedEnd": "0:00:00.2666667",
+                    "start": "0:00:00.2333333",
+                    "end": "0:00:00.2666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.4666667",
+                "start": "0:00:00",
+                "end": "0:00:01.4666667"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "tags": [
+              "Medium",
+              "CenterFace"
+            ],
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "94212caa-bbaf-477b-b24d-be80853d59b9",
+                    "adjustedStart": "0:00:01.5333333",
+                    "adjustedEnd": "0:00:01.5666667",
+                    "start": "0:00:01.5333333",
+                    "end": "0:00:01.5666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.4666667",
+                "adjustedEnd": "0:00:03.2333333",
+                "start": "0:00:01.4666667",
+                "end": "0:00:03.2333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "87c82fb6-70f9-4c3e-aa06-03b8de12aac2",
+                    "adjustedStart": "0:00:03.3666667",
+                    "adjustedEnd": "0:00:03.4",
+                    "start": "0:00:03.3666667",
+                    "end": "0:00:03.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.2333333",
+                "adjustedEnd": "0:00:07.3666667",
+                "start": "0:00:03.2333333",
+                "end": "0:00:07.3666667"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "tags": [
+              "Medium",
+              "CenterFace"
+            ],
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "a938a705-8714-4017-8bc1-1a910c61e2a5",
+                    "adjustedStart": "0:00:07.6",
+                    "adjustedEnd": "0:00:07.6333333",
+                    "start": "0:00:07.6",
+                    "end": "0:00:07.6333333"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "da7c68d1-1ac3-4dd0-b89d-b6c733828f8b",
+                    "adjustedStart": "0:00:08.4",
+                    "adjustedEnd": "0:00:08.4333333",
+                    "start": "0:00:08.4",
+                    "end": "0:00:08.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:07.3666667",
+                "adjustedEnd": "0:00:11.3666667",
+                "start": "0:00:07.3666667",
+                "end": "0:00:11.3666667"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "09645ff5-fa02-4229-8200-1634138d0c14",
+                    "adjustedStart": "0:00:11.4",
+                    "adjustedEnd": "0:00:11.4333333",
+                    "start": "0:00:11.4",
+                    "end": "0:00:11.4333333"
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "00736589-d740-4ce0-8c8c-af7adca9635f",
+                    "adjustedStart": "0:00:12.3666667",
+                    "adjustedEnd": "0:00:12.4",
+                    "start": "0:00:12.3666667",
+                    "end": "0:00:12.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:11.3666667",
+                "adjustedEnd": "0:00:13.5666667",
+                "start": "0:00:11.3666667",
+                "end": "0:00:13.5666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "tags": [
+              "Medium",
+              "CenterFace"
+            ],
+            "keyFrames": [
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "c319d84e-5fd3-4710-9a03-bb1b203a867e",
+                    "adjustedStart": "0:00:13.8333333",
+                    "adjustedEnd": "0:00:13.8666667",
+                    "start": "0:00:13.8333333",
+                    "end": "0:00:13.8666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.5666667",
+                "adjustedEnd": "0:00:16.1",
+                "start": "0:00:13.5666667",
+                "end": "0:00:16.1"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "tags": [
+              "Medium",
+              "CenterFace"
+            ],
+            "keyFrames": [
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "2ea3aaab-ccf2-4574-b38a-6a71fc6e95a0",
+                    "adjustedStart": "0:00:16.3666667",
+                    "adjustedEnd": "0:00:16.4",
+                    "start": "0:00:16.3666667",
+                    "end": "0:00:16.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:16.1",
+                "adjustedEnd": "0:00:19.4333333",
+                "start": "0:00:16.1",
+                "end": "0:00:19.4333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "24bbeda3-459a-423a-ab59-2489ec4b4fba",
+                    "adjustedStart": "0:00:19.5",
+                    "adjustedEnd": "0:00:19.5333333",
+                    "start": "0:00:19.5",
+                    "end": "0:00:19.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.4333333",
+                "adjustedEnd": "0:00:23.9666667",
+                "start": "0:00:19.4333333",
+                "end": "0:00:23.9666667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "tags": [
+              "Medium",
+              "CenterFace"
+            ],
+            "keyFrames": [
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "0b624fc2-0562-4b1f-884a-d6c9b800f15d",
+                    "adjustedStart": "0:00:24.2333333",
+                    "adjustedEnd": "0:00:24.2666667",
+                    "start": "0:00:24.2333333",
+                    "end": "0:00:24.2666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.9666667",
+                "adjustedEnd": "0:00:33.2",
+                "start": "0:00:23.9666667",
+                "end": "0:00:33.2"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "06a11682-12c4-444b-9c26-5fe127422bf4",
+                    "adjustedStart": "0:00:33.2666667",
+                    "adjustedEnd": "0:00:33.3",
+                    "start": "0:00:33.2666667",
+                    "end": "0:00:33.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.2",
+                "adjustedEnd": "0:00:35.2666667",
+                "start": "0:00:33.2",
+                "end": "0:00:35.2666667"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "fd7a6cc7-0444-457d-9ba5-750ecee353a1",
+                    "adjustedStart": "0:00:35.5333333",
+                    "adjustedEnd": "0:00:35.5666667",
+                    "start": "0:00:35.5333333",
+                    "end": "0:00:35.5666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:35.2666667",
+                "adjustedEnd": "0:00:37.7",
+                "start": "0:00:35.2666667",
+                "end": "0:00:37.7"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "d521b6c6-4bfd-41f2-a8ac-065d707da11a",
+                    "adjustedStart": "0:00:37.7666667",
+                    "adjustedEnd": "0:00:37.8",
+                    "start": "0:00:37.7666667",
+                    "end": "0:00:37.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:37.7",
+                "adjustedEnd": "0:00:39.2",
+                "start": "0:00:37.7",
+                "end": "0:00:39.2"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "e12b8166-6cc8-4a80-8e02-af1190e70d5d",
+                    "adjustedStart": "0:00:39.4666667",
+                    "adjustedEnd": "0:00:39.5",
+                    "start": "0:00:39.4666667",
+                    "end": "0:00:39.5"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.2",
+                "adjustedEnd": "0:00:41.7",
+                "start": "0:00:39.2",
+                "end": "0:00:41.7"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "f3968733-2447-43f6-b085-b129c91c3538",
+                    "adjustedStart": "0:00:42",
+                    "adjustedEnd": "0:00:42.0333333",
+                    "start": "0:00:42",
+                    "end": "0:00:42.0333333"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "4ce06740-b367-49b3-a726-cf73f8928508",
+                    "adjustedStart": "0:00:42.1666667",
+                    "adjustedEnd": "0:00:42.2",
+                    "start": "0:00:42.1666667",
+                    "end": "0:00:42.2"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:41.9",
+                "adjustedEnd": "0:00:43.8666667",
+                "start": "0:00:41.9",
+                "end": "0:00:43.8666667"
+              }
+            ]
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "referenceType": "Wiki",
+            "name": "Airbus",
+            "referenceId": "Airbus",
+            "referenceUrl": "http://en.wikipedia.org/wiki/Airbus",
+            "description": "Airbus SAS is a division of the multinational Airbus Group SE that manufactures civil aircraft. It is based in Blagnac, France, a suburb of Toulouse, with production and manufacturing facilities mainly in France, Germany, Spain, China, United Kingdom and the United States. The company employs 73,958.",
+            "tags": [],
+            "confidence": 1,
+            "isCustom": false,
+            "instances": [
+              {
+                "brandType": "Ocr",
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:37.0333333",
+                "start": "0:00:36",
+                "end": "0:00:37.0333333"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "Orlando Ground",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.8,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              }
+            ]
+          }
+        ],
+        "detectedObjects": [
+          {
+            "id": 1,
+            "type": "PottedPlant",
+            "thumbnailId": "ebb4737c-5dab-440e-9484-2cf730684c32",
+            "displayName": "potted plant",
+            "wikiDataId": "Q27993793",
+            "instances": [
+              {
+                "confidence": 0.475,
+                "adjustedStart": "0:00:01.466667",
+                "adjustedEnd": "0:00:03.233333",
+                "start": "0:00:01.466667",
+                "end": "0:00:03.233333"
+              },
+              {
+                "confidence": 0.564,
+                "adjustedStart": "0:00:13.566667",
+                "adjustedEnd": "0:00:16.1",
+                "start": "0:00:13.566667",
+                "end": "0:00:16.1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Airplane",
+            "thumbnailId": "ac2894da-21e9-49c2-89d6-5a46048ee673",
+            "displayName": "airplane",
+            "wikiDataId": "Q197",
+            "instances": [
+              {
+                "confidence": 0.912,
+                "adjustedStart": "0:00:35.766667",
+                "adjustedEnd": "0:00:37.7",
+                "start": "0:00:35.766667",
+                "end": "0:00:37.7"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "Airplane",
+            "thumbnailId": "bc614f7e-98b8-49f8-a69e-10e9cd3beca1",
+            "displayName": "airplane",
+            "wikiDataId": "Q197",
+            "instances": [
+              {
+                "confidence": 0.811,
+                "adjustedStart": "0:00:38.7",
+                "adjustedEnd": "0:00:39.066667",
+                "start": "0:00:38.7",
+                "end": "0:00:39.066667"
+              }
+            ]
+          }
+        ],
+        "sentiments": [
+          {
+            "id": 1,
+            "averageScore": 0.5,
+            "sentimentType": "Neutral",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:33.76",
+                "start": "0:00:00",
+                "end": "0:00:33.76"
+              },
+              {
+                "adjustedStart": "0:00:37.2",
+                "adjustedEnd": "0:00:43.904",
+                "start": "0:00:37.2",
+                "end": "0:00:43.904"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "averageScore": 0.1719,
+            "sentimentType": "Negative",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              }
+            ]
+          }
+        ],
+        "emotions": [
+          {
+            "id": 1,
+            "type": "Anger",
+            "instances": [
+              {
+                "confidence": 0.8593,
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              }
+            ]
+          }
+        ],
+        "blocks": [
+          {
+            "id": 0,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:00",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:32.92",
+                "adjustedEnd": "0:00:43.904",
+                "start": "0:00:32.92",
+                "end": "0:00:43.904"
+              }
+            ]
+          }
+        ],
+        "framePatterns": [
+          {
+            "id": 1,
+            "patternType": "Black",
+            "confidence": 1,
+            "displayName": null,
+            "instances": [
+              {
+                "adjustedStart": "0:00:42.3",
+                "adjustedEnd": "0:00:43.8666667",
+                "start": "0:00:42.3",
+                "end": "0:00:43.8666667"
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "id": 1,
+            "name": "Speaker #1",
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.36",
+                "adjustedEnd": "0:00:06.64",
+                "start": "0:00:01.36",
+                "end": "0:00:06.64"
+              },
+              {
+                "adjustedStart": "0:00:13.4",
+                "adjustedEnd": "0:00:23.68",
+                "start": "0:00:13.4",
+                "end": "0:00:23.68"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Speaker #2",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07.12",
+                "adjustedEnd": "0:00:13.4",
+                "start": "0:00:07.12",
+                "end": "0:00:13.4"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Speaker #3",
+            "instances": [
+              {
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:32.92",
+                "start": "0:00:24",
+                "end": "0:00:32.92"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Speaker #4",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.76",
+                "adjustedEnd": "0:00:37.2",
+                "start": "0:00:33.76",
+                "end": "0:00:37.2"
+              },
+              {
+                "adjustedStart": "0:00:38.68",
+                "adjustedEnd": "0:00:41.24",
+                "start": "0:00:38.68",
+                "end": "0:00:41.24"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 4,
+          "speakerTalkToListenRatio": {
+            "1": 0.423,
+            "2": 0.17,
+            "3": 0.242,
+            "4": 0.163
+          },
+          "speakerLongestMonolog": {
+            "1": 10,
+            "2": 6,
+            "3": 8,
+            "4": 6
+          },
+          "speakerNumberOfFragments": {
+            "1": 2,
+            "2": 1,
+            "3": 1,
+            "4": 2
+          },
+          "speakerWordCount": {
+            "1": 50,
+            "2": 15,
+            "3": 26,
+            "4": 16
+          }
+        }
+      },
+      "thumbnailId": "1ad62d37-bae3-4236-adf8-0c09cd87a73e",
+      "width": 1080,
+      "height": 608,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "Default",
+      "streamingPreset": "Default",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/e882f867-bf61-4e19-97dd-57932097b728/Videos/f2ft3vbkt2/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": null
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "f2ft3vbkt2",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:00:43.904"
+      }
+    }
+  ]
+}

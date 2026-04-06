@@ -5,7 +5,6 @@ from __future__ import annotations
 import argparse
 import json
 from dataclasses import replace
-from datetime import UTC, datetime
 from pathlib import Path
 from time import sleep
 
@@ -73,7 +72,10 @@ def build_parser() -> argparse.ArgumentParser:
     )
     parser.add_argument(
         "--privacy",
-        help="Optional Video Indexer privacy mode, for example Private.",
+        help=(
+            "Optional Video Indexer privacy mode. Defaults to Public when "
+            "omitted."
+        ),
     )
     parser.add_argument(
         "--indexing-preset",
@@ -124,10 +126,8 @@ def build_parser() -> argparse.ArgumentParser:
 
 
 def build_default_video_indexer_name(output_video_name: str) -> str:
-    """Build a unique Video Indexer display name for repeatable test runs."""
-    timestamp = datetime.now(UTC).strftime("%Y%m%d%H%M%S")
-    base_name = output_video_name.replace("_", "-")
-    return f"{base_name}-{timestamp}"
+    """Use the output video name as the default Video Indexer display name."""
+    return output_video_name
 
 
 def resolve_output_path(

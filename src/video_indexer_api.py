@@ -97,7 +97,7 @@ class VideoIndexerConfig:
     account_id: str
     subscription_key: str
     api_base_url: str = DEFAULT_API_BASE_URL
-    timeout_seconds: int = 60
+    timeout_seconds: int = 300
 
     @classmethod
     def from_env(cls) -> "VideoIndexerConfig":
@@ -116,7 +116,7 @@ class VideoIndexerConfig:
 
         timeout_seconds = os.getenv(
             "AZURE_VIDEO_INDEXER_TIMEOUT_SECONDS",
-            "60",
+            "300",
         )
         try:
             parsed_timeout = int(timeout_seconds)

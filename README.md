@@ -1,8 +1,8 @@
 ---
 title: NAB 2026 Video Index Pipeline
-description: Execution instructions for generating final video segment output files and optionally uploading them to Azure AI Search
+description: Execution instructions for the CLI and UI workflows that build video segment output files and upload results to Azure AI Search
 author: GitHub Copilot
-ms.date: 2026-04-03
+ms.date: 2026-04-06
 ms.topic: how-to
 keywords:
   - video indexer
@@ -10,21 +10,26 @@ keywords:
   - azure ai search
   - python
   - nab 2026
-estimated_reading_time: 4
+  - streamlit
+estimated_reading_time: 6
 ---
 
 ## Overview
 
-This workspace builds final video segment JSON files by combining:
+This workspace supports two ways to run the NAB 2026 video indexing flow:
 
-* Video Indexer output in `video_index/<video_name>_vi_output.json`
-* Content Understanding output in `video_index/<video_name>_cu_output.json`
+* Batch CLI flow: builds final output from Video Indexer JSON and optional
+  Content Understanding JSON
+* Step-by-step UI flow: runs Video Indexer end to end and builds the final
+  output without Content Understanding
 
-The generated result is written to:
+The generated artifacts are written to:
 
+* `video_index/<video_name>_vi_output.json`
 * `video_index/<video_name>_final_output.json`
 
-The root entrypoint is `main.py`.
+The main CLI entrypoint is `main.py`. The interactive workflow UI entrypoint is
+`video_index_workflow_ui.py`.
 
 ## Folder Layout
 
@@ -40,19 +45,30 @@ main.py
 Important files:
 
 * `main.py`: Runs the batch final-output generation flow
+* `requirements.txt`: Python dependencies for the CLI and Streamlit UI
+* `video_index_workflow_ui.py`: Step-by-step UI for the full Video Indexer flow
 * `src/build_all_final_outputs.py`: Batch builder for all videos
 * `src/build_final_output.py`: Single-video final-output builder
 * `src/index_builder.py`: Uploads final output JSON into Azure AI Search
 * `src/video_indexer_api.py`: Reusable Azure Video Indexer REST wrapper
+* `src/video_index_workflow.py`: Reusable workflow layer used by the UI
 
 ## Prerequisites
 
 You need:
 
 * Python 3
-* The project virtual environment in `.venv` for Azure SDK commands
+* The project virtual environment in `.venv`
+* Python packages installed from `requirements.txt`
 * Input files in `video_index/`
 * Matching file names for each video
+
+Install the required packages from the repository root:
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+```
 
 Expected input naming:
 
@@ -63,6 +79,11 @@ video_index/flight_simulator_cu_output.json
 
 Optional video files can exist in `video/`, but final output generation only
 requires the JSON inputs in `video_index/`.
+
+> [!IMPORTANT]
+> The step-by-step UI uses Video Indexer environment variables for token,
+> upload, and index retrieval. The Azure AI Search step also requires Search
+> and Azure OpenAI settings in `src/.env`.
 
 ## Generate Final Output
 
@@ -102,9 +123,48 @@ If you want to run the single-video builder without the batch wrapper, use:
 
 ```bash
 .venv/bin/python src/build_final_output.py \
+  video_index/flight_simulator_vi_output.json
+```
+
+That command builds a VI-only final output file.
+
+If you also want to merge a Content Understanding scene description, use:
+
+```bash
+.venv/bin/python src/build_final_output.py \
   video_index/flight_simulator_vi_output.json \
   --cu-json video_index/flight_simulator_cu_output.json
 ```
+
+## Run The Step-By-Step UI
+
+Start the interactive workflow UI from the repository root:
+
+```bash
+source .venv/bin/activate
+streamlit run video_index_workflow_ui.py
+```
+
+The UI supports these steps:
+
+1. Get a Video Indexer account token
+2. Upload a local video file
+3. Poll indexing status and save the raw VI JSON
+4. Build the final output without CU descriptions
+5. Upload the final output to Azure AI Search
+
+The UI processes one video file at a time. Each step can run independently,
+and you can retry any failed step without restarting the full workflow.
+
+The selected video filename drives the canonical artifact names used by the
+pipeline. The UI shows those expected artifact names, and it derives them
+automatically:
+
+* `video_index/<normalized_video_name>_vi_output.json`
+* `video_index/<normalized_video_name>_final_output.json`
+
+The UI keeps the interaction minimal. It does not expose the optional upload
+settings from the Video Indexer REST API.
 
 ## Upload to Azure AI Search
 
@@ -145,6 +205,11 @@ For Azure Video Indexer API calls, configure:
 * `AZURE_VIDEO_INDEXER_LOCATION`
 * `AZURE_VIDEO_INDEXER_ACCOUNT_ID`
 * `AZURE_VIDEO_INDEXER_SUBSCRIPTION_KEY`
+* `AZURE_VIDEO_INDEXER_TIMEOUT_SECONDS`
+
+Set `AZURE_VIDEO_INDEXER_TIMEOUT_SECONDS=300` for this workspace. Larger local
+uploads such as `flight_simulator.mp4` can hit write timeouts when the client
+uses a shorter request timeout.
 
 ## Azure Video Indexer REST Wrapper
 
@@ -181,6 +246,14 @@ token automatically, run:
   --file video/flight_simulator.mp4 \
   --name flight-simulator-upload
 ```
+
+Uploads default to `Public` privacy unless you explicitly override `--privacy`.
+
+In the step-by-step UI and the end-to-end CLI flow, the Video Indexer display
+name defaults to the normalized file name. For example,
+`flight_simulator.mp4` uses the display name `flight_simulator`. The pipeline
+output files still use the canonical local names:
+`flight_simulator_vi_output.json` and `flight_simulator_final_output.json`.
 
 To process one local video end to end, upload it, wait for indexing to finish,
 and save the raw Video Indexer JSON into `video_index/`, run:
@@ -242,7 +315,9 @@ the local video file stem that the downstream pipeline expects.
 
 ## Current Flow
 
-Use this sequence when running the pipeline:
+Use one of these sequences when running the pipeline:
+
+### Batch CLI Flow
 
 1. Place `*_vi_output.json` and optional `*_cu_output.json` files in
    `video_index/`
@@ -250,3 +325,11 @@ Use this sequence when running the pipeline:
 3. Confirm that `*_final_output.json` was created in `video_index/`
 4. Run `.venv/bin/python src/index_builder.py --input <final_output_file>` if
   you want to upload the results to Azure AI Search
+
+### Step-By-Step UI Flow
+
+1. Run `streamlit run video_index_workflow_ui.py`
+2. Trigger the token and upload steps from the UI
+3. Run the index retrieval step to save `*_vi_output.json`
+4. Run the final-output step to save `*_final_output.json` without CU
+5. Run the Azure AI Search step if you want to upload the generated output

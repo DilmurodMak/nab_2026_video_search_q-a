@@ -1,0 +1,81 @@
+[
+  {
+    "id": "nature_scene_1",
+    "videoName": "nature",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 13200,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "green",
+      "drop",
+      "dew",
+      "moisture",
+      "nature",
+      "water",
+      "blurry",
+      "blur"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: green, drop, dew, moisture, nature, water, blurry, blur.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl/?t=0"
+  },
+  {
+    "id": "nature_scene_2",
+    "videoName": "nature",
+    "sceneId": "2",
+    "startTimeMs": 13600,
+    "endTimeMs": 21533,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "drop",
+      "dew",
+      "moisture",
+      "water",
+      "blur",
+      "blurry",
+      "green"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: drop, dew, moisture, water, blur, blurry, green.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl?t=13.6&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl/?t=13.6"
+  },
+  {
+    "id": "nature_scene_3",
+    "videoName": "nature",
+    "sceneId": "3",
+    "startTimeMs": 22000,
+    "endTimeMs": 25000,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "blur"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: blur.",
+    "url": "https://www.videoindexer.ai/embed/player/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl?t=22&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e882f867-bf61-4e19-97dd-57932097b728/m2wpca0arl/?t=22"
+  }
+]
