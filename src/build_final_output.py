@@ -376,11 +376,21 @@ def build_final_output(
     with open(vi_json_path, "r") as file_handle:
         data = json.load(file_handle)
 
-    video_name = normalize_output_video_name(derive_video_name(vi_json_path))
+    output_video_name = normalize_output_video_name(
+        derive_video_name(vi_json_path)
+    )
 
     vi_account_id = data.get("accountId", "")
-    vi_video_id = data.get("id", "")
+    vi_video_id = str(data.get("id") or "")
     video = data["videos"][0]
+    video_name = normalize_output_video_name(
+        str(video.get("name") or data.get("name") or output_video_name)
+    )
+    document_id_prefix = (
+        normalize_output_video_name(vi_video_id)
+        if vi_video_id
+        else video_name
+    )
     insights = video["insights"]
 
     scenes = insights.get("scenes", [])
@@ -501,7 +511,7 @@ def build_final_output(
 
         documents.append(
             {
-                "id": f"{video_name}_scene_{scene_id}",
+                "id": f"{document_id_prefix}_scene_{scene_id}",
                 "videoName": video_name,
                 "sceneId": str(scene_id),
                 "startTimeMs": start_ms,
@@ -522,7 +532,7 @@ def build_final_output(
             }
         )
 
-    return video_name, documents
+    return output_video_name, documents
 
 
 def save_local(

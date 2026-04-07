@@ -1,4 +1,4 @@
-"""Streamlit UI for the Video Indexer end-to-end workflow."""
+"""Streamlit UI for the Video Indexer bulk sync workflow."""
 
 from __future__ import annotations
 
@@ -17,89 +17,61 @@ except ModuleNotFoundError as exc:
 
 from src.video_index_workflow import (
     WorkflowStepOutcome,
-    build_final_output_step,
+    build_all_final_outputs_step,
+    download_all_video_indexes_step,
     get_account_token_step,
-    get_video_index_step,
-    index_in_ai_search_step,
-    upload_video_step,
+    index_all_final_outputs_step,
 )
-from src.helper.video_indexer_helpers import normalize_output_video_name
 
 
-APP_TITLE = "Video Index Workflow"
-VIDEO_EXTENSIONS = {".mp4", ".mov", ".avi", ".mkv", ".m4v", ".wmv"}
+APP_TITLE = "Video Index Bulk Sync"
 SEARCH_INDEX_NAME = os.getenv(
     "AZURE_SEARCH_INDEX_NAME",
     "nab-video-segments",
 )
 STEP_ORDER = [
     "get_token",
-    "upload_video",
-    "get_video_index",
-    "build_final_output",
-    "index_in_search",
+    "download_video_indexes",
+    "build_all_final_outputs",
+    "index_all_final_outputs",
 ]
 STEP_TITLES = {
     "get_token": "1. Get Account Token",
-    "upload_video": "2. Upload Video",
-    "get_video_index": "3. Get Video Index",
-    "build_final_output": "4. Build Final Output",
-    "index_in_search": "5. Index In Azure AI Search",
+    "download_video_indexes": "2. Download All Video Indexes",
+    "build_all_final_outputs": "3. Build All Final Outputs",
+    "index_all_final_outputs": "4. Index All In Azure AI Search",
 }
 STEP_DESCRIPTIONS = {
-    "get_token": "Fetch the Video Indexer token used by the workflow.",
-    "upload_video": (
-        "Upload the selected video file and capture the returned "
-        "Video Indexer id."
+    "get_token": (
+        "Fetch the Video Indexer reader token used for listing videos and "
+        "downloading raw VI JSON payloads."
     ),
-    "get_video_index": (
-        "Poll processing state, retry if needed, and save the raw VI JSON."
+    "download_video_indexes": (
+        "Enumerate all processed videos in the Video Indexer account and save "
+        "each raw VI JSON file locally."
     ),
-    "build_final_output": (
-        "Normalize the VI JSON into the final_output shape "
-        "without CU descriptions."
+    "build_all_final_outputs": (
+        "Build every final output JSON from the saved VI JSON files in the "
+        "artifact directory."
     ),
-    "index_in_search": (
-        "Embed and upload the final output documents into "
-        "Azure AI Search."
+    "index_all_final_outputs": (
+        "Embed and upload all final output documents to Azure AI Search in a "
+        "single bulk run."
     ),
 }
 
 
-def _discover_local_videos() -> list[str]:
-    video_dir = Path("video")
-    if not video_dir.exists():
+def _discover_artifact_files(
+    video_index_dir: str,
+    pattern: str,
+) -> list[str]:
+    artifact_dir = Path(video_index_dir).expanduser()
+    if not artifact_dir.exists():
         return []
     return sorted(
-        str(path)
-        for path in video_dir.iterdir()
-        if path.is_file() and path.suffix.lower() in VIDEO_EXTENSIONS
-    )
-
-
-def _default_output_name(video_file: str) -> str:
-    if not video_file:
-        return ""
-    try:
-        return normalize_output_video_name(Path(video_file).stem)
-    except ValueError:
-        return ""
-
-
-def _default_raw_vi_path(video_index_dir: str, output_video_name: str) -> str:
-    if not output_video_name:
-        return ""
-    return str(Path(video_index_dir) / f"{output_video_name}_vi_output.json")
-
-
-def _default_final_output_path(
-    video_index_dir: str,
-    output_video_name: str,
-) -> str:
-    if not output_video_name:
-        return ""
-    return str(
-        Path(video_index_dir) / f"{output_video_name}_final_output.json"
+        str(path.resolve())
+        for path in artifact_dir.glob(pattern)
+        if path.is_file()
     )
 
 
@@ -120,68 +92,58 @@ def _status_badge(status: str) -> str:
     }
     class_name = classes.get(status, "status-idle")
     label = status.replace("_", " ").title()
-    return (
-        f"<span class='status-pill {class_name}'>{label}</span>"
-    )
+    return f"<span class='status-pill {class_name}'>{label}</span>"
 
 
 def _init_state() -> None:
-    local_videos = _discover_local_videos()
-    default_video_file = local_videos[0] if local_videos else ""
     defaults = {
-        "video_file": default_video_file,
-        "output_video_name": _default_output_name(default_video_file),
-        "video_id": "",
-        "video_id_input": "",
-        "raw_vi_path": _default_raw_vi_path(
-            "video_index",
-            _default_output_name(default_video_file),
-        ),
-        "final_output_path": _default_final_output_path(
-            "video_index",
-            _default_output_name(default_video_file),
-        ),
         "video_index_dir": "video_index",
-        "poll_interval_seconds": 15,
-        "timeout_seconds": 3600,
-        "allow_edit_token": True,
+        "last_synced_video_index_dir": "video_index",
         "recreate_index": False,
         "token": "",
         "token_permission": "",
-        "last_synced_video_file": default_video_file,
+        "downloaded_vi_paths": _discover_artifact_files(
+            "video_index",
+            "*_vi_output.json",
+        ),
+        "final_output_paths": _discover_artifact_files(
+            "video_index",
+            "*_final_output.json",
+        ),
         "step_results": {},
     }
     for key, value in defaults.items():
         st.session_state.setdefault(key, value)
 
 
-def _sync_video_id_input() -> None:
-    """Mirror the internal video id into the sidebar text input state."""
-    st.session_state.video_id_input = st.session_state.video_id
+def _sync_workspace_dir() -> None:
+    current_dir = st.session_state.video_index_dir.strip() or "video_index"
+    st.session_state.video_index_dir = current_dir
 
+    if current_dir == st.session_state.last_synced_video_index_dir:
+        return
 
-def _on_video_id_change() -> None:
-    """Persist manual edits from the sidebar video id text input."""
-    st.session_state.video_id = st.session_state.video_id_input.strip()
-
-
-def _sync_derived_paths() -> None:
-    current_video_file = st.session_state.video_file.strip()
-    output_video_name = _default_output_name(current_video_file)
-
-    if current_video_file != st.session_state.last_synced_video_file:
-        st.session_state.video_id = ""
-        st.session_state.step_results = {}
-        st.session_state.last_synced_video_file = current_video_file
-
-    st.session_state.output_video_name = output_video_name
-    st.session_state.raw_vi_path = _default_raw_vi_path(
-        st.session_state.video_index_dir,
-        output_video_name,
+    st.session_state.downloaded_vi_paths = _discover_artifact_files(
+        current_dir,
+        "*_vi_output.json",
     )
-    st.session_state.final_output_path = _default_final_output_path(
-        st.session_state.video_index_dir,
-        output_video_name,
+    st.session_state.final_output_paths = _discover_artifact_files(
+        current_dir,
+        "*_final_output.json",
+    )
+    st.session_state.step_results = {}
+    st.session_state.last_synced_video_index_dir = current_dir
+
+
+def _refresh_local_artifacts() -> None:
+    artifact_dir = st.session_state.video_index_dir
+    st.session_state.downloaded_vi_paths = _discover_artifact_files(
+        artifact_dir,
+        "*_vi_output.json",
+    )
+    st.session_state.final_output_paths = _discover_artifact_files(
+        artifact_dir,
+        "*_final_output.json",
     )
 
 
@@ -192,42 +154,21 @@ def _result_for(step_key: str) -> dict[str, Any] | None:
 def _save_result(outcome: WorkflowStepOutcome) -> None:
     st.session_state.step_results[outcome.step_key] = asdict(outcome)
 
-    if outcome.step_key == "get_token" and outcome.success:
+    if outcome.step_key == "get_token" and outcome.details:
         st.session_state.token = outcome.details.get("token", "")
         st.session_state.token_permission = outcome.details.get(
             "permission",
             "",
         )
 
-    if outcome.step_key == "upload_video" and outcome.success:
-        st.session_state.video_id = outcome.details.get("videoId", "")
-        st.session_state.output_video_name = outcome.details.get(
-            "outputVideoName",
-            st.session_state.output_video_name,
-        )
-        st.session_state.raw_vi_path = _default_raw_vi_path(
-            st.session_state.video_index_dir,
-            st.session_state.output_video_name,
-        )
-        st.session_state.final_output_path = _default_final_output_path(
-            st.session_state.video_index_dir,
-            st.session_state.output_video_name,
+    if outcome.step_key == "download_video_indexes" and outcome.details:
+        st.session_state.downloaded_vi_paths = list(
+            outcome.details.get("outputPaths") or []
         )
 
-    if outcome.step_key == "get_video_index" and outcome.success:
-        st.session_state.video_id = outcome.details.get(
-            "videoId",
-            st.session_state.video_id,
-        )
-        st.session_state.raw_vi_path = outcome.details.get(
-            "outputPath",
-            st.session_state.raw_vi_path,
-        )
-
-    if outcome.step_key == "build_final_output" and outcome.success:
-        st.session_state.final_output_path = outcome.details.get(
-            "outputPath",
-            st.session_state.final_output_path,
+    if outcome.step_key == "build_all_final_outputs" and outcome.details:
+        st.session_state.final_output_paths = list(
+            outcome.details.get("outputPaths") or []
         )
 
 
@@ -246,35 +187,25 @@ def _run_step(
 
         if step_key == "get_token":
             outcome = get_account_token_step(
-                allow_edit=st.session_state.allow_edit_token,
+                allow_edit=False,
                 logger=logger,
             )
-        elif step_key == "upload_video":
-            outcome = upload_video_step(
-                video_file=st.session_state.video_file,
-                output_video_name=st.session_state.output_video_name or None,
-                access_token=st.session_state.token or None,
-                logger=logger,
-            )
-        elif step_key == "get_video_index":
-            outcome = get_video_index_step(
-                video_id=st.session_state.video_id,
-                output_video_name=st.session_state.output_video_name or None,
+        elif step_key == "download_video_indexes":
+            outcome = download_all_video_indexes_step(
                 video_index_dir=st.session_state.video_index_dir,
-                poll_interval_seconds=st.session_state.poll_interval_seconds,
-                timeout_seconds=st.session_state.timeout_seconds,
                 access_token=st.session_state.token or None,
                 logger=logger,
             )
-        elif step_key == "build_final_output":
-            outcome = build_final_output_step(
-                vi_json_path=st.session_state.raw_vi_path,
-                output_path=st.session_state.final_output_path or None,
+        elif step_key == "build_all_final_outputs":
+            outcome = build_all_final_outputs_step(
+                vi_json_paths=st.session_state.downloaded_vi_paths or None,
+                video_index_dir=st.session_state.video_index_dir,
                 logger=logger,
             )
-        elif step_key == "index_in_search":
-            outcome = index_in_ai_search_step(
-                final_output_path=st.session_state.final_output_path,
+        elif step_key == "index_all_final_outputs":
+            outcome = index_all_final_outputs_step(
+                final_output_paths=st.session_state.final_output_paths or None,
+                final_output_dir=st.session_state.video_index_dir,
                 recreate_index=st.session_state.recreate_index,
                 logger=logger,
             )
@@ -288,6 +219,7 @@ def _run_step(
         )
 
     _save_result(outcome)
+    _refresh_local_artifacts()
     if should_rerun:
         st.rerun()
     return outcome
@@ -337,63 +269,53 @@ def _render_step(step_key: str) -> None:
 def _render_sidebar() -> None:
     with st.sidebar:
         st.markdown("## Inputs")
-        local_videos = _discover_local_videos()
-        if local_videos:
-            selected = st.selectbox(
-                "Known local videos",
-                options=[""] + local_videos,
-                index=0,
-            )
-            if selected:
-                st.session_state.video_file = selected
-
-        _sync_derived_paths()
-        _sync_video_id_input()
-
-        st.text_input("Video file path", key="video_file")
-        st.text_input(
-            "Video id",
-            key="video_id_input",
-            on_change=_on_video_id_change,
+        _sync_workspace_dir()
+        st.text_input("Local artifact directory", key="video_index_dir")
+        st.caption(
+            "Raw VI JSON files and final output JSON files are written to "
+            "this directory."
         )
-
-        st.markdown("## Expected output names")
-        if st.session_state.output_video_name:
-            st.caption(
-                "Raw VI JSON: "
-                f"{Path(st.session_state.raw_vi_path).name}"
-            )
-            st.caption(
-                "Final output: "
-                f"{Path(st.session_state.final_output_path).name}"
-            )
-        else:
-            st.caption("Select a video file to see the expected output names.")
 
         st.markdown("## Workflow controls")
         st.checkbox("Recreate AI Search index", key="recreate_index")
         st.caption(f"Azure AI Search index: {SEARCH_INDEX_NAME}")
+
+        if st.button("Refresh Local Files"):
+            _refresh_local_artifacts()
+            st.rerun()
+
         if st.button("Reset Step Status"):
             st.session_state.step_results = {}
+            st.rerun()
 
 
 def _render_summary() -> None:
-    mode_label = "One file"
-    video_id_label = st.session_state.video_id or "Not uploaded"
-    raw_vi_label = st.session_state.raw_vi_path or "Not created"
-    final_output_label = st.session_state.final_output_path or "Not created"
+    _refresh_local_artifacts()
+    download_result = _result_for("download_video_indexes") or {}
+    index_result = _result_for("index_all_final_outputs") or {}
+
+    download_details = dict(download_result.get("details") or {})
+    index_details = dict(index_result.get("details") or {})
+
+    processed_video_count = download_details.get("processedVideoCount")
+    uploaded_count = index_details.get("uploadedCount")
+    artifact_dir = (
+        Path(st.session_state.video_index_dir).expanduser().resolve()
+    )
 
     col1, col2, col3, col4 = st.columns(4)
-    col1.metric("Mode", mode_label)
-    col2.metric("Video Id", video_id_label)
-    col3.metric(
-        "Raw VI JSON",
-        "Ready" if Path(raw_vi_label).exists() else "Missing",
+    col1.metric(
+        "Processed Videos",
+        processed_video_count if processed_video_count is not None else "-",
     )
+    col2.metric("Saved VI JSONs", len(st.session_state.downloaded_vi_paths))
+    col3.metric("Final Outputs", len(st.session_state.final_output_paths))
     col4.metric(
-        "Final Output",
-        "Ready" if Path(final_output_label).exists() else "Missing",
+        "Indexed Docs",
+        uploaded_count if uploaded_count is not None else "-",
     )
+
+    st.caption(f"Artifact directory: {artifact_dir}")
 
 
 def main() -> None:
@@ -450,13 +372,18 @@ def main() -> None:
     _render_sidebar()
 
     st.title(APP_TITLE)
+    st.write(
+        "Sync all processed videos from Azure Video Indexer, save the raw VI "
+        "JSON payloads locally, build every final output JSON, and upload all "
+        "documents to Azure AI Search in one bulk run."
+    )
 
     _render_summary()
 
     run_all_col, spacer_col = st.columns([1, 3])
     with run_all_col:
         if st.button(
-            "Run Full Workflow",
+            "Run Full Sync",
             type="primary",
             use_container_width=True,
         ):

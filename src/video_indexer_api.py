@@ -248,22 +248,71 @@ class VideoIndexerApiClient:
         )
 
     @staticmethod
+    def _extract_video_list_items(
+        response_body: dict[str, Any] | list[Any],
+        operation_name: str,
+    ) -> list[dict[str, Any]]:
+        """Normalize the list-videos payload into a list of objects."""
+        if isinstance(response_body, list):
+            return [item for item in response_body if isinstance(item, dict)]
+
+        payload = VideoIndexerApiClient._expect_json_object(
+            response_body,
+            operation_name,
+        )
+        results = payload.get("results")
+        if not isinstance(results, list):
+            raise VideoIndexerApiError(
+                f"{operation_name} response did not contain a 'results' "
+                "array."
+            )
+
+        return [item for item in results if isinstance(item, dict)]
+
+    @staticmethod
     def _find_video_in_list_payload(
-        payload: dict[str, Any],
+        payload: dict[str, Any] | list[Any],
         video_id: str,
     ) -> dict[str, Any] | None:
         """Find a video entry in a list-videos payload by its id."""
-        results = payload.get("results")
-        if not isinstance(results, list):
-            return None
-
-        for item in results:
-            if not isinstance(item, dict):
-                continue
+        for item in VideoIndexerApiClient._extract_video_list_items(
+            payload,
+            "List videos",
+        ):
             if str(item.get("id") or "") == video_id:
                 return item
 
         return None
+
+    def list_videos(
+        self,
+        *,
+        access_token: str | None = None,
+    ) -> list[VideoStatusSnapshot]:
+        """List videos available in the configured Video Indexer account."""
+        effective_access_token = (
+            access_token or self.get_account_access_token()
+        )
+        response_body = self.request_json(
+            "GET",
+            self._account_path("Videos"),
+            params={"accessToken": effective_access_token},
+        )
+
+        snapshots = [
+            VideoStatusSnapshot.from_api_response(item)
+            for item in self._extract_video_list_items(
+                response_body,
+                "List videos",
+            )
+        ]
+        snapshots.sort(
+            key=lambda snapshot: (
+                (snapshot.name or "").casefold(),
+                snapshot.video_id,
+            )
+        )
+        return snapshots
 
     def get_account_access_token(self, *, allow_edit: bool = False) -> str:
         """Get a Video Indexer account access token."""

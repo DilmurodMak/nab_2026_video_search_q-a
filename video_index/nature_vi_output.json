@@ -9,7 +9,7 @@
   "userName": "Dilmurod Makhamadaliev (Mak)",
   "created": "2026-04-06T22:12:59.05+00:00",
   "isOwned": true,
-  "isEditable": true,
+  "isEditable": false,
   "isBase": true,
   "durationInSeconds": 25,
   "duration": "0:00:25.148",
