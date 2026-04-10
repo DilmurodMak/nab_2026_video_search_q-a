@@ -1,6 +1,6 @@
 ---
 title: Copilot Studio Native Video Indexer Flow
-description: Working reference for the Power Automate and Copilot Studio path that searches once, selects the first video, keeps all matches from that video, gets one slim Video Index payload, and returns a single enriched payload for rich adaptive cards.
+description: Build-from-scratch reference for the current Power Automate and Copilot Studio implementation that returns selected-video evidence plus found-video thumbnail previews.
 author: GitHub Copilot
 ms.date: 2026-04-09
 ms.topic: how-to
@@ -12,162 +12,65 @@ keywords:
   - enrichedpayloadjson
   - searchmatches
   - selectedvideoinsights
-estimated_reading_time: 12
+  - foundvideos
+  - thumbnails
+estimated_reading_time: 10
 ---
 
 ## Overview
 
-This document captures the current native connector path for the NAB 2026 demo.
-The flow searches Azure Video Indexer once, keeps the current lightweight search
-output internally, selects the first returned video, keeps all
-`searchMatches` from that video, calls Get Video Index once for that same
-video, and returns one output to Copilot Studio:
+This document captures the current NAB 2026 implementation.
 
-* `enrichedpayloadjson` for the prompt and adaptive card path
+The flow still returns one top-level output, `enrichedpayloadjson`, but the
+payload now has four fields instead of three:
 
-The returned `enrichedpayloadjson` string contains three fields:
+| Field                   | Type        | Purpose |
+|-------------------------|-------------|---------|
+| `SearchQuery`           | String      | Original user query |
+| `SearchMatches`         | JSON string | Flat match rows for the first returned video |
+| `SelectedVideoInsights` | JSON string | Slim evidence object for the first returned video |
+| `FoundVideos`           | JSON string | Top returned videos with one video-level thumbnail per video |
 
-* `SearchQuery` for the original user query
-* `SearchMatches` as a JSON string of flat match rows
-* `SelectedVideoInsights` as a JSON string of one slim evidence object
+This split is intentional:
 
-The design goal is simple: keep the current working flow intact, avoid OpenAPI
-contract churn from multiple dynamic outputs, keep prompt payloads smaller than
-the repeated full-index approach, and move the remaining quality work into
-prompt engineering and the topic adaptive card template.
+* `SearchMatches` and `SelectedVideoInsights` continue to power the AI summary
+  and the detailed findings list
+* `FoundVideos` powers thumbnail previews and the matching-videos section
+* The summary node must ignore thumbnails and base64 image data
 
 > [!IMPORTANT]
-> This design intentionally anchors on the first video returned by `Search
-> Videos`. That allows one `Get Video Index` call to support every card row for
-> that selected video. If you later need rows across different videos, this flow
-> shape will need to change.
+> `ThumbnailDataUri` is a video-level preview image. It is not an exact
+> timestamp-aligned thumbnail for the matching moment shown in the card.
 
-## Design Decisions
+## Power Automate Build
 
-* Use a single-query search path
-* Keep the current `Search Videos` connector as the entrypoint
-* Preserve the current `Select` step for the lightweight internal result shape
-* Use the first video returned by `Search Videos` as the selected video
-* Keep all `searchMatches` from the selected video
-* Call `Get Video Index` once for the selected video
-* Build one flat match row per selected-video search match
-* Return one slim evidence payload instead of repeating a full index per row
-* Wrap the match rows and slim insights in one `enrichedpayloadjson` output
-* Let Copilot Studio use an LLM step to convert the enriched payload into flat,
-  card-ready summaries
-* Keep adaptive card rendering deterministic by using a fixed template in the
-  topic instead of asking the agent to output adaptive card JSON
+### Top-Level Node Order
 
-## Power Automate Flow
-
-### Node Order
+Build the top-level flow in this order:
 
 | Order | Node name | Type | Purpose |
-|---|---|---|---|
-| 1 | `When an agent calls the flow` | Trigger | Accepts `SearchQuery` |
-| 2 | `Get Account Access Token` | Video Indexer connector | Gets a read token |
-| 3 | `Search Videos` | Video Indexer connector | Searches the account with the user query |
-| 4 | `Select` | Select | Preserves the lightweight internal result shape |
-| 5 | `Compose_SelectedVideo` | Compose | Captures the first returned video |
-| 6 | `Compose_SelectedVideoMatchesRaw` | Compose | Takes all `searchMatches` from the selected video |
-| 7 | `Initialize_MatchRows` | Initialize variable | Stores card-level match rows |
-| 8 | `Apply_to_each_SelectedVideoMatch` | Apply to each | Iterates the selected video match rows |
-| 9 | `Compose_MatchSeconds` | Compose | Converts `hh:mm:ss` to seconds |
-| 10 | `Append_to_MatchRows` | Append to array variable | Builds one flat row per match |
-| 11 | `Get_Video_Index_For_SelectedVideo` | Video Indexer connector | Fetches one full index payload for the selected video |
-| 12 | `Compose_SelectedVideoInsightsSlim` | Compose | Keeps only the evidence fields needed by the prompt |
-| 13 | `Compose_EnrichedPayload` | Compose | Wraps query, match rows, and slim insights into one object |
-| 14 | `Return value(s) to Power Virtual Agents)` | Return | Returns `enrichedpayloadjson` |
+|-------|-----------|------|---------|
+| 1 | `When an agent calls the flow` | Trigger | Accept `SearchQuery` |
+| 2 | `Get Account Access Token` | Video Indexer connector | Get a read token |
+| 3 | `Search Videos` | Video Indexer connector | Search the account |
+| 4 | `Select` | Select | Optional lightweight debug shape |
+| 5 | `Initialize_FoundVideos` | Initialize variable | Store per-video thumbnail rows |
+| 6 | `Apply_to_each_FoundVideo` | Apply to each | Build `FoundVideos` |
+| 7 | `Compose_SelectedVideo` | Compose | Capture the first returned video |
+| 8 | `Compose_SelectedVideoMatchesRaw` | Compose | Keep all matches from the selected video |
+| 9 | `Initialize_MatchRows` | Initialize variable | Store detailed finding rows |
+| 10 | `Apply_to_each_SelectedVideoMatch` | Apply to each | Build `SearchMatches` |
+| 11 | `Get_Video_Index_For_SelectedVideo` | Video Indexer connector | Get one full index payload |
+| 12 | `Compose_SelectedVideoInsightsSlim` | Compose | Keep only evidence needed by the topic |
+| 13 | `Compose_EnrichedPayload` | Compose | Package the final payload |
+| 14 | `Return value(s) to Power Virtual Agents)` | Return | Return `enrichedpayloadjson` |
 
-### Mermaid Diagram
+### Optional Select Step
 
-The diagram below shows the main execution path, with each node labeled by
-name, type, and primary input/output contract.
+Keep this step if you still want a lightweight debug shape in run history.
+It is not required by the topic.
 
-```mermaid
-flowchart TD
-  A["When an agent calls the flow<br/>Type: Trigger<br/>Input: SearchQuery<br/>Output: SearchQuery"]
-  B["Get Account Access Token<br/>Type: Video Indexer connector<br/>Input: Configured account and location<br/>Output: Access Token"]
-  C["Search Videos<br/>Type: Video Indexer connector<br/>Input: SearchQuery<br/>Output: results[]"]
-  D["Select<br/>Type: Select<br/>Input: results[]<br/>Output: lightweight rows[]"]
-  E["Compose_SelectedVideo<br/>Type: Compose<br/>Input: first results[0]<br/>Output: selected video"]
-  F["Compose_SelectedVideoMatchesRaw<br/>Type: Compose<br/>Input: selected video.searchMatches[]<br/>Output: SelectedVideoMatchesRaw[]"]
-  G["Initialize_MatchRows<br/>Type: Initialize variable<br/>Input: []<br/>Output: MatchRows[]"]
-  H["Apply_to_each_SelectedVideoMatch<br/>Type: Apply to each<br/>Input: SelectedVideoMatchesRaw[]<br/>Output: current match row"]
-  I["Compose_MatchSeconds<br/>Type: Compose<br/>Input: current match row.startTime<br/>Output: StartSeconds"]
-  J["Append_to_MatchRows<br/>Type: Append to array variable<br/>Input: selected video metadata + current match row + StartSeconds<br/>Output: MatchRows[]"]
-  K["Get_Video_Index_For_SelectedVideo<br/>Type: Video Indexer connector<br/>Input: selected video AccountId + VideoId + Access Token<br/>Output: full Video Index payload"]
-  L["Compose_SelectedVideoInsightsSlim<br/>Type: Compose<br/>Input: full Video Index payload<br/>Output: slim evidence object"]
-  M["Compose_EnrichedPayload<br/>Type: Compose<br/>Input: SearchQuery + MatchRows[] + slim evidence object<br/>Output: enriched payload object"]
-  N["Return value(s) to Power Virtual Agents)<br/>Type: Return<br/>Input: enriched payload object<br/>Output: enrichedpayloadjson"]
-
-  A --> B --> C --> D --> E --> F --> G --> H --> I --> J --> K --> L --> M --> N
-  B -.-> K
-  D -.-> M
-```
-
-### Rebuild Recipe
-
-Use this section to recreate the flow from scratch.
-
-> [!IMPORTANT]
-> Create the nodes in the exact order shown below and keep the node names the
-> same. The expressions in later steps reference these node names directly.
-
-#### 1. When an agent calls the flow
-
-Type: Trigger
-
-Use these values:
-
-* Node name: `When an agent calls the flow`
-* Input parameter: `SearchQuery`
-* Input type: text
-
-Purpose:
-
-* Accept the user search phrase from Copilot Studio
-
-#### 2. Get Account Access Token
-
-Type: Azure Video Indexer connector
-
-Use these values:
-
-* Node name: `Get Account Access Token`
-* Connection: your existing Video Indexer connection for the demo account
-* Location: `trial`
-* Access level: keep the default read-only token behavior
-
-Purpose:
-
-* Produce the access token consumed later by `Get_Video_Index_For_SelectedVideo`
-
-#### 3. Search Videos
-
-Type: Azure Video Indexer connector
-
-Use these values:
-
-* Node name: `Search Videos`
-* Connection: the same Video Indexer connection used above
-* Location: `trial`
-* Query or search text: `SearchQuery` from the trigger
-* Optional filters: leave blank unless you intentionally want to narrow the
-  account-wide search
-
-Purpose:
-
-* Return the ranked `results` array used by every later step
-
-#### 4. Select
-
-Type: Data Operations `Select`
-
-Use these values:
-
-* Node name: `Select`
-* From:
+`From`:
 
 ```text
 body('Search_Videos')?['results']
@@ -182,36 +85,179 @@ AccountId = item()?['accountId']
 SearchMatches = item()?['searchMatches']
 ```
 
-Purpose:
+### FoundVideos Thumbnail Loop
 
-* Preserve the lightweight result shape for internal debugging or fallback use
+This branch adds the per-video thumbnail preview data.
 
-#### 5. Compose_SelectedVideo
+#### Initialize_FoundVideos
 
-Type: Data Operations `Compose`
+Type: Variables > Initialize variable
 
 Use these values:
 
-* Node name: `Compose_SelectedVideo`
-* Inputs:
+* Variable name: `FoundVideos`
+* Variable type: `Array`
+* Initial value:
+
+```json
+[]
+```
+
+#### Apply_to_each_FoundVideo
+
+Type: Control > Apply to each
+
+Loop input:
+
+```text
+take(body('Search_Videos')?['results'], 3)
+```
+
+Keep the limit at `3` unless you have already validated card size in Copilot
+Studio.
+
+#### Compose_CurrentVideoMatchesRaw
+
+Type: Compose
+
+Inputs:
+
+```text
+coalesce(
+  items('Apply_to_each_FoundVideo')?['searchMatches'],
+  json('[]')
+)
+```
+
+#### Compose_CurrentVideoFirstMatch
+
+Type: Compose
+
+Inputs:
+
+```text
+if(
+  equals(length(outputs('Compose_CurrentVideoMatchesRaw')), 0),
+  json('{}'),
+  first(outputs('Compose_CurrentVideoMatchesRaw'))
+)
+```
+
+#### Compose_CurrentVideoFirstMatchSeconds
+
+Type: Compose
+
+Inputs:
+
+```text
+if(
+  empty(outputs('Compose_CurrentVideoFirstMatch')?['startTime']),
+  0,
+  add(
+    mul(int(split(outputs('Compose_CurrentVideoFirstMatch')?['startTime'], ':')[0]), 3600),
+    add(
+      mul(int(split(outputs('Compose_CurrentVideoFirstMatch')?['startTime'], ':')[1]), 60),
+      float(split(outputs('Compose_CurrentVideoFirstMatch')?['startTime'], ':')[2])
+    )
+  )
+)
+```
+
+#### Get_Video_Thumbnail_For_FoundVideo
+
+Type: Azure Video Indexer connector
+
+Use these values:
+
+* Location: `trial`
+* Account ID:
+
+```text
+items('Apply_to_each_FoundVideo')?['accountId']
+```
+
+* Video ID:
+
+```text
+items('Apply_to_each_FoundVideo')?['id']
+```
+
+* Thumbnail ID:
+
+```text
+coalesce(
+  items('Apply_to_each_FoundVideo')?['thumbnailId'],
+  items('Apply_to_each_FoundVideo')?['summarizedInsights']?['thumbnailId']
+)
+```
+
+* Access Token: `Access Token` from `Get Account Access Token`
+
+#### Compose_CurrentVideoThumbnailDataUri
+
+Type: Compose
+
+Inputs:
+
+```text
+if(
+  empty(body('Get_Video_Thumbnail_For_FoundVideo')?['$content']),
+  '',
+  concat(
+    'data:',
+    body('Get_Video_Thumbnail_For_FoundVideo')?['$content-type'],
+    ';base64,',
+    body('Get_Video_Thumbnail_For_FoundVideo')?['$content']
+  )
+)
+```
+
+#### Append_to_FoundVideos
+
+Type: Variables > Append to array variable
+
+Variable name: `FoundVideos`
+
+Value:
+
+```json
+{
+  "VideoName": "@{items('Apply_to_each_FoundVideo')?['name']}",
+  "VideoId": "@{items('Apply_to_each_FoundVideo')?['id']}",
+  "AccountId": "@{items('Apply_to_each_FoundVideo')?['accountId']}",
+  "ThumbnailId": "@{coalesce(items('Apply_to_each_FoundVideo')?['thumbnailId'], items('Apply_to_each_FoundVideo')?['summarizedInsights']?['thumbnailId'])}",
+  "ThumbnailDataUri": "@{outputs('Compose_CurrentVideoThumbnailDataUri')}",
+  "MatchCount": "@{length(outputs('Compose_CurrentVideoMatchesRaw'))}",
+  "FirstMatchTime": "@{coalesce(outputs('Compose_CurrentVideoFirstMatch')?['startTime'], '')}",
+  "FirstMatchText": "@{coalesce(outputs('Compose_CurrentVideoFirstMatch')?['text'], '')}",
+  "FirstMatchType": "@{coalesce(outputs('Compose_CurrentVideoFirstMatch')?['type'], '')}",
+  "FirstExactText": "@{coalesce(outputs('Compose_CurrentVideoFirstMatch')?['exactText'], '')}",
+  "WatchUrl": "@{concat('https://www.videoindexer.ai/embed/player/', items('Apply_to_each_FoundVideo')?['accountId'], '/', items('Apply_to_each_FoundVideo')?['id'], '?t=', string(outputs('Compose_CurrentVideoFirstMatchSeconds')), '&location=trial')}",
+  "InsightsUrl": "@{concat('https://www.videoindexer.ai/embed/insights/', items('Apply_to_each_FoundVideo')?['accountId'], '/', items('Apply_to_each_FoundVideo')?['id'], '/?t=', string(outputs('Compose_CurrentVideoFirstMatchSeconds')))}",
+  "SearchMatchesJson": "@{string(outputs('Compose_CurrentVideoMatchesRaw'))}"
+}
+```
+
+### Selected-Video Summary Branch
+
+This branch stays close to the original build. It still uses the first returned
+video as the selected video for the summary and the detailed findings list.
+
+#### Compose_SelectedVideo
+
+Type: Compose
+
+Inputs:
 
 ```text
 first(body('Search_Videos')?['results'])
 ```
 
-Purpose:
+#### Compose_SelectedVideoMatchesRaw
 
-* Capture the first ranked video result in one place so later expressions stay
-  consistent
+Type: Compose
 
-#### 6. Compose_SelectedVideoMatchesRaw
-
-Type: Data Operations `Compose`
-
-Use these values:
-
-* Node name: `Compose_SelectedVideoMatchesRaw`
-* Inputs:
+Inputs:
 
 ```text
 coalesce(
@@ -220,17 +266,12 @@ coalesce(
 )
 ```
 
-Purpose:
+#### Initialize_MatchRows
 
-* Keep all `searchMatches` from the selected video
-
-#### 7. Initialize_MatchRows
-
-Type: Variables `Initialize variable`
+Type: Variables > Initialize variable
 
 Use these values:
 
-* Node name: `Initialize_MatchRows`
 * Variable name: `MatchRows`
 * Variable type: `Array`
 * Initial value:
@@ -239,39 +280,23 @@ Use these values:
 []
 ```
 
-Purpose:
+#### Apply_to_each_SelectedVideoMatch
 
-* Store the flat match rows later wrapped in `enrichedpayloadjson`
+Type: Control > Apply to each
 
-#### 8. Apply_to_each_SelectedVideoMatch
-
-Type: Control `Apply to each`
-
-Use these values:
-
-* Node name: `Apply_to_each_SelectedVideoMatch`
-* Loop input:
+Loop input:
 
 ```text
 outputs('Compose_SelectedVideoMatchesRaw')
 ```
 
-Purpose:
+Inside this loop, add the next two nodes.
 
-* Iterate every selected-video search match
+#### Compose_MatchSeconds
 
-#### 9. Compose_MatchSeconds
+Type: Compose
 
-Type: Data Operations `Compose`
-
-Location in flow:
-
-* Place this node inside `Apply_to_each_SelectedVideoMatch`
-
-Use these values:
-
-* Node name: `Compose_MatchSeconds`
-* Inputs:
+Inputs:
 
 ```text
 add(
@@ -283,25 +308,13 @@ add(
 )
 ```
 
-Purpose:
+#### Append_to_MatchRows
 
-* Convert each `startTime` string into numeric seconds for the prompt and URL
-  anchors
+Type: Variables > Append to array variable
 
-#### 10. Append_to_MatchRows
+Variable name: `MatchRows`
 
-Type: Variables `Append to array variable`
-
-Location in flow:
-
-* Place this node inside `Apply_to_each_SelectedVideoMatch`
-* Place it after `Compose_MatchSeconds`
-
-Use these values:
-
-* Node name: `Append_to_MatchRows`
-* Variable name: `MatchRows`
-* Value:
+Value:
 
 ```json
 {
@@ -318,18 +331,12 @@ Use these values:
 }
 ```
 
-Purpose:
-
-* Build one compact result row per match for adaptive-card rendering
-
-#### 11. Get_Video_Index_For_SelectedVideo
+#### Get_Video_Index_For_SelectedVideo
 
 Type: Azure Video Indexer connector
 
 Use these values:
 
-* Node name: `Get_Video_Index_For_SelectedVideo`
-* Connection: the same Video Indexer connection used earlier
 * Location: `trial`
 * Account ID:
 
@@ -344,27 +351,16 @@ outputs('Compose_SelectedVideo')?['id']
 ```
 
 * Access Token: `Access Token` from `Get Account Access Token`
-* Advanced parameter `Captions Language`: `English`
+* Captions Language: `English`
 
-Purpose:
+#### Compose_SelectedVideoInsightsSlim
 
-* Fetch one full Video Index payload for the selected video
+Type: Compose
 
-#### 12. Compose_SelectedVideoInsightsSlim
-
-Type: Data Operations `Compose`
-
-Use these values:
-
-* Node name: `Compose_SelectedVideoInsightsSlim`
-
-Build this step in the Compose object designer, one property at a time. Do not
-paste the entire object into the Expression editor.
-
-Use these property values:
+Build this object in the Compose object designer:
 
 | Property | Value |
-|---|---|
+|----------|-------|
 | `VideoName` | `outputs('Compose_SelectedVideo')?['name']` |
 | `VideoId` | `outputs('Compose_SelectedVideo')?['id']` |
 | `Duration` | `body('Get_Video_Index_For_SelectedVideo')?['duration']` |
@@ -376,95 +372,80 @@ Use these property values:
 | `DetectedObjects` | `first(body('Get_Video_Index_For_SelectedVideo')?['videos'])?['insights']?['detectedObjects']` |
 | `Scenes` | `first(body('Get_Video_Index_For_SelectedVideo')?['videos'])?['insights']?['scenes']` |
 
-Purpose:
+### Compose_EnrichedPayload
 
-* Keep only the evidence fields needed by the prompt step
+Type: Compose
 
-> [!NOTE]
-> In the current simplified build, several fields in this object are still JSON
-> arrays stored as strings in run history. This is expected and is acceptable
-> for prompt-based processing in Copilot Studio.
-
-#### 13. Compose_EnrichedPayload
-
-Type: Data Operations `Compose`
-
-Use these values:
-
-* Node name: `Compose_EnrichedPayload`
-
-Build this step in the Compose object designer with these properties:
+Build this object in the Compose object designer:
 
 | Property | Value |
-|---|---|
-| `SearchQuery` | `SearchQuery` from the trigger dynamic content |
+|----------|-------|
+| `SearchQuery` | `SearchQuery` from the trigger |
 | `SearchMatches` | `string(variables('MatchRows'))` |
 | `SelectedVideoInsights` | `string(outputs('Compose_SelectedVideoInsightsSlim'))` |
+| `FoundVideos` | `string(variables('FoundVideos'))` |
 
-Purpose:
-
-* Package the flow output into one object that stays stable for Copilot Studio
-
-#### 14. Return value(s) to Power Virtual Agents)
+### Return Node
 
 Type: Return
 
-Use these values:
-
-* Node name: `Return value(s) to Power Virtual Agents)`
-* Output `enrichedpayloadjson`:
+Output `enrichedpayloadjson`:
 
 ```text
 string(outputs('Compose_EnrichedPayload'))
 ```
 
-Purpose:
+## Output Contract
 
-* Return the single payload consumed by Copilot Studio topic logic
-
-## Returned Outputs
-
-Return one output from the flow:
+The flow returns one string output:
 
 ```text
-enrichedpayloadjson = string(outputs('Compose_EnrichedPayload'))
+enrichedpayloadjson
 ```
 
-Use this output for the prompt and adaptive card path.
-
-Example shape:
+Current shape:
 
 ```json
 {
   "SearchQuery": "Airbus A330",
-  "SearchMatches": "[{\"VideoName\":\"A family that flies together_ Airbus commercial aircraft\",\"VideoId\":\"c72x2bsx1y\",\"AccountId\":\"e882f867-bf61-4e19-97dd-57932097b728\",\"Time\":\"0:00:56\",\"StartSeconds\":\"56\",\"MatchText\":\"A330\",\"MatchType\":\"Ocr\",\"ExactText\":\"A330\",\"WatchUrl\":\"https://www.videoindexer.ai/embed/player/...\",\"InsightsUrl\":\"https://www.videoindexer.ai/embed/insights/...\"}]",
-  "SelectedVideoInsights": "{\"VideoName\":\"A family that flies together_ Airbus commercial aircraft\",\"VideoId\":\"c72x2bsx1y\",\"Duration\":\"0:01:30.58\",\"Transcript\":\"[...]\",\"OCR\":\"[...]\",\"Brands\":\"[...]\",\"Labels\":\"[...]\",\"Keywords\":\"[...]\",\"DetectedObjects\":\"[...]\",\"Scenes\":\"[...]\"}"
+  "SearchMatches": "[...]",
+  "SelectedVideoInsights": "{...}",
+  "FoundVideos": "[...]"
 }
 ```
 
-## Copilot Studio Topic Build
+`MatchCount` inside `FoundVideos` currently arrives as a string. Keep the topic
+parse schema aligned with that actual output.
 
-Use this seven-node sequence:
+## Copilot Studio Build
 
-1. Trigger
-2. Action
-3. Parse value for outer payload
-4. Parse value for `SearchMatches`
-5. Parse value for `SelectedVideoInsights`
-6. Create generative answers
-7. Message with adaptive card
+### Topic Node Order
+
+Build the topic in this order:
+
+| Order | Node | Purpose |
+|-------|------|---------|
+| 1 | Trigger | Route the user request to the topic |
+| 2 | `Search_VI_Videos` action | Call the flow |
+| 3 | Parse value for `TopicEnrichedPayloadJson` | Parse the outer payload |
+| 4 | Parse value for `TopicPayload.SearchMatches` | Build `TopicMatchRows` |
+| 5 | Parse value for `TopicPayload.SelectedVideoInsights` | Build `TopicSelectedVideoInsights` |
+| 6 | Parse value for `TopicPayload.FoundVideos` | Build `TopicFoundVideos` |
+| 7 | Create generative answers | Produce `Global.VideoSummaryText` |
+| 8 | Message | Render the adaptive card |
 
 ### Topic Variables
 
-Create these variables, or let Copilot Studio create them as you save nodes:
+Use these variables:
 
 * `TopicEnrichedPayloadJson` as `String`
 * `TopicPayload` as `Record`
 * `TopicMatchRows` as `Table`
 * `TopicSelectedVideoInsights` as `Record`
+* `TopicFoundVideos` as `Table`
 * `Global.VideoSummaryText` as `String`
 
-### 1. Trigger
+### Trigger
 
 Type: Trigger
 
@@ -474,10 +455,10 @@ Use these values:
 * Topic description:
 
 ```text
-This topic searches Azure Video Indexer for a requested scene or moment and returns a best-match summary plus consistent result cards with links.
+This topic searches Azure Video Indexer for a requested scene or moment and returns a best-match summary plus rich result cards with thumbnails and links.
 ```
 
-### 2. Action
+### Action
 
 Type: Action
 
@@ -487,7 +468,7 @@ Use these values:
 * Input `SearchQuery`: `Activity.Text`
 * Output mapping: `enrichedpayloadjson` -> `TopicEnrichedPayloadJson`
 
-### 3. Parse value for outer payload
+### Parse Outer Payload
 
 Type: Variable management > Parse value
 
@@ -505,9 +486,10 @@ properties:
   SearchQuery: String
   SearchMatches: String
   SelectedVideoInsights: String
+  FoundVideos: String
 ```
 
-### 4. Parse value for `SearchMatches`
+### Parse SearchMatches
 
 Type: Variable management > Parse value
 
@@ -534,7 +516,7 @@ properties:
   InsightsUrl: String
 ```
 
-### 5. Parse value for `SelectedVideoInsights`
+### Parse SelectedVideoInsights
 
 Type: Variable management > Parse value
 
@@ -561,49 +543,73 @@ properties:
   Scenes: String
 ```
 
-> [!NOTE]
-> The current card uses `TopicMatchRows` directly. Keep
-> `TopicSelectedVideoInsights` for future thumbnail or richer evidence fields.
+### Parse FoundVideos
 
-### 6. Create generative answers
-
-Type: Advanced > Create generative answers
+Type: Variable management > Parse value
 
 Use these values:
 
+* Parse value: `Topic.TopicPayload.FoundVideos`
+* Data type: `Table`
+* Save as: `TopicFoundVideos`
+
+Schema:
+
+```yaml
+kind: Table
+properties:
+  VideoName: String
+  VideoId: String
+  AccountId: String
+  ThumbnailId: String
+  ThumbnailDataUri: String
+  MatchCount: String
+  FirstMatchTime: String
+  FirstMatchText: String
+  FirstMatchType: String
+  FirstExactText: String
+  WatchUrl: String
+  InsightsUrl: String
+  SearchMatchesJson: String
+```
+
+### Create Generative Answers
+
+Type: Advanced > Create generative answers
+
+Use these settings:
+
 * Input: `Activity.Text`
-
-In `Data sources > Edit` use these settings:
-
 * `Search only selected sources`: On
 * `Add knowledge`: leave empty
 * `Web search`: Off
 * `Allow the AI to use its own general knowledge`: Off
 
-Open `Classic data`, then in `Custom data` switch to `Formula` and paste:
+Open `Classic data`, switch `Custom data` to `Formula`, and paste this:
 
 ```powerfx
 Table(
     {
         Title: "Instructions",
-        Content: "Use only the provided enriched payload. If there is only one matching result, summarize that result. If there are multiple matching results, identify the best matching result and summarize that one first. You may briefly mention that other relevant matches were also found. Mention the most relevant time, match type, and short supporting evidence. Do not invent facts."
+        Content: "Use only the provided search matches and selected video insights. Ignore any thumbnail, image, or data URI content. If there is only one matching result, summarize that result. If there are multiple matching results, identify the best matching result and summarize that one first. You may briefly mention that other relevant matches were also found. Mention the most relevant time, match type, and short supporting evidence. Do not invent facts."
     },
     {
-        Title: "Enriched payload",
-        Content: Topic.TopicEnrichedPayloadJson
+        Title: "Search matches",
+        Content: Topic.TopicPayload.SearchMatches
+    },
+    {
+        Title: "Selected video insights",
+        Content: Topic.TopicPayload.SelectedVideoInsights
     }
 )
 ```
 
-Use the `Custom data` field inside `Classic data`. Do not paste this into the
-bottom prompt customization box.
-
-In `Advanced` use these values:
+In `Advanced`, use these values:
 
 * Save generated answer to global variable: `VideoSummaryText`
 * `Send a message`: Off
 
-### 7. Message with adaptive card
+### Message Node With Adaptive Card
 
 Type: Message
 
@@ -612,7 +618,7 @@ Use these values:
 * Message format: `Adaptive card`
 * Editor mode: `Formula`
 
-Paste this tested formula:
+Paste this current formula:
 
 ```powerfx
 {
@@ -626,28 +632,47 @@ Paste this tested formula:
                 {
                     type: "Column",
                     width: "auto",
-                    items: Table(
-                        {
-                            type: "Container",
-                            style: "emphasis",
-                            items: Table(
-                                {
-                                    type: "TextBlock",
-                                    text: "Thumbnail",
-                                    weight: "Bolder",
-                                    horizontalAlignment: "Center",
-                                    wrap: true
-                                },
-                                {
-                                    type: "TextBlock",
-                                    text: "Placeholder",
-                                    isSubtle: true,
-                                    horizontalAlignment: "Center",
-                                    spacing: "Small",
-                                    wrap: true
-                                }
-                            )
-                        }
+                    items: If(
+                        CountRows(Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri)))) > 0,
+                        Table(
+                            {
+                                type: "Image",
+                                url: First(Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri)))).ThumbnailDataUri,
+                                altText: First(Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri)))).VideoName,
+                                size: "Medium"
+                            },
+                            {
+                                type: "TextBlock",
+                                text: "Top result thumbnail",
+                                isSubtle: true,
+                                horizontalAlignment: "Center",
+                                spacing: "Small",
+                                wrap: true
+                            }
+                        ),
+                        Table(
+                            {
+                                type: "Container",
+                                style: "emphasis",
+                                items: Table(
+                                    {
+                                        type: "TextBlock",
+                                        text: "Thumbnail",
+                                        weight: "Bolder",
+                                        horizontalAlignment: "Center",
+                                        wrap: true
+                                    },
+                                    {
+                                        type: "TextBlock",
+                                        text: "Placeholder",
+                                        isSubtle: true,
+                                        horizontalAlignment: "Center",
+                                        spacing: "Small",
+                                        wrap: true
+                                    }
+                                )
+                            }
+                        )
                     )
                 },
                 {
@@ -695,6 +720,93 @@ Paste this tested formula:
                 }
             ),
             spacing: "Small"
+        },
+        {
+            type: "TextBlock",
+            text: "Matching videos",
+            weight: "Bolder",
+            spacing: "Medium",
+            wrap: true
+        },
+        {
+            type: "Container",
+            items: ForAll(
+                Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri))),
+                {
+                    type: "Container",
+                    style: "emphasis",
+                    separator: true,
+                    spacing: "Medium",
+                    items: Table(
+                        {
+                            type: "ColumnSet",
+                            columns: Table(
+                                {
+                                    type: "Column",
+                                    width: "auto",
+                                    items: Table(
+                                        {
+                                            type: "Image",
+                                            url: ThumbnailDataUri,
+                                            altText: VideoName,
+                                            size: "Medium"
+                                        }
+                                    )
+                                },
+                                {
+                                    type: "Column",
+                                    width: "stretch",
+                                    items: Table(
+                                        {
+                                            type: "TextBlock",
+                                            text: VideoName,
+                                            weight: "Bolder",
+                                            size: "Medium",
+                                            color: "Accent",
+                                            wrap: true
+                                        },
+                                        {
+                                            type: "TextBlock",
+                                            text: MatchCount & " matching moments",
+                                            isSubtle: true,
+                                            wrap: true,
+                                            spacing: "Small"
+                                        },
+                                        {
+                                            type: "TextBlock",
+                                            text: Coalesce(FirstMatchType, "Match") & " | " & Coalesce(FirstMatchTime, ""),
+                                            wrap: true,
+                                            spacing: "Small"
+                                        },
+                                        {
+                                            type: "TextBlock",
+                                            text: Coalesce(FirstMatchText, ""),
+                                            wrap: true,
+                                            spacing: "Small"
+                                        }
+                                    )
+                                }
+                            )
+                        },
+                        {
+                            type: "ActionSet",
+                            spacing: "Medium",
+                            actions: Table(
+                                {
+                                    type: "Action.OpenUrl",
+                                    title: "Play video",
+                                    url: WatchUrl
+                                },
+                                {
+                                    type: "Action.OpenUrl",
+                                    title: "Insights",
+                                    url: InsightsUrl
+                                }
+                            )
+                        }
+                    )
+                }
+            )
         },
         {
             type: "Container",
@@ -768,72 +880,40 @@ Paste this tested formula:
 }
 ```
 
-### Final Topic Shape
+## Thumbnail Changes From The Original Build
 
-The finished topic should contain these nodes in this exact order:
+These are the changes made to add thumbnails without breaking the existing
+summary and findings path:
 
-1. Trigger
-2. `Search_VI_Videos` action
-3. Parse value for `TopicEnrichedPayloadJson`
-4. Parse value for `TopicPayload.SearchMatches`
-5. Parse value for `TopicPayload.SelectedVideoInsights`
-6. Create generative answers saving to `Global.VideoSummaryText`
-7. Message node rendering the adaptive card
+* Added `FoundVideos` to `enrichedpayloadjson`
+* Added a new `FoundVideos` loop in Power Automate to fetch one thumbnail per
+  found video
+* Added `TopicFoundVideos` in Copilot Studio with its own parse schema
+* Changed `Create generative answers` grounding to use `SearchMatches` and
+  `SelectedVideoInsights` only
+* Replaced the original header placeholder with the first available
+  `ThumbnailDataUri`
+* Added a `Matching videos` section that renders rows from `TopicFoundVideos`
+* Kept the detailed finding cards grounded on `TopicMatchRows`
 
-### Quick Notes
+## Known Limitations
 
-* The general summary is one shared summary for the best match or best matching
-  group of results
-* Each finding card uses a small deterministic summary based on `MatchType`,
-  `MatchText`, and `Time`
-* The thumbnail block is a placeholder and can be replaced later with a real
-  image URL or data URI
+* `SearchMatches` and `SelectedVideoInsights` still come from the first video
+  returned by `Search Videos`
+* `FoundVideos` follows flow order, not AI-selected best-match order
+* `FirstMatchType`, `FirstMatchTime`, and `FirstMatchText` are preview fields
+  from the flow, not guaranteed best-match fields
+* `ThumbnailDataUri` is a video-level preview, not an exact timestamp
+  thumbnail
+* Copilot Studio may render only the first or first few inline base64 images
+  if the card payload becomes too large
 
-### Successful Implementation Notes
-
-These details reflect the topic path that compiled and rendered successfully in
-the current tenant.
-
-* The implemented topic uses `Create generative answers`, not `New prompt`
-* The three `Parse value` nodes use YAML schemas with `kind: Record` and
-  `kind: Table`
-* `Custom data` must be entered inside `Classic data > Custom data > Formula`
-* Do not paste the `Custom data` table into the bottom prompt customization box
-* The summary variable is stored as `Global.VideoSummaryText`
-* The Message node must be switched to `Adaptive card` mode before pasting the
-  formula
-* The tested adaptive card formula in this tenant compiled with comma-style
-  Power Fx separators
-* `Ungroup(...)` is not supported in the Copilot Studio adaptive card formula
-  editor used for this topic
-* If the adaptive card editor reports names like `type` or `items` as invalid,
-  verify the node is still in `Text` mode and switch it back to `Adaptive card`
-
-## Current Tradeoffs
-
-* The flow uses the first returned video, not the best mix of rows across the
-  whole account
-* `enrichedpayloadjson` keeps the output contract simple, but `Labels` and
-  `DetectedObjects` can still be large for longer videos
-* `SearchMatches` and `SelectedVideoInsights` are JSON strings inside
-  `enrichedpayloadjson`
-* Several fields inside `SelectedVideoInsights` are also JSON arrays stored as
-  strings, so prompt parsing is easier than formula-based parsing
-* Thumbnail rendering is not part of the current contract
-
-## Future Optimization
-
-If prompt size or response quality becomes a problem after the demo, optimize by:
-
-1. dropping `DetectedObjects` from the slim payload first
-2. trimming `Labels` to a smaller nearby window in the flow
-3. de-duplicating rows that point to the same timestamp
-4. converting the slim evidence fields from JSON strings to smaller plain-text
-   summaries before the prompt step
-
-These optimizations should be treated as post-demo improvements. They are not
-required for the current build.
+> [!TIP]
+> If later thumbnails stop rendering, reduce the flow loop from
+> `take(body('Search_Videos')?['results'], 3)` to `2`, or switch to externally
+> hosted image URLs.
 
 ## Reference
 
-* Video Indexer connector documentation: <https://learn.microsoft.com/en-us/connectors/videoindexer-v2/>
+* Video Indexer connector documentation:
+  <https://learn.microsoft.com/en-us/connectors/videoindexer-v2/>
