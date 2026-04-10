@@ -1,8 +1,8 @@
 ---
 title: Copilot Studio Native Video Indexer Flow
-description: Build-from-scratch reference for the current Power Automate and Copilot Studio implementation that returns selected-video evidence plus found-video thumbnail previews.
+description: Build-from-scratch reference for the current Power Automate and Copilot Studio implementation, plus the grouped-moments upgrade that collapses duplicate timestamps per video.
 author: GitHub Copilot
-ms.date: 2026-04-09
+ms.date: 2026-04-10
 ms.topic: how-to
 keywords:
   - copilot studio
@@ -14,33 +14,74 @@ keywords:
   - selectedvideoinsights
   - foundvideos
   - thumbnails
-estimated_reading_time: 10
+    - moments
+    - dedupe
+    - booth demo
+    - prompt tuning
+estimated_reading_time: 12
 ---
 
 ## Overview
 
-This document captures the current NAB 2026 implementation.
+This document captures the current NAB 2026 implementation and is written as a
+first-time setup guide for rebuilding the flow and topic from scratch.
 
-The flow still returns one top-level output, `enrichedpayloadjson`, but the
-payload now has four fields instead of three:
+The flow still returns one top-level output, `enrichedpayloadjson`, and the
+payload has four top-level fields:
 
 | Field                   | Type        | Purpose |
 |-------------------------|-------------|---------|
 | `SearchQuery`           | String      | Original user query |
 | `SearchMatches`         | JSON string | Flat match rows for the first returned video |
 | `SelectedVideoInsights` | JSON string | Slim evidence object for the first returned video |
-| `FoundVideos`           | JSON string | Top returned videos with one video-level thumbnail per video |
+| `FoundVideos`           | JSON string | Top returned videos with one video-level thumbnail and grouped nested moments per video |
 
 This split is intentional:
 
 * `SearchMatches` and `SelectedVideoInsights` continue to power the AI summary
   and the detailed findings list
-* `FoundVideos` powers thumbnail previews and the matching-videos section
+* `FoundVideos` powers thumbnail previews, matching-video rows, and grouped
+    per-video moment data
 * The summary node must ignore thumbnails and base64 image data
+* `Moments` keeps duplicate timestamps collapsed without changing AI grounding
+
+The current implementation already returns a native nested `Moments` array
+inside each `FoundVideos` row. That lets you keep the AI summary path stable
+while also supporting cleaner grouped rendering later.
 
 > [!IMPORTANT]
 > `ThumbnailDataUri` is a video-level preview image. It is not an exact
 > timestamp-aligned thumbnail for the matching moment shown in the card.
+
+> [!IMPORTANT]
+> For booth demos, keep the flow, payload contract, and card structure fixed.
+> Let presenters experiment with instruction text instead of rewiring the flow.
+
+## First-Time Setup
+
+Use this sequence when you are creating the solution for the first time.
+
+### Before You Start
+
+* Confirm Azure AI Video Indexer is available in the same Power Automate
+    environment as your Copilot Studio agent.
+* Confirm `Get Account Access Token` works before you build the rest of the
+    flow.
+* Decide whether you are using `trial` or another Video Indexer location and
+    reuse that same location in every connector action and URL template.
+* Create the Power Automate cloud flow from a blank flow by choosing
+    `When an agent calls the flow`.
+* Keep the output contract stable once the topic is wired:
+    `SearchQuery`, `SearchMatches`, `SelectedVideoInsights`, and `FoundVideos`.
+* Turn concurrency off on loops that reuse shared variables:
+    `Apply_to_each_FoundVideo`, `Apply_to_each_CurrentVideoMoment`, and
+    `Apply_to_each_CurrentMomentMatch`.
+
+### Build Strategy
+
+Build the flow once, validate the payload, and then treat the flow as stable.
+For demos and booth exploration, change instructions before you change schema,
+array shape, or adaptive card structure.
 
 ## Power Automate Build
 
@@ -84,6 +125,23 @@ ID = item()?['id']
 AccountId = item()?['accountId']
 SearchMatches = item()?['searchMatches']
 ```
+
+### First Validation Check
+
+After you save the flow and run one test query, confirm these points in run
+history before you move to Copilot Studio:
+
+* `SearchQuery` is not blank in `Compose_EnrichedPayload`
+* `SearchMatches` contains flat rows from the selected first video
+* `FoundVideos` contains at least one row with a `ThumbnailDataUri`
+* Each `FoundVideos` row contains a populated native `Moments` array
+* At least one `Moments` row has non-empty `TypesText`, `TextsText`, and
+    `DisplayText`
+
+> [!NOTE]
+> If `SearchQuery` comes back blank, cache the trigger input in a compose such
+> as `Compose_SearchQueryInput` right after the trigger and reuse that output in
+> both `Search Videos` and `Compose_EnrichedPayload`.
 
 ### FoundVideos Thumbnail Loop
 
@@ -414,6 +472,28 @@ Current shape:
 }
 ```
 
+Each row in `FoundVideos` now also contains a native `Moments` array when the
+grouped flow branch is enabled. A typical row looks like this:
+
+```json
+{
+    "VideoName": "A family that flies together_ Airbus' commercial aircraft",
+    "MatchCount": "9",
+    "Moments": [
+        {
+            "Time": "0:00:56",
+            "StartSeconds": "56",
+            "TypesText": "Ocr, Brand",
+            "TextsText": "A330 | Airbus A380 | Airbus A330",
+            "ExactTextsText": "A330 | Airbus",
+            "DisplayText": "A330 | Airbus",
+            "WatchUrl": "...",
+            "InsightsUrl": "..."
+        }
+    ]
+}
+```
+
 `MatchCount` inside `FoundVideos` currently arrives as a string. Keep the topic
 parse schema aligned with that actual output.
 
@@ -571,7 +651,24 @@ properties:
   WatchUrl: String
   InsightsUrl: String
   SearchMatchesJson: String
+    Moments:
+        type:
+            kind: Table
+            properties:
+                Time: String
+                StartSeconds: String
+                TypesText: String
+                TextsText: String
+                ExactTextsText: String
+                DisplayText: String
+                WatchUrl: String
+                InsightsUrl: String
 ```
+
+> [!IMPORTANT]
+> The current flow already returns a nested `Moments` array inside each
+> `FoundVideos` row. Updating the topic to use grouped moments requires only a
+> topic change. You do not need to change the flow again.
 
 ### Create Generative Answers
 
@@ -609,6 +706,32 @@ In `Advanced`, use these values:
 * Save generated answer to global variable: `VideoSummaryText`
 * `Send a message`: Off
 
+#### Booth Demo Recommendation
+
+For a booth or presentation setup, keep the flow, parse schema, and adaptive
+card unchanged. Change only one instruction layer at a time so attendees can
+see the effect clearly:
+
+* Safest option: keep the flow and topic fixed and adjust only the Copilot
+    Studio agent base instructions
+* Topic-scoped option: keep the flow fixed and replace only the `Instructions`
+    content string above
+
+Do not change both layers in the same demo pass unless you want a combined
+effect rather than a clean before-and-after comparison.
+
+#### Higher-Precision Prompt For Comparison
+
+If you want a stronger second pass without changing the flow, replace only the
+`Instructions` content string with this version:
+
+```text
+Use only the provided search matches and selected video insights. Ignore any thumbnail, image, or data URI content. Prefer the most specific evidence over broad title or transcript hits. If the user asks for a named aircraft, model, logo, brand, object, or scene, prioritize exact OCR, brand, keyword, or label matches that contain the requested term. Treat generic title matches as secondary evidence unless no better evidence exists. If there are multiple matches, summarize the single best matching moment first and cite the exact time, match type, and short supporting evidence. Mention other relevant matches only if they reinforce the answer. Do not invent facts.
+```
+
+This is the recommended comparison prompt for demo queries such as `show me
+airbus A330 scene`.
+
 ### Message Node With Adaptive Card
 
 Type: Message
@@ -640,14 +763,6 @@ Paste this current formula:
                                 url: First(Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri)))).ThumbnailDataUri,
                                 altText: First(Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri)))).VideoName,
                                 size: "Medium"
-                            },
-                            {
-                                type: "TextBlock",
-                                text: "Top result thumbnail",
-                                isSubtle: true,
-                                horizontalAlignment: "Center",
-                                spacing: "Small",
-                                wrap: true
                             }
                         ),
                         Table(
@@ -689,7 +804,7 @@ Paste this current formula:
                         },
                         {
                             type: "TextBlock",
-                            text: Text(CountRows(Topic.TopicMatchRows)) & " matching moments",
+                            text: Text(CountRows(Topic.TopicMatchRows)) & " raw evidence rows in the selected summary video",
                             isSubtle: true,
                             wrap: true,
                             spacing: "Small"
@@ -731,7 +846,7 @@ Paste this current formula:
         {
             type: "Container",
             items: ForAll(
-                Filter(Topic.TopicFoundVideos, Not(IsBlank(ThumbnailDataUri))),
+                Topic.TopicFoundVideos,
                 {
                     type: "Container",
                     style: "emphasis",
@@ -744,13 +859,24 @@ Paste this current formula:
                                 {
                                     type: "Column",
                                     width: "auto",
-                                    items: Table(
-                                        {
-                                            type: "Image",
-                                            url: ThumbnailDataUri,
-                                            altText: VideoName,
-                                            size: "Medium"
-                                        }
+                                    items: If(
+                                        Not(IsBlank(ThumbnailDataUri)),
+                                        Table(
+                                            {
+                                                type: "Image",
+                                                url: ThumbnailDataUri,
+                                                altText: VideoName,
+                                                size: "Medium"
+                                            }
+                                        ),
+                                        Table(
+                                            {
+                                                type: "TextBlock",
+                                                text: "No thumbnail",
+                                                isSubtle: true,
+                                                wrap: true
+                                            }
+                                        )
                                     )
                                 },
                                 {
@@ -767,7 +893,7 @@ Paste this current formula:
                                         },
                                         {
                                             type: "TextBlock",
-                                            text: MatchCount & " matching moments",
+                                            text: Text(CountRows(Moments)) & " grouped moments from " & MatchCount & " raw matches",
                                             isSubtle: true,
                                             wrap: true,
                                             spacing: "Small"
@@ -789,87 +915,81 @@ Paste this current formula:
                             )
                         },
                         {
-                            type: "ActionSet",
-                            spacing: "Medium",
-                            actions: Table(
-                                {
-                                    type: "Action.OpenUrl",
-                                    title: "Play video",
-                                    url: WatchUrl
-                                },
-                                {
-                                    type: "Action.OpenUrl",
-                                    title: "Insights",
-                                    url: InsightsUrl
-                                }
-                            )
-                        }
-                    )
-                }
-            )
-        },
-        {
-            type: "Container",
-            items: ForAll(
-                Topic.TopicMatchRows,
-                {
-                    type: "Container",
-                    style: "emphasis",
-                    separator: true,
-                    spacing: "Medium",
-                    items: Table(
-                        {
                             type: "TextBlock",
-                            text: "Finding | " & Time & " | " & MatchType,
+                            text: "Grouped moments",
                             weight: "Bolder",
-                            size: "Medium",
-                            color: "Accent",
+                            spacing: "Medium",
                             wrap: true
                         },
                         {
-                            type: "TextBlock",
-                            text: Switch(
-                                Lower(MatchType),
-                                "ocr", "OCR match for: " & MatchText & " at " & Time & ".",
-                                "brand", "Brand match for: " & MatchText & " at " & Time & ".",
-                                "annotations", "Visual annotation match for: " & MatchText & " at " & Time & ".",
-                                MatchType & " match for: " & MatchText & " at " & Time & "."
-                            ),
-                            wrap: true,
-                            spacing: "Small"
-                        },
-                        {
-                            type: "FactSet",
-                            facts: Table(
-                                {
-                                    title: "Matched text:",
-                                    value: MatchText
-                                },
-                                {
-                                    title: "Exact text:",
-                                    value: ExactText
-                                },
-                                {
-                                    title: "Video:",
-                                    value: VideoName
-                                }
-                            ),
-                            spacing: "Medium"
-                        },
-                        {
-                            type: "ActionSet",
-                            spacing: "Medium",
-                            actions: Table(
-                                {
-                                    type: "Action.OpenUrl",
-                                    title: "Play video",
-                                    url: WatchUrl
-                                },
-                                {
-                                    type: "Action.OpenUrl",
-                                    title: "Insights",
-                                    url: InsightsUrl
-                                }
+                            type: "Container",
+                            spacing: "Small",
+                            items: If(
+                                CountRows(Moments) > 0,
+                                ForAll(
+                                    Moments,
+                                    {
+                                        type: "Container",
+                                        separator: true,
+                                        spacing: "Small",
+                                        items: Table(
+                                            {
+                                                type: "TextBlock",
+                                                text: "Moment | " & Time & If(Not(IsBlank(TypesText)), " | " & TypesText, ""),
+                                                weight: "Bolder",
+                                                wrap: true
+                                            },
+                                            {
+                                                type: "TextBlock",
+                                                text: Coalesce(DisplayText, TextsText, ExactTextsText, "No detail available."),
+                                                wrap: true,
+                                                spacing: "Small"
+                                            },
+                                            {
+                                                type: "FactSet",
+                                                facts: Table(
+                                                    {
+                                                        title: "Types:",
+                                                        value: Coalesce(TypesText, "")
+                                                    },
+                                                    {
+                                                        title: "Matched text:",
+                                                        value: Coalesce(TextsText, "")
+                                                    },
+                                                    {
+                                                        title: "Exact text:",
+                                                        value: Coalesce(ExactTextsText, "")
+                                                    }
+                                                ),
+                                                spacing: "Small"
+                                            },
+                                            {
+                                                type: "ActionSet",
+                                                spacing: "Small",
+                                                actions: Table(
+                                                    {
+                                                        type: "Action.OpenUrl",
+                                                        title: "Play moment",
+                                                        url: WatchUrl
+                                                    },
+                                                    {
+                                                        type: "Action.OpenUrl",
+                                                        title: "Moment insights",
+                                                        url: InsightsUrl
+                                                    }
+                                                )
+                                            }
+                                        )
+                                    }
+                                ),
+                                Table(
+                                    {
+                                        type: "TextBlock",
+                                        text: "No grouped moments available for this video.",
+                                        isSubtle: true,
+                                        wrap: true
+                                    }
+                                )
                             )
                         }
                     )
@@ -879,6 +999,414 @@ Paste this current formula:
     )
 }
 ```
+
+> [!NOTE]
+> The summary still grounds on `TopicMatchRows` and `TopicSelectedVideoInsights`.
+> The card details now render from `TopicFoundVideos[].Moments`.
+
+## Grouped Moments Build
+
+This grouped moments branch is part of the current working flow. Use this
+section to rebuild it from scratch or verify that an existing build still
+matches the intended shape. It keeps the summary path stable because
+`SearchMatches` and `SelectedVideoInsights` do not change.
+
+### Design Rules
+
+* Keep `SearchMatches` flat for `Create generative answers`
+* Keep `SelectedVideoInsights` unchanged
+* Enrich only `FoundVideos`
+* Deduplicate moments inside each video by `startTime`
+* Merge repeated `type`, `text`, and `exactText` values before returning the
+    card payload
+* Run every loop in this section sequentially because the design reuses array
+    variables
+
+> [!IMPORTANT]
+> Turn concurrency off on `Apply_to_each_FoundVideo`,
+> `Apply_to_each_CurrentVideoMoment`, and `Apply_to_each_CurrentMomentMatch`.
+> Shared variables make concurrent execution unsafe here.
+
+### Add Top-Level Variables
+
+Add these variables after `Initialize_FoundVideos`:
+
+#### Initialize_CurrentVideoMoments
+
+Type: Variables > Initialize variable
+
+Use these values:
+
+* Variable name: `CurrentVideoMoments`
+* Variable type: `Array`
+* Initial value:
+
+```json
+[]
+```
+
+#### Initialize_CurrentMomentTypes
+
+Type: Variables > Initialize variable
+
+Use these values:
+
+* Variable name: `CurrentMomentTypes`
+* Variable type: `Array`
+* Initial value:
+
+```json
+[]
+```
+
+#### Initialize_CurrentMomentTexts
+
+Type: Variables > Initialize variable
+
+Use these values:
+
+* Variable name: `CurrentMomentTexts`
+* Variable type: `Array`
+* Initial value:
+
+```json
+[]
+```
+
+#### Initialize_CurrentMomentExactTexts
+
+Type: Variables > Initialize variable
+
+Use these values:
+
+* Variable name: `CurrentMomentExactTexts`
+* Variable type: `Array`
+* Initial value:
+
+```json
+[]
+```
+
+### Build The Inner FoundVideos Logic
+
+Keep the existing thumbnail steps and first-match preview fields. Add the
+moment-grouping steps below inside `Apply_to_each_FoundVideo`.
+
+#### Set_CurrentVideoMoments
+
+Type: Variables > Set variable
+
+Use these values:
+
+* Variable name: `CurrentVideoMoments`
+* Value:
+
+```json
+[]
+```
+
+#### Filter_CurrentVideoMatchesTimed
+
+Type: Data Operations > Filter array
+
+From:
+
+```text
+outputs('Compose_CurrentVideoMatchesRaw')
+```
+
+Condition in advanced mode:
+
+```text
+@not(empty(item()?['startTime']))
+```
+
+#### Select_CurrentVideoMomentKeys
+
+Type: Data Operations > Select
+
+From:
+
+```text
+body('Filter_CurrentVideoMatchesTimed')
+```
+
+Map these two fields:
+
+* `StartTime`
+
+```text
+item()?['startTime']
+```
+
+* `StartSeconds`
+
+```text
+add(
+    mul(int(split(item()?['startTime'], ':')[0]), 3600),
+    add(
+        mul(int(split(item()?['startTime'], ':')[1]), 60),
+        float(split(item()?['startTime'], ':')[2])
+    )
+)
+```
+
+#### Compose_CurrentVideoUniqueMoments
+
+Type: Compose
+
+Inputs:
+
+```text
+sort(
+    union(
+        body('Select_CurrentVideoMomentKeys'),
+        body('Select_CurrentVideoMomentKeys')
+    ),
+    'StartSeconds'
+)
+```
+
+#### Apply_to_each_CurrentVideoMoment
+
+Type: Control > Apply to each
+
+Loop input:
+
+```text
+outputs('Compose_CurrentVideoUniqueMoments')
+```
+
+Inside this loop, add the following actions.
+
+#### Set_CurrentMomentTypes
+
+Type: Variables > Set variable
+
+Use these values:
+
+* Variable name: `CurrentMomentTypes`
+* Value:
+
+```json
+[]
+```
+
+#### Set_CurrentMomentTexts
+
+Type: Variables > Set variable
+
+Use these values:
+
+* Variable name: `CurrentMomentTexts`
+* Value:
+
+```json
+[]
+```
+
+#### Set_CurrentMomentExactTexts
+
+Type: Variables > Set variable
+
+Use these values:
+
+* Variable name: `CurrentMomentExactTexts`
+* Value:
+
+```json
+[]
+```
+
+#### Filter_CurrentMomentMatches
+
+Type: Data Operations > Filter array
+
+From:
+
+```text
+outputs('Compose_CurrentVideoMatchesRaw')
+```
+
+Condition in advanced mode:
+
+```text
+@equals(item()?['startTime'], items('Apply_to_each_CurrentVideoMoment')?['StartTime'])
+```
+
+#### Apply_to_each_CurrentMomentMatch
+
+Type: Control > Apply to each
+
+Loop input:
+
+```text
+body('Filter_CurrentMomentMatches')
+```
+
+Inside this loop, use three small conditions so each array variable stores only
+distinct non-empty values.
+
+Condition for `CurrentMomentTypes` in advanced mode:
+
+```text
+@and(not(empty(item()?['type'])), not(contains(variables('CurrentMomentTypes'), item()?['type'])))
+```
+
+If true, append this value:
+
+```text
+item()?['type']
+```
+
+Condition for `CurrentMomentTexts` in advanced mode:
+
+```text
+@and(not(empty(item()?['text'])), not(contains(variables('CurrentMomentTexts'), item()?['text'])))
+```
+
+If true, append this value:
+
+```text
+item()?['text']
+```
+
+Condition for `CurrentMomentExactTexts` in advanced mode:
+
+```text
+@and(not(empty(item()?['exactText'])), not(contains(variables('CurrentMomentExactTexts'), item()?['exactText'])))
+```
+
+If true, append this value:
+
+```text
+item()?['exactText']
+```
+
+#### Compose_CurrentMomentTypesText
+
+Type: Compose
+
+Inputs:
+
+```text
+join(variables('CurrentMomentTypes'), ', ')
+```
+
+#### Compose_CurrentMomentTextsText
+
+Type: Compose
+
+Inputs:
+
+```text
+join(variables('CurrentMomentTexts'), ' | ')
+```
+
+#### Compose_CurrentMomentExactTextsText
+
+Type: Compose
+
+Inputs:
+
+```text
+join(variables('CurrentMomentExactTexts'), ' | ')
+```
+
+#### Compose_CurrentMomentDisplayText
+
+Type: Compose
+
+Inputs:
+
+```text
+if(
+    empty(outputs('Compose_CurrentMomentExactTextsText')),
+    outputs('Compose_CurrentMomentTextsText'),
+    outputs('Compose_CurrentMomentExactTextsText')
+)
+```
+
+#### Append_to_CurrentVideoMoments
+
+Type: Variables > Append to array variable
+
+Variable name: `CurrentVideoMoments`
+
+Value:
+
+```text
+{
+    "Time": "@{items('Apply_to_each_CurrentVideoMoment')?['StartTime']}",
+    "StartSeconds": "@{string(items('Apply_to_each_CurrentVideoMoment')?['StartSeconds'])}",
+    "TypesText": "@{outputs('Compose_CurrentMomentTypesText')}",
+    "TextsText": "@{outputs('Compose_CurrentMomentTextsText')}",
+    "ExactTextsText": "@{outputs('Compose_CurrentMomentExactTextsText')}",
+    "DisplayText": "@{outputs('Compose_CurrentMomentDisplayText')}",
+    "WatchUrl": "@{concat('https://www.videoindexer.ai/embed/player/', items('Apply_to_each_FoundVideo')?['accountId'], '/', items('Apply_to_each_FoundVideo')?['id'], '?t=', string(items('Apply_to_each_CurrentVideoMoment')?['StartSeconds']), '&location=trial')}",
+    "InsightsUrl": "@{concat('https://www.videoindexer.ai/embed/insights/', items('Apply_to_each_FoundVideo')?['accountId'], '/', items('Apply_to_each_FoundVideo')?['id'], '/?t=', string(items('Apply_to_each_CurrentVideoMoment')?['StartSeconds']))}"
+}
+```
+
+#### Append_to_FoundVideos Delta
+
+Keep the existing `Append_to_FoundVideos` object and add one more property:
+
+```text
+"Moments": variables('CurrentVideoMoments')
+```
+
+Insert `variables('CurrentVideoMoments')` from the Expression tab so it remains
+a native array. If you wrap it in quotes, Copilot Studio will receive a string
+instead of a nested table.
+
+### Topic Parse Schema Reference
+
+This is the same nested schema used in the main topic build above. Reuse it if
+you rebuild the topic or need to repair the parse node:
+
+```yaml
+kind: Table
+properties:
+    VideoName: String
+    VideoId: String
+    AccountId: String
+    ThumbnailId: String
+    ThumbnailDataUri: String
+    MatchCount: String
+    FirstMatchTime: String
+    FirstMatchText: String
+    FirstMatchType: String
+    FirstExactText: String
+    WatchUrl: String
+    InsightsUrl: String
+    SearchMatchesJson: String
+    Moments:
+        type:
+            kind: Table
+            properties:
+                Time: String
+                StartSeconds: String
+                TypesText: String
+                TextsText: String
+                ExactTextsText: String
+                DisplayText: String
+                WatchUrl: String
+                InsightsUrl: String
+```
+
+### Current Card Rendering Pattern
+
+The current topic card no longer loops through `TopicMatchRows` for the lower
+detail section. It keeps `TopicMatchRows` for AI grounding, but renders the UI
+details from `TopicFoundVideos` and each video's nested `Moments` table.
+
+This gives you:
+
+* One video card per found video
+* One deduplicated moment row per timestamp
+* Merged OCR, brand, and annotation text for the same moment
+* Timestamp-specific `Play video` and `Insights` links for every grouped row
 
 ## Thumbnail Changes From The Original Build
 
@@ -895,6 +1423,8 @@ summary and findings path:
   `ThumbnailDataUri`
 * Added a `Matching videos` section that renders rows from `TopicFoundVideos`
 * Kept the detailed finding cards grounded on `TopicMatchRows`
+* Added native grouped `Moments` inside each `FoundVideos` row for later card
+    upgrades
 
 ## Known Limitations
 
