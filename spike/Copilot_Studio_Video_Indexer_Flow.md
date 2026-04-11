@@ -1443,6 +1443,161 @@ summary and findings path:
 > `take(body('Search_Videos')?['results'], 3)` to `2`, or switch to externally
 > hosted image URLs.
 
+## Multi-Agent Booth Pattern
+
+Use this pattern when the video search agent is exposed as a subagent or skill
+inside a larger booth agent.
+
+### What You Want To Achieve
+
+The best booth experience keeps the video retrieval path deterministic and lets
+the parent agent control only the user experience.
+
+The intended split is:
+
+* The parent agent owns the conversation and user-facing behavior
+* The video search subagent behaves like a retrieval tool, not a second host
+* The flow stays fixed and predictable
+* The topic stays fixed unless you explicitly decide to add a small input
+  parser for control metadata
+* A successful video search returns the adaptive card as the complete answer
+* Additional agent prose appears only for clarification, empty results, or
+  failures
+
+### What Works Today With No Topic Or Flow Changes
+
+With the current setup, the parent agent can safely do only two things:
+
+* Decide whether to call the video search subagent
+* Pass a clean search query to the subagent
+
+This means the parent agent can improve user experience, but it must not append
+control words directly to the searchable query.
+
+These work today:
+
+* `show me all airbus A330 scenes`
+* `find the Airbus A330 close shot`
+* `show the spoken line about cognitive services`
+
+These do not work safely today if passed as one raw message to the subagent:
+
+* `show me all airbus A330 scenes mode=focus`
+* `show me all airbus A330 scenes card_only`
+* `find Airbus A330 and be concise`
+
+The reason is simple: the current topic forwards `Activity.Text` into the video
+search flow, so `mode=focus` becomes part of the search query instead of a
+control value.
+
+> [!IMPORTANT]
+> If you test the current subagent directly, use only the clean search phrase.
+> Do not embed orchestration flags inside the same message unless you first add
+> a parser that strips them before the flow call.
+
+### Smallest Useful Change For Dynamic Parent Control
+
+If you want the parent agent to influence subagent behavior without changing
+the flow logic, the smallest safe change is in the topic, not the flow.
+
+Add a lightweight preprocessing step so the topic can separate:
+
+* the clean search query sent to the flow
+* the display or behavior mode used only by the topic or agent instructions
+
+For example, the parent agent could send a structured envelope, but the topic
+must strip the control fields before it calls the flow.
+
+Until that parser exists, keep the parent-to-subagent contract simple: pass only
+the cleaned search query.
+
+### Recommended Subagent Role
+
+The video search subagent should have one stable responsibility:
+
+* take a clean search query
+* run the existing search topic
+* return the adaptive card as the full success response
+* avoid extra narrative on successful search results
+
+Suggested subagent base instruction:
+
+```text
+You are a deterministic video-search subagent. Your job is to retrieve the best available video moments through the existing video search topic and return the topic result. When the video search topic returns a successful adaptive card, treat that card as the complete response. Do not add extra narrative, headings, suggestions, or follow-up text after the card. Ask a short clarification question only when the user request does not contain enough searchable detail. If no useful result is found, return one short fallback sentence without invented details.
+```
+
+This instruction is static. It does not depend on parent control values, so it
+works today.
+
+### Recommended Main Agent Role
+
+The parent agent is where the booth experience should live. That is the layer
+users can modify and compare without risking the deterministic retrieval path.
+
+The parent agent should:
+
+1. Detect whether the request is a video-search request
+2. Extract the searchable part of the request
+3. Remove meta-phrases such as `focus mode`, `card only`, `be concise`,
+    `explore mode`, or other orchestration language
+4. Call the video-search subagent with only the cleaned search query
+5. Present the subagent result directly when the subagent returns a successful
+    adaptive card
+6. Add text only for clarification, failure, or no-result cases
+
+Suggested main-agent instruction:
+
+```text
+You are the booth host agent. When a user asks to find a scene, object, brand, logo, aircraft, spoken phrase, or moment in video, extract only the clean searchable query and send that query to the video-search subagent. Remove any meta-instructions such as focus mode, card only, explore mode, or tone guidance before invoking the subagent. If the video-search subagent returns a successful adaptive card, present that card as the full answer and do not add any extra summary or suggestions. Ask a clarification question only if the request lacks the searchable target. If no useful result is found, return one short sentence and one suggested reformulation. Do not invent timestamps, dialogue, or scene descriptions.
+```
+
+### Recommended Booth Progression
+
+This is the safest way to let users experience prompt changes without touching
+the subagent topic or flow.
+
+1. Start with the stable subagent instruction that always returns only the card
+    on success
+2. Create a parent agent with the booth-host instruction above
+3. Let users modify only the parent agent instructions
+4. Compare how the parent agent rewrites or routes requests while the subagent
+    remains fixed
+5. Use the same query in repeated runs to show visible behavior changes without
+    changing retrieval logic
+
+Good booth comparison prompts are:
+
+* `show me all airbus A330 scenes`
+* `find the Airbus A330 close shot`
+* `show the spoken line about cognitive services`
+* `find nearby Airbus moments`
+
+### Recommended First Validation Test
+
+To test whether the design is possible with the current setup, validate in this
+order:
+
+1. Test the video-search subagent directly with a clean query only
+2. Confirm it returns the adaptive card without extra text
+3. Create the parent agent
+4. Give the parent agent a mixed request that includes both a search request and
+    meta-guidance
+5. Confirm the parent agent strips the meta-guidance and still calls the
+    subagent with a clean query
+
+Example of a parent-level test request:
+
+```text
+Show me all Airbus A330 scenes. Use a focused booth style and do not add extra explanation.
+```
+
+Desired behavior:
+
+* The parent agent interprets `focused booth style` as orchestration guidance
+* The parent agent sends only `show me all Airbus A330 scenes` to the subagent
+* The subagent returns only the adaptive card
+* The parent agent does not add another narrative answer after the card
+
 ## Reference
 
 * Video Indexer connector documentation:
