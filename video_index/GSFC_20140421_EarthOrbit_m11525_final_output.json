@@ -1,0 +1,532 @@
+[
+  {
+    "id": "47imi4twvn_scene_1",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 41233,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "TRMM",
+      "NASA EARTH",
+      "SCIENCE",
+      "Aura",
+      "Aqua",
+      "Jason-1",
+      "andsat-7",
+      "SORCE",
+      "NASA EARTH SCIENCE",
+      "Terra",
+      "CRIMSAT"
+    ],
+    "labels": [
+      "space",
+      "outer space",
+      "moon",
+      "sky",
+      "animal",
+      "black",
+      "darkness",
+      "satellite"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "trmm",
+      "earth",
+      "nasa"
+    ],
+    "topics": [
+      "Spacecraft launched",
+      "NASA satellites"
+    ],
+    "objects": [
+      "bowl"
+    ],
+    "searchText": "On-screen text: TRMM, NASA EARTH, SCIENCE, Aura. Detected objects: bowl. Visual elements: space, outer space, moon, sky, animal, black, darkness, satellite. Speech keywords: trmm, earth, nasa. Topics: Spacecraft launched, NASA satellites.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=0"
+  },
+  {
+    "id": "47imi4twvn_scene_2",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "2",
+    "startTimeMs": 41233,
+    "endTimeMs": 46166,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "cloud",
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: cloud, water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=41.233&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=41.233"
+  },
+  {
+    "id": "47imi4twvn_scene_3",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "3",
+    "startTimeMs": 46166,
+    "endTimeMs": 50133,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "22"
+    ],
+    "labels": [
+      "snow"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: 22. Visual elements: snow.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=46.166&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=46.166"
+  },
+  {
+    "id": "47imi4twvn_scene_4",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "4",
+    "startTimeMs": 50133,
+    "endTimeMs": 54600,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=50.133&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=50.133"
+  },
+  {
+    "id": "47imi4twvn_scene_5",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "5",
+    "startTimeMs": 54600,
+    "endTimeMs": 65633,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "water",
+      "map",
+      "outdoor"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: water, map, outdoor.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=54.6&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=54.6"
+  },
+  {
+    "id": "47imi4twvn_scene_6",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "6",
+    "startTimeMs": 65633,
+    "endTimeMs": 77266,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "map",
+      "painting"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: map, painting.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=65.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=65.633"
+  },
+  {
+    "id": "47imi4twvn_scene_7",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "7",
+    "startTimeMs": 77266,
+    "endTimeMs": 99866,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "10:00 AM",
+      "7:00 PM",
+      "May 20, 2013"
+    ],
+    "labels": [
+      "map",
+      "nature",
+      "cloud",
+      "snow",
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: 10:00 AM, 7:00 PM, May 20, 2013. Visual elements: map, nature, cloud, snow, water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=77.266&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=77.266"
+  },
+  {
+    "id": "47imi4twvn_scene_8",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "8",
+    "startTimeMs": 99866,
+    "endTimeMs": 105933,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "map",
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: map, water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=99.866&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=99.866"
+  },
+  {
+    "id": "47imi4twvn_scene_9",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "9",
+    "startTimeMs": 105933,
+    "endTimeMs": 122833,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "30",
+      "10",
+      "Ground Water",
+      "Storage",
+      "Surface",
+      "Wetness Percentile",
+      "Measuring Soil Moisture from Space",
+      "20",
+      "Soil Moisture",
+      "100",
+      "2013",
+      "Date",
+      "Root Zone",
+      "2008 03 10",
+      "70",
+      "2007 09 03",
+      "200",
+      "80",
+      "2003",
+      "70 80"
+    ],
+    "labels": [
+      "planet",
+      "map",
+      "astronomical object",
+      "sphere",
+      "outer space",
+      "astronomy",
+      "earth",
+      "moon",
+      "space",
+      "text"
+    ],
+    "brands": [],
+    "locations": [
+      "Percentile"
+    ],
+    "keywords": [
+      "soil moisture",
+      "surface"
+    ],
+    "topics": [],
+    "objects": [
+      "bowl"
+    ],
+    "searchText": "On-screen text: 30, 10, Ground Water, Storage. Named locations: Percentile. Detected objects: bowl. Visual elements: planet, map, astronomical object, sphere, outer space, astronomy, earth, moon. Speech keywords: soil moisture, surface.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=105.933&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=105.933"
+  },
+  {
+    "id": "47imi4twvn_scene_10",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "10",
+    "startTimeMs": 123033,
+    "endTimeMs": 132100,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "art",
+      "sketch"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: art, sketch.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=123.033&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=123.033"
+  },
+  {
+    "id": "47imi4twvn_scene_11",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "11",
+    "startTimeMs": 132333,
+    "endTimeMs": 174100,
+    "description": "",
+    "transcript": "Music.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "observations: 000",
+      "Feb 15 01:28 GMT",
+      "20 km",
+      "40 km",
+      "10 km",
+      "Chelyabinsk",
+      "30 km",
+      "Population: 1.13 million",
+      "Chelyabinsk, Russia",
+      "Suomi NPP",
+      "Feb 18 07:18 GMT",
+      "meteor",
+      "Feb 16 15:25 GMT",
+      "Feb 20 11:26 GMT",
+      "Feb 14 23:51 GMT"
+    ],
+    "labels": [
+      "space",
+      "outer space",
+      "astronomical object",
+      "earth",
+      "fish",
+      "text",
+      "water"
+    ],
+    "brands": [],
+    "locations": [
+      "Chelyabinsk"
+    ],
+    "keywords": [
+      "chelyabinsk"
+    ],
+    "topics": [
+      "Spacecraft launched",
+      "NASA satellites",
+      "Music",
+      "Music Industry",
+      "Entertainment",
+      "Electronic Music",
+      "Techno Music",
+      "Entertainment Industry",
+      "Music Videos",
+      "Spotify Company",
+      "Rock Music",
+      "Music Albums"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: Music. Speakers: Speaker #1. On-screen text: observations: 000, Feb 15 01:28 GMT, 20 km, 40 km. Named locations: Chelyabinsk. Visual elements: space, outer space, astronomical object, earth, fish, text, water. Speech keywords: chelyabinsk. Topics: Spacecraft launched, NASA satellites, Music, Music Industry.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=132.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=132.333"
+  },
+  {
+    "id": "47imi4twvn_scene_12",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "12",
+    "startTimeMs": 174100,
+    "endTimeMs": 181866,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Rainfall in mm/day",
+      "TRMM Composite Climatology",
+      "TRMM",
+      "1.0E-04 1.0E-03 1.0E-02 1.0E-01 1.0E+00 1.0E+01 1.0E+02",
+      "(Precipitation)",
+      "Addis",
+      "Kampala",
+      "Kigali",
+      "Nairobi",
+      "Bujumbura",
+      "Khartoum",
+      "Asmara",
+      "Juba",
+      "Feb",
+      "May",
+      "Dec",
+      "Jun",
+      "Oct",
+      "Aug",
+      "Cairo",
+      "Dodoma",
+      "Apr"
+    ],
+    "labels": [
+      "text",
+      "map"
+    ],
+    "brands": [],
+    "locations": [
+      "Nairobi",
+      "Kampala",
+      "Kigali",
+      "Juba",
+      "Bujumbura",
+      "Khartoum",
+      "Cairo"
+    ],
+    "keywords": [
+      "trmm"
+    ],
+    "topics": [
+      "Spacecraft launched",
+      "NASA satellites"
+    ],
+    "objects": [],
+    "searchText": "On-screen text: Rainfall in mm/day, TRMM Composite Climatology, TRMM, 1.0E-04 1.0E-03 1.0E-02 1.0E-01 1.0E+00 1.0E+01 1.0E+02. Named locations: Nairobi, Kampala, Kigali, Juba. Visual elements: text, map. Speech keywords: trmm. Topics: Spacecraft launched, NASA satellites.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=174.1&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=174.1"
+  },
+  {
+    "id": "47imi4twvn_scene_13",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "13",
+    "startTimeMs": 181866,
+    "endTimeMs": 202766,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "2013",
+      "(1 month - Terra/MODIS)",
+      "34",
+      "Cloud Fraction",
+      "Sea Surface Salinity",
+      "201",
+      "38 40",
+      "Ocean Surface Salinity (grams per kilogram)",
+      "(weekly)",
+      "2000",
+      "10",
+      "100",
+      "2005",
+      "0.4",
+      "Active Fires",
+      "30 32",
+      "17 Sep 2011",
+      "27 Aug 2011",
+      "Feb 2005",
+      "Vegetation Index",
+      "May 2000",
+      "Jul 2005",
+      "Oct 2000",
+      "(16 day - Terra/MODIS)",
+      "2012"
+    ],
+    "labels": [
+      "text",
+      "planet",
+      "satellite",
+      "transport",
+      "circle",
+      "sky",
+      "space",
+      "spacecraft",
+      "water"
+    ],
+    "brands": [],
+    "locations": [
+      "Cloud fraction",
+      "Vegetation Index"
+    ],
+    "keywords": [
+      "surface"
+    ],
+    "topics": [
+      "Spacecraft launched",
+      "NASA satellites"
+    ],
+    "objects": [
+      "dining table",
+      "umbrella",
+      "bottle"
+    ],
+    "searchText": "On-screen text: 2013, (1 month - Terra/MODIS), 34, Cloud Fraction. Named locations: Cloud fraction, Vegetation Index. Detected objects: dining table, umbrella, bottle. Visual elements: text, planet, satellite, transport, circle, sky, space, spacecraft. Speech keywords: surface. Topics: Spacecraft launched, NASA satellites.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=181.866&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=181.866"
+  },
+  {
+    "id": "47imi4twvn_scene_14",
+    "videoName": "GSFC_20140421_EarthOrbit_m11525",
+    "sceneId": "14",
+    "startTimeMs": 202766,
+    "endTimeMs": 228033,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "www.nasa.gov/earthrightnow",
+      "#earthnow",
+      "NA",
+      "EARTH RIGHT NOW",
+      "We're on it.",
+      "Your planet is changing."
+    ],
+    "labels": [
+      "satellite",
+      "space",
+      "transport",
+      "text",
+      "graphics",
+      "astronomical object",
+      "circle",
+      "outer space",
+      "planet",
+      "spacecraft"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "earth",
+      "nasa"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: www.nasa.gov/earthrightnow, #earthnow, NA, EARTH RIGHT NOW. Visual elements: satellite, space, transport, text, graphics, astronomical object, circle, outer space. Speech keywords: earth, nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn?t=202.766&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/47imi4twvn/?t=202.766"
+  }
+]

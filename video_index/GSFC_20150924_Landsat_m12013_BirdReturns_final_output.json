@@ -1,0 +1,278 @@
+[
+  {
+    "id": "upom5nwwj7_scene_1",
+    "videoName": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 29366,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Roughly 7000 acres of temporary wetlands were created",
+      "TIRED AND HUNGRY BIRDS",
+      "in California from February to April 2016",
+      "SATELLITES ARE HELPING TO FEED",
+      "to aid birds during their migration.",
+      "A project using NASA / USGS satellites",
+      "and citizen science",
+      "has resulted in new ' pop-up' habitats for shorebirds,",
+      "has resulted in new",
+      "in California from February",
+      "pop-up' habitats for shorebirds.",
+      "has resulted in new ' pop-up' habitats for shorebirds."
+    ],
+    "labels": [
+      "outdoor",
+      "text",
+      "sky",
+      "aquatic bird",
+      "water",
+      "animal",
+      "beak",
+      "bird",
+      "grass",
+      "land vehicle",
+      "map",
+      "tire",
+      "vehicle",
+      "wheel",
+      "water bird"
+    ],
+    "brands": [],
+    "locations": [
+      "California"
+    ],
+    "keywords": [
+      "birds",
+      "satellites",
+      "wetlands",
+      "california",
+      "february",
+      "feed",
+      "shorebirds",
+      "' habitats",
+      "resulted",
+      "' pop"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: Roughly 7000 acres of temporary wetlands were created, TIRED AND HUNGRY BIRDS, in California from February to April 2016, SATELLITES ARE HELPING TO FEED. Named locations: California. Detected objects: car. Visual elements: outdoor, text, sky, aquatic bird, water, animal, beak, bird. Speech keywords: birds, satellites, wetlands, california, february, feed.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7/?t=0"
+  },
+  {
+    "id": "upom5nwwj7_scene_2",
+    "videoName": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "sceneId": "2",
+    "startTimeMs": 29366,
+    "endTimeMs": 39366,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "shorebirds migrate up",
+      "During this long journey they refuel by",
+      "UNITED STATES",
+      "Every spring,",
+      "feeding in wetlands",
+      "the Pacific Flyway.",
+      "feeding"
+    ],
+    "labels": [
+      "text",
+      "outdoor",
+      "animal",
+      "water",
+      "map"
+    ],
+    "brands": [],
+    "locations": [
+      "Pacific Flyway"
+    ],
+    "keywords": [
+      "birds migrate",
+      "birds",
+      "shorebirds",
+      "feed",
+      "feeding",
+      "wetlands"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: shorebirds migrate up, During this long journey they refuel by, UNITED STATES, Every spring,. Named locations: Pacific Flyway. Visual elements: text, outdoor, animal, water, map. Speech keywords: birds migrate, birds, shorebirds, feed, feeding, wetlands.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7?t=29.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7/?t=29.366"
+  },
+  {
+    "id": "upom5nwwj7_scene_3",
+    "videoName": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "sceneId": "3",
+    "startTimeMs": 39366,
+    "endTimeMs": 55400,
+    "description": "",
+    "transcript": "The.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "Their BirdReturns program partnered with farmers by",
+      "paying them to flood their fields when migrating",
+      "but 95% of those habitats have been lost",
+      "birds traveled through the area.",
+      "To help birds, The Nature Conservancy wanted",
+      "to farmland and drought.",
+      "to try something different.",
+      "ERE",
+      "to",
+      "paying them"
+    ],
+    "labels": [
+      "outdoor",
+      "sky",
+      "text",
+      "plant",
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "birds",
+      "nature conservancy",
+      "nature"
+    ],
+    "topics": [],
+    "objects": [
+      "car",
+      "boat"
+    ],
+    "searchText": "Dialogue: The. Speakers: Speaker #1. On-screen text: Their BirdReturns program partnered with farmers by, paying them to flood their fields when migrating, but 95% of those habitats have been lost, birds traveled through the area. Detected objects: car, boat. Visual elements: outdoor, sky, text, plant, water. Speech keywords: birds, nature conservancy, nature.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7?t=39.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7/?t=39.366"
+  },
+  {
+    "id": "upom5nwwj7_scene_4",
+    "videoName": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "sceneId": "4",
+    "startTimeMs": 55400,
+    "endTimeMs": 85266,
+    "description": "",
+    "transcript": "The.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "Data from Point Blue Conservation Science and The Nature Conservancy",
+      "Cornell Lab of Ornithology",
+      "Water",
+      "Probability of sighting",
+      "Week 19",
+      "0.25",
+      "0.5",
+      "≥ 0.5",
+      "0.0",
+      "Scientists used a database with more than 100 million",
+      "The whiter the area, the more likely the chance to spot birds.",
+      "California's Central Valley",
+      "Both datasets are analyzed to produce targets for flooding,",
+      "An 11-year satellite record helped predict",
+      "bird sightings to predict where and when birds migrate.",
+      "Little Water",
+      "where water was located throughout the year.",
+      "Late August",
+      "Many Birds",
+      "which are areas with little water but many birds.",
+      "NA",
+      "April",
+      "August",
+      "December 27",
+      "February",
+      "February 22",
+      "January 18",
+      "March 29",
+      "October",
+      "Both datasets are an",
+      "which are areas with",
+      "ber",
+      "June",
+      "July 12",
+      "bird",
+      "May 3",
+      "Sc",
+      "September 20",
+      "August 26"
+    ],
+    "labels": [
+      "text",
+      "map",
+      "satellite",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [
+      "Cornell Lab of Ornithology"
+    ],
+    "keywords": [
+      "water",
+      "nature conservancy",
+      "nature",
+      "birds",
+      "california",
+      "birds migrate",
+      "february"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: The. Speakers: Speaker #2. On-screen text: Data from Point Blue Conservation Science and The Nature Conservancy, Cornell Lab of Ornithology, Water, Probability of sighting. Named locations: Cornell Lab of Ornithology. Visual elements: text, map, satellite, transport. Speech keywords: water, nature conservancy, nature, birds, california, birds migrate.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7?t=55.4&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7/?t=55.4"
+  },
+  {
+    "id": "upom5nwwj7_scene_5",
+    "videoName": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "sceneId": "5",
+    "startTimeMs": 85266,
+    "endTimeMs": 105800,
+    "description": "",
+    "transcript": "None.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "NASA",
+      "temporary pop-up wetland habitat.",
+      "'Our program creates, for these certain weeks of the year,",
+      "EARTH",
+      "RIGHT NOW",
+      "Mark Reynolds, Ecologist",
+      "Scientists see BirdReturns as a model for managing",
+      "Your planet is changing. We're on it.",
+      "scarce water for people and nature.",
+      "Mark"
+    ],
+    "labels": [
+      "text",
+      "outdoor",
+      "sky",
+      "animal",
+      "font",
+      "graphic design",
+      "water",
+      "animal migration",
+      "aquatic bird"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "water",
+      "nature"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: None. Speakers: Speaker #3. On-screen text: NASA, temporary pop-up wetland habitat., 'Our program creates, for these certain weeks of the year,, EARTH. Visual elements: text, outdoor, sky, animal, font, graphic design, water, animal migration. Speech keywords: water, nature.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7?t=85.266&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/upom5nwwj7/?t=85.266"
+  }
+]

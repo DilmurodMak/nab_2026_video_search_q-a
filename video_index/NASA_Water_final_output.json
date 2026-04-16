@@ -1,0 +1,434 @@
+[
+  {
+    "id": "ak7snfmsn5_scene_1",
+    "videoName": "NASA_Water",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 10500,
+    "description": "",
+    "transcript": "Only 3% of water on Earth resides as freshwater, and only a tiny fraction of that is actually accessible to us on the surface.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "fluid",
+      "liquid",
+      "drop",
+      "outdoor",
+      "lake",
+      "water"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "freshwater",
+      "earth",
+      "water"
+    ],
+    "topics": [
+      "Environment",
+      "Climate Change",
+      "The Environment",
+      "Water",
+      "Environmentalism"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: Only 3% of water on Earth resides as freshwater, and only a tiny fraction of that is actually accessible to us on the surface. Speakers: Speaker #1. Named locations: Earth. Visual elements: fluid, liquid, drop, outdoor, lake, water. Speech keywords: freshwater, earth, water. Topics: Environment, Climate Change, The Environment, Water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=0"
+  },
+  {
+    "id": "ak7snfmsn5_scene_2",
+    "videoName": "NASA_Water",
+    "sceneId": "2",
+    "startTimeMs": 10500,
+    "endTimeMs": 18900,
+    "description": "",
+    "transcript": "Only 3% of water on Earth resides as freshwater, and only a tiny fraction of that is actually accessible to us on the surface. 7 billion of us live on this planet. We all have to drink water to live. Where's the water that we drink come from? By and large precipitation.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "wheel",
+      "snow",
+      "winter",
+      "bicycle",
+      "clothing",
+      "footwear",
+      "outdoor",
+      "person",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [
+      "planet",
+      "Earth"
+    ],
+    "keywords": [
+      "water",
+      "live",
+      "drink",
+      "precipitation",
+      "freshwater",
+      "earth"
+    ],
+    "topics": [
+      "Environment",
+      "Climate Change",
+      "The Environment",
+      "Water",
+      "Environmentalism"
+    ],
+    "objects": [
+      "bicycle",
+      "car",
+      "backpack",
+      "umbrella"
+    ],
+    "searchText": "Dialogue: Only 3% of water on Earth resides as freshwater, and only a tiny fraction of that is actually accessible to us on the surface. 7 billion of us live on this planet. We all have to drink water to live. Where's the water that we drink come from? By and large precipitation. Speakers: Speaker #1, Speaker #2. Named locations: planet, Earth. Detected objects: bicycle, car, backpack, umbrella. Visual elements: wheel, snow, winter, bicycle, clothing, footwear, outdoor, person. Speech keywords: water, live, drink, precipitation, freshwater, earth. Topics: Environment, Climate Change, The Environment, Water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=10.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=10.5"
+  },
+  {
+    "id": "ak7snfmsn5_scene_3",
+    "videoName": "NASA_Water",
+    "sceneId": "3",
+    "startTimeMs": 18900,
+    "endTimeMs": 21000,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [
+      "Environment",
+      "Climate Change",
+      "The Environment"
+    ],
+    "objects": [],
+    "searchText": "Topics: Environment, Climate Change, The Environment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=18.9&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=18.9"
+  },
+  {
+    "id": "ak7snfmsn5_scene_4",
+    "videoName": "NASA_Water",
+    "sceneId": "4",
+    "startTimeMs": 21000,
+    "endTimeMs": 30300,
+    "description": "",
+    "transcript": "GPM is an international satellite mission providing a new generation of observations of a rain and snow in all parts of the world every three hours.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "avy Rain",
+      "GPM PROJECT SCIENTIST",
+      "Arthur Hou",
+      "MetOp-B",
+      "NOAA-19",
+      "F19",
+      "GCOM-W1",
+      "NPP",
+      "Heavy Rain",
+      "JPSS-1",
+      "Rain",
+      "JP",
+      "Precipitation",
+      "GPM Core"
+    ],
+    "labels": [
+      "transport",
+      "map",
+      "satellite",
+      "text",
+      "human face",
+      "man"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "rain",
+      "snow",
+      "world",
+      "avy rain",
+      "precipitation"
+    ],
+    "topics": [
+      "Environment",
+      "Climate Change",
+      "The Environment",
+      "Weather",
+      "Atmospheric Sciences",
+      "Geography",
+      "Meteorology"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: GPM is an international satellite mission providing a new generation of observations of a rain and snow in all parts of the world every three hours. Speakers: Speaker #3. On-screen text: avy Rain, GPM PROJECT SCIENTIST, Arthur Hou, MetOp-B. Visual elements: transport, map, satellite, text, human face, man. Speech keywords: rain, snow, world, avy rain, precipitation. Topics: Environment, Climate Change, The Environment, Weather.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=21&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=21"
+  },
+  {
+    "id": "ak7snfmsn5_scene_5",
+    "videoName": "NASA_Water",
+    "sceneId": "5",
+    "startTimeMs": 30300,
+    "endTimeMs": 40833,
+    "description": "",
+    "transcript": "GPM is an international satellite mission providing a new generation of observations of a rain and snow in all parts of the world every three hours. If you have good precipitation information, you can do a very good job of characterizing drought and often it's subsequent impact on agricultural productivity. There's about one major flood a day some place in the world, so it's not as if it's a rare event.",
+    "speakers": [
+      "Speaker #3",
+      "Speaker #4",
+      "Speaker #5"
+    ],
+    "ocrText": [
+      "USDA, AGRICULTURAL RESEARCH SERVICE",
+      "Wade Crow",
+      "PED",
+      "XING"
+    ],
+    "labels": [
+      "outdoor",
+      "sky",
+      "human face",
+      "person",
+      "tree",
+      "boy",
+      "cloud",
+      "plant",
+      "traffic sign",
+      "wheel",
+      "winter"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "precipitation",
+      "world",
+      "rain",
+      "snow"
+    ],
+    "topics": [
+      "Environment",
+      "Weather",
+      "Climate Change",
+      "The Environment",
+      "Meteorology",
+      "Water",
+      "Environmentalism",
+      "Atmospheric Sciences",
+      "Geography"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: GPM is an international satellite mission providing a new generation of observations of a rain and snow in all parts of the world every three hours. If you have good precipitation information, you can do a very good job of characterizing drought and often it's subsequent impact on agricultural productivity. There's about one major flood a day some place in the world, so it's not as if it's a rare event. Speakers: Speaker #3, Speaker #4, Speaker #5. On-screen text: USDA, AGRICULTURAL RESEARCH SERVICE, Wade Crow, PED, XING. Detected objects: car. Visual elements: outdoor, sky, human face, person, tree, boy, cloud, plant. Speech keywords: precipitation, world, rain, snow. Topics: Environment, Weather, Climate Change, The Environment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=30.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=30.3"
+  },
+  {
+    "id": "ak7snfmsn5_scene_6",
+    "videoName": "NASA_Water",
+    "sceneId": "6",
+    "startTimeMs": 40833,
+    "endTimeMs": 48033,
+    "description": "",
+    "transcript": "There's about one major flood a day some place in the world, so it's not as if it's a rare event. Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs.",
+    "speakers": [
+      "Speaker #5",
+      "Speaker #6"
+    ],
+    "ocrText": [
+      "Eric Wood",
+      "PRINCETON UNIVERSITY"
+    ],
+    "labels": [
+      "vehicle",
+      "outdoor",
+      "human face",
+      "tree",
+      "land vehicle",
+      "person",
+      "snow",
+      "water",
+      "car",
+      "glasses",
+      "ground",
+      "sky",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "world",
+      "freshwater",
+      "snow",
+      "water"
+    ],
+    "topics": [
+      "Environment",
+      "Weather",
+      "Climate Change",
+      "The Environment",
+      "Water",
+      "Environmentalism",
+      "Meteorology"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: There's about one major flood a day some place in the world, so it's not as if it's a rare event. Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs. Speakers: Speaker #5, Speaker #6. On-screen text: Eric Wood, PRINCETON UNIVERSITY. Detected objects: car. Visual elements: vehicle, outdoor, human face, tree, land vehicle, person, snow, water. Speech keywords: world, freshwater, snow, water. Topics: Environment, Weather, Climate Change, The Environment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=40.833&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=40.833"
+  },
+  {
+    "id": "ak7snfmsn5_scene_7",
+    "videoName": "NASA_Water",
+    "sceneId": "7",
+    "startTimeMs": 48033,
+    "endTimeMs": 53300,
+    "description": "",
+    "transcript": "Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs.",
+    "speakers": [
+      "Speaker #6"
+    ],
+    "ocrText": [],
+    "labels": [
+      "land vehicle",
+      "outdoor",
+      "snow",
+      "vehicle",
+      "winter",
+      "car",
+      "freezing",
+      "tree"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "freshwater",
+      "snow",
+      "water"
+    ],
+    "topics": [
+      "Environment",
+      "Weather",
+      "Climate Change",
+      "The Environment",
+      "Water",
+      "Environmentalism"
+    ],
+    "objects": [
+      "backpack",
+      "car"
+    ],
+    "searchText": "Dialogue: Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs. Speakers: Speaker #6. Detected objects: backpack, car. Visual elements: land vehicle, outdoor, snow, vehicle, winter, car, freezing, tree. Speech keywords: freshwater, snow, water. Topics: Environment, Weather, Climate Change, The Environment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=48.033&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=48.033"
+  },
+  {
+    "id": "ak7snfmsn5_scene_8",
+    "videoName": "NASA_Water",
+    "sceneId": "8",
+    "startTimeMs": 53300,
+    "endTimeMs": 76900,
+    "description": "",
+    "transcript": "Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs. But we really need to to focus on all the phases of precipitation so that we know the global picture of where freshwater exists in the Earth's system.",
+    "speakers": [
+      "Speaker #6"
+    ],
+    "ocrText": [
+      "gpm.nasa.gov",
+      "GPM DEPUTY PROJECT SCIENTIST",
+      "Gail Skofronick-Jackson",
+      "GP"
+    ],
+    "labels": [
+      "water",
+      "human face",
+      "snow",
+      "outdoor",
+      "winter",
+      "cloud",
+      "glacial landform",
+      "lake",
+      "nature",
+      "person",
+      "tree"
+    ],
+    "brands": [
+      "GAIL"
+    ],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "freshwater",
+      "water",
+      "earth",
+      "precipitation",
+      "snow"
+    ],
+    "topics": [
+      "Environment",
+      "Weather",
+      "Climate Change",
+      "The Environment",
+      "Environmentalism",
+      "Earth Science",
+      "Atmospheric Sciences",
+      "Water"
+    ],
+    "objects": [
+      "bicycle",
+      "motorcycle",
+      "car"
+    ],
+    "searchText": "Dialogue: Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs. But we really need to to focus on all the phases of precipitation so that we know the global picture of where freshwater exists in the Earth's system. Speakers: Speaker #6. On-screen text: gpm.nasa.gov, GPM DEPUTY PROJECT SCIENTIST, Gail Skofronick-Jackson, GP. Brands and logos: GAIL. Named locations: Earth. Detected objects: bicycle, motorcycle, car. Visual elements: water, human face, snow, outdoor, winter, cloud, glacial landform, lake. Speech keywords: freshwater, water, earth, precipitation, snow. Topics: Environment, Weather, Climate Change, The Environment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=53.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=53.3"
+  },
+  {
+    "id": "ak7snfmsn5_scene_9",
+    "videoName": "NASA_Water",
+    "sceneId": "9",
+    "startTimeMs": 77100,
+    "endTimeMs": 84200,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "pond5.com",
+      "Additional material courtesy of",
+      "FootageFirm.com",
+      "theweeklyfly.com",
+      "GLOBAL PRECIPITATION MEASUREMENT",
+      "gpm.nasa.gov",
+      "全球降水觀測計画"
+    ],
+    "labels": [
+      "text",
+      "logo",
+      "graphics",
+      "font"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "precipitation"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: pond5.com, Additional material courtesy of, FootageFirm.com, theweeklyfly.com. Visual elements: text, logo, graphics, font. Speech keywords: precipitation.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5?t=77.1&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/ak7snfmsn5/?t=77.1"
+  }
+]

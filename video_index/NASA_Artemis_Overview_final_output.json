@@ -1,0 +1,790 @@
+[
+  {
+    "id": "921tzost9w_scene_1",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 8100,
+    "description": "",
+    "transcript": "We're going back to the moon because it's the next step in our journey to Mars.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "person",
+      "footwear",
+      "headphones"
+    ],
+    "brands": [],
+    "locations": [
+      "Mars",
+      "moon"
+    ],
+    "keywords": [
+      "back",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Planetary Science",
+      "Astronomy",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: We're going back to the moon because it's the next step in our journey to Mars. Speakers: Speaker #1. Named locations: Mars, moon. Visual elements: clothing, person, footwear, headphones. Speech keywords: back, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=0"
+  },
+  {
+    "id": "921tzost9w_scene_2",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "2",
+    "startTimeMs": 8100,
+    "endTimeMs": 20066,
+    "description": "",
+    "transcript": "We need to go explore the moon. There's vast regions of unexplored areas with the coldest, darkest places in our solar system. This is a test mission and when we get off the planet, we might come right back home. We might spend 3 or 4 days around Earth.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "ANIMATION"
+    ],
+    "labels": [
+      "crater",
+      "moon",
+      "nature",
+      "clothing",
+      "person",
+      "human face",
+      "satellite",
+      "space",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [
+      "solar system",
+      "home",
+      "planet",
+      "moon",
+      "Earth"
+    ],
+    "keywords": [
+      "explore",
+      "solar system",
+      "test mission",
+      "mission",
+      "planet",
+      "back",
+      "moon",
+      "earth"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Planetary Science",
+      "Astronomy",
+      "The Moon",
+      "Spacecraft"
+    ],
+    "objects": [
+      "sports ball"
+    ],
+    "searchText": "Dialogue: We need to go explore the moon. There's vast regions of unexplored areas with the coldest, darkest places in our solar system. This is a test mission and when we get off the planet, we might come right back home. We might spend 3 or 4 days around Earth. Speakers: Speaker #1. On-screen text: ANIMATION. Named locations: solar system, home, planet, moon. Detected objects: sports ball. Visual elements: crater, moon, nature, clothing, person, human face, satellite, space. Speech keywords: explore, solar system, test mission, mission, planet, back. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=8.1&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=8.1"
+  },
+  {
+    "id": "921tzost9w_scene_3",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "3",
+    "startTimeMs": 20066,
+    "endTimeMs": 39300,
+    "description": "",
+    "transcript": "We might spend 3 or 4 days around Earth. We might go to the moon. That's where we want to go. But it is a test mission and we are ready for every scenario as as we ride this amazing Space Launch System in the Orion spacecraft. But another reason we're going back to the moon is to fulfill NASA's mission, which is to explore the unknown and Air and Space, to innovate for the benefit of humanity, and to inspire the world through discovery.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "NASA",
+      "NAS",
+      "VICTOR GLOVER",
+      "ANIMATION"
+    ],
+    "labels": [
+      "moon",
+      "clothing",
+      "human face",
+      "person",
+      "astronomical object",
+      "nature",
+      "celestial event",
+      "man",
+      "earth",
+      "satellite"
+    ],
+    "brands": [],
+    "locations": [
+      "moon",
+      "Space",
+      "Air",
+      "Earth"
+    ],
+    "keywords": [
+      "mission",
+      "space",
+      "nasa",
+      "moon",
+      "back",
+      "benefit",
+      "explore",
+      "test mission",
+      "earth"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Spacecraft",
+      "Space Travel",
+      "Astronomy",
+      "Planetary Science",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: We might spend 3 or 4 days around Earth. We might go to the moon. That's where we want to go. But it is a test mission and we are ready for every scenario as as we ride this amazing Space Launch System in the Orion spacecraft. But another reason we're going back to the moon is to fulfill NASA's mission, which is to explore the unknown and Air and Space, to innovate for the benefit of humanity, and to inspire the world through discovery. Speakers: Speaker #1, Speaker #2. On-screen text: NASA, NAS, VICTOR GLOVER, ANIMATION. Named locations: moon, Space, Air, Earth. Visual elements: moon, clothing, human face, person, astronomical object, nature, celestial event, man. Speech keywords: mission, space, nasa, moon, back, benefit. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=20.066&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=20.066"
+  },
+  {
+    "id": "921tzost9w_scene_4",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "4",
+    "startTimeMs": 39300,
+    "endTimeMs": 45433,
+    "description": "",
+    "transcript": "But another reason we're going back to the moon is to fulfill NASA's mission, which is to explore the unknown and Air and Space, to innovate for the benefit of humanity, and to inspire the world through discovery. And when we succeed and when we accomplish the things that we set out to accomplish, that inspiration not only can set up new things to happen, but it also is a reminder in tough times that we're capable of doing great things when we work together.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [],
+    "brands": [],
+    "locations": [
+      "moon",
+      "Space",
+      "Air"
+    ],
+    "keywords": [
+      "thing",
+      "work",
+      "mission",
+      "nasa",
+      "back",
+      "benefit",
+      "explore",
+      "moon",
+      "space"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Spacecraft",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: But another reason we're going back to the moon is to fulfill NASA's mission, which is to explore the unknown and Air and Space, to innovate for the benefit of humanity, and to inspire the world through discovery. And when we succeed and when we accomplish the things that we set out to accomplish, that inspiration not only can set up new things to happen, but it also is a reminder in tough times that we're capable of doing great things when we work together. Speakers: Speaker #2. Named locations: moon, Space, Air. Speech keywords: thing, work, mission, nasa, back, benefit. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=39.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=39.3"
+  },
+  {
+    "id": "921tzost9w_scene_5",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "5",
+    "startTimeMs": 45633,
+    "endTimeMs": 54300,
+    "description": "",
+    "transcript": "And when we succeed and when we accomplish the things that we set out to accomplish, that inspiration not only can set up new things to happen, but it also is a reminder in tough times that we're capable of doing great things when we work together.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "indoor",
+      "medical equipment",
+      "plane",
+      "workwear"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "thing",
+      "work"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: And when we succeed and when we accomplish the things that we set out to accomplish, that inspiration not only can set up new things to happen, but it also is a reminder in tough times that we're capable of doing great things when we work together. Speakers: Speaker #2. Visual elements: clothing, indoor, medical equipment, plane, workwear. Speech keywords: thing, work.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=45.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=45.633"
+  },
+  {
+    "id": "921tzost9w_scene_6",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "6",
+    "startTimeMs": 54300,
+    "endTimeMs": 56833,
+    "description": "",
+    "transcript": "The thing I love about the moon is that it's not just a beacon for exploration and this platform of possibilities for incredible missions like this, but it has benefits.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "person",
+      "human face"
+    ],
+    "brands": [],
+    "locations": [
+      "moon"
+    ],
+    "keywords": [
+      "mission",
+      "thing",
+      "benefit",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Spacecraft",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [
+      "bottle"
+    ],
+    "searchText": "Dialogue: The thing I love about the moon is that it's not just a beacon for exploration and this platform of possibilities for incredible missions like this, but it has benefits. Speakers: Speaker #3. Named locations: moon. Detected objects: bottle. Visual elements: clothing, person, human face. Speech keywords: mission, thing, benefit, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=54.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=54.3"
+  },
+  {
+    "id": "921tzost9w_scene_7",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "7",
+    "startTimeMs": 56833,
+    "endTimeMs": 64000,
+    "description": "",
+    "transcript": "The thing I love about the moon is that it's not just a beacon for exploration and this platform of possibilities for incredible missions like this, but it has benefits. That's actually why we're racing towards it.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "XLarge",
+      "CHRISTINA H. KOCH"
+    ],
+    "labels": [
+      "clothing",
+      "pressure suit",
+      "person",
+      "personal protective equipment",
+      "human face",
+      "luggage and bags"
+    ],
+    "brands": [],
+    "locations": [
+      "moon"
+    ],
+    "keywords": [
+      "mission",
+      "thing",
+      "benefit",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Spacecraft",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: The thing I love about the moon is that it's not just a beacon for exploration and this platform of possibilities for incredible missions like this, but it has benefits. That's actually why we're racing towards it. Speakers: Speaker #3. On-screen text: XLarge, CHRISTINA H. KOCH. Named locations: moon. Visual elements: clothing, pressure suit, person, personal protective equipment, human face, luggage and bags. Speech keywords: mission, thing, benefit, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=56.833&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=56.833"
+  },
+  {
+    "id": "921tzost9w_scene_8",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "8",
+    "startTimeMs": 64000,
+    "endTimeMs": 67966,
+    "description": "",
+    "transcript": "That's actually why we're racing towards it. Those benefits are really wide in nature.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [],
+    "labels": [
+      "indoor"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "benefit"
+    ],
+    "topics": [
+      "Science",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Astronomy",
+      "Outer Space",
+      "Spacecraft"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: That's actually why we're racing towards it. Those benefits are really wide in nature. Speakers: Speaker #3. Detected objects: car. Visual elements: indoor. Speech keywords: benefit. Topics: Science, Space Exploration, Nasa, Space Travel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=64&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=64"
+  },
+  {
+    "id": "921tzost9w_scene_9",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "9",
+    "startTimeMs": 67966,
+    "endTimeMs": 71033,
+    "description": "",
+    "transcript": "Those benefits are really wide in nature. You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "17"
+    ],
+    "labels": [
+      "engineering",
+      "rocket",
+      "clothing"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "solar system",
+      "mission",
+      "thing",
+      "earth",
+      "back",
+      "benefit"
+    ],
+    "topics": [
+      "Science",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: Those benefits are really wide in nature. You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth. Speakers: Speaker #3. On-screen text: 17. Named locations: Earth. Visual elements: engineering, rocket, clothing. Speech keywords: solar system, mission, thing, earth, back, benefit. Topics: Science, Space Exploration, Nasa, Space Travel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=67.966&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=67.966"
+  },
+  {
+    "id": "921tzost9w_scene_10",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "10",
+    "startTimeMs": 71033,
+    "endTimeMs": 76333,
+    "description": "",
+    "transcript": "You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [],
+    "labels": [
+      "transport"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "solar system",
+      "mission",
+      "thing",
+      "earth",
+      "back"
+    ],
+    "topics": [
+      "Science",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth. Speakers: Speaker #3. Named locations: Earth. Visual elements: transport. Speech keywords: solar system, mission, thing, earth, back. Topics: Science, Space Exploration, Nasa, Space Travel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=71.033&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=71.033"
+  },
+  {
+    "id": "921tzost9w_scene_11",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "11",
+    "startTimeMs": 76333,
+    "endTimeMs": 89633,
+    "description": "",
+    "transcript": "You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth. You have inspiration, a whole generation of people starting this pipeline of STEM workers and manufacturers and operators that are excited to see what you can do when you work hard and you come together as a team.",
+    "speakers": [
+      "Speaker #3"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "person",
+      "man",
+      "woman",
+      "indoor",
+      "human face",
+      "chair",
+      "wall",
+      "furniture",
+      "people",
+      "microphone",
+      "footwear",
+      "jeans"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "people",
+      "work",
+      "solar system",
+      "mission",
+      "thing",
+      "earth",
+      "back"
+    ],
+    "topics": [
+      "Science",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Astronomy"
+    ],
+    "objects": [
+      "chair"
+    ],
+    "searchText": "Dialogue: You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth. You have inspiration, a whole generation of people starting this pipeline of STEM workers and manufacturers and operators that are excited to see what you can do when you work hard and you come together as a team. Speakers: Speaker #3. Named locations: Earth. Detected objects: chair. Visual elements: clothing, person, man, woman, indoor, human face, chair, wall. Speech keywords: people, work, solar system, mission, thing, earth. Topics: Science, Space Exploration, Nasa, Space Travel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=76.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=76.333"
+  },
+  {
+    "id": "921tzost9w_scene_12",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "12",
+    "startTimeMs": 89633,
+    "endTimeMs": 92200,
+    "description": "",
+    "transcript": "When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [
+      "NASA",
+      "JEREMY HANSEN",
+      "MINISTRATION"
+    ],
+    "labels": [
+      "clothing",
+      "person",
+      "human face"
+    ],
+    "brands": [],
+    "locations": [
+      "moon",
+      "Earth"
+    ],
+    "keywords": [
+      "earth",
+      "back",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Planetary Science",
+      "Astronomy",
+      "Physics",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope. Speakers: Speaker #4. On-screen text: NASA, JEREMY HANSEN, MINISTRATION. Named locations: moon, Earth. Visual elements: clothing, person, human face. Speech keywords: earth, back, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=89.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=89.633"
+  },
+  {
+    "id": "921tzost9w_scene_13",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "13",
+    "startTimeMs": 92200,
+    "endTimeMs": 96266,
+    "description": "",
+    "transcript": "When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [],
+    "labels": [
+      "moon",
+      "astronomical object",
+      "plane"
+    ],
+    "brands": [],
+    "locations": [
+      "moon",
+      "Earth"
+    ],
+    "keywords": [
+      "earth",
+      "back",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Planetary Science",
+      "Astronomy",
+      "Physics",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope. Speakers: Speaker #4. Named locations: moon, Earth. Visual elements: moon, astronomical object, plane. Speech keywords: earth, back, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=92.2&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=92.2"
+  },
+  {
+    "id": "921tzost9w_scene_14",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "14",
+    "startTimeMs": 96266,
+    "endTimeMs": 98533,
+    "description": "",
+    "transcript": "When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [
+      "ASA"
+    ],
+    "labels": [
+      "plane",
+      "airplane"
+    ],
+    "brands": [],
+    "locations": [
+      "moon",
+      "Earth"
+    ],
+    "keywords": [
+      "earth",
+      "back",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Planetary Science",
+      "Astronomy",
+      "Physics",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope. Speakers: Speaker #4. On-screen text: ASA. Named locations: moon, Earth. Visual elements: plane, airplane. Speech keywords: earth, back, moon. Topics: Science, Outer Space, Space Exploration, Nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=96.266&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=96.266"
+  },
+  {
+    "id": "921tzost9w_scene_15",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "15",
+    "startTimeMs": 98533,
+    "endTimeMs": 114766,
+    "description": "",
+    "transcript": "When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope. We know that Artemis 2 is not the solution for humanity on planet Earth, but it is a contribution in the positive column. We hope that just for a moment that people will pause and say, wow, it's extraordinary. When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [
+      "ANIMATION"
+    ],
+    "labels": [
+      "space",
+      "outer space",
+      "astronomical object",
+      "moon",
+      "satellite",
+      "transport",
+      "planet",
+      "astronomy",
+      "earth"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth",
+      "planet",
+      "moon"
+    ],
+    "keywords": [
+      "earth",
+      "extraordinary",
+      "people",
+      "planet",
+      "back",
+      "thing",
+      "work",
+      "moon"
+    ],
+    "topics": [
+      "Science",
+      "Planetary Science",
+      "Astronomy",
+      "Outer Space",
+      "Space Exploration",
+      "Nasa",
+      "Space Travel",
+      "Physics",
+      "The Moon"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope. We know that Artemis 2 is not the solution for humanity on planet Earth, but it is a contribution in the positive column. We hope that just for a moment that people will pause and say, wow, it's extraordinary. When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them. Speakers: Speaker #4. On-screen text: ANIMATION. Named locations: Earth, planet, moon. Visual elements: space, outer space, astronomical object, moon, satellite, transport, planet, astronomy. Speech keywords: earth, extraordinary, people, planet, back, thing. Topics: Science, Planetary Science, Astronomy, Outer Space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=98.533&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=98.533"
+  },
+  {
+    "id": "921tzost9w_scene_16",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "16",
+    "startTimeMs": 114766,
+    "endTimeMs": 120600,
+    "description": "",
+    "transcript": "When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them.",
+    "speakers": [
+      "Speaker #4"
+    ],
+    "ocrText": [],
+    "labels": [],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "extraordinary",
+      "people",
+      "thing",
+      "earth",
+      "work",
+      "back"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them. Speakers: Speaker #4. Named locations: Earth. Speech keywords: extraordinary, people, thing, earth, work, back.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=114.766&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=114.766"
+  },
+  {
+    "id": "921tzost9w_scene_17",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "17",
+    "startTimeMs": 120600,
+    "endTimeMs": 128699,
+    "description": "",
+    "transcript": "When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them. I.",
+    "speakers": [
+      "Speaker #4",
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "parachute",
+      "sky",
+      "parachuting",
+      "windsports"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "extraordinary",
+      "people",
+      "thing",
+      "earth",
+      "work",
+      "back"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them. I. Speakers: Speaker #4, Speaker #1. Named locations: Earth. Visual elements: outdoor, parachute, sky, parachuting, windsports. Speech keywords: extraordinary, people, thing, earth, work, back.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=120.6&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=120.6"
+  },
+  {
+    "id": "921tzost9w_scene_18",
+    "videoName": "NASA_Artemis_Overview",
+    "sceneId": "18",
+    "startTimeMs": 128699,
+    "endTimeMs": 132966,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "parachute",
+      "sky",
+      "outdoor",
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: parachute, sky, outdoor, water.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w?t=128.699&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/921tzost9w/?t=128.699"
+  }
+]

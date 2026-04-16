@@ -1,0 +1,526 @@
+[
+  {
+    "id": "gfeayqh2m9_scene_1",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 11200,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "ENGINEERING HISTORY",
+      "OPTICAL TELESCOPE ELEMENT",
+      "MIRROR DEVELOPMENT"
+    ],
+    "labels": [
+      "text",
+      "black"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: ENGINEERING HISTORY, OPTICAL TELESCOPE ELEMENT, MIRROR DEVELOPMENT. Visual elements: text, black.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=0"
+  },
+  {
+    "id": "gfeayqh2m9_scene_2",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "2",
+    "startTimeMs": 11200,
+    "endTimeMs": 18300,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "construction equipment",
+      "ground",
+      "outdoor",
+      "transport",
+      "indoor",
+      "machine",
+      "clothing",
+      "medical equipment",
+      "power shovel",
+      "technician",
+      "vehicle"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Detected objects: car. Visual elements: construction equipment, ground, outdoor, transport, indoor, machine, clothing, medical equipment.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=11.2&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=11.2"
+  },
+  {
+    "id": "gfeayqh2m9_scene_3",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "3",
+    "startTimeMs": 18300,
+    "endTimeMs": 23666,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "candle"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: candle.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=18.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=18.3"
+  },
+  {
+    "id": "gfeayqh2m9_scene_4",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "4",
+    "startTimeMs": 23666,
+    "endTimeMs": 30133,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "BLACK"
+    ],
+    "labels": [
+      "person",
+      "clothing",
+      "indoor",
+      "machine"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: BLACK. Visual elements: person, clothing, indoor, machine.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=23.666&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=23.666"
+  },
+  {
+    "id": "gfeayqh2m9_scene_5",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "5",
+    "startTimeMs": 30333,
+    "endTimeMs": 36800,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "EXIT"
+    ],
+    "labels": [
+      "indoor"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "bicycle",
+      "dining table"
+    ],
+    "searchText": "On-screen text: EXIT. Detected objects: bicycle, dining table. Visual elements: indoor.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=30.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=30.333"
+  },
+  {
+    "id": "gfeayqh2m9_scene_6",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "6",
+    "startTimeMs": 36800,
+    "endTimeMs": 43900,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "PATHFINDER ARRIVES",
+      "AMC",
+      "80213",
+      "EXIT"
+    ],
+    "labels": [
+      "font",
+      "text",
+      "aircraft",
+      "cloud",
+      "outdoor",
+      "plane",
+      "sky",
+      "vehicle",
+      "aviation",
+      "transport",
+      "wheel"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: PATHFINDER ARRIVES, AMC, 80213, EXIT. Detected objects: car. Visual elements: font, text, aircraft, cloud, outdoor, plane, sky, vehicle.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=36.8&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=36.8"
+  },
+  {
+    "id": "gfeayqh2m9_scene_7",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "7",
+    "startTimeMs": 43900,
+    "endTimeMs": 59966,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "NASA GODDARD SPACE FLIGHT CENTER",
+      "1-TON"
+    ],
+    "labels": [
+      "engineering",
+      "text",
+      "machine",
+      "font",
+      "black",
+      "clothing",
+      "darkness",
+      "man",
+      "person"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "nasa"
+    ],
+    "topics": [],
+    "objects": [
+      "train"
+    ],
+    "searchText": "On-screen text: NASA GODDARD SPACE FLIGHT CENTER, 1-TON. Detected objects: train. Visual elements: engineering, text, machine, font, black, clothing, darkness, man. Speech keywords: nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=43.9&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=43.9"
+  },
+  {
+    "id": "gfeayqh2m9_scene_8",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "8",
+    "startTimeMs": 59966,
+    "endTimeMs": 63500,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "FLIGHT STRUCTURE",
+      "1-TON"
+    ],
+    "labels": [
+      "font",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: FLIGHT STRUCTURE, 1-TON. Visual elements: font, text.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=59.966&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=59.966"
+  },
+  {
+    "id": "gfeayqh2m9_scene_9",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "9",
+    "startTimeMs": 63500,
+    "endTimeMs": 67600,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Austrian Aerospace"
+    ],
+    "labels": [
+      "footwear"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: Austrian Aerospace. Visual elements: footwear.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=63.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=63.5"
+  },
+  {
+    "id": "gfeayqh2m9_scene_10",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "10",
+    "startTimeMs": 67600,
+    "endTimeMs": 84566,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "MIRROR INSTALLATION",
+      "ACK"
+    ],
+    "labels": [
+      "font",
+      "sky",
+      "text",
+      "clothing",
+      "building",
+      "man"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: MIRROR INSTALLATION, ACK. Visual elements: font, sky, text, clothing, building, man.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=67.6&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=67.6"
+  },
+  {
+    "id": "gfeayqh2m9_scene_11",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "11",
+    "startTimeMs": 84566,
+    "endTimeMs": 96000,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "MIRROR INSTALLATION",
+      "1-TON"
+    ],
+    "labels": [
+      "engineering",
+      "machine"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: MIRROR INSTALLATION, 1-TON. Visual elements: engineering, machine.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=84.566&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=84.566"
+  },
+  {
+    "id": "gfeayqh2m9_scene_12",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "12",
+    "startTimeMs": 96000,
+    "endTimeMs": 118100,
+    "description": "",
+    "transcript": "Music.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "NASA GODDARD SPACE FLIGHT CENTER",
+      "ISIM INSTALLATION",
+      "VIBRATION & ACOUSTIC TESTING"
+    ],
+    "labels": [
+      "text",
+      "font",
+      "building",
+      "engineering",
+      "clothing",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "music"
+    ],
+    "topics": [
+      "Music",
+      "Music Industry",
+      "Spotify Company",
+      "Social and Online Music Startups",
+      "Techno Music",
+      "Entertainment"
+    ],
+    "objects": [],
+    "searchText": "Dialogue: Music. Speakers: Speaker #1. On-screen text: NASA GODDARD SPACE FLIGHT CENTER, ISIM INSTALLATION, VIBRATION & ACOUSTIC TESTING. Visual elements: text, font, building, engineering, clothing, transport. Speech keywords: music. Topics: Music, Music Industry, Spotify Company, Social and Online Music Startups.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=96&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=96"
+  },
+  {
+    "id": "gfeayqh2m9_scene_13",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "13",
+    "startTimeMs": 118100,
+    "endTimeMs": 163500,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "+V1",
+      "NASA JOHNSON SPACE CENTER",
+      "URYOGENIC IESTING",
+      "Genie GS-2632",
+      "ONDITION 4"
+    ],
+    "labels": [
+      "airplane",
+      "plane",
+      "building",
+      "font",
+      "text",
+      "machine",
+      "engineering",
+      "indoor",
+      "industry"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "nasa"
+    ],
+    "topics": [
+      "Music",
+      "Music Industry",
+      "Spotify Company",
+      "Social and Online Music Startups",
+      "Techno Music",
+      "Entertainment"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: +V1, NASA JOHNSON SPACE CENTER, URYOGENIC IESTING, Genie GS-2632. Detected objects: car. Visual elements: airplane, plane, building, font, text, machine, engineering, indoor. Speech keywords: nasa. Topics: Music, Music Industry, Spotify Company, Social and Online Music Startups.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=118.1&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=118.1"
+  },
+  {
+    "id": "gfeayqh2m9_scene_14",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "14",
+    "startTimeMs": 163500,
+    "endTimeMs": 190500,
+    "description": "",
+    "transcript": "Music.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "NASA JOHNSON SPACE CENTER",
+      "URYOGENIC IESTING",
+      "NASA"
+    ],
+    "labels": [
+      "engineering",
+      "indoor",
+      "machine"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "nasa",
+      "music"
+    ],
+    "topics": [
+      "Music",
+      "Music Industry",
+      "Spotify Company",
+      "Social and Online Music Startups",
+      "Techno Music",
+      "Entertainment"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Music. Speakers: Speaker #2. On-screen text: NASA JOHNSON SPACE CENTER, URYOGENIC IESTING, NASA. Detected objects: car. Visual elements: engineering, indoor, machine. Speech keywords: nasa, music. Topics: Music, Music Industry, Spotify Company, Social and Online Music Startups.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=163.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=163.5"
+  },
+  {
+    "id": "gfeayqh2m9_scene_15",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "15",
+    "startTimeMs": 190500,
+    "endTimeMs": 195700,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "NASA",
+      "The temperature displayed is the average helium shroud temp.",
+      "Chamber Temperature*",
+      "Temperature is approximated based on chamber test parameters. -",
+      "-243.670F",
+      "-253.150℃ 20.000 K",
+      "Chamber Temperature is STEADY.",
+      "Chamber Temperature is WARMING to 292K.",
+      "Chamber Temperature is COOLING to 75K.",
+      "65.930F",
+      "18.850℃ 292.000 K"
+    ],
+    "labels": [
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "temperature",
+      "nasa"
+    ],
+    "topics": [],
+    "objects": [
+      "clock"
+    ],
+    "searchText": "On-screen text: NASA, The temperature displayed is the average helium shroud temp., Chamber Temperature*, Temperature is approximated based on chamber test parameters. -. Detected objects: clock. Visual elements: text. Speech keywords: temperature, nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=190.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=190.5"
+  },
+  {
+    "id": "gfeayqh2m9_scene_16",
+    "videoName": "WEB_TELESCOPE_Engineering_History",
+    "sceneId": "16",
+    "startTimeMs": 195700,
+    "endTimeMs": 206000,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "The temperature displayed is the average helium shroud temp.",
+      "Chamber Temperature*",
+      "Chamber Temperature is WARMING to 292K.",
+      "NASA",
+      "Temperature is approximated based on chamber test parameters. -"
+    ],
+    "labels": [
+      "clothing",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "temperature",
+      "nasa"
+    ],
+    "topics": [],
+    "objects": [
+      "traffic light",
+      "clock"
+    ],
+    "searchText": "On-screen text: The temperature displayed is the average helium shroud temp., Chamber Temperature*, Chamber Temperature is WARMING to 292K., NASA. Detected objects: traffic light, clock. Visual elements: clothing, text. Speech keywords: temperature, nasa.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9?t=195.7&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/gfeayqh2m9/?t=195.7"
+  }
+]

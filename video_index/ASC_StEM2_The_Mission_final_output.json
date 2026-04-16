@@ -1,0 +1,943 @@
+[
+  {
+    "id": "smydfvur5f_scene_1",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 11875,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "human face",
+      "darkness",
+      "portrait"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: human face, darkness, portrait.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=0"
+  },
+  {
+    "id": "smydfvur5f_scene_2",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "2",
+    "startTimeMs": 11875,
+    "endTimeMs": 107500,
+    "description": "",
+    "transcript": "Doctor, get set up. Hand me the spectrograph.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "TESEA"
+    ],
+    "labels": [
+      "human face",
+      "clothing",
+      "person",
+      "cave",
+      "nature"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "doctor"
+    ],
+    "topics": [
+      "Science"
+    ],
+    "objects": [
+      "cup"
+    ],
+    "searchText": "Dialogue: Doctor, get set up. Hand me the spectrograph. Speakers: Speaker #1. On-screen text: TESEA. Detected objects: cup. Visual elements: human face, clothing, person, cave, nature. Speech keywords: doctor. Topics: Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=11.875&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=11.875"
+  },
+  {
+    "id": "smydfvur5f_scene_3",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "3",
+    "startTimeMs": 107500,
+    "endTimeMs": 136750,
+    "description": "",
+    "transcript": "This is it. Give me the extractor, Gavin. Extractor.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "[ MINED ORE VALUES TRANSMOGRIFICATION ]",
+      "ANALYZING CORE SAMPLEI",
+      "ORE DATA EXTRACTION",
+      "INITIALIZING SCAN SEQUENCE .!",
+      "SAMPLE SCAN RESULTS",
+      "PULSE INDICATION",
+      "INDICATOR MONITOR",
+      "28",
+      "SCANNING CORE",
+      "106",
+      "958",
+      "TION",
+      "25",
+      "SCANNIN",
+      "30.25%",
+      "50.42%"
+    ],
+    "labels": [
+      "human face",
+      "person",
+      "electronics"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "extractor"
+    ],
+    "topics": [
+      "Science"
+    ],
+    "objects": [
+      "cup",
+      "train"
+    ],
+    "searchText": "Dialogue: This is it. Give me the extractor, Gavin. Extractor. Speakers: Speaker #1. On-screen text: [ MINED ORE VALUES TRANSMOGRIFICATION ], ANALYZING CORE SAMPLEI, ORE DATA EXTRACTION, INITIALIZING SCAN SEQUENCE .!. Detected objects: cup, train. Visual elements: human face, person, electronics. Speech keywords: extractor. Topics: Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=107.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=107.5"
+  },
+  {
+    "id": "smydfvur5f_scene_4",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "4",
+    "startTimeMs": 136750,
+    "endTimeMs": 173458,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "person",
+      "clothing",
+      "human face",
+      "outdoor",
+      "car",
+      "sky",
+      "land vehicle",
+      "vehicle",
+      "ground",
+      "mirror",
+      "wheel",
+      "woman",
+      "blurry",
+      "grass",
+      "mountain",
+      "tire"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [
+      "Science"
+    ],
+    "objects": [
+      "chair",
+      "car"
+    ],
+    "searchText": "Detected objects: chair, car. Visual elements: person, clothing, human face, outdoor, car, sky, land vehicle, vehicle. Topics: Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=136.75&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=136.75"
+  },
+  {
+    "id": "smydfvur5f_scene_5",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "5",
+    "startTimeMs": 173458,
+    "endTimeMs": 177916,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "6 5 4 3 2 1 1 2 3 456",
+      "11 2 3 4 5 6",
+      "45 6"
+    ],
+    "labels": [
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [
+      "Science"
+    ],
+    "objects": [],
+    "searchText": "On-screen text: 6 5 4 3 2 1 1 2 3 456, 11 2 3 4 5 6, 45 6. Visual elements: text. Topics: Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=173.458&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=173.458"
+  },
+  {
+    "id": "smydfvur5f_scene_6",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "6",
+    "startTimeMs": 177916,
+    "endTimeMs": 192916,
+    "description": "",
+    "transcript": "OK, guys, we've got company and they do not like happy. I don't know what you're doing either, but whatever it is, it has to happen a lot faster.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "person",
+      "outdoor",
+      "clothing",
+      "human face",
+      "phone",
+      "fashion accessory",
+      "goggles",
+      "sunglasses"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "guys"
+    ],
+    "topics": [
+      "Science"
+    ],
+    "objects": [
+      "car",
+      "cell phone"
+    ],
+    "searchText": "Dialogue: OK, guys, we've got company and they do not like happy. I don't know what you're doing either, but whatever it is, it has to happen a lot faster. Speakers: Speaker #2. Detected objects: car, cell phone. Visual elements: person, outdoor, clothing, human face, phone, fashion accessory, goggles, sunglasses. Speech keywords: guys. Topics: Science.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=177.916&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=177.916"
+  },
+  {
+    "id": "smydfvur5f_scene_7",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "7",
+    "startTimeMs": 192916,
+    "endTimeMs": 216041,
+    "description": "",
+    "transcript": "Hola faster you see of angry cord 8 minutes. Doctor, I heard her. I heard her. Almost there. Just a bit more.",
+    "speakers": [
+      "Speaker #2",
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "human face",
+      "person",
+      "fireworks",
+      "clothing",
+      "glasses",
+      "concert",
+      "eyewear",
+      "goggles",
+      "music"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "heard",
+      "doctor"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Hola faster you see of angry cord 8 minutes. Doctor, I heard her. I heard her. Almost there. Just a bit more. Speakers: Speaker #2, Speaker #1. Detected objects: car. Visual elements: human face, person, fireworks, clothing, glasses, concert, eyewear, goggles. Speech keywords: heard, doctor.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=192.916&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=192.916"
+  },
+  {
+    "id": "smydfvur5f_scene_8",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "8",
+    "startTimeMs": 216041,
+    "endTimeMs": 223000,
+    "description": "",
+    "transcript": "Just a bit more.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "fireworks"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: Just a bit more. Speakers: Speaker #1. Visual elements: fireworks.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=216.041&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=216.041"
+  },
+  {
+    "id": "smydfvur5f_scene_9",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "9",
+    "startTimeMs": 223000,
+    "endTimeMs": 227208,
+    "description": "",
+    "transcript": "It's getting stories down here, guys.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "cloud",
+      "outdoor",
+      "sky",
+      "aircraft",
+      "helicopter",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "guys"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: It's getting stories down here, guys. Speakers: Speaker #2. Visual elements: cloud, outdoor, sky, aircraft, helicopter, transport. Speech keywords: guys.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=223&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=223"
+  },
+  {
+    "id": "smydfvur5f_scene_10",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "10",
+    "startTimeMs": 227208,
+    "endTimeMs": 241375,
+    "description": "",
+    "transcript": "We've got to go now. They've got a UAV.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "fireworks",
+      "human face",
+      "car",
+      "goggles"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: We've got to go now. They've got a UAV. Speakers: Speaker #2. Detected objects: car. Visual elements: fireworks, human face, car, goggles.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=227.208&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=227.208"
+  },
+  {
+    "id": "smydfvur5f_scene_11",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "11",
+    "startTimeMs": 241375,
+    "endTimeMs": 292750,
+    "description": "",
+    "transcript": "Containment now, more or less. All right, hold the steady. Be ready. I'm really not kidding. Leave it, leave it. Let's go.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "KENWOOD",
+      "144MHz FM TRANSCEIVER"
+    ],
+    "labels": [
+      "human face",
+      "person",
+      "cave",
+      "glasses",
+      "clothing",
+      "darkness",
+      "fireworks",
+      "goggles"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "leave"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Containment now, more or less. All right, hold the steady. Be ready. I'm really not kidding. Leave it, leave it. Let's go. Speakers: Speaker #1, Speaker #2. On-screen text: KENWOOD, 144MHz FM TRANSCEIVER. Detected objects: car. Visual elements: human face, person, cave, glasses, clothing, darkness, fireworks, goggles. Speech keywords: leave.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=241.375&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=241.375"
+  },
+  {
+    "id": "smydfvur5f_scene_12",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "12",
+    "startTimeMs": 292750,
+    "endTimeMs": 306583,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "clothing",
+      "ground",
+      "footwear",
+      "person",
+      "grass",
+      "bicycle"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "motorcycle"
+    ],
+    "searchText": "Detected objects: motorcycle. Visual elements: outdoor, clothing, ground, footwear, person, grass, bicycle.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=292.75&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=292.75"
+  },
+  {
+    "id": "smydfvur5f_scene_13",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "13",
+    "startTimeMs": 306583,
+    "endTimeMs": 310208,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "cloud",
+      "sky",
+      "bird"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: outdoor, cloud, sky, bird.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=306.583&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=306.583"
+  },
+  {
+    "id": "smydfvur5f_scene_14",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "14",
+    "startTimeMs": 310208,
+    "endTimeMs": 318083,
+    "description": "",
+    "transcript": "Come on. Go, go.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "clothing",
+      "person",
+      "land vehicle",
+      "vehicle",
+      "car",
+      "ground",
+      "grass",
+      "hiking"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Come on. Go, go. Speakers: Speaker #1. Detected objects: car. Visual elements: outdoor, clothing, person, land vehicle, vehicle, car, ground, grass.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=310.208&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=310.208"
+  },
+  {
+    "id": "smydfvur5f_scene_15",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "15",
+    "startTimeMs": 318083,
+    "endTimeMs": 323333,
+    "description": "",
+    "transcript": "Go, go. Go, go, go.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "person",
+      "land vehicle",
+      "outdoor",
+      "human face",
+      "car",
+      "ground",
+      "wheel"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Go, go. Go, go, go. Speakers: Speaker #1. Detected objects: car. Visual elements: person, land vehicle, outdoor, human face, car, ground, wheel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=318.083&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=318.083"
+  },
+  {
+    "id": "smydfvur5f_scene_16",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "16",
+    "startTimeMs": 323333,
+    "endTimeMs": 327083,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "sky",
+      "cloud",
+      "land vehicle",
+      "car"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Detected objects: car. Visual elements: outdoor, sky, cloud, land vehicle, car.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=323.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=323.333"
+  },
+  {
+    "id": "smydfvur5f_scene_17",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "17",
+    "startTimeMs": 327083,
+    "endTimeMs": 334166,
+    "description": "",
+    "transcript": "We got it, We got it. Hang on it.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "human face",
+      "person",
+      "girl"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: We got it, We got it. Hang on it. Speakers: Speaker #1. Visual elements: clothing, human face, person, girl.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=327.083&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=327.083"
+  },
+  {
+    "id": "smydfvur5f_scene_18",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "18",
+    "startTimeMs": 334166,
+    "endTimeMs": 343250,
+    "description": "",
+    "transcript": "Here they come.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "land vehicle",
+      "outdoor",
+      "vehicle",
+      "dirt road",
+      "human face",
+      "person",
+      "sky",
+      "tire",
+      "wheel",
+      "auto part",
+      "car",
+      "ground",
+      "tree"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car",
+      "chair"
+    ],
+    "searchText": "Dialogue: Here they come. Speakers: Speaker #1. Detected objects: car, chair. Visual elements: land vehicle, outdoor, vehicle, dirt road, human face, person, sky, tire.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=334.166&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=334.166"
+  },
+  {
+    "id": "smydfvur5f_scene_19",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "19",
+    "startTimeMs": 343250,
+    "endTimeMs": 351083,
+    "description": "",
+    "transcript": "They're going to be, too. Close. I got this.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [],
+    "labels": [
+      "land vehicle",
+      "outdoor",
+      "vehicle",
+      "wheel",
+      "ground",
+      "human face",
+      "off-roading",
+      "person",
+      "dirt road",
+      "tire",
+      "car",
+      "dust",
+      "motorsport",
+      "racing",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "close"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: They're going to be, too. Close. I got this. Speakers: Speaker #1, Speaker #2. Detected objects: car. Visual elements: land vehicle, outdoor, vehicle, wheel, ground, human face, off-roading, person. Speech keywords: close.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=343.25&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=343.25"
+  },
+  {
+    "id": "smydfvur5f_scene_20",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "20",
+    "startTimeMs": 351333,
+    "endTimeMs": 361458,
+    "description": "",
+    "transcript": "I. Got this.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "3JGU976"
+    ],
+    "labels": [
+      "human face",
+      "person",
+      "clothing",
+      "land vehicle",
+      "outdoor",
+      "vehicle",
+      "wheel",
+      "floor",
+      "car",
+      "ground"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: I. Got this. Speakers: Speaker #1, Speaker #2. On-screen text: 3JGU976. Detected objects: car. Visual elements: human face, person, clothing, land vehicle, outdoor, vehicle, wheel, floor.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=351.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=351.333"
+  },
+  {
+    "id": "smydfvur5f_scene_21",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "21",
+    "startTimeMs": 361708,
+    "endTimeMs": 370375,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Jeep",
+      "3JGU976",
+      "BRCW232"
+    ],
+    "labels": [
+      "fog",
+      "land vehicle",
+      "vehicle",
+      "outdoor",
+      "tire",
+      "wheel",
+      "floor",
+      "sky"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: Jeep, 3JGU976, BRCW232. Detected objects: car. Visual elements: fog, land vehicle, vehicle, outdoor, tire, wheel, floor, sky.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=361.708&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=361.708"
+  },
+  {
+    "id": "smydfvur5f_scene_22",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "22",
+    "startTimeMs": 370375,
+    "endTimeMs": 383375,
+    "description": "",
+    "transcript": "Yes, yes, yes, yes. How far? We're close.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "8RCW232"
+    ],
+    "labels": [
+      "human face",
+      "person",
+      "land vehicle",
+      "outdoor",
+      "vehicle",
+      "car",
+      "tire",
+      "wheel",
+      "auto part",
+      "bumper",
+      "clothing",
+      "off-roading"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "close"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Yes, yes, yes, yes. How far? We're close. Speakers: Speaker #1, Speaker #2. On-screen text: 8RCW232. Detected objects: car. Visual elements: human face, person, land vehicle, outdoor, vehicle, car, tire, wheel. Speech keywords: close.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=370.375&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=370.375"
+  },
+  {
+    "id": "smydfvur5f_scene_23",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "23",
+    "startTimeMs": 383375,
+    "endTimeMs": 388250,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "ground",
+      "outdoor",
+      "vehicle",
+      "land vehicle",
+      "wheel",
+      "car",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Detected objects: car. Visual elements: ground, outdoor, vehicle, land vehicle, wheel, car, transport.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=383.375&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=383.375"
+  },
+  {
+    "id": "smydfvur5f_scene_24",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "24",
+    "startTimeMs": 388250,
+    "endTimeMs": 398625,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Jeep",
+      "8RCW232"
+    ],
+    "labels": [
+      "fog",
+      "outdoor",
+      "vehicle",
+      "cloud",
+      "auto part",
+      "bumper",
+      "land vehicle",
+      "sky",
+      "sport utility vehicle",
+      "tire",
+      "wheel"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: Jeep, 8RCW232. Detected objects: car. Visual elements: fog, outdoor, vehicle, cloud, auto part, bumper, land vehicle, sky.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=388.25&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=388.25"
+  },
+  {
+    "id": "smydfvur5f_scene_25",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "25",
+    "startTimeMs": 398625,
+    "endTimeMs": 403791,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "6 5 4",
+      "EF",
+      "ENRG",
+      "DEL",
+      "1 1",
+      "RR",
+      "TRACKING ENEMY: PREPARING TO FIRE",
+      "3 2",
+      "11.59",
+      "120.46",
+      "2 3",
+      "1 1 2 3 4",
+      "1 1 2",
+      "156.76",
+      "TRACKING ENEMY: PREPA",
+      "STATUS: TRI",
+      "47.88"
+    ],
+    "labels": [
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "tracking enemy"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: 6 5 4, EF, ENRG, DEL. Visual elements: text. Speech keywords: tracking enemy.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=398.625&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=398.625"
+  },
+  {
+    "id": "smydfvur5f_scene_26",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "26",
+    "startTimeMs": 403791,
+    "endTimeMs": 411333,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Jeep",
+      "0000000"
+    ],
+    "labels": [
+      "outdoor",
+      "land vehicle",
+      "tire",
+      "vehicle",
+      "wheel",
+      "sky",
+      "ground",
+      "car",
+      "auto part",
+      "bumper",
+      "cloud",
+      "dust",
+      "fog",
+      "jeep",
+      "sport utility vehicle"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: Jeep, 0000000. Detected objects: car. Visual elements: outdoor, land vehicle, tire, vehicle, wheel, sky, ground, car.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=403.791&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=403.791"
+  },
+  {
+    "id": "smydfvur5f_scene_27",
+    "videoName": "ASC_StEM2_The_Mission",
+    "sceneId": "27",
+    "startTimeMs": 411333,
+    "endTimeMs": 421815,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "land vehicle",
+      "car",
+      "vehicle",
+      "tire",
+      "wheel",
+      "human face",
+      "person",
+      "sport utility vehicle",
+      "bumper",
+      "clothing",
+      "outdoor",
+      "auto part",
+      "automotive tire",
+      "ground",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "car",
+      "chair"
+    ],
+    "searchText": "Detected objects: car, chair. Visual elements: land vehicle, car, vehicle, tire, wheel, human face, person, sport utility vehicle.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f?t=411.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/smydfvur5f/?t=411.333"
+  }
+]

@@ -1,0 +1,493 @@
+[
+  {
+    "id": "hh16w7dpsg_scene_1",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 31933,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "04:22",
+      "LOCATION DURATION",
+      "Mars Sample Return Mission Concept Media Reel",
+      "These graphics and animations are current as of April 2020 and will likely change as the campaign matures.",
+      "All credits are NASA/JPL-Caltech unless otherwise specified.",
+      "00:22",
+      "00:31",
+      "00:39",
+      "00:40",
+      "02:35",
+      "02:36",
+      "02:41",
+      "02:42",
+      "03:06",
+      "03:07",
+      "03:22",
+      "03:23",
+      "03:28",
+      "03:32",
+      "03:33",
+      "03:38",
+      "04:13",
+      "04:14",
+      "04:28",
+      "04:37",
+      "04:44",
+      "04:45",
+      "04:55",
+      "04:56",
+      "05:22",
+      "05:23",
+      "05:35",
+      "05:36",
+      "05:42",
+      "05:43",
+      "05:55",
+      "05:56",
+      "06:06",
+      "06:07",
+      "06:18",
+      "06:19",
+      "06:39",
+      "06:40",
+      "06:57",
+      "23. Sample fetch rover wheel testing (Credit NASA/GRC)",
+      "10. Sample retrieval via fetch rover",
+      "19. Earth Entry Vehicle deploys for Earth (Courtesy ESA)",
+      "20. Earth capsule returning to Earth (Credit NASA/GSFC)",
+      "8. Mars sample return lander touching down on the surface of Mars",
+      "9. Mars sample return lander with its solar panel deployed and fetch rover",
+      "1. Mars 2020 rover animation",
+      "14. Sample container deployment",
+      "4. Mars 2020 leaving sample tubes on the surface",
+      "7. Mars 2020 rover watching the lander come in",
+      "13. Mars Ascent Vehicle launch and tracking by Earth Return Orbiter",
+      "2. Mars 2020 rover driving animation",
+      "on its back",
+      "16. Sample container processed and sterilized; containment system jettison before return",
+      "3. Mars 2020 rover sampling and caching animations sequence",
+      "11. Robotic arm transferring samples from fetch rover to lander",
+      "12. Mars Ascent Vehicle (rocket) launching samples into Mars orbit",
+      "17. Earth Return Orbiter departs for Earth (Courtesy ESA)",
+      "18. Mars to Earth trajectory",
+      "15. Earth Return Orbiter captures sample container (Courtesy ESA)",
+      "21. Soundbite: Jim Bridenstine at State of NASA announcement of Mars Sample Return",
+      "6. Mars sample return lander cruise",
+      "03:37",
+      "5. Earth Return Orbiter animation"
+    ],
+    "labels": [
+      "text",
+      "wheel",
+      "auto part",
+      "tire",
+      "LEGO"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "mars",
+      "return",
+      "earth",
+      "mars 2020",
+      "lander",
+      "fetch rover",
+      "courtesy esa",
+      "credit",
+      "animations",
+      "surface",
+      "rocket",
+      "nasa/gsfc",
+      "nasa/grc",
+      "mission"
+    ],
+    "topics": [
+      "Organizations"
+    ],
+    "objects": [
+      "motorcycle"
+    ],
+    "searchText": "On-screen text: 04:22, LOCATION DURATION, Mars Sample Return Mission Concept Media Reel, These graphics and animations are current as of April 2020 and will likely change as the campaign matures. Named locations: Earth. Detected objects: motorcycle. Visual elements: text, wheel, auto part, tire, LEGO. Speech keywords: mars, return, earth, mars 2020, lander, fetch rover. Topics: Organizations.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=0"
+  },
+  {
+    "id": "hh16w7dpsg_scene_2",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "2",
+    "startTimeMs": 31933,
+    "endTimeMs": 86866,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "sky",
+      "outdoor",
+      "wheel",
+      "tire",
+      "ground",
+      "aeolian landform",
+      "motorcycle"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "motorcycle",
+      "car"
+    ],
+    "searchText": "Detected objects: motorcycle, car. Visual elements: sky, outdoor, wheel, tire, ground, aeolian landform, motorcycle.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=31.933&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=31.933"
+  },
+  {
+    "id": "hh16w7dpsg_scene_3",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "3",
+    "startTimeMs": 86866,
+    "endTimeMs": 161533,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "outdoor",
+      "sky",
+      "ground",
+      "wheel",
+      "tire",
+      "auto part",
+      "weapon"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "motorcycle",
+      "oven",
+      "car",
+      "bicycle"
+    ],
+    "searchText": "Detected objects: motorcycle, oven, car, bicycle. Visual elements: outdoor, sky, ground, wheel, tire, auto part, weapon.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=86.866&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=86.866"
+  },
+  {
+    "id": "hh16w7dpsg_scene_4",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "4",
+    "startTimeMs": 161533,
+    "endTimeMs": 197600,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Earth to Mars"
+    ],
+    "labels": [
+      "space",
+      "astronomical object",
+      "astronomy",
+      "circle",
+      "transport",
+      "moon",
+      "outer space",
+      "satellite",
+      "celestial event",
+      "planet",
+      "sky",
+      "star"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "mars",
+      "earth"
+    ],
+    "topics": [],
+    "objects": [
+      "sports ball"
+    ],
+    "searchText": "On-screen text: Earth to Mars. Named locations: Earth. Detected objects: sports ball. Visual elements: space, astronomical object, astronomy, circle, transport, moon, outer space, satellite. Speech keywords: mars, earth.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=161.533&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=161.533"
+  },
+  {
+    "id": "hh16w7dpsg_scene_5",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "5",
+    "startTimeMs": 197600,
+    "endTimeMs": 201100,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=197.6&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=197.6"
+  },
+  {
+    "id": "hh16w7dpsg_scene_6",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "6",
+    "startTimeMs": 201100,
+    "endTimeMs": 271633,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "ground",
+      "outdoor",
+      "sky",
+      "wheel",
+      "tire",
+      "transport",
+      "aeolian landform",
+      "rocket",
+      "moon",
+      "vehicle",
+      "land vehicle",
+      "soil"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "airplane",
+      "umbrella",
+      "bicycle",
+      "car",
+      "motorcycle",
+      "sports ball",
+      "chair"
+    ],
+    "searchText": "Detected objects: airplane, umbrella, bicycle, car, motorcycle, sports ball. Visual elements: ground, outdoor, sky, wheel, tire, transport, aeolian landform, rocket.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=201.1&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=201.1"
+  },
+  {
+    "id": "hh16w7dpsg_scene_7",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "7",
+    "startTimeMs": 271633,
+    "endTimeMs": 277200,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "sky",
+      "outdoor",
+      "space"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: sky, outdoor, space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=271.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=271.633"
+  },
+  {
+    "id": "hh16w7dpsg_scene_8",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "8",
+    "startTimeMs": 277200,
+    "endTimeMs": 358666,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Courtesy ESA",
+      "Mars to Earth",
+      "Credit: NASA/GSFC",
+      "eesa",
+      "esa"
+    ],
+    "labels": [
+      "transport",
+      "satellite",
+      "circle",
+      "moon",
+      "space",
+      "outer space",
+      "astronomical object",
+      "astronomy"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth"
+    ],
+    "keywords": [
+      "courtesy esa",
+      "mars",
+      "earth",
+      "credit",
+      "nasa/gsfc"
+    ],
+    "topics": [
+      "Organizations"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: Courtesy ESA, Mars to Earth, Credit: NASA/GSFC, eesa. Named locations: Earth. Detected objects: car. Visual elements: transport, satellite, circle, moon, space, outer space, astronomical object, astronomy. Speech keywords: courtesy esa, mars, earth, credit, nasa/gsfc. Topics: Organizations.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=277.2&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=277.2"
+  },
+  {
+    "id": "hh16w7dpsg_scene_9",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "9",
+    "startTimeMs": 358666,
+    "endTimeMs": 364366,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Credit: NASA/GSFC"
+    ],
+    "labels": [
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "credit",
+      "nasa/gsfc"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: Credit: NASA/GSFC. Visual elements: water. Speech keywords: credit, nasa/gsfc.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=358.666&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=358.666"
+  },
+  {
+    "id": "hh16w7dpsg_scene_10",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "10",
+    "startTimeMs": 364366,
+    "endTimeMs": 366533,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Credit: NASA/GSFC"
+    ],
+    "labels": [
+      "water"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "credit",
+      "nasa/gsfc"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: Credit: NASA/GSFC. Visual elements: water. Speech keywords: credit, nasa/gsfc.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=364.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=364.366"
+  },
+  {
+    "id": "hh16w7dpsg_scene_11",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "11",
+    "startTimeMs": 366533,
+    "endTimeMs": 399633,
+    "description": "",
+    "transcript": "The Mars 2020 Rover will initiate a long sought after mission of returning Martian rocks and soil to the Earth for further study. The Mars Sample Return mission is a high priority not only for the scientific knowledge it will provide, but also the opportunity it presents to tackle a difficult technological challenge. Remember, Mars 2020 is going to have the first Mars helicopter. The Mars Sample Return will include the first ever rocket launched from another planet.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [],
+    "labels": [
+      "clothing",
+      "human face",
+      "person",
+      "man",
+      "speech",
+      "spokesperson",
+      "tie"
+    ],
+    "brands": [],
+    "locations": [
+      "Earth",
+      "planet"
+    ],
+    "keywords": [
+      "mars",
+      "return",
+      "mission",
+      "mars 2020",
+      "earth",
+      "rocket"
+    ],
+    "topics": [
+      "Science",
+      "Nasa",
+      "Space Exploration",
+      "Space Travel",
+      "Outer Space",
+      "Mars Planet"
+    ],
+    "objects": [
+      "necktie",
+      "laptop",
+      "cup"
+    ],
+    "searchText": "Dialogue: The Mars 2020 Rover will initiate a long sought after mission of returning Martian rocks and soil to the Earth for further study. The Mars Sample Return mission is a high priority not only for the scientific knowledge it will provide, but also the opportunity it presents to tackle a difficult technological challenge. Remember, Mars 2020 is going to have the first Mars helicopter. The Mars Sample Return will include the first ever rocket launched from another planet. Speakers: Speaker #1. Named locations: Earth, planet. Detected objects: necktie, laptop, cup. Visual elements: clothing, human face, person, man, speech, spokesperson, tie. Speech keywords: mars, return, mission, mars 2020, earth, rocket. Topics: Science, Nasa, Space Exploration, Space Travel.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=366.533&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=366.533"
+  },
+  {
+    "id": "hh16w7dpsg_scene_12",
+    "videoName": "Mars_Sample_Return_Media_Reel",
+    "sceneId": "12",
+    "startTimeMs": 399633,
+    "endTimeMs": 417333,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "Credit: NASA/GRC",
+      "RMASHEATH",
+      "HERMAS",
+      "SHEATH",
+      "ATH",
+      "HEAT"
+    ],
+    "labels": [],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "credit",
+      "nasa/grc"
+    ],
+    "topics": [
+      "Organizations"
+    ],
+    "objects": [],
+    "searchText": "On-screen text: Credit: NASA/GRC, RMASHEATH, HERMAS, SHEATH. Speech keywords: credit, nasa/grc. Topics: Organizations.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg?t=399.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/hh16w7dpsg/?t=399.633"
+  }
+]

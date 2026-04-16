@@ -1,0 +1,4415 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Public",
+  "state": "Processed",
+  "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+  "id": "upom5nwwj7",
+  "name": "GSFC_20150924_Landsat_m12013_BirdReturns",
+  "userName": "User 2G8X3WJF",
+  "created": "2026-04-14T14:50:41.9366667+00:00",
+  "isOwned": true,
+  "isEditable": false,
+  "isBase": true,
+  "durationInSeconds": 105,
+  "duration": "0:01:45.856",
+  "summarizedInsights": {
+    "name": "GSFC_20150924_Landsat_m12013_BirdReturns",
+    "id": "upom5nwwj7",
+    "privacyMode": "Public",
+    "duration": {
+      "time": "0:01:45.856",
+      "seconds": 105.9
+    },
+    "thumbnailVideoId": "upom5nwwj7",
+    "thumbnailId": "ac103a97-32a0-474f-aa3c-a6c4bca9a3f9",
+    "faces": [],
+    "keywords": [
+      {
+        "isTranscript": false,
+        "id": 1,
+        "name": "birds migrate",
+        "appearances": [
+          {
+            "startTime": "0:00:02",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 2,
+            "endSeconds": 6
+          },
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          },
+          {
+            "startTime": "0:00:25",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 25,
+            "endSeconds": 34
+          },
+          {
+            "startTime": "0:00:45",
+            "endTime": "0:01:06.0333333",
+            "startSeconds": 45,
+            "endSeconds": 66
+          },
+          {
+            "startTime": "0:01:19",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 79,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 2,
+        "name": "nature conservancy",
+        "appearances": [
+          {
+            "startTime": "0:00:45",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 45,
+            "endSeconds": 49
+          },
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 71,
+            "endSeconds": 85
+          },
+          {
+            "startTime": "0:01:34",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 94,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 3,
+        "name": "birds",
+        "appearances": [
+          {
+            "startTime": "0:00:02",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 2,
+            "endSeconds": 6
+          },
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          },
+          {
+            "startTime": "0:00:25",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 25,
+            "endSeconds": 34
+          },
+          {
+            "startTime": "0:00:45",
+            "endTime": "0:01:06.0333333",
+            "startSeconds": 45,
+            "endSeconds": 66
+          },
+          {
+            "startTime": "0:01:19",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 79,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 4,
+        "name": "shorebirds",
+        "appearances": [
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          },
+          {
+            "startTime": "0:00:30",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 30,
+            "endSeconds": 34
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 5,
+        "name": "water",
+        "appearances": [
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 71,
+            "endSeconds": 85
+          },
+          {
+            "startTime": "0:01:34",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 94,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 6,
+        "name": "' pop",
+        "appearances": [
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          },
+          {
+            "startTime": "0:01:26",
+            "endTime": "0:01:32.0333333",
+            "startSeconds": 86,
+            "endSeconds": 92
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 7,
+        "name": "wetlands",
+        "appearances": [
+          {
+            "startTime": "0:00:19",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 19,
+            "endSeconds": 24
+          },
+          {
+            "startTime": "0:00:36",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 36,
+            "endSeconds": 39
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 8,
+        "name": "nature",
+        "appearances": [
+          {
+            "startTime": "0:00:45",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 45,
+            "endSeconds": 49
+          },
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 71,
+            "endSeconds": 85
+          },
+          {
+            "startTime": "0:01:34",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 94,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 9,
+        "name": "satellites",
+        "appearances": [
+          {
+            "startTime": "0:00:02",
+            "endTime": "0:00:10.0333333",
+            "startSeconds": 2,
+            "endSeconds": 10
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 10,
+        "name": "feed",
+        "appearances": [
+          {
+            "startTime": "0:00:02",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 2,
+            "endSeconds": 6
+          },
+          {
+            "startTime": "0:00:35",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 35,
+            "endSeconds": 39
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 11,
+        "name": "resulted",
+        "appearances": [
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 12,
+        "name": "' habitats",
+        "appearances": [
+          {
+            "startTime": "0:00:14",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 14,
+            "endSeconds": 18
+          },
+          {
+            "startTime": "0:00:40",
+            "endTime": "0:00:44.0333333",
+            "startSeconds": 40,
+            "endSeconds": 44
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 13,
+        "name": "california",
+        "appearances": [
+          {
+            "startTime": "0:00:19",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 19,
+            "endSeconds": 24
+          },
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:15.0333333",
+            "startSeconds": 71,
+            "endSeconds": 75
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 14,
+        "name": "february",
+        "appearances": [
+          {
+            "startTime": "0:00:19",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 19,
+            "endSeconds": 24
+          },
+          {
+            "startTime": "0:00:57",
+            "endTime": "0:00:57.0333333",
+            "startSeconds": 57,
+            "endSeconds": 57
+          },
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:11.0333333",
+            "startSeconds": 71,
+            "endSeconds": 71
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 15,
+        "name": "feeding",
+        "appearances": [
+          {
+            "startTime": "0:00:35",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 35,
+            "endSeconds": 39
+          }
+        ]
+      }
+    ],
+    "sentiments": [
+      {
+        "sentimentKey": "Neutral",
+        "seenDurationRatio": 1,
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:01:45.856",
+            "startSeconds": 0,
+            "endSeconds": 105.9
+          }
+        ]
+      }
+    ],
+    "emotions": [],
+    "audioEffects": [],
+    "labels": [
+      {
+        "id": 15,
+        "name": "text",
+        "appearances": [
+          {
+            "confidence": 0.9543,
+            "startTime": "0:00:11",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 11,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9812,
+            "startTime": "0:00:40",
+            "endTime": "0:00:44.0333333",
+            "startSeconds": 40,
+            "endSeconds": 44
+          },
+          {
+            "confidence": 0.9986,
+            "startTime": "0:00:48",
+            "endTime": "0:01:06.0333333",
+            "startSeconds": 48,
+            "endSeconds": 66
+          },
+          {
+            "confidence": 0.9997,
+            "startTime": "0:01:11",
+            "endTime": "0:01:45.0333333",
+            "startSeconds": 71,
+            "endSeconds": 105
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9879,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.9975,
+            "startTime": "0:00:11",
+            "endTime": "0:00:29.0333333",
+            "startSeconds": 11,
+            "endSeconds": 29
+          },
+          {
+            "confidence": 0.9868,
+            "startTime": "0:00:35",
+            "endTime": "0:00:55.0333333",
+            "startSeconds": 35,
+            "endSeconds": 55
+          },
+          {
+            "confidence": 0.9979,
+            "startTime": "0:01:26",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 86,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.98,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          },
+          {
+            "confidence": 0.9741,
+            "startTime": "0:00:19",
+            "endTime": "0:00:29.0333333",
+            "startSeconds": 19,
+            "endSeconds": 29
+          },
+          {
+            "confidence": 0.9762,
+            "startTime": "0:00:40",
+            "endTime": "0:00:55.0333333",
+            "startSeconds": 40,
+            "endSeconds": 55
+          },
+          {
+            "confidence": 0.964,
+            "startTime": "0:01:26",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 86,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "water",
+        "appearances": [
+          {
+            "confidence": 0.985,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.9685,
+            "startTime": "0:00:28",
+            "endTime": "0:00:28.0333333",
+            "startSeconds": 28,
+            "endSeconds": 28
+          },
+          {
+            "confidence": 0.972,
+            "startTime": "0:00:35",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 35,
+            "endSeconds": 39
+          },
+          {
+            "confidence": 0.9542,
+            "startTime": "0:00:51",
+            "endTime": "0:00:51.0333333",
+            "startSeconds": 51,
+            "endSeconds": 51
+          },
+          {
+            "confidence": 0.9685,
+            "startTime": "0:01:26",
+            "endTime": "0:01:32.0333333",
+            "startSeconds": 86,
+            "endSeconds": 92
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "animal",
+        "appearances": [
+          {
+            "confidence": 0.9998,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.9934,
+            "startTime": "0:00:35",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 35,
+            "endSeconds": 39
+          },
+          {
+            "confidence": 0.9946,
+            "startTime": "0:01:33",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 93,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "map",
+        "appearances": [
+          {
+            "confidence": 0.9905,
+            "startTime": "0:00:07",
+            "endTime": "0:00:09.0333333",
+            "startSeconds": 7,
+            "endSeconds": 9
+          },
+          {
+            "confidence": 0.9611,
+            "startTime": "0:00:30",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 30,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9828,
+            "startTime": "0:00:58",
+            "endTime": "0:01:06.0333333",
+            "startSeconds": 58,
+            "endSeconds": 66
+          },
+          {
+            "confidence": 0.979,
+            "startTime": "0:01:16",
+            "endTime": "0:01:16.0333333",
+            "startSeconds": 76,
+            "endSeconds": 76
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "bird",
+        "appearances": [
+          {
+            "confidence": 0.9993,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "aquatic bird",
+        "appearances": [
+          {
+            "confidence": 0.9978,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          },
+          {
+            "confidence": 0.963,
+            "startTime": "0:00:14",
+            "endTime": "0:00:14.0333333",
+            "startSeconds": 14,
+            "endSeconds": 14
+          },
+          {
+            "confidence": 0.9562,
+            "startTime": "0:01:34",
+            "endTime": "0:01:34.0333333",
+            "startSeconds": 94,
+            "endSeconds": 94
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "beak",
+        "appearances": [
+          {
+            "confidence": 0.9558,
+            "startTime": "0:00:00",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 0,
+            "endSeconds": 6
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "font",
+        "appearances": [
+          {
+            "confidence": 0.9549,
+            "startTime": "0:01:40",
+            "endTime": "0:01:45.0333333",
+            "startSeconds": 100,
+            "endSeconds": 105
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "graphic design",
+        "appearances": [
+          {
+            "confidence": 0.9518,
+            "startTime": "0:01:40",
+            "endTime": "0:01:45.0333333",
+            "startSeconds": 100,
+            "endSeconds": 105
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "plant",
+        "appearances": [
+          {
+            "confidence": 0.9522,
+            "startTime": "0:00:41",
+            "endTime": "0:00:44.0333333",
+            "startSeconds": 41,
+            "endSeconds": 44
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "satellite",
+        "appearances": [
+          {
+            "confidence": 0.994,
+            "startTime": "0:01:07",
+            "endTime": "0:01:10.0333333",
+            "startSeconds": 67,
+            "endSeconds": 70
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "transport",
+        "appearances": [
+          {
+            "confidence": 0.9878,
+            "startTime": "0:01:07",
+            "endTime": "0:01:10.0333333",
+            "startSeconds": 67,
+            "endSeconds": 70
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "land vehicle",
+        "appearances": [
+          {
+            "confidence": 0.9975,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "vehicle",
+        "appearances": [
+          {
+            "confidence": 0.9963,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "wheel",
+        "appearances": [
+          {
+            "confidence": 0.9925,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "tire",
+        "appearances": [
+          {
+            "confidence": 0.9729,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "grass",
+        "appearances": [
+          {
+            "confidence": 0.9628,
+            "startTime": "0:00:11",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 11,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "water bird",
+        "appearances": [
+          {
+            "confidence": 0.964,
+            "startTime": "0:00:00",
+            "endTime": "0:00:01.0333333",
+            "startSeconds": 0,
+            "endSeconds": 1
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "animal migration",
+        "appearances": [
+          {
+            "confidence": 0.9542,
+            "startTime": "0:01:33",
+            "endTime": "0:01:34.0333333",
+            "startSeconds": 93,
+            "endSeconds": 94
+          }
+        ]
+      }
+    ],
+    "framePatterns": [],
+    "brands": [],
+    "namedLocations": [
+      {
+        "referenceId": "Cornell_Lab_of_Ornithology",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology",
+        "confidence": 0.86,
+        "description": "A world leader in the study, appreciation, and conservation of birds. | We\u2019ve been \u201ctweeting\u201d since 1915.",
+        "seenDuration": 10,
+        "id": 3,
+        "name": "Cornell Lab of Ornithology",
+        "appearances": [
+          {
+            "startTime": "0:00:56",
+            "endTime": "0:01:06.0333333",
+            "startSeconds": 56,
+            "endSeconds": 66
+          }
+        ]
+      },
+      {
+        "referenceId": "California",
+        "referenceUrl": "https://en.wikipedia.org/wiki/California",
+        "confidence": 0.32,
+        "description": "California is a state in the Pacific Region of the United States. With 39.6 million residents, California is the most populous U.S. state and the third-largest by area. The state capital is Sacramento. The Greater Los Angeles Area and the San Francisco Bay Area are the nation's second- and fifth-most populous urban regions, with 18.7 million and 9.7 million residents respectively. Los Angeles is California's most populous city, and the country's second-most populous, after New York City. California also has the nation's most populous county, Los Angeles County, and its largest county by area, San Bernardino County. The City and County of San Francisco is both the country's second-most densely populated major city after New York City and the fifth-most densely populated county, behind only four of the five New York City boroughs.",
+        "seenDuration": 5,
+        "id": 1,
+        "name": "California",
+        "appearances": [
+          {
+            "startTime": "0:00:19",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 19,
+            "endSeconds": 24
+          }
+        ]
+      },
+      {
+        "referenceId": "Pacific_Flyway",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Pacific_Flyway",
+        "confidence": 0.88,
+        "description": "The Pacific Flyway is a major north-south flyway for migratory birds in America, extending from Alaska to Patagonia. Every year, migratory birds travel some or all of this distance both in spring and in fall, following food sources, heading to breeding grounds, or travelling to overwintering sites.",
+        "seenDuration": 3,
+        "id": 2,
+        "name": "Pacific Flyway",
+        "appearances": [
+          {
+            "startTime": "0:00:31",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 31,
+            "endSeconds": 34
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 2,
+      "speakerTalkToListenRatio": {
+        "1": 0.285,
+        "2": 0.285,
+        "3": 0.428
+      },
+      "speakerLongestMonolog": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      },
+      "speakerNumberOfFragments": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      },
+      "speakerWordCount": {
+        "1": 1,
+        "2": 1,
+        "3": 1
+      }
+    },
+    "topics": [
+      {
+        "referenceUrl": "https://en.wikipedia.org/wiki/Category:Zoological_research_institutes",
+        "iptcName": null,
+        "iabName": null,
+        "confidence": 0.5847,
+        "id": 1,
+        "name": "Zoological research institutes",
+        "appearances": [
+          {
+            "startTime": "0:00:56",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 56,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "referenceUrl": "https://en.wikipedia.org/wiki/Category:Environmental_organizations",
+        "iptcName": null,
+        "iabName": null,
+        "confidence": 0.5659,
+        "id": 2,
+        "name": "Environmental organizations",
+        "appearances": [
+          {
+            "startTime": "0:00:45",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 45,
+            "endSeconds": 49
+          },
+          {
+            "startTime": "0:01:11",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 71,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology",
+        "iabName": "Education",
+        "confidence": 0.5299,
+        "id": 3,
+        "name": "Education/Technology",
+        "appearances": [
+          {
+            "startTime": "0:00:42.84",
+            "endTime": "0:01:42.8",
+            "startSeconds": 42.8,
+            "endSeconds": 102.8
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+      "id": "upom5nwwj7",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Public",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:01:45.856",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "transcript": [
+          {
+            "id": 1,
+            "text": "The.",
+            "confidence": 0.579,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:42.84",
+                "adjustedEnd": "0:00:42.92",
+                "start": "0:00:42.84",
+                "end": "0:00:42.92"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "The.",
+            "confidence": 0.693,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12.6",
+                "adjustedEnd": "0:01:12.68",
+                "start": "0:01:12.6",
+                "end": "0:01:12.68"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "None.",
+            "confidence": 0.4147,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:42.68",
+                "adjustedEnd": "0:01:42.8",
+                "start": "0:01:42.68",
+                "end": "0:01:42.8"
+              }
+            ]
+          }
+        ],
+        "ocrMaxTokenCount": 50000,
+        "ocrAnalyzedTokenCount": 350,
+        "ocr": [
+          {
+            "id": 1,
+            "text": "0.0",
+            "confidence": 0.965,
+            "left": 115,
+            "top": 429,
+            "width": 31,
+            "height": 17,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "0.25",
+            "confidence": 0.994,
+            "left": 191,
+            "top": 430,
+            "width": 35,
+            "height": 16,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "0.5",
+            "confidence": 0.993,
+            "left": 271,
+            "top": 430,
+            "width": 30,
+            "height": 16,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "SATELLITES ARE HELPING TO FEED",
+            "confidence": 0.9962,
+            "left": 50,
+            "top": 49,
+            "width": 784,
+            "height": 60,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:02",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "TIRED AND HUNGRY BIRDS",
+            "confidence": 0.9983,
+            "left": 53,
+            "top": 129,
+            "width": 626,
+            "height": 58,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:02",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "A project using NASA / USGS satellites",
+            "confidence": 0.9934,
+            "left": 262,
+            "top": 483,
+            "width": 750,
+            "height": 62,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:10.0333333",
+                "start": "0:00:07",
+                "end": "0:00:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "and citizen science",
+            "confidence": 0.9977,
+            "left": 440,
+            "top": 525,
+            "width": 367,
+            "height": 49,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "has resulted in new ' pop-up' habitats for shorebirds.",
+            "confidence": 0.9474,
+            "left": 69,
+            "top": 570,
+            "width": 1011,
+            "height": 58,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "has resulted in new",
+            "confidence": 0.9965,
+            "left": 70,
+            "top": 572,
+            "width": 388,
+            "height": 48,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "pop-up' habitats for shorebirds.",
+            "confidence": 0.9785,
+            "left": 472,
+            "top": 578,
+            "width": 609,
+            "height": 52,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "has resulted in new ' pop-up' habitats for shorebirds,",
+            "confidence": 0.9146,
+            "left": 70,
+            "top": 570,
+            "width": 1010,
+            "height": 59,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Roughly 7000 acres of temporary wetlands were created",
+            "confidence": 0.9974,
+            "left": 56,
+            "top": 98,
+            "width": 1090,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:19",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "in California from February",
+            "confidence": 0.9955,
+            "left": 50,
+            "top": 172,
+            "width": 525,
+            "height": 53,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:19.0333333",
+                "start": "0:00:19",
+                "end": "0:00:19.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "in California from February to April 2016",
+            "confidence": 0.9971,
+            "left": 52,
+            "top": 168,
+            "width": 795,
+            "height": 59,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:20",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "to aid birds during their migration.",
+            "confidence": 0.9962,
+            "left": 105,
+            "top": 60,
+            "width": 665,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:29.0333333",
+                "start": "0:00:25",
+                "end": "0:00:29.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "UNITED STATES",
+            "confidence": 0.996,
+            "left": 597,
+            "top": 317,
+            "width": 186,
+            "height": 35,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Every spring,",
+            "confidence": 0.988,
+            "left": 73,
+            "top": 464,
+            "width": 244,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "shorebirds migrate up",
+            "confidence": 0.9963,
+            "left": 72,
+            "top": 538,
+            "width": 425,
+            "height": 56,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "the Pacific Flyway.",
+            "confidence": 0.995,
+            "left": 71,
+            "top": 611,
+            "width": 360,
+            "height": 55,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "During this long journey they refuel by",
+            "confidence": 0.9961,
+            "left": 140,
+            "top": 126,
+            "width": 741,
+            "height": 62,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:35",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "feeding",
+            "confidence": 0.998,
+            "left": 149,
+            "top": 201,
+            "width": 149,
+            "height": 58,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:35.0333333",
+                "start": "0:00:35",
+                "end": "0:00:35.0333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "feeding in wetlands",
+            "confidence": 0.998,
+            "left": 140,
+            "top": 199,
+            "width": 378,
+            "height": 63,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:36",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "but 95% of those habitats have been lost",
+            "confidence": 0.9968,
+            "left": 90,
+            "top": 74,
+            "width": 804,
+            "height": 51,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:40",
+                "end": "0:00:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "to",
+            "confidence": 0.998,
+            "left": 100,
+            "top": 154,
+            "width": 41,
+            "height": 43,
+            "angle": -3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:40.0333333",
+                "start": "0:00:40",
+                "end": "0:00:40.0333333"
+              },
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:45.0333333",
+                "start": "0:00:45",
+                "end": "0:00:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "to farmland and drought.",
+            "confidence": 0.9973,
+            "left": 92,
+            "top": 147,
+            "width": 479,
+            "height": 57,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:41",
+                "end": "0:00:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "ERE",
+            "confidence": 0.92,
+            "left": 747,
+            "top": 378,
+            "width": 48,
+            "height": 12,
+            "angle": -92,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:43",
+                "end": "0:00:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "To help birds, The Nature Conservancy wanted",
+            "confidence": 0.9961,
+            "left": 142,
+            "top": 510,
+            "width": 890,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:45",
+                "end": "0:00:49.0333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "to try something different.",
+            "confidence": 0.997,
+            "left": 144,
+            "top": 587,
+            "width": 509,
+            "height": 59,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:46",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:46",
+                "end": "0:00:49.0333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "Their BirdReturns program partnered with farmers by",
+            "confidence": 0.9969,
+            "left": 68,
+            "top": 482,
+            "width": 1038,
+            "height": 59,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:50",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:50",
+                "end": "0:00:55.0333333"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "paying them",
+            "confidence": 0.9965,
+            "left": 79,
+            "top": 559,
+            "width": 237,
+            "height": 58,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:50",
+                "adjustedEnd": "0:00:50.0333333",
+                "start": "0:00:50",
+                "end": "0:00:50.0333333"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "text": "paying them to flood their fields when migrating",
+            "confidence": 0.9975,
+            "left": 69,
+            "top": 555,
+            "width": 938,
+            "height": 63,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:51",
+                "end": "0:00:55.0333333"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "text": "birds traveled through the area.",
+            "confidence": 0.9964,
+            "left": 69,
+            "top": 628,
+            "width": 614,
+            "height": 59,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:51",
+                "end": "0:00:55.0333333"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "text": "Cornell Lab of Ornithology",
+            "confidence": 0.9948,
+            "left": 70,
+            "top": 41,
+            "width": 188,
+            "height": 21,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:00:56",
+                "end": "0:01:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "text": "NA",
+            "confidence": 0.978,
+            "left": 1163,
+            "top": 55,
+            "width": 22,
+            "height": 12,
+            "angle": 3,
+            "language": "pl-PL",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:56",
+                "end": "0:00:56.0333333"
+              },
+              {
+                "adjustedStart": "0:01:03",
+                "adjustedEnd": "0:01:03.0333333",
+                "start": "0:01:03",
+                "end": "0:01:03.0333333"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "text": "Scientists used a database with more than 100 million",
+            "confidence": 0.9947,
+            "left": 76,
+            "top": 123,
+            "width": 1051,
+            "height": 52,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:56",
+                "end": "0:01:00.0333333"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "text": "bird",
+            "confidence": 0.995,
+            "left": 93,
+            "top": 199,
+            "width": 77,
+            "height": 45,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:56",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "text": "January 18",
+            "confidence": 0.998,
+            "left": 139,
+            "top": 648,
+            "width": 215,
+            "height": 43,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:56",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "text": "bird sightings to predict where and when birds migrate.",
+            "confidence": 0.9916,
+            "left": 74,
+            "top": 196,
+            "width": 1070,
+            "height": 62,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:57",
+                "end": "0:01:00.0333333"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "text": "February 22",
+            "confidence": 0.998,
+            "left": 130,
+            "top": 648,
+            "width": 229,
+            "height": 45,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.0333333",
+                "start": "0:00:57",
+                "end": "0:00:57.0333333"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "text": "March 29",
+            "confidence": 0.998,
+            "left": 156,
+            "top": 649,
+            "width": 176,
+            "height": 36,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.0333333",
+                "start": "0:00:58",
+                "end": "0:00:58.0333333"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "text": "May 3",
+            "confidence": 0.9935,
+            "left": 187,
+            "top": 649,
+            "width": 115,
+            "height": 42,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:00:59.0333333",
+                "start": "0:00:59",
+                "end": "0:00:59.0333333"
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "text": "Sc",
+            "confidence": 0.981,
+            "left": 76,
+            "top": 126,
+            "width": 51,
+            "height": 45,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:01.0333333",
+                "start": "0:01:01",
+                "end": "0:01:01.0333333"
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "text": "July 12",
+            "confidence": 0.9955,
+            "left": 179,
+            "top": 648,
+            "width": 133,
+            "height": 44,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:01.0333333",
+                "start": "0:01:01",
+                "end": "0:01:01.0333333"
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "text": "The whiter the area, the more likely the chance to spot birds.",
+            "confidence": 0.9931,
+            "left": 54,
+            "top": 111,
+            "width": 1171,
+            "height": 58,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:01:02",
+                "end": "0:01:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "text": "August 26",
+            "confidence": 0.9595,
+            "left": 156,
+            "top": 648,
+            "width": 183,
+            "height": 45,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:02.0333333",
+                "start": "0:01:02",
+                "end": "0:01:02.0333333"
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "text": "September 20",
+            "confidence": 0.98,
+            "left": 114,
+            "top": 649,
+            "width": 260,
+            "height": 44,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:03",
+                "adjustedEnd": "0:01:03.0333333",
+                "start": "0:01:03",
+                "end": "0:01:03.0333333"
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "text": "December 27",
+            "confidence": 0.998,
+            "left": 121,
+            "top": 648,
+            "width": 250,
+            "height": 38,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:06",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:01:06",
+                "end": "0:01:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "text": "An 11-year satellite record helped predict",
+            "confidence": 0.9978,
+            "left": 216,
+            "top": 92,
+            "width": 809,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:07",
+                "adjustedEnd": "0:01:10.0333333",
+                "start": "0:01:07",
+                "end": "0:01:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "text": "February",
+            "confidence": 0.998,
+            "left": 506,
+            "top": 35,
+            "width": 156,
+            "height": 35,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:11",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "text": "California's Central Valley",
+            "confidence": 0.9923,
+            "left": 57,
+            "top": 198,
+            "width": 374,
+            "height": 34,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:15.0333333",
+                "start": "0:01:11",
+                "end": "0:01:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "text": "where water was located throughout the year.",
+            "confidence": 0.9974,
+            "left": 149,
+            "top": 551,
+            "width": 886,
+            "height": 48,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:13.0333333",
+                "start": "0:01:11",
+                "end": "0:01:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "text": "Data from Point Blue Conservation Science and The Nature Conservancy",
+            "confidence": 0.995,
+            "left": 608,
+            "top": 682,
+            "width": 521,
+            "height": 23,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:11",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 53,
+            "text": "April",
+            "confidence": 0.998,
+            "left": 506,
+            "top": 35,
+            "width": 82,
+            "height": 39,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:12.0333333",
+                "start": "0:01:12",
+                "end": "0:01:12.0333333"
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "text": "June",
+            "confidence": 0.996,
+            "left": 506,
+            "top": 39,
+            "width": 87,
+            "height": 29,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:13",
+                "adjustedEnd": "0:01:13.0333333",
+                "start": "0:01:13",
+                "end": "0:01:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "text": "August",
+            "confidence": 0.998,
+            "left": 503,
+            "top": 36,
+            "width": 130,
+            "height": 38,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:14",
+                "adjustedEnd": "0:01:14.0333333",
+                "start": "0:01:14",
+                "end": "0:01:14.0333333"
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "text": "October",
+            "confidence": 0.998,
+            "left": 503,
+            "top": 36,
+            "width": 150,
+            "height": 32,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:15",
+                "adjustedEnd": "0:01:15.0333333",
+                "start": "0:01:15",
+                "end": "0:01:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "text": "ber",
+            "confidence": 0.997,
+            "left": 628,
+            "top": 36,
+            "width": 64,
+            "height": 34,
+            "angle": 0,
+            "language": "de-DE",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:16.0333333",
+                "start": "0:01:16",
+                "end": "0:01:16.0333333"
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "text": "Week 19",
+            "confidence": 0.997,
+            "left": 190,
+            "top": 319,
+            "width": 107,
+            "height": 25,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 59,
+            "text": "Probability of sighting",
+            "confidence": 0.997,
+            "left": 115,
+            "top": 387,
+            "width": 182,
+            "height": 21,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 60,
+            "text": "Water",
+            "confidence": 0.998,
+            "left": 330,
+            "top": 389,
+            "width": 54,
+            "height": 15,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 61,
+            "text": "\u2265 0.5",
+            "confidence": 0.98,
+            "left": 338,
+            "top": 433,
+            "width": 45,
+            "height": 16,
+            "angle": -3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 62,
+            "text": "Both datasets are analyzed to produce targets for flooding,",
+            "confidence": 0.99,
+            "left": 70,
+            "top": 515,
+            "width": 1136,
+            "height": 60,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:17",
+                "end": "0:01:21.0333333"
+              }
+            ]
+          },
+          {
+            "id": 63,
+            "text": "which are areas with little water but many birds.",
+            "confidence": 0.9968,
+            "left": 68,
+            "top": 591,
+            "width": 939,
+            "height": 48,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:19",
+                "end": "0:01:21.0333333"
+              }
+            ]
+          },
+          {
+            "id": 64,
+            "text": "Both datasets are an",
+            "confidence": 0.9973,
+            "left": 70,
+            "top": 517,
+            "width": 405,
+            "height": 50,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:22",
+                "adjustedEnd": "0:01:22.0333333",
+                "start": "0:01:22",
+                "end": "0:01:22.0333333"
+              }
+            ]
+          },
+          {
+            "id": 65,
+            "text": "which are areas with",
+            "confidence": 0.9973,
+            "left": 69,
+            "top": 589,
+            "width": 403,
+            "height": 51,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:22",
+                "adjustedEnd": "0:01:22.0333333",
+                "start": "0:01:22",
+                "end": "0:01:22.0333333"
+              }
+            ]
+          },
+          {
+            "id": 66,
+            "text": "Late August",
+            "confidence": 0.997,
+            "left": 129,
+            "top": 77,
+            "width": 235,
+            "height": 41,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 67,
+            "text": "Many Birds",
+            "confidence": 0.997,
+            "left": 166,
+            "top": 118,
+            "width": 162,
+            "height": 34,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 68,
+            "text": "Little Water",
+            "confidence": 0.998,
+            "left": 162,
+            "top": 157,
+            "width": 168,
+            "height": 30,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 69,
+            "text": "'Our program creates, for these certain weeks of the year,",
+            "confidence": 0.9523,
+            "left": 84,
+            "top": 491,
+            "width": 1109,
+            "height": 60,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:26",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 70,
+            "text": "temporary pop-up wetland habitat.",
+            "confidence": 0.991,
+            "left": 68,
+            "top": 568,
+            "width": 671,
+            "height": 56,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:26",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 71,
+            "text": "Mark",
+            "confidence": 0.996,
+            "left": 73,
+            "top": 645,
+            "width": 76,
+            "height": 40,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:26.0333333",
+                "start": "0:01:26",
+                "end": "0:01:26.0333333"
+              }
+            ]
+          },
+          {
+            "id": 72,
+            "text": "Mark Reynolds, Ecologist",
+            "confidence": 0.9967,
+            "left": 66,
+            "top": 646,
+            "width": 363,
+            "height": 42,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:27",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:27",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 73,
+            "text": "Scientists see BirdReturns as a model for managing",
+            "confidence": 0.9941,
+            "left": 81,
+            "top": 511,
+            "width": 1003,
+            "height": 56,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:33",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 74,
+            "text": "scarce water for people and nature.",
+            "confidence": 0.997,
+            "left": 80,
+            "top": 586,
+            "width": 686,
+            "height": 61,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:34",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 75,
+            "text": "NASA",
+            "confidence": 0.993,
+            "left": 520,
+            "top": 322,
+            "width": 218,
+            "height": 55,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:39",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:39",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 76,
+            "text": "EARTH",
+            "confidence": 0.998,
+            "left": 639,
+            "top": 291,
+            "width": 280,
+            "height": 87,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 77,
+            "text": "RIGHT NOW",
+            "confidence": 0.9975,
+            "left": 639,
+            "top": 376,
+            "width": 275,
+            "height": 48,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 78,
+            "text": "Your planet is changing. We're on it.",
+            "confidence": 0.9923,
+            "left": 345,
+            "top": 522,
+            "width": 571,
+            "height": 40,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "birds migrate",
+            "confidence": 0.9559,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:57",
+                "end": "0:01:00.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "nature conservancy",
+            "confidence": 0.9271,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:45",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:11",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "birds",
+            "confidence": 0.6972,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:02",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:29.0333333",
+                "start": "0:00:25",
+                "end": "0:00:29.0333333"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:45",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:51",
+                "end": "0:00:55.0333333"
+              },
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:57",
+                "end": "0:01:00.0333333"
+              },
+              {
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:01:02",
+                "end": "0:01:06.0333333"
+              },
+              {
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:19",
+                "end": "0:01:21.0333333"
+              },
+              {
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "shorebirds",
+            "confidence": 0.6734,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:30",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "water",
+            "confidence": 0.6734,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:13.0333333",
+                "start": "0:01:11",
+                "end": "0:01:13.0333333"
+              },
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:16",
+                "end": "0:01:25.0333333"
+              },
+              {
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:19",
+                "end": "0:01:21.0333333"
+              },
+              {
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              },
+              {
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:34",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "' pop",
+            "confidence": 0.6633,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "wetlands",
+            "confidence": 0.6633,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:19",
+                "end": "0:00:24.0333333"
+              },
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:36",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "nature",
+            "confidence": 0.6425,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:45",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:11",
+                "end": "0:01:25.0333333"
+              },
+              {
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:34",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "satellites",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:02",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:10.0333333",
+                "start": "0:00:07",
+                "end": "0:00:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "feed",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:02",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:35.0333333",
+                "start": "0:00:35",
+                "end": "0:00:35.0333333"
+              },
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:36",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "resulted",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "' habitats",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:15",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "california",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:19.0333333",
+                "start": "0:00:19",
+                "end": "0:00:19.0333333"
+              },
+              {
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:20",
+                "end": "0:00:24.0333333"
+              },
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:15.0333333",
+                "start": "0:01:11",
+                "end": "0:01:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "february",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:19.0333333",
+                "start": "0:00:19",
+                "end": "0:00:19.0333333"
+              },
+              {
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:20",
+                "end": "0:00:24.0333333"
+              },
+              {
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.0333333",
+                "start": "0:00:57",
+                "end": "0:00:57.0333333"
+              },
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:11",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "feeding",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:35.0333333",
+                "start": "0:00:35",
+                "end": "0:00:35.0333333"
+              },
+              {
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:36",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "id": 1,
+            "name": "Zoological research institutes",
+            "referenceId": "Category:Zoological_research_institutes",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Category:Zoological_research_institutes",
+            "referenceType": "Wikipedia",
+            "confidence": 0.5847,
+            "iabName": null,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:00:56",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Environmental organizations",
+            "referenceId": "Category:Environmental_organizations",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Category:Environmental_organizations",
+            "referenceType": "Wikipedia",
+            "confidence": 0.5659,
+            "iabName": null,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:45",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:11",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Technology",
+            "referenceId": "Education/Technology",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology",
+            "confidence": 0.5299,
+            "iabName": "Education",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:42.84",
+                "adjustedEnd": "0:01:42.8",
+                "start": "0:00:42.84",
+                "end": "0:01:42.8"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "animal",
+            "referenceId": "organism/animal",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9998,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "confidence": 0.9934,
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:35",
+                "end": "0:00:39.0333333"
+              },
+              {
+                "confidence": 0.9946,
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:33",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "bird",
+            "referenceId": "animal/bird",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9993,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "aquatic bird",
+            "referenceId": "animal/bird/aquatic bird",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9978,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "confidence": 0.963,
+                "adjustedStart": "0:00:14",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:14",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "confidence": 0.9562,
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:34.0333333",
+                "start": "0:01:34",
+                "end": "0:01:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9879,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "confidence": 0.9975,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:29.0333333",
+                "start": "0:00:11",
+                "end": "0:00:29.0333333"
+              },
+              {
+                "confidence": 0.9868,
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:35",
+                "end": "0:00:55.0333333"
+              },
+              {
+                "confidence": 0.9979,
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:26",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "water",
+            "referenceId": "matter/liquid/water",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.985,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              },
+              {
+                "confidence": 0.9685,
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              },
+              {
+                "confidence": 0.972,
+                "adjustedStart": "0:00:35",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:35",
+                "end": "0:00:39.0333333"
+              },
+              {
+                "confidence": 0.9542,
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:51.0333333",
+                "start": "0:00:51",
+                "end": "0:00:51.0333333"
+              },
+              {
+                "confidence": 0.9605,
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:27.0333333",
+                "start": "0:01:26",
+                "end": "0:01:27.0333333"
+              },
+              {
+                "confidence": 0.97,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:30.0333333",
+                "start": "0:01:30",
+                "end": "0:01:30.0333333"
+              },
+              {
+                "confidence": 0.9685,
+                "adjustedStart": "0:01:32",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:32",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "water bird",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.964,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.0333333",
+                "start": "0:00:00",
+                "end": "0:00:01.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "beak",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9558,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:00",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "map",
+            "referenceId": "creation/representation/map",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9905,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:09.0333333",
+                "start": "0:00:07",
+                "end": "0:00:09.0333333"
+              },
+              {
+                "confidence": 0.9751,
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:31.0333333",
+                "start": "0:00:30",
+                "end": "0:00:31.0333333"
+              },
+              {
+                "confidence": 0.9611,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:33",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9748,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:59.0333333",
+                "start": "0:00:58",
+                "end": "0:00:59.0333333"
+              },
+              {
+                "confidence": 0.9828,
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:01:01",
+                "end": "0:01:06.0333333"
+              },
+              {
+                "confidence": 0.979,
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:16.0333333",
+                "start": "0:01:16",
+                "end": "0:01:16.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "land vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9975,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "vehicle",
+            "referenceId": "instrumentality/conveyance/vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9963,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "wheel",
+            "referenceId": "device/mechanical device/wheel",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9925,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.98,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              },
+              {
+                "confidence": 0.9741,
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:29.0333333",
+                "start": "0:00:19",
+                "end": "0:00:29.0333333"
+              },
+              {
+                "confidence": 0.9762,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:55.0333333",
+                "start": "0:00:40",
+                "end": "0:00:55.0333333"
+              },
+              {
+                "confidence": 0.9699,
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:33.0333333",
+                "start": "0:01:26",
+                "end": "0:01:33.0333333"
+              },
+              {
+                "confidence": 0.964,
+                "adjustedStart": "0:01:35",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:35",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "tire",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9729,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "grass",
+            "referenceId": "plant/herb/grass",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9628,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:11",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "text",
+            "referenceId": "communication/writing/text",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9588,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9568,
+                "adjustedStart": "0:00:13",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:13",
+                "end": "0:00:13.0333333"
+              },
+              {
+                "confidence": 0.9543,
+                "adjustedStart": "0:00:15",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:15",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9812,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:40",
+                "end": "0:00:44.0333333"
+              },
+              {
+                "confidence": 0.9585,
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:48",
+                "end": "0:00:48.0333333"
+              },
+              {
+                "confidence": 0.9915,
+                "adjustedStart": "0:00:50",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:50",
+                "end": "0:01:00.0333333"
+              },
+              {
+                "confidence": 0.9986,
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:01:02",
+                "end": "0:01:06.0333333"
+              },
+              {
+                "confidence": 0.9995,
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:11",
+                "end": "0:01:32.0333333"
+              },
+              {
+                "confidence": 0.9948,
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:34",
+                "end": "0:01:38.0333333"
+              },
+              {
+                "confidence": 0.9997,
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "plant",
+            "referenceId": "structure/building complex/plant",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.956,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:41.0333333",
+                "start": "0:00:41",
+                "end": "0:00:41.0333333"
+              },
+              {
+                "confidence": 0.9522,
+                "adjustedStart": "0:00:43",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:43",
+                "end": "0:00:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "satellite",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.994,
+                "adjustedStart": "0:01:07",
+                "adjustedEnd": "0:01:10.0333333",
+                "start": "0:01:07",
+                "end": "0:01:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "transport",
+            "referenceId": "conveyance/transport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9878,
+                "adjustedStart": "0:01:07",
+                "adjustedEnd": "0:01:10.0333333",
+                "start": "0:01:07",
+                "end": "0:01:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "animal migration",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9542,
+                "adjustedStart": "0:01:33",
+                "adjustedEnd": "0:01:34.0333333",
+                "start": "0:01:33",
+                "end": "0:01:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "font",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9549,
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "graphic design",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9518,
+                "adjustedStart": "0:01:40",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:40",
+                "end": "0:01:45.0333333"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:29.3666667",
+                "start": "0:00:00",
+                "end": "0:00:29.3666667"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:29.3666667",
+                "adjustedEnd": "0:00:39.3666667",
+                "start": "0:00:29.3666667",
+                "end": "0:00:39.3666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.3666667",
+                "adjustedEnd": "0:00:55.4",
+                "start": "0:00:39.3666667",
+                "end": "0:00:55.4"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:00:55.4",
+                "adjustedEnd": "0:01:25.2666667",
+                "start": "0:00:55.4",
+                "end": "0:01:25.2666667"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.2666667",
+                "adjustedEnd": "0:01:45.8",
+                "start": "0:01:25.2666667",
+                "end": "0:01:45.8"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "13ab986f-a442-4e84-ab98-9d6a3d5ef6d5",
+                    "adjustedStart": "0:00:00.1666667",
+                    "adjustedEnd": "0:00:00.2",
+                    "start": "0:00:00.1666667",
+                    "end": "0:00:00.2"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "c92893ed-f0ed-4635-b17a-7afeee8c8282",
+                    "adjustedStart": "0:00:00.2333333",
+                    "adjustedEnd": "0:00:00.2666667",
+                    "start": "0:00:00.2333333",
+                    "end": "0:00:00.2666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:06.5333333",
+                "start": "0:00:00",
+                "end": "0:00:06.5333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "30d90370-588a-4d3d-b005-ffb6e26a9a3e",
+                    "adjustedStart": "0:00:06.6",
+                    "adjustedEnd": "0:00:06.6333333",
+                    "start": "0:00:06.6",
+                    "end": "0:00:06.6333333"
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "c1999389-893c-499a-b477-72ee95838863",
+                    "adjustedStart": "0:00:09.0333333",
+                    "adjustedEnd": "0:00:09.0666667",
+                    "start": "0:00:09.0333333",
+                    "end": "0:00:09.0666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:06.5333333",
+                "adjustedEnd": "0:00:10.5",
+                "start": "0:00:06.5333333",
+                "end": "0:00:10.5"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "a354babc-a5a2-4679-bb3a-82c8cdaafdbd",
+                    "adjustedStart": "0:00:10.7666667",
+                    "adjustedEnd": "0:00:10.8",
+                    "start": "0:00:10.7666667",
+                    "end": "0:00:10.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:13.5",
+                "start": "0:00:10.5",
+                "end": "0:00:13.5"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "keyFrames": [
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "25afd6ce-cd65-473b-8187-3909009d713a",
+                    "adjustedStart": "0:00:13.7666667",
+                    "adjustedEnd": "0:00:13.8",
+                    "start": "0:00:13.7666667",
+                    "end": "0:00:13.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:13.5",
+                "adjustedEnd": "0:00:18.5",
+                "start": "0:00:13.5",
+                "end": "0:00:18.5"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "350175b1-03eb-407f-855b-7048c4a599b2",
+                    "adjustedStart": "0:00:18.7333333",
+                    "adjustedEnd": "0:00:18.7666667",
+                    "start": "0:00:18.7333333",
+                    "end": "0:00:18.7666667"
+                  }
+                ]
+              },
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "67bbb388-d8e8-42d0-93d5-f51493aa3e0a",
+                    "adjustedStart": "0:00:21.4",
+                    "adjustedEnd": "0:00:21.4333333",
+                    "start": "0:00:21.4",
+                    "end": "0:00:21.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:18.5",
+                "adjustedEnd": "0:00:24.4666667",
+                "start": "0:00:18.5",
+                "end": "0:00:24.4666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "keyFrames": [
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "84589c59-848c-4eee-9d01-e3e02383ca2e",
+                    "adjustedStart": "0:00:24.7333333",
+                    "adjustedEnd": "0:00:24.7666667",
+                    "start": "0:00:24.7333333",
+                    "end": "0:00:24.7666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:24.4666667",
+                "adjustedEnd": "0:00:29.3666667",
+                "start": "0:00:24.4666667",
+                "end": "0:00:29.3666667"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "keyFrames": [
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "01f1bbd5-9532-45cd-b0d1-14663dbe69c3",
+                    "adjustedStart": "0:00:29.6333333",
+                    "adjustedEnd": "0:00:29.6666667",
+                    "start": "0:00:29.6333333",
+                    "end": "0:00:29.6666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:29.3666667",
+                "adjustedEnd": "0:00:34.3666667",
+                "start": "0:00:29.3666667",
+                "end": "0:00:34.3666667"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "59ccba90-7268-4c17-85d1-a4b17c780d00",
+                    "adjustedStart": "0:00:34.4333333",
+                    "adjustedEnd": "0:00:34.4666667",
+                    "start": "0:00:34.4333333",
+                    "end": "0:00:34.4666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:34.3666667",
+                "adjustedEnd": "0:00:39.3666667",
+                "start": "0:00:34.3666667",
+                "end": "0:00:39.3666667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "keyFrames": [
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "9d7af3b3-b6b9-4b6e-8247-8c4211c33cb5",
+                    "adjustedStart": "0:00:39.6",
+                    "adjustedEnd": "0:00:39.6333333",
+                    "start": "0:00:39.6",
+                    "end": "0:00:39.6333333"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "c24ee78a-06d0-4cfc-818b-439b6fe97235",
+                    "adjustedStart": "0:00:43.3333333",
+                    "adjustedEnd": "0:00:43.3666667",
+                    "start": "0:00:43.3333333",
+                    "end": "0:00:43.3666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.3666667",
+                "adjustedEnd": "0:00:44.4",
+                "start": "0:00:39.3666667",
+                "end": "0:00:44.4"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "7331e63d-fd89-4270-9769-3efecf591350",
+                    "adjustedStart": "0:00:44.4333333",
+                    "adjustedEnd": "0:00:44.4666667",
+                    "start": "0:00:44.4333333",
+                    "end": "0:00:44.4666667"
+                  }
+                ]
+              },
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "f787a7a2-9ae2-43c7-93c0-d563c3d7661c",
+                    "adjustedStart": "0:00:45.1",
+                    "adjustedEnd": "0:00:45.1333333",
+                    "start": "0:00:45.1",
+                    "end": "0:00:45.1333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:44.4",
+                "adjustedEnd": "0:00:49.3666667",
+                "start": "0:00:44.4",
+                "end": "0:00:49.3666667"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "a9d10a92-000d-4802-b61c-d4bd1fd00faa",
+                    "adjustedStart": "0:00:49.6333333",
+                    "adjustedEnd": "0:00:49.6666667",
+                    "start": "0:00:49.6333333",
+                    "end": "0:00:49.6666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:49.3666667",
+                "adjustedEnd": "0:00:55.4",
+                "start": "0:00:49.3666667",
+                "end": "0:00:55.4"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "12f9def9-4fc9-4e19-9f35-d0bb2c9f9826",
+                    "adjustedStart": "0:00:55.4666667",
+                    "adjustedEnd": "0:00:55.5",
+                    "start": "0:00:55.4666667",
+                    "end": "0:00:55.5"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "af32265c-1d43-463a-b458-5958d2608704",
+                    "adjustedStart": "0:01:01.2",
+                    "adjustedEnd": "0:01:01.2333333",
+                    "start": "0:01:01.2",
+                    "end": "0:01:01.2333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:55.4",
+                "adjustedEnd": "0:01:06.3666667",
+                "start": "0:00:55.4",
+                "end": "0:01:06.3666667"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 19,
+                "instances": [
+                  {
+                    "thumbnailId": "4f07d76e-9881-405a-abf4-d32a479f20d6",
+                    "adjustedStart": "0:01:06.6",
+                    "adjustedEnd": "0:01:06.6333333",
+                    "start": "0:01:06.6",
+                    "end": "0:01:06.6333333"
+                  }
+                ]
+              },
+              {
+                "id": 20,
+                "instances": [
+                  {
+                    "thumbnailId": "edaab500-dbe8-4379-b430-fbb88b743a6c",
+                    "adjustedStart": "0:01:07.1333333",
+                    "adjustedEnd": "0:01:07.1666667",
+                    "start": "0:01:07.1333333",
+                    "end": "0:01:07.1666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:06.3666667",
+                "adjustedEnd": "0:01:10.3333333",
+                "start": "0:01:06.3666667",
+                "end": "0:01:10.3333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 21,
+                "instances": [
+                  {
+                    "thumbnailId": "1a67e748-f318-46c8-92ae-01d4e9a41719",
+                    "adjustedStart": "0:01:10.6",
+                    "adjustedEnd": "0:01:10.6333333",
+                    "start": "0:01:10.6",
+                    "end": "0:01:10.6333333"
+                  }
+                ]
+              },
+              {
+                "id": 22,
+                "instances": [
+                  {
+                    "thumbnailId": "eb567854-6e86-429f-b0eb-38f6e857ead2",
+                    "adjustedStart": "0:01:19",
+                    "adjustedEnd": "0:01:19.0333333",
+                    "start": "0:01:19",
+                    "end": "0:01:19.0333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:10.3333333",
+                "adjustedEnd": "0:01:25.2666667",
+                "start": "0:01:10.3333333",
+                "end": "0:01:25.2666667"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "keyFrames": [
+              {
+                "id": 23,
+                "instances": [
+                  {
+                    "thumbnailId": "32cd77c8-356c-481c-9943-09331c1666e1",
+                    "adjustedStart": "0:01:25.3",
+                    "adjustedEnd": "0:01:25.3333333",
+                    "start": "0:01:25.3",
+                    "end": "0:01:25.3333333"
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "instances": [
+                  {
+                    "thumbnailId": "e496da97-1308-4905-a4e6-e1cc0316e4c3",
+                    "adjustedStart": "0:01:27.1333333",
+                    "adjustedEnd": "0:01:27.1666667",
+                    "start": "0:01:27.1333333",
+                    "end": "0:01:27.1666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:25.2666667",
+                "adjustedEnd": "0:01:32.6333333",
+                "start": "0:01:25.2666667",
+                "end": "0:01:32.6333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "keyFrames": [
+              {
+                "id": 25,
+                "instances": [
+                  {
+                    "thumbnailId": "dabfd132-34dd-47f6-9430-24e8d996514b",
+                    "adjustedStart": "0:01:32.9",
+                    "adjustedEnd": "0:01:32.9333333",
+                    "start": "0:01:32.9",
+                    "end": "0:01:32.9333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.6333333",
+                "adjustedEnd": "0:01:38.7333333",
+                "start": "0:01:32.6333333",
+                "end": "0:01:38.7333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "keyFrames": [
+              {
+                "id": 26,
+                "instances": [
+                  {
+                    "thumbnailId": "8c1c0653-4f25-414a-bc00-4afa13c9611c",
+                    "adjustedStart": "0:01:38.8",
+                    "adjustedEnd": "0:01:38.8333333",
+                    "start": "0:01:38.8",
+                    "end": "0:01:38.8333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:38.7333333",
+                "adjustedEnd": "0:01:45.8",
+                "start": "0:01:38.7333333",
+                "end": "0:01:45.8"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "California",
+            "referenceId": "California",
+            "referenceUrl": "https://en.wikipedia.org/wiki/California",
+            "description": "California is a state in the Pacific Region of the United States. With 39.6 million residents, California is the most populous U.S. state and the third-largest by area. The state capital is Sacramento. The Greater Los Angeles Area and the San Francisco Bay Area are the nation's second- and fifth-most populous urban regions, with 18.7 million and 9.7 million residents respectively. Los Angeles is California's most populous city, and the country's second-most populous, after New York City. California also has the nation's most populous county, Los Angeles County, and its largest county by area, San Bernardino County. The City and County of San Francisco is both the country's second-most densely populated major city after New York City and the fifth-most densely populated county, behind only four of the five New York City boroughs.",
+            "tags": [],
+            "confidence": 0.32,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:19",
+                "adjustedEnd": "0:00:19.0333333",
+                "start": "0:00:19",
+                "end": "0:00:19.0333333"
+              },
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:20",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:20",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Pacific Flyway",
+            "referenceId": "Pacific_Flyway",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Pacific_Flyway",
+            "description": "The Pacific Flyway is a major north-south flyway for migratory birds in America, extending from Alaska to Patagonia. Every year, migratory birds travel some or all of this distance both in spring and in fall, following food sources, heading to breeding grounds, or travelling to overwintering sites.",
+            "tags": [],
+            "confidence": 0.88,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Cornell Lab of Ornithology",
+            "referenceId": "Cornell_Lab_of_Ornithology",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Cornell_Lab_of_Ornithology",
+            "description": "A world leader in the study, appreciation, and conservation of birds. | We\u2019ve been \u201ctweeting\u201d since 1915.",
+            "tags": [],
+            "confidence": 0.86,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:01:06.0333333",
+                "start": "0:00:56",
+                "end": "0:01:06.0333333"
+              }
+            ]
+          }
+        ],
+        "detectedObjects": [
+          {
+            "id": 1,
+            "type": "Car",
+            "thumbnailId": "0eeb3221-785b-44f8-8bb8-8db297d4ccf2",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.85,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:13.5",
+                "start": "0:00:10.5",
+                "end": "0:00:13.5"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Car",
+            "thumbnailId": "5d43d2c7-39ae-475e-a5e2-17bdab719246",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.819,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:13.5",
+                "start": "0:00:10.5",
+                "end": "0:00:13.5"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "Car",
+            "thumbnailId": "b4b9e05e-8620-49d2-b95e-fdde009cdd81",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.848,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:13.5",
+                "start": "0:00:10.5",
+                "end": "0:00:13.5"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": "Boat",
+            "thumbnailId": "66869792-f7d5-40a4-a3d4-08124e11a9e3",
+            "displayName": "boat",
+            "wikiDataId": "Q35872",
+            "instances": [
+              {
+                "confidence": 0.621,
+                "adjustedStart": "0:00:39.366667",
+                "adjustedEnd": "0:00:39.733333",
+                "start": "0:00:39.366667",
+                "end": "0:00:39.733333"
+              },
+              {
+                "confidence": 0.604,
+                "adjustedStart": "0:00:40.366667",
+                "adjustedEnd": "0:00:40.733333",
+                "start": "0:00:40.366667",
+                "end": "0:00:40.733333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "Car",
+            "thumbnailId": "22054505-1ad4-484e-af98-875307aaca46",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.569,
+                "adjustedStart": "0:00:39.533333",
+                "adjustedEnd": "0:00:40.233333",
+                "start": "0:00:39.533333",
+                "end": "0:00:40.233333"
+              },
+              {
+                "confidence": 0.435,
+                "adjustedStart": "0:00:40.866667",
+                "adjustedEnd": "0:00:44.4",
+                "start": "0:00:40.866667",
+                "end": "0:00:44.4"
+              }
+            ]
+          }
+        ],
+        "sentiments": [
+          {
+            "id": 1,
+            "averageScore": 0.5,
+            "sentimentType": "Neutral",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:01:45.856",
+                "start": "0:00:00",
+                "end": "0:01:45.856"
+              }
+            ]
+          }
+        ],
+        "blocks": [
+          {
+            "id": 0,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:42.92",
+                "start": "0:00:00",
+                "end": "0:00:42.92"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:42.92",
+                "adjustedEnd": "0:01:45.856",
+                "start": "0:00:42.92",
+                "end": "0:01:45.856"
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "id": 1,
+            "name": "Speaker #1",
+            "instances": [
+              {
+                "adjustedStart": "0:00:42.84",
+                "adjustedEnd": "0:00:42.92",
+                "start": "0:00:42.84",
+                "end": "0:00:42.92"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Speaker #2",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12.6",
+                "adjustedEnd": "0:01:12.68",
+                "start": "0:01:12.6",
+                "end": "0:01:12.68"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Speaker #3",
+            "instances": [
+              {
+                "adjustedStart": "0:01:42.68",
+                "adjustedEnd": "0:01:42.8",
+                "start": "0:01:42.68",
+                "end": "0:01:42.8"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 2,
+          "speakerTalkToListenRatio": {
+            "1": 0.285,
+            "2": 0.285,
+            "3": 0.428
+          },
+          "speakerLongestMonolog": {
+            "1": 0,
+            "2": 0,
+            "3": 0
+          },
+          "speakerNumberOfFragments": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          },
+          "speakerWordCount": {
+            "1": 1,
+            "2": 1,
+            "3": 1
+          }
+        }
+      },
+      "thumbnailId": "ac103a97-32a0-474f-aa3c-a6c4bca9a3f9",
+      "width": 1280,
+      "height": 720,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "Default",
+      "streamingPreset": "SingleBitrate",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [
+        "Faces",
+        "Celebrities",
+        "KnownPeople",
+        "ShotType"
+      ],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/Videos/upom5nwwj7/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": null
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "upom5nwwj7",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:01:45.856"
+      }
+    }
+  ]
+}

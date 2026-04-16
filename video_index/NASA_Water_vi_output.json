@@ -1,0 +1,5287 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Public",
+  "state": "Processed",
+  "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+  "id": "ak7snfmsn5",
+  "name": "NASA-Water",
+  "userName": "User 2G8X3WJF",
+  "created": "2026-04-14T14:49:58.2366667+00:00",
+  "isOwned": true,
+  "isEditable": false,
+  "isBase": true,
+  "durationInSeconds": 84,
+  "duration": "0:01:24.224",
+  "summarizedInsights": {
+    "name": "NASA-Water",
+    "id": "ak7snfmsn5",
+    "privacyMode": "Public",
+    "duration": {
+      "time": "0:01:24.224",
+      "seconds": 84.2
+    },
+    "thumbnailVideoId": "ak7snfmsn5",
+    "thumbnailId": "25a3254f-1354-4330-9329-6b3b6eec132e",
+    "faces": [],
+    "keywords": [
+      {
+        "isTranscript": true,
+        "id": 2,
+        "name": "freshwater",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:10.68",
+            "startSeconds": 3.5,
+            "endSeconds": 10.7
+          },
+          {
+            "startTime": "0:00:47.96",
+            "endTime": "0:01:07.28",
+            "startSeconds": 48,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 3,
+        "name": "drink",
+        "appearances": [
+          {
+            "startTime": "0:00:12.88",
+            "endTime": "0:00:16.68",
+            "startSeconds": 12.9,
+            "endSeconds": 16.7
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 4,
+        "name": "precipitation",
+        "appearances": [
+          {
+            "startTime": "0:00:16.92",
+            "endTime": "0:00:18.64",
+            "startSeconds": 16.9,
+            "endSeconds": 18.6
+          },
+          {
+            "startTime": "0:00:30",
+            "endTime": "0:00:39.84",
+            "startSeconds": 30,
+            "endSeconds": 39.8
+          },
+          {
+            "startTime": "0:00:56.84",
+            "endTime": "0:01:07.28",
+            "startSeconds": 56.8,
+            "endSeconds": 67.3
+          },
+          {
+            "startTime": "0:01:17",
+            "endTime": "0:01:20.0333333",
+            "startSeconds": 77,
+            "endSeconds": 80
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 5,
+        "name": "earth",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:10.68",
+            "startSeconds": 3.5,
+            "endSeconds": 10.7
+          },
+          {
+            "startTime": "0:00:56.84",
+            "endTime": "0:01:07.28",
+            "startSeconds": 56.8,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 6,
+        "name": "water",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:16.68",
+            "startSeconds": 3.5,
+            "endSeconds": 16.7
+          },
+          {
+            "startTime": "0:00:47.96",
+            "endTime": "0:01:07.28",
+            "startSeconds": 48,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 8,
+        "name": "snow",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          },
+          {
+            "startTime": "0:00:47.96",
+            "endTime": "0:00:56.12",
+            "startSeconds": 48,
+            "endSeconds": 56.1
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 9,
+        "name": "live",
+        "appearances": [
+          {
+            "startTime": "0:00:10.92",
+            "endTime": "0:00:14.56",
+            "startSeconds": 10.9,
+            "endSeconds": 14.6
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 10,
+        "name": "world",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          },
+          {
+            "startTime": "0:00:40.12",
+            "endTime": "0:00:47.36",
+            "startSeconds": 40.1,
+            "endSeconds": 47.4
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 1,
+        "name": "avy rain",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 7,
+        "name": "rain",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          }
+        ]
+      }
+    ],
+    "sentiments": [
+      {
+        "sentimentKey": "Neutral",
+        "seenDurationRatio": 0.9997,
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:01:24.224",
+            "startSeconds": 0,
+            "endSeconds": 84.2
+          }
+        ]
+      }
+    ],
+    "emotions": [],
+    "audioEffects": [
+      {
+        "audioEffectKey": "Silence",
+        "seenDurationRatio": 0.0475,
+        "seenDuration": 4,
+        "appearances": [
+          {
+            "confidence": 0.7769,
+            "startTime": "0:00:00",
+            "endTime": "0:00:01",
+            "startSeconds": 0,
+            "endSeconds": 1
+          },
+          {
+            "confidence": 0.7615,
+            "startTime": "0:00:47.86",
+            "endTime": "0:00:48.86",
+            "startSeconds": 47.9,
+            "endSeconds": 48.9
+          },
+          {
+            "confidence": 0.9359,
+            "startTime": "0:01:20.78",
+            "endTime": "0:01:22.78",
+            "startSeconds": 80.8,
+            "endSeconds": 82.8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "id": 4,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9781,
+            "startTime": "0:00:07",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 7,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9914,
+            "startTime": "0:00:31",
+            "endTime": "0:00:36.0333333",
+            "startSeconds": 31,
+            "endSeconds": 36
+          },
+          {
+            "confidence": 0.9945,
+            "startTime": "0:00:40",
+            "endTime": "0:00:44.0333333",
+            "startSeconds": 40,
+            "endSeconds": 44
+          },
+          {
+            "confidence": 0.9885,
+            "startTime": "0:00:49",
+            "endTime": "0:00:50.0333333",
+            "startSeconds": 49,
+            "endSeconds": 50
+          },
+          {
+            "confidence": 0.9752,
+            "startTime": "0:00:57",
+            "endTime": "0:00:58.0333333",
+            "startSeconds": 57,
+            "endSeconds": 58
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "text",
+        "appearances": [
+          {
+            "confidence": 0.973,
+            "startTime": "0:00:25",
+            "endTime": "0:00:28.0333333",
+            "startSeconds": 25,
+            "endSeconds": 28
+          },
+          {
+            "confidence": 0.9877,
+            "startTime": "0:00:45",
+            "endTime": "0:00:45.0333333",
+            "startSeconds": 45,
+            "endSeconds": 45
+          },
+          {
+            "confidence": 0.9955,
+            "startTime": "0:01:18",
+            "endTime": "0:01:24.0333333",
+            "startSeconds": 78,
+            "endSeconds": 84
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "snow",
+        "appearances": [
+          {
+            "confidence": 0.9738,
+            "startTime": "0:00:16",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 16,
+            "endSeconds": 18
+          },
+          {
+            "confidence": 0.9898,
+            "startTime": "0:00:47",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 47,
+            "endSeconds": 49
+          },
+          {
+            "confidence": 0.9844,
+            "startTime": "0:00:53",
+            "endTime": "0:00:57.0333333",
+            "startSeconds": 53,
+            "endSeconds": 57
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "water",
+        "appearances": [
+          {
+            "confidence": 0.9905,
+            "startTime": "0:00:07",
+            "endTime": "0:00:07.0333333",
+            "startSeconds": 7,
+            "endSeconds": 7
+          },
+          {
+            "confidence": 0.9749,
+            "startTime": "0:00:41",
+            "endTime": "0:00:42.0333333",
+            "startSeconds": 41,
+            "endSeconds": 42
+          },
+          {
+            "confidence": 0.9792,
+            "startTime": "0:01:01",
+            "endTime": "0:01:07.0333333",
+            "startSeconds": 61,
+            "endSeconds": 67
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.9553,
+            "startTime": "0:00:27",
+            "endTime": "0:00:27.0333333",
+            "startSeconds": 27,
+            "endSeconds": 27
+          },
+          {
+            "confidence": 0.9933,
+            "startTime": "0:00:37",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 37,
+            "endSeconds": 39
+          },
+          {
+            "confidence": 0.9859,
+            "startTime": "0:00:45",
+            "endTime": "0:00:48.0333333",
+            "startSeconds": 45,
+            "endSeconds": 48
+          },
+          {
+            "confidence": 0.9812,
+            "startTime": "0:00:54",
+            "endTime": "0:00:56.0333333",
+            "startSeconds": 54,
+            "endSeconds": 56
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "winter",
+        "appearances": [
+          {
+            "confidence": 0.976,
+            "startTime": "0:00:16",
+            "endTime": "0:00:18.0333333",
+            "startSeconds": 16,
+            "endSeconds": 18
+          },
+          {
+            "confidence": 0.9605,
+            "startTime": "0:00:31",
+            "endTime": "0:00:31.0333333",
+            "startSeconds": 31,
+            "endSeconds": 31
+          },
+          {
+            "confidence": 0.9873,
+            "startTime": "0:00:49",
+            "endTime": "0:00:50.0333333",
+            "startSeconds": 49,
+            "endSeconds": 50
+          },
+          {
+            "confidence": 0.9721,
+            "startTime": "0:00:54",
+            "endTime": "0:00:57.0333333",
+            "startSeconds": 54,
+            "endSeconds": 57
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "liquid",
+        "appearances": [
+          {
+            "confidence": 0.9831,
+            "startTime": "0:00:01",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 1,
+            "endSeconds": 6
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "fluid",
+        "appearances": [
+          {
+            "confidence": 0.972,
+            "startTime": "0:00:01",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 1,
+            "endSeconds": 6
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "vehicle",
+        "appearances": [
+          {
+            "confidence": 0.9734,
+            "startTime": "0:00:41",
+            "endTime": "0:00:45.0333333",
+            "startSeconds": 41,
+            "endSeconds": 45
+          },
+          {
+            "confidence": 0.9823,
+            "startTime": "0:00:51",
+            "endTime": "0:00:52.0333333",
+            "startSeconds": 51,
+            "endSeconds": 52
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "drop",
+        "appearances": [
+          {
+            "confidence": 0.9697,
+            "startTime": "0:00:02",
+            "endTime": "0:00:06.0333333",
+            "startSeconds": 2,
+            "endSeconds": 6
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.9921,
+            "startTime": "0:00:32",
+            "endTime": "0:00:36.0333333",
+            "startSeconds": 32,
+            "endSeconds": 36
+          },
+          {
+            "confidence": 0.9768,
+            "startTime": "0:00:41",
+            "endTime": "0:00:41.0333333",
+            "startSeconds": 41,
+            "endSeconds": 41
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "land vehicle",
+        "appearances": [
+          {
+            "confidence": 0.985,
+            "startTime": "0:00:42",
+            "endTime": "0:00:45.0333333",
+            "startSeconds": 42,
+            "endSeconds": 45
+          },
+          {
+            "confidence": 0.9768,
+            "startTime": "0:00:51",
+            "endTime": "0:00:52.0333333",
+            "startSeconds": 51,
+            "endSeconds": 52
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "wheel",
+        "appearances": [
+          {
+            "confidence": 0.9808,
+            "startTime": "0:00:11",
+            "endTime": "0:00:14.0333333",
+            "startSeconds": 11,
+            "endSeconds": 14
+          },
+          {
+            "confidence": 0.9518,
+            "startTime": "0:00:34",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 34,
+            "endSeconds": 34
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.9619,
+            "startTime": "0:00:11",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 11,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9772,
+            "startTime": "0:00:37",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 37,
+            "endSeconds": 39
+          },
+          {
+            "confidence": 0.9671,
+            "startTime": "0:00:47",
+            "endTime": "0:00:48.0333333",
+            "startSeconds": 47,
+            "endSeconds": 48
+          },
+          {
+            "confidence": 0.9584,
+            "startTime": "0:00:56",
+            "endTime": "0:00:56.0333333",
+            "startSeconds": 56,
+            "endSeconds": 56
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "transport",
+        "appearances": [
+          {
+            "confidence": 0.9528,
+            "startTime": "0:00:11",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 11,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9991,
+            "startTime": "0:00:21",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 21,
+            "endSeconds": 24
+          },
+          {
+            "confidence": 0.9697,
+            "startTime": "0:00:29",
+            "endTime": "0:00:29.0333333",
+            "startSeconds": 29,
+            "endSeconds": 29
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "satellite",
+        "appearances": [
+          {
+            "confidence": 0.9949,
+            "startTime": "0:00:21",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 21,
+            "endSeconds": 24
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "map",
+        "appearances": [
+          {
+            "confidence": 0.9854,
+            "startTime": "0:00:25",
+            "endTime": "0:00:28.0333333",
+            "startSeconds": 25,
+            "endSeconds": 28
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "tree",
+        "appearances": [
+          {
+            "confidence": 0.9681,
+            "startTime": "0:00:31",
+            "endTime": "0:00:31.0333333",
+            "startSeconds": 31,
+            "endSeconds": 31
+          },
+          {
+            "confidence": 0.9767,
+            "startTime": "0:00:40",
+            "endTime": "0:00:43.0333333",
+            "startSeconds": 40,
+            "endSeconds": 43
+          },
+          {
+            "confidence": 0.9952,
+            "startTime": "0:00:49",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 49,
+            "endSeconds": 49
+          },
+          {
+            "confidence": 0.9552,
+            "startTime": "0:01:08",
+            "endTime": "0:01:08.0333333",
+            "startSeconds": 68,
+            "endSeconds": 68
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "logo",
+        "appearances": [
+          {
+            "confidence": 0.9732,
+            "startTime": "0:01:17",
+            "endTime": "0:01:20.0333333",
+            "startSeconds": 77,
+            "endSeconds": 80
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "graphics",
+        "appearances": [
+          {
+            "confidence": 0.9674,
+            "startTime": "0:01:17",
+            "endTime": "0:01:19.0333333",
+            "startSeconds": 77,
+            "endSeconds": 79
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "font",
+        "appearances": [
+          {
+            "confidence": 0.9583,
+            "startTime": "0:01:18",
+            "endTime": "0:01:19.0333333",
+            "startSeconds": 78,
+            "endSeconds": 79
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "lake",
+        "appearances": [
+          {
+            "confidence": 0.957,
+            "startTime": "0:00:07",
+            "endTime": "0:00:07.0333333",
+            "startSeconds": 7,
+            "endSeconds": 7
+          },
+          {
+            "confidence": 0.9604,
+            "startTime": "0:01:03",
+            "endTime": "0:01:03.0333333",
+            "startSeconds": 63,
+            "endSeconds": 63
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "clothing",
+        "appearances": [
+          {
+            "confidence": 0.9769,
+            "startTime": "0:00:11",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 11,
+            "endSeconds": 11
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "footwear",
+        "appearances": [
+          {
+            "confidence": 0.9612,
+            "startTime": "0:00:11",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 11,
+            "endSeconds": 11
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "bicycle",
+        "appearances": [
+          {
+            "confidence": 0.9568,
+            "startTime": "0:00:13",
+            "endTime": "0:00:13.0333333",
+            "startSeconds": 13,
+            "endSeconds": 13
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "man",
+        "appearances": [
+          {
+            "confidence": 0.9555,
+            "startTime": "0:00:28",
+            "endTime": "0:00:28.0333333",
+            "startSeconds": 28,
+            "endSeconds": 28
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "traffic sign",
+        "appearances": [
+          {
+            "confidence": 0.9554,
+            "startTime": "0:00:32",
+            "endTime": "0:00:32.0333333",
+            "startSeconds": 32,
+            "endSeconds": 32
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "cloud",
+        "appearances": [
+          {
+            "confidence": 0.952,
+            "startTime": "0:00:32",
+            "endTime": "0:00:32.0333333",
+            "startSeconds": 32,
+            "endSeconds": 32
+          },
+          {
+            "confidence": 0.9888,
+            "startTime": "0:01:09",
+            "endTime": "0:01:09.0333333",
+            "startSeconds": 69,
+            "endSeconds": 69
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "plant",
+        "appearances": [
+          {
+            "confidence": 0.9819,
+            "startTime": "0:00:36",
+            "endTime": "0:00:36.0333333",
+            "startSeconds": 36,
+            "endSeconds": 36
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "boy",
+        "appearances": [
+          {
+            "confidence": 0.9619,
+            "startTime": "0:00:39",
+            "endTime": "0:00:39.0333333",
+            "startSeconds": 39,
+            "endSeconds": 39
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "ground",
+        "appearances": [
+          {
+            "confidence": 0.9721,
+            "startTime": "0:00:44",
+            "endTime": "0:00:44.0333333",
+            "startSeconds": 44,
+            "endSeconds": 44
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "car",
+        "appearances": [
+          {
+            "confidence": 0.9607,
+            "startTime": "0:00:45",
+            "endTime": "0:00:45.0333333",
+            "startSeconds": 45,
+            "endSeconds": 45
+          },
+          {
+            "confidence": 0.9594,
+            "startTime": "0:00:51",
+            "endTime": "0:00:51.0333333",
+            "startSeconds": 51,
+            "endSeconds": 51
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "glasses",
+        "appearances": [
+          {
+            "confidence": 0.954,
+            "startTime": "0:00:48",
+            "endTime": "0:00:48.0333333",
+            "startSeconds": 48,
+            "endSeconds": 48
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "freezing",
+        "appearances": [
+          {
+            "confidence": 0.9523,
+            "startTime": "0:00:49",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 49,
+            "endSeconds": 49
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "nature",
+        "appearances": [
+          {
+            "confidence": 0.9896,
+            "startTime": "0:00:58",
+            "endTime": "0:00:58.0333333",
+            "startSeconds": 58,
+            "endSeconds": 58
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "glacial landform",
+        "appearances": [
+          {
+            "confidence": 0.95,
+            "startTime": "0:00:58",
+            "endTime": "0:00:58.0333333",
+            "startSeconds": 58,
+            "endSeconds": 58
+          }
+        ]
+      }
+    ],
+    "framePatterns": [
+      {
+        "displayName": null,
+        "id": 1,
+        "name": "Black",
+        "appearances": [
+          {
+            "confidence": 0,
+            "startTime": "0:00:00",
+            "endTime": "0:00:00.7666667",
+            "startSeconds": 0,
+            "endSeconds": 0.8
+          },
+          {
+            "confidence": 0,
+            "startTime": "0:01:20.1",
+            "endTime": "0:01:24.2",
+            "startSeconds": 80.1,
+            "endSeconds": 84.2
+          }
+        ]
+      }
+    ],
+    "brands": [
+      {
+        "referenceId": "GAIL",
+        "referenceUrl": "http://en.wikipedia.org/wiki/GAIL",
+        "confidence": 1,
+        "description": "GAIL (India) Limited is the largest state-owned natural gas processing and distribution company in India, It is headquartered in New Delhi. It has following business segments: Natural Gas, Liquid Hydrocarbon, Liquefied petroleum gas Transmission, Petrochemical, City Gas Distribution, Exploration and Production, GAILTEL and Electricity Generation.",
+        "seenDuration": 2,
+        "id": 1,
+        "name": "GAIL",
+        "appearances": [
+          {
+            "startTime": "0:00:54",
+            "endTime": "0:00:56.0333333",
+            "startSeconds": 54,
+            "endSeconds": 56
+          }
+        ]
+      }
+    ],
+    "namedLocations": [
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.97,
+        "description": null,
+        "seenDuration": 17.7,
+        "id": 1,
+        "name": "Earth",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:10.68",
+            "startSeconds": 3.5,
+            "endSeconds": 10.7
+          },
+          {
+            "startTime": "0:00:56.84",
+            "endTime": "0:01:07.28",
+            "startSeconds": 56.8,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.61,
+        "description": null,
+        "seenDuration": 2,
+        "id": 2,
+        "name": "planet",
+        "appearances": [
+          {
+            "startTime": "0:00:10.92",
+            "endTime": "0:00:12.88",
+            "startSeconds": 10.9,
+            "endSeconds": 12.9
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 5,
+      "speakerTalkToListenRatio": {
+        "1": 0.124,
+        "2": 0.124,
+        "3": 0.163,
+        "4": 0.136,
+        "5": 0.126,
+        "6": 0.324
+      },
+      "speakerLongestMonolog": {
+        "1": 7,
+        "2": 7,
+        "3": 9,
+        "4": 7,
+        "5": 7,
+        "6": 18
+      },
+      "speakerNumberOfFragments": {
+        "1": 1,
+        "2": 3,
+        "3": 1,
+        "4": 1,
+        "5": 1,
+        "6": 2
+      },
+      "speakerWordCount": {
+        "1": 24,
+        "2": 28,
+        "3": 26,
+        "4": 24,
+        "5": 21,
+        "6": 49
+      }
+    },
+    "topics": [
+      {
+        "referenceUrl": null,
+        "iptcName": "environment",
+        "iabName": "Environment",
+        "confidence": 0.9616,
+        "id": 1,
+        "name": "Environment",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:01:07.28",
+            "startSeconds": 3.5,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "weather/weather phenomena",
+        "iabName": "Environment",
+        "confidence": 0.9247,
+        "id": 2,
+        "name": "Environment/Climate and Climates/Weather",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:01:07.28",
+            "startSeconds": 21.4,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/geology",
+        "iabName": "Science",
+        "confidence": 0.855,
+        "id": 3,
+        "name": "Science/Earth Science",
+        "appearances": [
+          {
+            "startTime": "0:00:56.84",
+            "endTime": "0:01:07.28",
+            "startSeconds": 56.8,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "environment/climate change/global warming",
+        "iabName": "Environment",
+        "confidence": 0.8148,
+        "id": 4,
+        "name": "Environment/Climate and Climates/Climate Change",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:01:07.28",
+            "startSeconds": 3.5,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "environment/nature/ecosystem",
+        "iabName": "Environment",
+        "confidence": 0.7976,
+        "id": 5,
+        "name": "Environment/The Environment",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:01:07.28",
+            "startSeconds": 3.5,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "environment/natural resources/water",
+        "iabName": "Environment",
+        "confidence": 0.7966,
+        "id": 6,
+        "name": "Environment/The Environment/Water",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:18.64",
+            "startSeconds": 3.5,
+            "endSeconds": 18.6
+          },
+          {
+            "startTime": "0:00:32",
+            "endTime": "0:00:56.12",
+            "startSeconds": 32,
+            "endSeconds": 56.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "environment/climate change",
+        "iabName": "Environment",
+        "confidence": 0.7808,
+        "id": 7,
+        "name": "Environment/The Environment/Environmentalism",
+        "appearances": [
+          {
+            "startTime": "0:00:03.52",
+            "endTime": "0:00:18.64",
+            "startSeconds": 3.5,
+            "endSeconds": 18.6
+          },
+          {
+            "startTime": "0:00:32",
+            "endTime": "0:01:07.28",
+            "startSeconds": 32,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/meteorology",
+        "iabName": "Science",
+        "confidence": 0.6759,
+        "id": 8,
+        "name": "Science/Atmospheric Sciences",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          },
+          {
+            "startTime": "0:00:56.84",
+            "endTime": "0:01:07.28",
+            "startSeconds": 56.8,
+            "endSeconds": 67.3
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/social sciences/geography",
+        "iabName": "Science",
+        "confidence": 0.6658,
+        "id": 9,
+        "name": "Science/Earth Science/Geography",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:30.72",
+            "startSeconds": 21.4,
+            "endSeconds": 30.7
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/meteorology",
+        "iabName": "Environment",
+        "confidence": 0.6362,
+        "id": 10,
+        "name": "Environment/Climate and Climates/Meteorology",
+        "appearances": [
+          {
+            "startTime": "0:00:21.36",
+            "endTime": "0:00:47.36",
+            "startSeconds": 21.4,
+            "endSeconds": 47.4
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "disaster, accident and emergency incident/disaster/natural disaster/drought",
+        "iabName": "Environment",
+        "confidence": 0.5633,
+        "id": 11,
+        "name": "Environment/Climate and Climates/Droughts",
+        "appearances": [
+          {
+            "startTime": "0:00:32",
+            "endTime": "0:00:47.36",
+            "startSeconds": 32,
+            "endSeconds": 47.4
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+      "id": "ak7snfmsn5",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Public",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:01:24.224",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "transcript": [
+          {
+            "id": 1,
+            "text": "Only 3% of water on Earth resides as freshwater, and only a tiny fraction of that is actually accessible to us on the surface.",
+            "confidence": 0.9014,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "7 billion of us live on this planet.",
+            "confidence": 0.9577,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.92",
+                "adjustedEnd": "0:00:12.88",
+                "start": "0:00:10.92",
+                "end": "0:00:12.88"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "We all have to drink water to live.",
+            "confidence": 0.9305,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:12.88",
+                "adjustedEnd": "0:00:14.56",
+                "start": "0:00:12.88",
+                "end": "0:00:14.56"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "Where's the water that we drink come from?",
+            "confidence": 0.9205,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:14.88",
+                "adjustedEnd": "0:00:16.68",
+                "start": "0:00:14.88",
+                "end": "0:00:16.68"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "By and large precipitation.",
+            "confidence": 0.6947,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16.92",
+                "adjustedEnd": "0:00:18.64",
+                "start": "0:00:16.92",
+                "end": "0:00:18.64"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "GPM is an international satellite mission providing a new generation of observations of a rain and snow in all parts of the world every three hours.",
+            "confidence": 0.8733,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "If you have good precipitation information, you can do a very good job of characterizing drought and often it's subsequent impact on agricultural productivity.",
+            "confidence": 0.8675,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:39.84",
+                "start": "0:00:32",
+                "end": "0:00:39.84"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "There's about one major flood a day some place in the world, so it's not as if it's a rare event.",
+            "confidence": 0.8446,
+            "speakerId": 5,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:40.12",
+                "adjustedEnd": "0:00:47.36",
+                "start": "0:00:40.12",
+                "end": "0:00:47.36"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "Understanding how much snow is falling is important for Transportation Safety, how much freshwater falls and is stored in snow packs.",
+            "confidence": 0.8388,
+            "speakerId": 6,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:47.96",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:47.96",
+                "end": "0:00:56.12"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "But we really need to to focus on all the phases of precipitation so that we know the global picture of where freshwater exists in the Earth's system.",
+            "confidence": 0.8655,
+            "speakerId": 6,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          }
+        ],
+        "ocrMaxTokenCount": 50000,
+        "ocrAnalyzedTokenCount": 91,
+        "ocr": [
+          {
+            "id": 1,
+            "text": "GPM Core",
+            "confidence": 0.9825,
+            "left": 985,
+            "top": 16,
+            "width": 115,
+            "height": 21,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:25.0333333",
+                "start": "0:00:25",
+                "end": "0:00:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "JPSS-1",
+            "confidence": 0.996,
+            "left": 586,
+            "top": 97,
+            "width": 74,
+            "height": 21,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:25.0333333",
+                "start": "0:00:25",
+                "end": "0:00:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "MetOp-B",
+            "confidence": 0.997,
+            "left": 746,
+            "top": 477,
+            "width": 120,
+            "height": 26,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:26.0333333",
+                "start": "0:00:25",
+                "end": "0:00:26.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "F19",
+            "confidence": 0.996,
+            "left": 517,
+            "top": 147,
+            "width": 40,
+            "height": 19,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:25.0333333",
+                "start": "0:00:25",
+                "end": "0:00:25.0333333"
+              },
+              {
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "Arthur Hou",
+            "confidence": 0.9935,
+            "left": 17,
+            "top": 612,
+            "width": 248,
+            "height": 41,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "avy Rain",
+            "confidence": 0.996,
+            "left": 510,
+            "top": 643,
+            "width": 64,
+            "height": 14,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "GPM PROJECT SCIENTIST",
+            "confidence": 0.995,
+            "left": 19,
+            "top": 659,
+            "width": 410,
+            "height": 36,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "GCOM-W1",
+            "confidence": 0.996,
+            "left": 666,
+            "top": 0,
+            "width": 117,
+            "height": 19,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:26",
+                "adjustedEnd": "0:00:26.0333333",
+                "start": "0:00:26",
+                "end": "0:00:26.0333333"
+              },
+              {
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "JP",
+            "confidence": 0.995,
+            "left": 535,
+            "top": 346,
+            "width": 29,
+            "height": 17,
+            "angle": -2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:26",
+                "adjustedEnd": "0:00:26.0333333",
+                "start": "0:00:26",
+                "end": "0:00:26.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "NOAA-19",
+            "confidence": 0.997,
+            "left": 1068,
+            "top": 655,
+            "width": 106,
+            "height": 22,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:26",
+                "adjustedEnd": "0:00:26.0333333",
+                "start": "0:00:26",
+                "end": "0:00:26.0333333"
+              },
+              {
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "NPP",
+            "confidence": 0.996,
+            "left": 1124,
+            "top": 121,
+            "width": 55,
+            "height": 20,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:26",
+                "adjustedEnd": "0:00:26.0333333",
+                "start": "0:00:26",
+                "end": "0:00:26.0333333"
+              },
+              {
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "Precipitation",
+            "confidence": 0.992,
+            "left": 444,
+            "top": 602,
+            "width": 99,
+            "height": 14,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Rain",
+            "confidence": 0.996,
+            "left": 377,
+            "top": 643,
+            "width": 35,
+            "height": 13,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "Heavy Rain",
+            "confidence": 0.997,
+            "left": 561,
+            "top": 642,
+            "width": 83,
+            "height": 14,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "PED",
+            "confidence": 0.997,
+            "left": 1037,
+            "top": 466,
+            "width": 118,
+            "height": 53,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.0333333",
+                "start": "0:00:32",
+                "end": "0:00:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "XING",
+            "confidence": 0.995,
+            "left": 1029,
+            "top": 534,
+            "width": 137,
+            "height": 54,
+            "angle": -1,
+            "language": "de-DE",
+            "instances": [
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.0333333",
+                "start": "0:00:32",
+                "end": "0:00:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "Wade Crow",
+            "confidence": 0.996,
+            "left": 15,
+            "top": 611,
+            "width": 262,
+            "height": 41,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:37",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "USDA, AGRICULTURAL RESEARCH SERVICE",
+            "confidence": 0.9963,
+            "left": 15,
+            "top": 662,
+            "width": 526,
+            "height": 27,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:37",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "Eric Wood",
+            "confidence": 0.995,
+            "left": 34,
+            "top": 614,
+            "width": 231,
+            "height": 39,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:45",
+                "end": "0:00:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "PRINCETON UNIVERSITY",
+            "confidence": 0.976,
+            "left": 34,
+            "top": 659,
+            "width": 459,
+            "height": 34,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:45",
+                "end": "0:00:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "text": "Gail Skofronick-Jackson",
+            "confidence": 0.99,
+            "left": 699,
+            "top": 609,
+            "width": 556,
+            "height": 46,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:54",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "text": "GPM DEPUTY PROJECT SCIENTIST",
+            "confidence": 0.996,
+            "left": 718,
+            "top": 669,
+            "width": 541,
+            "height": 32,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:54",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "text": "gpm.nasa.gov",
+            "confidence": 0.988,
+            "left": 419,
+            "top": 625,
+            "width": 442,
+            "height": 62,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:12",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:12",
+                "end": "0:01:20.0333333"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "text": "GP",
+            "confidence": 0.956,
+            "left": 316,
+            "top": 226,
+            "width": 384,
+            "height": 258,
+            "angle": -4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:16.0333333",
+                "start": "0:01:16",
+                "end": "0:01:16.0333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "text": "\u5168\u7403\u964d\u6c34\u89c0\u6e2c\u8a08\u753b",
+            "confidence": 0.9649,
+            "left": 421,
+            "top": 94,
+            "width": 439,
+            "height": 68,
+            "angle": 0,
+            "language": "zh-Hans",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:17",
+                "end": "0:01:20.0333333"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "text": "GLOBAL PRECIPITATION MEASUREMENT",
+            "confidence": 0.989,
+            "left": 198,
+            "top": 467,
+            "width": 876,
+            "height": 122,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:17",
+                "end": "0:01:20.0333333"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "text": "Additional material courtesy of",
+            "confidence": 0.994,
+            "left": 332,
+            "top": 189,
+            "width": 615,
+            "height": 48,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:21",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "text": "pond5.com",
+            "confidence": 0.997,
+            "left": 524,
+            "top": 315,
+            "width": 232,
+            "height": 49,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:21",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "text": "FootageFirm.com",
+            "confidence": 0.989,
+            "left": 468,
+            "top": 373,
+            "width": 344,
+            "height": 52,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:21",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "text": "theweeklyfly.com",
+            "confidence": 0.983,
+            "left": 470,
+            "top": 432,
+            "width": 339,
+            "height": 52,
+            "angle": 0,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:21",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "avy rain",
+            "confidence": 0.9566,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "freshwater",
+            "confidence": 0.7514,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              },
+              {
+                "adjustedStart": "0:00:47.96",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:47.96",
+                "end": "0:00:56.12"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "drink",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:12.88",
+                "adjustedEnd": "0:00:14.56",
+                "start": "0:00:12.88",
+                "end": "0:00:14.56"
+              },
+              {
+                "adjustedStart": "0:00:14.88",
+                "adjustedEnd": "0:00:16.68",
+                "start": "0:00:14.88",
+                "end": "0:00:16.68"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "precipitation",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16.92",
+                "adjustedEnd": "0:00:18.64",
+                "start": "0:00:16.92",
+                "end": "0:00:18.64"
+              },
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:39.84",
+                "start": "0:00:32",
+                "end": "0:00:39.84"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              },
+              {
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:17",
+                "end": "0:01:20.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "earth",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "water",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              },
+              {
+                "adjustedStart": "0:00:12.88",
+                "adjustedEnd": "0:00:14.56",
+                "start": "0:00:12.88",
+                "end": "0:00:14.56"
+              },
+              {
+                "adjustedStart": "0:00:14.88",
+                "adjustedEnd": "0:00:16.68",
+                "start": "0:00:14.88",
+                "end": "0:00:16.68"
+              },
+              {
+                "adjustedStart": "0:00:47.96",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:47.96",
+                "end": "0:00:56.12"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "rain",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              },
+              {
+                "adjustedStart": "0:00:30",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:30",
+                "end": "0:00:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "snow",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:47.96",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:47.96",
+                "end": "0:00:56.12"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "live",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.92",
+                "adjustedEnd": "0:00:12.88",
+                "start": "0:00:10.92",
+                "end": "0:00:12.88"
+              },
+              {
+                "adjustedStart": "0:00:12.88",
+                "adjustedEnd": "0:00:14.56",
+                "start": "0:00:12.88",
+                "end": "0:00:14.56"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "world",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:40.12",
+                "adjustedEnd": "0:00:47.36",
+                "start": "0:00:40.12",
+                "end": "0:00:47.36"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "id": 1,
+            "name": "Environment",
+            "referenceId": "Environment",
+            "referenceType": "VideoIndexer",
+            "iptcName": "environment",
+            "confidence": 0.9616,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:03.52",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Weather",
+            "referenceId": "Environment/Climate and Climates/Weather",
+            "referenceType": "VideoIndexer",
+            "iptcName": "weather/weather phenomena",
+            "confidence": 0.9247,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:21.36",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Earth Science",
+            "referenceId": "Science/Earth Science",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/geology",
+            "confidence": 0.855,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Climate Change",
+            "referenceId": "Environment/Climate and Climates/Climate Change",
+            "referenceType": "VideoIndexer",
+            "iptcName": "environment/climate change/global warming",
+            "confidence": 0.8148,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:03.52",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "The Environment",
+            "referenceId": "Environment/The Environment",
+            "referenceType": "VideoIndexer",
+            "iptcName": "environment/nature/ecosystem",
+            "confidence": 0.7976,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:03.52",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Water",
+            "referenceId": "Environment/The Environment/Water",
+            "referenceType": "VideoIndexer",
+            "iptcName": "environment/natural resources/water",
+            "confidence": 0.7966,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:18.64",
+                "start": "0:00:03.52",
+                "end": "0:00:18.64"
+              },
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:32",
+                "end": "0:00:56.12"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Environmentalism",
+            "referenceId": "Environment/The Environment/Environmentalism",
+            "referenceType": "VideoIndexer",
+            "iptcName": "environment/climate change",
+            "confidence": 0.7808,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:18.64",
+                "start": "0:00:03.52",
+                "end": "0:00:18.64"
+              },
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:32",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Atmospheric Sciences",
+            "referenceId": "Science/Atmospheric Sciences",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/meteorology",
+            "confidence": 0.6759,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "Geography",
+            "referenceId": "Science/Earth Science/Geography",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/social sciences/geography",
+            "confidence": 0.6658,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "Meteorology",
+            "referenceId": "Environment/Climate and Climates/Meteorology",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/meteorology",
+            "confidence": 0.6362,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:47.36",
+                "start": "0:00:21.36",
+                "end": "0:00:47.36"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "Droughts",
+            "referenceId": "Environment/Climate and Climates/Droughts",
+            "referenceType": "VideoIndexer",
+            "iptcName": "disaster, accident and emergency incident/disaster/natural disaster/drought",
+            "confidence": 0.5633,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:47.36",
+                "start": "0:00:32",
+                "end": "0:00:47.36"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "liquid",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9831,
+                "adjustedStart": "0:00:01",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:01",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "fluid",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.972,
+                "adjustedStart": "0:00:01",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:01",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "drop",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9638,
+                "adjustedStart": "0:00:02",
+                "adjustedEnd": "0:00:02.0333333",
+                "start": "0:00:02",
+                "end": "0:00:02.0333333"
+              },
+              {
+                "confidence": 0.9697,
+                "adjustedStart": "0:00:04",
+                "adjustedEnd": "0:00:06.0333333",
+                "start": "0:00:04",
+                "end": "0:00:06.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9731,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:08.0333333",
+                "start": "0:00:07",
+                "end": "0:00:08.0333333"
+              },
+              {
+                "confidence": 0.9781,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9914,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:36.0333333",
+                "start": "0:00:31",
+                "end": "0:00:36.0333333"
+              },
+              {
+                "confidence": 0.9945,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:40",
+                "end": "0:00:44.0333333"
+              },
+              {
+                "confidence": 0.9885,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:50.0333333",
+                "start": "0:00:49",
+                "end": "0:00:50.0333333"
+              },
+              {
+                "confidence": 0.9752,
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:58.0333333",
+                "start": "0:00:57",
+                "end": "0:00:58.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "water",
+            "referenceId": "matter/liquid/water",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9905,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:07.0333333",
+                "start": "0:00:07",
+                "end": "0:00:07.0333333"
+              },
+              {
+                "confidence": 0.9749,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:42.0333333",
+                "start": "0:00:41",
+                "end": "0:00:42.0333333"
+              },
+              {
+                "confidence": 0.9634,
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:02.0333333",
+                "start": "0:01:01",
+                "end": "0:01:02.0333333"
+              },
+              {
+                "confidence": 0.9792,
+                "adjustedStart": "0:01:04",
+                "adjustedEnd": "0:01:07.0333333",
+                "start": "0:01:04",
+                "end": "0:01:07.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "lake",
+            "referenceId": "body of water/lake",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.957,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:07.0333333",
+                "start": "0:00:07",
+                "end": "0:00:07.0333333"
+              },
+              {
+                "confidence": 0.9604,
+                "adjustedStart": "0:01:03",
+                "adjustedEnd": "0:01:03.0333333",
+                "start": "0:01:03",
+                "end": "0:01:03.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "wheel",
+            "referenceId": "device/mechanical device/wheel",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9808,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:14.0333333",
+                "start": "0:00:11",
+                "end": "0:00:14.0333333"
+              },
+              {
+                "confidence": 0.9518,
+                "adjustedStart": "0:00:34",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:34",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "clothing",
+            "referenceId": "consumer goods/clothing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9769,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9619,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9772,
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:37",
+                "end": "0:00:39.0333333"
+              },
+              {
+                "confidence": 0.9671,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:47",
+                "end": "0:00:48.0333333"
+              },
+              {
+                "confidence": 0.9584,
+                "adjustedStart": "0:00:56",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:56",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "footwear",
+            "referenceId": "consumer goods/clothing/footwear",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9612,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "transport",
+            "referenceId": "conveyance/transport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9528,
+                "adjustedStart": "0:00:11",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:11",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9991,
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:21",
+                "end": "0:00:24.0333333"
+              },
+              {
+                "confidence": 0.9697,
+                "adjustedStart": "0:00:29",
+                "adjustedEnd": "0:00:29.0333333",
+                "start": "0:00:29",
+                "end": "0:00:29.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "bicycle",
+            "referenceId": "conveyance/vehicle/bicycle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9568,
+                "adjustedStart": "0:00:13",
+                "adjustedEnd": "0:00:13.0333333",
+                "start": "0:00:13",
+                "end": "0:00:13.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "snow",
+            "referenceId": "natural phenomenon/weather/snow",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9738,
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "confidence": 0.9898,
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:47",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "confidence": 0.9879,
+                "adjustedStart": "0:00:53",
+                "adjustedEnd": "0:00:53.0333333",
+                "start": "0:00:53",
+                "end": "0:00:53.0333333"
+              },
+              {
+                "confidence": 0.9844,
+                "adjustedStart": "0:00:55",
+                "adjustedEnd": "0:00:57.0333333",
+                "start": "0:00:55",
+                "end": "0:00:57.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "winter",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.976,
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:18.0333333",
+                "start": "0:00:16",
+                "end": "0:00:18.0333333"
+              },
+              {
+                "confidence": 0.9605,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:31.0333333",
+                "start": "0:00:31",
+                "end": "0:00:31.0333333"
+              },
+              {
+                "confidence": 0.9873,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:50.0333333",
+                "start": "0:00:49",
+                "end": "0:00:50.0333333"
+              },
+              {
+                "confidence": 0.9619,
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:54.0333333",
+                "start": "0:00:54",
+                "end": "0:00:54.0333333"
+              },
+              {
+                "confidence": 0.9721,
+                "adjustedStart": "0:00:57",
+                "adjustedEnd": "0:00:57.0333333",
+                "start": "0:00:57",
+                "end": "0:00:57.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "satellite",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9949,
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:21",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "map",
+            "referenceId": "creation/representation/map",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9854,
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "text",
+            "referenceId": "communication/writing/text",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.973,
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:25",
+                "end": "0:00:28.0333333"
+              },
+              {
+                "confidence": 0.9877,
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:45.0333333",
+                "start": "0:00:45",
+                "end": "0:00:45.0333333"
+              },
+              {
+                "confidence": 0.9984,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:19.0333333",
+                "start": "0:01:18",
+                "end": "0:01:19.0333333"
+              },
+              {
+                "confidence": 0.9955,
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:21",
+                "end": "0:01:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9553,
+                "adjustedStart": "0:00:27",
+                "adjustedEnd": "0:00:27.0333333",
+                "start": "0:00:27",
+                "end": "0:00:27.0333333"
+              },
+              {
+                "confidence": 0.9933,
+                "adjustedStart": "0:00:37",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:37",
+                "end": "0:00:39.0333333"
+              },
+              {
+                "confidence": 0.9859,
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:45",
+                "end": "0:00:48.0333333"
+              },
+              {
+                "confidence": 0.9812,
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:54",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "man",
+            "referenceId": "person/man",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9555,
+                "adjustedStart": "0:00:28",
+                "adjustedEnd": "0:00:28.0333333",
+                "start": "0:00:28",
+                "end": "0:00:28.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "tree",
+            "referenceId": "plant/tree",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9681,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:31.0333333",
+                "start": "0:00:31",
+                "end": "0:00:31.0333333"
+              },
+              {
+                "confidence": 0.9767,
+                "adjustedStart": "0:00:40",
+                "adjustedEnd": "0:00:43.0333333",
+                "start": "0:00:40",
+                "end": "0:00:43.0333333"
+              },
+              {
+                "confidence": 0.9952,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:49",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "confidence": 0.9552,
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:08.0333333",
+                "start": "0:01:08",
+                "end": "0:01:08.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9772,
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.0333333",
+                "start": "0:00:32",
+                "end": "0:00:32.0333333"
+              },
+              {
+                "confidence": 0.9921,
+                "adjustedStart": "0:00:34",
+                "adjustedEnd": "0:00:36.0333333",
+                "start": "0:00:34",
+                "end": "0:00:36.0333333"
+              },
+              {
+                "confidence": 0.9768,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:41.0333333",
+                "start": "0:00:41",
+                "end": "0:00:41.0333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "traffic sign",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9554,
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.0333333",
+                "start": "0:00:32",
+                "end": "0:00:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "cloud",
+            "referenceId": "natural phenomenon/weather/cloud",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.952,
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:32.0333333",
+                "start": "0:00:32",
+                "end": "0:00:32.0333333"
+              },
+              {
+                "confidence": 0.9888,
+                "adjustedStart": "0:01:09",
+                "adjustedEnd": "0:01:09.0333333",
+                "start": "0:01:09",
+                "end": "0:01:09.0333333"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "plant",
+            "referenceId": "structure/building complex/plant",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9819,
+                "adjustedStart": "0:00:36",
+                "adjustedEnd": "0:00:36.0333333",
+                "start": "0:00:36",
+                "end": "0:00:36.0333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "boy",
+            "referenceId": "person/male child/child/boy",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9619,
+                "adjustedStart": "0:00:39",
+                "adjustedEnd": "0:00:39.0333333",
+                "start": "0:00:39",
+                "end": "0:00:39.0333333"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "vehicle",
+            "referenceId": "instrumentality/conveyance/vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9734,
+                "adjustedStart": "0:00:41",
+                "adjustedEnd": "0:00:45.0333333",
+                "start": "0:00:41",
+                "end": "0:00:45.0333333"
+              },
+              {
+                "confidence": 0.9823,
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:52.0333333",
+                "start": "0:00:51",
+                "end": "0:00:52.0333333"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "name": "land vehicle",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9553,
+                "adjustedStart": "0:00:42",
+                "adjustedEnd": "0:00:43.0333333",
+                "start": "0:00:42",
+                "end": "0:00:43.0333333"
+              },
+              {
+                "confidence": 0.985,
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:45.0333333",
+                "start": "0:00:45",
+                "end": "0:00:45.0333333"
+              },
+              {
+                "confidence": 0.9768,
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:52.0333333",
+                "start": "0:00:51",
+                "end": "0:00:52.0333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "ground",
+            "referenceId": "land/ground",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9721,
+                "adjustedStart": "0:00:44",
+                "adjustedEnd": "0:00:44.0333333",
+                "start": "0:00:44",
+                "end": "0:00:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "name": "car",
+            "referenceId": "conveyance/vehicle/car",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9607,
+                "adjustedStart": "0:00:45",
+                "adjustedEnd": "0:00:45.0333333",
+                "start": "0:00:45",
+                "end": "0:00:45.0333333"
+              },
+              {
+                "confidence": 0.9594,
+                "adjustedStart": "0:00:51",
+                "adjustedEnd": "0:00:51.0333333",
+                "start": "0:00:51",
+                "end": "0:00:51.0333333"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "name": "glasses",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.954,
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:48",
+                "end": "0:00:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "name": "freezing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9523,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:49",
+                "end": "0:00:49.0333333"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "name": "nature",
+            "referenceId": "nature",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9896,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.0333333",
+                "start": "0:00:58",
+                "end": "0:00:58.0333333"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "name": "glacial landform",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.95,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:58.0333333",
+                "start": "0:00:58",
+                "end": "0:00:58.0333333"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "name": "graphics",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9674,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:19.0333333",
+                "start": "0:01:17",
+                "end": "0:01:19.0333333"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "name": "logo",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9732,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:17",
+                "end": "0:01:20.0333333"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "name": "font",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9583,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:19.0333333",
+                "start": "0:01:18",
+                "end": "0:01:19.0333333"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:10.5",
+                "start": "0:00:00",
+                "end": "0:00:10.5"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:18.9",
+                "start": "0:00:10.5",
+                "end": "0:00:18.9"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:18.9",
+                "adjustedEnd": "0:00:21",
+                "start": "0:00:18.9",
+                "end": "0:00:21"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:30.3",
+                "start": "0:00:21",
+                "end": "0:00:30.3"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.3",
+                "adjustedEnd": "0:00:40.8333333",
+                "start": "0:00:30.3",
+                "end": "0:00:40.8333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "instances": [
+              {
+                "adjustedStart": "0:00:40.8333333",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:40.8333333",
+                "end": "0:00:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "instances": [
+              {
+                "adjustedStart": "0:00:48.0333333",
+                "adjustedEnd": "0:00:53.3",
+                "start": "0:00:48.0333333",
+                "end": "0:00:53.3"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "instances": [
+              {
+                "adjustedStart": "0:00:53.3",
+                "adjustedEnd": "0:01:16.9",
+                "start": "0:00:53.3",
+                "end": "0:01:16.9"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.1",
+                "adjustedEnd": "0:01:24.2",
+                "start": "0:01:17.1",
+                "end": "0:01:24.2"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "aed5d1ac-b41e-4d75-8392-c01cb3d819e8",
+                    "adjustedStart": "0:00:00.9666667",
+                    "adjustedEnd": "0:00:01",
+                    "start": "0:00:00.9666667",
+                    "end": "0:00:01"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.2333333",
+                "start": "0:00:00",
+                "end": "0:00:01.2333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "keyFrames": [
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "3505e27a-775d-4d70-bc94-421f77c154eb",
+                    "adjustedStart": "0:00:01.5",
+                    "adjustedEnd": "0:00:01.5333333",
+                    "start": "0:00:01.5",
+                    "end": "0:00:01.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.2333333",
+                "adjustedEnd": "0:00:03.1666667",
+                "start": "0:00:01.2333333",
+                "end": "0:00:03.1666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "b0861386-84b3-45b8-a327-cb6e2cd7184c",
+                    "adjustedStart": "0:00:03.4333333",
+                    "adjustedEnd": "0:00:03.4666667",
+                    "start": "0:00:03.4333333",
+                    "end": "0:00:03.4666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.1666667",
+                "adjustedEnd": "0:00:06.2333333",
+                "start": "0:00:03.1666667",
+                "end": "0:00:06.2333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "keyFrames": [
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "10b8f1b3-b563-45e4-a6ba-631484d3eb83",
+                    "adjustedStart": "0:00:06.3",
+                    "adjustedEnd": "0:00:06.3333333",
+                    "start": "0:00:06.3",
+                    "end": "0:00:06.3333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:06.2333333",
+                "adjustedEnd": "0:00:07.4666667",
+                "start": "0:00:06.2333333",
+                "end": "0:00:07.4666667"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "f894d1a8-5dcb-4152-af2a-e2f6ba8c70a7",
+                    "adjustedStart": "0:00:07.5333333",
+                    "adjustedEnd": "0:00:07.5666667",
+                    "start": "0:00:07.5333333",
+                    "end": "0:00:07.5666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:07.4666667",
+                "adjustedEnd": "0:00:10.5",
+                "start": "0:00:07.4666667",
+                "end": "0:00:10.5"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "keyFrames": [
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "878f2cc5-2ecd-4e8e-a31d-8d8af2359e64",
+                    "adjustedStart": "0:00:10.7666667",
+                    "adjustedEnd": "0:00:10.8",
+                    "start": "0:00:10.7666667",
+                    "end": "0:00:10.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.5333333",
+                "start": "0:00:10.5",
+                "end": "0:00:11.5333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "keyFrames": [
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "68856b7b-7cb1-48d3-8ec2-865a2170394e",
+                    "adjustedStart": "0:00:11.8",
+                    "adjustedEnd": "0:00:11.8333333",
+                    "start": "0:00:11.8",
+                    "end": "0:00:11.8333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:11.5333333",
+                "adjustedEnd": "0:00:14.6666667",
+                "start": "0:00:11.5333333",
+                "end": "0:00:14.6666667"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "0b8a37d2-ba33-4f90-b72b-ff650329e624",
+                    "adjustedStart": "0:00:14.9333333",
+                    "adjustedEnd": "0:00:14.9666667",
+                    "start": "0:00:14.9333333",
+                    "end": "0:00:14.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:14.6666667",
+                "adjustedEnd": "0:00:15.7666667",
+                "start": "0:00:14.6666667",
+                "end": "0:00:15.7666667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "keyFrames": [
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "f35abdc9-5aa6-48a4-971c-66c7fa4cb98c",
+                    "adjustedStart": "0:00:15.8333333",
+                    "adjustedEnd": "0:00:15.8666667",
+                    "start": "0:00:15.8333333",
+                    "end": "0:00:15.8666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.7666667",
+                "adjustedEnd": "0:00:18.9",
+                "start": "0:00:15.7666667",
+                "end": "0:00:18.9"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "767febca-3400-4587-b891-7dd8b1464415",
+                    "adjustedStart": "0:00:19.1333333",
+                    "adjustedEnd": "0:00:19.1666667",
+                    "start": "0:00:19.1333333",
+                    "end": "0:00:19.1666667"
+                  }
+                ]
+              },
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "b85ae5dd-8281-42cb-b3e0-08ca0c305e25",
+                    "adjustedStart": "0:00:20.1",
+                    "adjustedEnd": "0:00:20.1333333",
+                    "start": "0:00:20.1",
+                    "end": "0:00:20.1333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:18.9",
+                "adjustedEnd": "0:00:21",
+                "start": "0:00:18.9",
+                "end": "0:00:21"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "910a78bd-2409-4e84-8ff9-1f1b5dff92cf",
+                    "adjustedStart": "0:00:21.0333333",
+                    "adjustedEnd": "0:00:21.0666667",
+                    "start": "0:00:21.0333333",
+                    "end": "0:00:21.0666667"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "a105d59c-bef8-4028-850f-acd292085fe2",
+                    "adjustedStart": "0:00:22.3",
+                    "adjustedEnd": "0:00:22.3333333",
+                    "start": "0:00:22.3",
+                    "end": "0:00:22.3333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:24.1333333",
+                "start": "0:00:21",
+                "end": "0:00:24.1333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "6ceb4265-8fad-4efb-9c83-f79ef824892b",
+                    "adjustedStart": "0:00:24.4",
+                    "adjustedEnd": "0:00:24.4333333",
+                    "start": "0:00:24.4",
+                    "end": "0:00:24.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:24.1333333",
+                "adjustedEnd": "0:00:28.2666667",
+                "start": "0:00:24.1333333",
+                "end": "0:00:28.2666667"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "cc353349-7e95-4c5d-bb1d-b7c00d7de176",
+                    "adjustedStart": "0:00:28.5",
+                    "adjustedEnd": "0:00:28.5333333",
+                    "start": "0:00:28.5",
+                    "end": "0:00:28.5333333"
+                  }
+                ]
+              },
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "248f4816-9c3b-4e7b-9ae6-fe9235072da6",
+                    "adjustedStart": "0:00:29.2666667",
+                    "adjustedEnd": "0:00:29.3",
+                    "start": "0:00:29.2666667",
+                    "end": "0:00:29.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:28.2666667",
+                "adjustedEnd": "0:00:30.3",
+                "start": "0:00:28.2666667",
+                "end": "0:00:30.3"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "1e7f3857-09d4-43e3-b70f-7b393a39c8e5",
+                    "adjustedStart": "0:00:30.5666667",
+                    "adjustedEnd": "0:00:30.6",
+                    "start": "0:00:30.5666667",
+                    "end": "0:00:30.6"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.3",
+                "adjustedEnd": "0:00:31.3333333",
+                "start": "0:00:30.3",
+                "end": "0:00:31.3333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "keyFrames": [
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "960f072d-0b8d-413f-b0b0-6d912d3235b0",
+                    "adjustedStart": "0:00:31.4",
+                    "adjustedEnd": "0:00:31.4333333",
+                    "start": "0:00:31.4",
+                    "end": "0:00:31.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:31.3333333",
+                "adjustedEnd": "0:00:32.3666667",
+                "start": "0:00:31.3333333",
+                "end": "0:00:32.3666667"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "keyFrames": [
+              {
+                "id": 19,
+                "instances": [
+                  {
+                    "thumbnailId": "6d9b010f-a316-496f-93bf-a6e208a20fc5",
+                    "adjustedStart": "0:00:32.6333333",
+                    "adjustedEnd": "0:00:32.6666667",
+                    "start": "0:00:32.6333333",
+                    "end": "0:00:32.6666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:32.3666667",
+                "adjustedEnd": "0:00:33.5",
+                "start": "0:00:32.3666667",
+                "end": "0:00:33.5"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "keyFrames": [
+              {
+                "id": 20,
+                "instances": [
+                  {
+                    "thumbnailId": "840af0ac-8e62-46ca-9eff-a9f78148bd0f",
+                    "adjustedStart": "0:00:33.5666667",
+                    "adjustedEnd": "0:00:33.6",
+                    "start": "0:00:33.5666667",
+                    "end": "0:00:33.6"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:33.5",
+                "adjustedEnd": "0:00:35.6",
+                "start": "0:00:33.5",
+                "end": "0:00:35.6"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "keyFrames": [
+              {
+                "id": 21,
+                "instances": [
+                  {
+                    "thumbnailId": "9515a567-c2ca-49a0-b750-96b39db14822",
+                    "adjustedStart": "0:00:35.6666667",
+                    "adjustedEnd": "0:00:35.7",
+                    "start": "0:00:35.6666667",
+                    "end": "0:00:35.7"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:35.6",
+                "adjustedEnd": "0:00:36.6666667",
+                "start": "0:00:35.6",
+                "end": "0:00:36.6666667"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "keyFrames": [
+              {
+                "id": 22,
+                "instances": [
+                  {
+                    "thumbnailId": "444bb6f4-87a5-41ec-8c71-7d41eddcc1ca",
+                    "adjustedStart": "0:00:36.9333333",
+                    "adjustedEnd": "0:00:36.9666667",
+                    "start": "0:00:36.9333333",
+                    "end": "0:00:36.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:36.6666667",
+                "adjustedEnd": "0:00:37.7",
+                "start": "0:00:36.6666667",
+                "end": "0:00:37.7"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "keyFrames": [
+              {
+                "id": 23,
+                "instances": [
+                  {
+                    "thumbnailId": "918bf0c7-0c13-4e12-8ba1-f95c9a54e7e4",
+                    "adjustedStart": "0:00:37.7666667",
+                    "adjustedEnd": "0:00:37.8",
+                    "start": "0:00:37.7666667",
+                    "end": "0:00:37.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:37.7",
+                "adjustedEnd": "0:00:39.8",
+                "start": "0:00:37.7",
+                "end": "0:00:39.8"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "keyFrames": [
+              {
+                "id": 24,
+                "instances": [
+                  {
+                    "thumbnailId": "90db94b3-ef27-42da-8f53-90229f288d96",
+                    "adjustedStart": "0:00:40.0666667",
+                    "adjustedEnd": "0:00:40.1",
+                    "start": "0:00:40.0666667",
+                    "end": "0:00:40.1"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.8",
+                "adjustedEnd": "0:00:40.8333333",
+                "start": "0:00:39.8",
+                "end": "0:00:40.8333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "keyFrames": [
+              {
+                "id": 25,
+                "instances": [
+                  {
+                    "thumbnailId": "bcd27e44-96e3-4372-ba29-2b3577291cd3",
+                    "adjustedStart": "0:00:40.8666667",
+                    "adjustedEnd": "0:00:40.9",
+                    "start": "0:00:40.8666667",
+                    "end": "0:00:40.9"
+                  }
+                ]
+              },
+              {
+                "id": 26,
+                "instances": [
+                  {
+                    "thumbnailId": "b3c360d0-cb53-4f5d-b04c-97c0af6fa13c",
+                    "adjustedStart": "0:00:42",
+                    "adjustedEnd": "0:00:42.0333333",
+                    "start": "0:00:42",
+                    "end": "0:00:42.0333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:40.8333333",
+                "adjustedEnd": "0:00:43.1",
+                "start": "0:00:40.8333333",
+                "end": "0:00:43.1"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "keyFrames": [
+              {
+                "id": 27,
+                "instances": [
+                  {
+                    "thumbnailId": "1748356a-a62d-4fb6-ac0e-6f86cd60b24b",
+                    "adjustedStart": "0:00:43.3",
+                    "adjustedEnd": "0:00:43.3333333",
+                    "start": "0:00:43.3",
+                    "end": "0:00:43.3333333"
+                  }
+                ]
+              },
+              {
+                "id": 28,
+                "instances": [
+                  {
+                    "thumbnailId": "e350e79f-4d6e-4856-b565-0ec0ad52c101",
+                    "adjustedStart": "0:00:44.1",
+                    "adjustedEnd": "0:00:44.1333333",
+                    "start": "0:00:44.1",
+                    "end": "0:00:44.1333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:43.3",
+                "adjustedEnd": "0:00:44.9333333",
+                "start": "0:00:43.3",
+                "end": "0:00:44.9333333"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "keyFrames": [
+              {
+                "id": 29,
+                "instances": [
+                  {
+                    "thumbnailId": "c86067c0-f23c-451e-8657-9aefe23faf8b",
+                    "adjustedStart": "0:00:44.9666667",
+                    "adjustedEnd": "0:00:45",
+                    "start": "0:00:44.9666667",
+                    "end": "0:00:45"
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "instances": [
+                  {
+                    "thumbnailId": "58d02703-b362-4c37-88ae-9de48e392e4c",
+                    "adjustedStart": "0:00:46.5333333",
+                    "adjustedEnd": "0:00:46.5666667",
+                    "start": "0:00:46.5333333",
+                    "end": "0:00:46.5666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:44.9333333",
+                "adjustedEnd": "0:00:47",
+                "start": "0:00:44.9333333",
+                "end": "0:00:47"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "keyFrames": [
+              {
+                "id": 31,
+                "instances": [
+                  {
+                    "thumbnailId": "f9496a39-2830-4855-825d-fd74c414e6fc",
+                    "adjustedStart": "0:00:47.2666667",
+                    "adjustedEnd": "0:00:47.3",
+                    "start": "0:00:47.2666667",
+                    "end": "0:00:47.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:47",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:47",
+                "end": "0:00:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "keyFrames": [
+              {
+                "id": 32,
+                "instances": [
+                  {
+                    "thumbnailId": "5e1f57dc-c5dc-4e41-ae61-6f4823f3b3b6",
+                    "adjustedStart": "0:00:48.3",
+                    "adjustedEnd": "0:00:48.3333333",
+                    "start": "0:00:48.3",
+                    "end": "0:00:48.3333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:48.0333333",
+                "adjustedEnd": "0:00:49.2",
+                "start": "0:00:48.0333333",
+                "end": "0:00:49.2"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "keyFrames": [
+              {
+                "id": 33,
+                "instances": [
+                  {
+                    "thumbnailId": "90172136-a3dc-4a04-882a-ddeb09961f6b",
+                    "adjustedStart": "0:00:49.4666667",
+                    "adjustedEnd": "0:00:49.5",
+                    "start": "0:00:49.4666667",
+                    "end": "0:00:49.5"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:49.2",
+                "adjustedEnd": "0:00:50.2333333",
+                "start": "0:00:49.2",
+                "end": "0:00:50.2333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "keyFrames": [
+              {
+                "id": 34,
+                "instances": [
+                  {
+                    "thumbnailId": "39034ac9-cbae-48bd-8734-8f899edd434f",
+                    "adjustedStart": "0:00:50.3",
+                    "adjustedEnd": "0:00:50.3333333",
+                    "start": "0:00:50.3",
+                    "end": "0:00:50.3333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:50.2333333",
+                "adjustedEnd": "0:00:52.1666667",
+                "start": "0:00:50.2333333",
+                "end": "0:00:52.1666667"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "keyFrames": [
+              {
+                "id": 35,
+                "instances": [
+                  {
+                    "thumbnailId": "14ce970e-a444-4e85-bfe1-6d08fd4f7f2c",
+                    "adjustedStart": "0:00:52.4333333",
+                    "adjustedEnd": "0:00:52.4666667",
+                    "start": "0:00:52.4333333",
+                    "end": "0:00:52.4666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:52.1666667",
+                "adjustedEnd": "0:00:53.3",
+                "start": "0:00:52.1666667",
+                "end": "0:00:53.3"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "keyFrames": [
+              {
+                "id": 36,
+                "instances": [
+                  {
+                    "thumbnailId": "a909e3d8-700e-422b-b15d-b734407bf09f",
+                    "adjustedStart": "0:00:53.3666667",
+                    "adjustedEnd": "0:00:53.4",
+                    "start": "0:00:53.3666667",
+                    "end": "0:00:53.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:53.3",
+                "adjustedEnd": "0:00:54.3333333",
+                "start": "0:00:53.3",
+                "end": "0:00:54.3333333"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "keyFrames": [
+              {
+                "id": 37,
+                "instances": [
+                  {
+                    "thumbnailId": "189208a9-1666-4af9-ae56-7359127a951f",
+                    "adjustedStart": "0:00:54.6",
+                    "adjustedEnd": "0:00:54.6333333",
+                    "start": "0:00:54.6",
+                    "end": "0:00:54.6333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:54.3333333",
+                "adjustedEnd": "0:00:56.1333333",
+                "start": "0:00:54.3333333",
+                "end": "0:00:56.1333333"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "keyFrames": [
+              {
+                "id": 38,
+                "instances": [
+                  {
+                    "thumbnailId": "ec317929-1614-4393-9fdd-fec514617304",
+                    "adjustedStart": "0:00:56.4",
+                    "adjustedEnd": "0:00:56.4333333",
+                    "start": "0:00:56.4",
+                    "end": "0:00:56.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.1333333",
+                "adjustedEnd": "0:00:57.5",
+                "start": "0:00:56.1333333",
+                "end": "0:00:57.5"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "keyFrames": [
+              {
+                "id": 39,
+                "instances": [
+                  {
+                    "thumbnailId": "1a3fe5b7-6a40-4c41-9a84-b164ae280c39",
+                    "adjustedStart": "0:00:59.2333333",
+                    "adjustedEnd": "0:00:59.2666667",
+                    "start": "0:00:59.2333333",
+                    "end": "0:00:59.2666667"
+                  }
+                ]
+              },
+              {
+                "id": 40,
+                "instances": [
+                  {
+                    "thumbnailId": "79b5e531-593a-450a-bc86-e492499ee32a",
+                    "adjustedStart": "0:01:02.5666667",
+                    "adjustedEnd": "0:01:02.6",
+                    "start": "0:01:02.5666667",
+                    "end": "0:01:02.6"
+                  }
+                ]
+              },
+              {
+                "id": 41,
+                "instances": [
+                  {
+                    "thumbnailId": "17e5e8ba-3df7-4474-9d4b-eeaa4ae5965e",
+                    "adjustedStart": "0:01:06.5",
+                    "adjustedEnd": "0:01:06.5333333",
+                    "start": "0:01:06.5",
+                    "end": "0:01:06.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:57.5",
+                "adjustedEnd": "0:01:08.5333333",
+                "start": "0:00:57.5",
+                "end": "0:01:08.5333333"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "keyFrames": [
+              {
+                "id": 42,
+                "instances": [
+                  {
+                    "thumbnailId": "eef54513-ec6c-4f47-acc1-34282338a6f5",
+                    "adjustedStart": "0:01:08.9333333",
+                    "adjustedEnd": "0:01:08.9666667",
+                    "start": "0:01:08.9333333",
+                    "end": "0:01:08.9666667"
+                  }
+                ]
+              },
+              {
+                "id": 43,
+                "instances": [
+                  {
+                    "thumbnailId": "4700deba-470b-4486-80d9-67e6c0592939",
+                    "adjustedStart": "0:01:11.3666667",
+                    "adjustedEnd": "0:01:11.4",
+                    "start": "0:01:11.3666667",
+                    "end": "0:01:11.4"
+                  }
+                ]
+              },
+              {
+                "id": 44,
+                "instances": [
+                  {
+                    "thumbnailId": "7c98ad8f-ae6b-435c-bc30-96d7040ea5e8",
+                    "adjustedStart": "0:01:16.1666667",
+                    "adjustedEnd": "0:01:16.2",
+                    "start": "0:01:16.1666667",
+                    "end": "0:01:16.2"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:08.5333333",
+                "adjustedEnd": "0:01:16.9",
+                "start": "0:01:08.5333333",
+                "end": "0:01:16.9"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "keyFrames": [
+              {
+                "id": 45,
+                "instances": [
+                  {
+                    "thumbnailId": "19471552-ebaa-4882-a7ff-da7477fbd525",
+                    "adjustedStart": "0:01:17.4333333",
+                    "adjustedEnd": "0:01:17.4666667",
+                    "start": "0:01:17.4333333",
+                    "end": "0:01:17.4666667"
+                  }
+                ]
+              },
+              {
+                "id": 46,
+                "instances": [
+                  {
+                    "thumbnailId": "317206be-9fec-45c0-9513-63ad2701a1aa",
+                    "adjustedStart": "0:01:18.1666667",
+                    "adjustedEnd": "0:01:18.2",
+                    "start": "0:01:18.1666667",
+                    "end": "0:01:18.2"
+                  }
+                ]
+              },
+              {
+                "id": 47,
+                "instances": [
+                  {
+                    "thumbnailId": "96aa8fbc-80f0-437c-8922-b480073a0bff",
+                    "adjustedStart": "0:01:18.8666667",
+                    "adjustedEnd": "0:01:18.9",
+                    "start": "0:01:18.8666667",
+                    "end": "0:01:18.9"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.1",
+                "adjustedEnd": "0:01:19.1",
+                "start": "0:01:17.1",
+                "end": "0:01:19.1"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "keyFrames": [
+              {
+                "id": 48,
+                "instances": [
+                  {
+                    "thumbnailId": "efdf7d29-6e04-42ea-964b-28b8d6714721",
+                    "adjustedStart": "0:01:19.5",
+                    "adjustedEnd": "0:01:19.5333333",
+                    "start": "0:01:19.5",
+                    "end": "0:01:19.5333333"
+                  }
+                ]
+              },
+              {
+                "id": 49,
+                "instances": [
+                  {
+                    "thumbnailId": "30d85b0f-218a-4925-bc34-627f38bcdfbc",
+                    "adjustedStart": "0:01:19.8333333",
+                    "adjustedEnd": "0:01:19.8666667",
+                    "start": "0:01:19.8333333",
+                    "end": "0:01:19.8666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:19.3",
+                "adjustedEnd": "0:01:24.2",
+                "start": "0:01:19.3",
+                "end": "0:01:24.2"
+              }
+            ]
+          }
+        ],
+        "brands": [
+          {
+            "id": 1,
+            "referenceType": "Wiki",
+            "name": "GAIL",
+            "referenceId": "GAIL",
+            "referenceUrl": "http://en.wikipedia.org/wiki/GAIL",
+            "description": "GAIL (India) Limited is the largest state-owned natural gas processing and distribution company in India, It is headquartered in New Delhi. It has following business segments: Natural Gas, Liquid Hydrocarbon, Liquefied petroleum gas Transmission, Petrochemical, City Gas Distribution, Exploration and Production, GAILTEL and Electricity Generation.",
+            "tags": [],
+            "confidence": 1,
+            "isCustom": false,
+            "instances": [
+              {
+                "brandType": "Ocr",
+                "instanceSource": "Ocr",
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:54",
+                "end": "0:00:56.0333333"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "Earth",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.97,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "planet",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.61,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:10.92",
+                "adjustedEnd": "0:00:12.88",
+                "start": "0:00:10.92",
+                "end": "0:00:12.88"
+              }
+            ]
+          }
+        ],
+        "audioEffects": [
+          {
+            "id": 0,
+            "type": "Silence",
+            "instances": [
+              {
+                "confidence": 0.7769,
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01",
+                "start": "0:00:00",
+                "end": "0:00:01"
+              },
+              {
+                "confidence": 0.7615,
+                "adjustedStart": "0:00:47.86",
+                "adjustedEnd": "0:00:48.86",
+                "start": "0:00:47.86",
+                "end": "0:00:48.86"
+              },
+              {
+                "confidence": 0.9359,
+                "adjustedStart": "0:01:20.78",
+                "adjustedEnd": "0:01:22.78",
+                "start": "0:01:20.78",
+                "end": "0:01:22.78"
+              }
+            ]
+          }
+        ],
+        "detectedObjects": [
+          {
+            "id": 1,
+            "type": "Bicycle",
+            "thumbnailId": "3a225148-e125-4131-a2cb-3310f1c3781d",
+            "displayName": "bicycle",
+            "wikiDataId": "Q11442",
+            "instances": [
+              {
+                "confidence": 0.847,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.533333",
+                "start": "0:00:10.5",
+                "end": "0:00:11.533333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Umbrella",
+            "thumbnailId": "a47e8813-fd08-466d-9498-6735460b9998",
+            "displayName": "umbrella",
+            "wikiDataId": "Q41607",
+            "instances": [
+              {
+                "confidence": 0.833,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.366667",
+                "start": "0:00:10.5",
+                "end": "0:00:11.366667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "Car",
+            "thumbnailId": "811e3071-60b3-4522-8b69-00936d3fdef4",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.739,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.533333",
+                "start": "0:00:10.5",
+                "end": "0:00:11.533333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": "Car",
+            "thumbnailId": "51328dff-81fd-47dd-932e-eb3957f7ab3c",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.332,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.533333",
+                "start": "0:00:10.5",
+                "end": "0:00:11.533333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "Car",
+            "thumbnailId": "8ebd2396-af8f-4869-9751-ff325a1ca7f9",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.51,
+                "adjustedStart": "0:00:10.5",
+                "adjustedEnd": "0:00:11.533333",
+                "start": "0:00:10.5",
+                "end": "0:00:11.533333"
+              },
+              {
+                "confidence": 0.762,
+                "adjustedStart": "0:00:13.366667",
+                "adjustedEnd": "0:00:14.666667",
+                "start": "0:00:13.366667",
+                "end": "0:00:14.666667"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "type": "Bicycle",
+            "thumbnailId": "d4755075-f94d-4193-9233-e8d0b5a501d1",
+            "displayName": "bicycle",
+            "wikiDataId": "Q11442",
+            "instances": [
+              {
+                "confidence": 0.845,
+                "adjustedStart": "0:00:11.533333",
+                "adjustedEnd": "0:00:14.666667",
+                "start": "0:00:11.533333",
+                "end": "0:00:14.666667"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "type": "Umbrella",
+            "thumbnailId": "bfcfd1e6-cd51-4294-a96d-357f15ab542e",
+            "displayName": "umbrella",
+            "wikiDataId": "Q41607",
+            "instances": [
+              {
+                "confidence": 0.716,
+                "adjustedStart": "0:00:11.533333",
+                "adjustedEnd": "0:00:12.233333",
+                "start": "0:00:11.533333",
+                "end": "0:00:12.233333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "type": "Car",
+            "thumbnailId": "3d45869a-1058-4bab-a813-b2a74adaf6e9",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.728,
+                "adjustedStart": "0:00:11.533333",
+                "adjustedEnd": "0:00:13.566667",
+                "start": "0:00:11.533333",
+                "end": "0:00:13.566667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "type": "Backpack",
+            "thumbnailId": "8e832984-0e30-4c20-966b-404152bb1187",
+            "displayName": "backpack",
+            "wikiDataId": "Q5843",
+            "instances": [
+              {
+                "confidence": 0.636,
+                "adjustedStart": "0:00:12.7",
+                "adjustedEnd": "0:00:14.566667",
+                "start": "0:00:12.7",
+                "end": "0:00:14.566667"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "type": "Car",
+            "thumbnailId": "7c7098e4-a61d-46f8-bdac-5d6e792fa525",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.33,
+                "adjustedStart": "0:00:33.5",
+                "adjustedEnd": "0:00:35.6",
+                "start": "0:00:33.5",
+                "end": "0:00:35.6"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "type": "Car",
+            "thumbnailId": "65158fb3-76b5-4a32-aa47-03fbc145d111",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.409,
+                "adjustedStart": "0:00:39.8",
+                "adjustedEnd": "0:00:40.833333",
+                "start": "0:00:39.8",
+                "end": "0:00:40.833333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "type": "Car",
+            "thumbnailId": "f7b12f60-27bc-4767-b0b6-ac594432f7e7",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.765,
+                "adjustedStart": "0:00:40.833333",
+                "adjustedEnd": "0:00:41.8",
+                "start": "0:00:40.833333",
+                "end": "0:00:41.8"
+              },
+              {
+                "confidence": 0.769,
+                "adjustedStart": "0:00:43.1",
+                "adjustedEnd": "0:00:43.133333",
+                "start": "0:00:43.1",
+                "end": "0:00:43.133333"
+              },
+              {
+                "confidence": 0.315,
+                "adjustedStart": "0:01:03.666667",
+                "adjustedEnd": "0:01:04.2",
+                "start": "0:01:03.666667",
+                "end": "0:01:04.2"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "type": "Car",
+            "thumbnailId": "26df621e-2608-4a3c-8d82-37588253d037",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.804,
+                "adjustedStart": "0:00:41.8",
+                "adjustedEnd": "0:00:43.9",
+                "start": "0:00:41.8",
+                "end": "0:00:43.9"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "type": "Car",
+            "thumbnailId": "ab42c5e9-7a25-49a1-805b-b8b8d7e59220",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.403,
+                "adjustedStart": "0:00:43.9",
+                "adjustedEnd": "0:00:44.6",
+                "start": "0:00:43.9",
+                "end": "0:00:44.6"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "type": "Car",
+            "thumbnailId": "3abd886b-92e1-4937-9e36-d71cc2d0c1c1",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.421,
+                "adjustedStart": "0:00:44.4",
+                "adjustedEnd": "0:00:44.933333",
+                "start": "0:00:44.4",
+                "end": "0:00:44.933333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "type": "Car",
+            "thumbnailId": "16793887-3778-45a3-a9ff-edc8d5d66c75",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.389,
+                "adjustedStart": "0:00:44.933333",
+                "adjustedEnd": "0:00:45.8",
+                "start": "0:00:44.933333",
+                "end": "0:00:45.8"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "type": "Car",
+            "thumbnailId": "8336be55-1423-46bd-9ebf-e6702d5f5002",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.767,
+                "adjustedStart": "0:00:44.933333",
+                "adjustedEnd": "0:00:45.8",
+                "start": "0:00:44.933333",
+                "end": "0:00:45.8"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "type": "Car",
+            "thumbnailId": "c0aeb22f-448a-4122-b385-5fba23c4d5b5",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.889,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "type": "Car",
+            "thumbnailId": "93382095-6f42-402d-a7fa-a157d24ffd1e",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.887,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "type": "Car",
+            "thumbnailId": "b16efde9-33d1-4f90-a5f4-0fcdaeb87ac9",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.674,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:50.766667",
+                "start": "0:00:50.233333",
+                "end": "0:00:50.766667"
+              },
+              {
+                "confidence": 0.654,
+                "adjustedStart": "0:00:51.233333",
+                "adjustedEnd": "0:00:51.266667",
+                "start": "0:00:51.233333",
+                "end": "0:00:51.266667"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "type": "Car",
+            "thumbnailId": "3d1ebc10-51c4-414c-80cf-6c84c3d0a9fc",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.776,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "type": "Car",
+            "thumbnailId": "f51e2261-cc27-4c52-9b1f-43be3cb38aba",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.755,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "type": "Car",
+            "thumbnailId": "40aaef2e-9928-4425-965a-5172cef2f81d",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.497,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "type": "Backpack",
+            "thumbnailId": "c81ebe64-7874-4478-911a-4827ea40c04d",
+            "displayName": "backpack",
+            "wikiDataId": "Q5843",
+            "instances": [
+              {
+                "confidence": 0.823,
+                "adjustedStart": "0:00:50.233333",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.233333",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "type": "Car",
+            "thumbnailId": "ed22a6c2-ca76-4e4d-951d-4fd43f62fc36",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.64,
+                "adjustedStart": "0:00:50.9",
+                "adjustedEnd": "0:00:52.166667",
+                "start": "0:00:50.9",
+                "end": "0:00:52.166667"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "type": "Motorcycle",
+            "thumbnailId": "729f8b2e-62fc-4ac1-b4be-5d081050ac6d",
+            "displayName": "motorcycle",
+            "wikiDataId": "Q34493",
+            "instances": [
+              {
+                "confidence": 0.615,
+                "adjustedStart": "0:00:56.133333",
+                "adjustedEnd": "0:00:57.5",
+                "start": "0:00:56.133333",
+                "end": "0:00:57.5"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "type": "Motorcycle",
+            "thumbnailId": "8000191c-d4d7-426a-8cad-d8fafc296e00",
+            "displayName": "motorcycle",
+            "wikiDataId": "Q34493",
+            "instances": [
+              {
+                "confidence": 0.539,
+                "adjustedStart": "0:00:57.133333",
+                "adjustedEnd": "0:00:57.5",
+                "start": "0:00:57.133333",
+                "end": "0:00:57.5"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "type": "Bicycle",
+            "thumbnailId": "6184b281-332a-4681-8cf6-146736626d86",
+            "displayName": "bicycle",
+            "wikiDataId": "Q11442",
+            "instances": [
+              {
+                "confidence": 0.754,
+                "adjustedStart": "0:01:04.666667",
+                "adjustedEnd": "0:01:06.366667",
+                "start": "0:01:04.666667",
+                "end": "0:01:06.366667"
+              }
+            ]
+          }
+        ],
+        "sentiments": [
+          {
+            "id": 1,
+            "averageScore": 0.5,
+            "sentimentType": "Neutral",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:01:24.224",
+                "start": "0:00:00",
+                "end": "0:01:24.224"
+              }
+            ]
+          }
+        ],
+        "blocks": [
+          {
+            "id": 0,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:00",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.72",
+                "adjustedEnd": "0:01:24.224",
+                "start": "0:00:30.72",
+                "end": "0:01:24.224"
+              }
+            ]
+          }
+        ],
+        "framePatterns": [
+          {
+            "id": 1,
+            "patternType": "Black",
+            "confidence": 1,
+            "displayName": null,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:00.7666667",
+                "start": "0:00:00",
+                "end": "0:00:00.7666667"
+              },
+              {
+                "adjustedStart": "0:01:20.1",
+                "adjustedEnd": "0:01:21.1333333",
+                "start": "0:01:20.1",
+                "end": "0:01:21.1333333"
+              },
+              {
+                "adjustedStart": "0:01:23.9",
+                "adjustedEnd": "0:01:24.2",
+                "start": "0:01:23.9",
+                "end": "0:01:24.2"
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "id": 1,
+            "name": "Speaker #1",
+            "instances": [
+              {
+                "adjustedStart": "0:00:03.52",
+                "adjustedEnd": "0:00:10.68",
+                "start": "0:00:03.52",
+                "end": "0:00:10.68"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Speaker #2",
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.92",
+                "adjustedEnd": "0:00:12.88",
+                "start": "0:00:10.92",
+                "end": "0:00:12.88"
+              },
+              {
+                "adjustedStart": "0:00:12.88",
+                "adjustedEnd": "0:00:14.56",
+                "start": "0:00:12.88",
+                "end": "0:00:14.56"
+              },
+              {
+                "adjustedStart": "0:00:14.88",
+                "adjustedEnd": "0:00:16.68",
+                "start": "0:00:14.88",
+                "end": "0:00:16.68"
+              },
+              {
+                "adjustedStart": "0:00:16.92",
+                "adjustedEnd": "0:00:18.64",
+                "start": "0:00:16.92",
+                "end": "0:00:18.64"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Speaker #3",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.36",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:21.36",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Speaker #4",
+            "instances": [
+              {
+                "adjustedStart": "0:00:32",
+                "adjustedEnd": "0:00:39.84",
+                "start": "0:00:32",
+                "end": "0:00:39.84"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Speaker #5",
+            "instances": [
+              {
+                "adjustedStart": "0:00:40.12",
+                "adjustedEnd": "0:00:47.36",
+                "start": "0:00:40.12",
+                "end": "0:00:47.36"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Speaker #6",
+            "instances": [
+              {
+                "adjustedStart": "0:00:47.96",
+                "adjustedEnd": "0:00:56.12",
+                "start": "0:00:47.96",
+                "end": "0:00:56.12"
+              },
+              {
+                "adjustedStart": "0:00:56.84",
+                "adjustedEnd": "0:01:07.28",
+                "start": "0:00:56.84",
+                "end": "0:01:07.28"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 5,
+          "speakerTalkToListenRatio": {
+            "1": 0.124,
+            "2": 0.124,
+            "3": 0.163,
+            "4": 0.136,
+            "5": 0.126,
+            "6": 0.324
+          },
+          "speakerLongestMonolog": {
+            "1": 7,
+            "2": 7,
+            "3": 9,
+            "4": 7,
+            "5": 7,
+            "6": 18
+          },
+          "speakerNumberOfFragments": {
+            "1": 1,
+            "2": 3,
+            "3": 1,
+            "4": 1,
+            "5": 1,
+            "6": 2
+          },
+          "speakerWordCount": {
+            "1": 24,
+            "2": 28,
+            "3": 26,
+            "4": 24,
+            "5": 21,
+            "6": 49
+          }
+        }
+      },
+      "thumbnailId": "25a3254f-1354-4330-9329-6b3b6eec132e",
+      "width": 1280,
+      "height": 720,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "Default",
+      "streamingPreset": "SingleBitrate",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [
+        "Faces",
+        "Celebrities",
+        "KnownPeople",
+        "ShotType"
+      ],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/Videos/ak7snfmsn5/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": null
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "ak7snfmsn5",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:01:24.224"
+      }
+    }
+  ]
+}

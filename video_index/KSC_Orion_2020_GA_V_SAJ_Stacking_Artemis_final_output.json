@@ -1,0 +1,279 @@
+[
+  {
+    "id": "uoel976yp8_scene_1",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 59066,
+    "description": "",
+    "transcript": "Hey, you ever heard that song? And now here.",
+    "speakers": [
+      "Speaker #1",
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "AIRBUS",
+      "WARNING",
+      "LB W",
+      "CONC LOAD",
+      "UFORM LOAD",
+      "LOAD",
+      "LB"
+    ],
+    "labels": [
+      "machine",
+      "engineering",
+      "transport",
+      "building",
+      "text"
+    ],
+    "brands": [
+      "Airbus"
+    ],
+    "locations": [],
+    "keywords": [
+      "load",
+      "conc load",
+      "uform load",
+      "form load"
+    ],
+    "topics": [
+      "Music",
+      "Technology"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Hey, you ever heard that song? And now here. Speakers: Speaker #1, Speaker #2. On-screen text: AIRBUS, WARNING, LB W, CONC LOAD. Brands and logos: Airbus. Detected objects: car. Visual elements: machine, engineering, transport, building, text. Speech keywords: load, conc load, uform load, form load. Topics: Music, Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=0"
+  },
+  {
+    "id": "uoel976yp8_scene_2",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "2",
+    "startTimeMs": 59066,
+    "endTimeMs": 295300,
+    "description": "",
+    "transcript": "I. Come on in. We're going to be careful. All right? I'm just stop right here. Go ahead and walk back. Hey Slack, how you doing?",
+    "speakers": [
+      "Speaker #2",
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "43",
+      "44",
+      "OAD / 250 PSF UNIFOP",
+      "41",
+      "FORM LOAD",
+      "250 PSF UNIFORM",
+      "42",
+      "Cesa",
+      "PSF UNIFORM",
+      "400 PSF UNIFORM LOAD",
+      "14",
+      "2632",
+      "OR",
+      "EL LOAD / 250 PSF UNIFOR",
+      "SF UN",
+      "EL",
+      "LOAD",
+      "٠٠",
+      "CONC LOAD",
+      "M LOAD",
+      "٠٠٠",
+      "ORM LOA",
+      "AD",
+      "VSVN"
+    ],
+    "labels": [
+      "machine",
+      "engineering",
+      "building",
+      "transport",
+      "indoor",
+      "text",
+      "spacecraft"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "load",
+      "psf uniform",
+      "form load",
+      "stop"
+    ],
+    "topics": [
+      "Music",
+      "Technology"
+    ],
+    "objects": [
+      "car",
+      "train"
+    ],
+    "searchText": "Dialogue: I. Come on in. We're going to be careful. All right? I'm just stop right here. Go ahead and walk back. Hey Slack, how you doing?. Speakers: Speaker #2, Speaker #3. On-screen text: 43, 44, OAD / 250 PSF UNIFOP, 41. Detected objects: car, train. Visual elements: machine, engineering, building, transport, indoor, text, spacecraft. Speech keywords: load, psf uniform, form load, stop. Topics: Music, Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=59.066&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=59.066"
+  },
+  {
+    "id": "uoel976yp8_scene_3",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "3",
+    "startTimeMs": 295300,
+    "endTimeMs": 319333,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "AIRBUS"
+    ],
+    "labels": [
+      "indoor",
+      "engineering"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: AIRBUS. Visual elements: indoor, engineering.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=295.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=295.3"
+  },
+  {
+    "id": "uoel976yp8_scene_4",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "4",
+    "startTimeMs": 319333,
+    "endTimeMs": 356366,
+    "description": "",
+    "transcript": "You have to do this this 15100 times.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "500 LBS MAX",
+      "AIRBUS",
+      "41",
+      "43"
+    ],
+    "labels": [
+      "clothing",
+      "person",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [
+      "Technology"
+    ],
+    "objects": [
+      "chair"
+    ],
+    "searchText": "Dialogue: You have to do this this 15100 times. Speakers: Speaker #1. On-screen text: 500 LBS MAX, AIRBUS, 41, 43. Detected objects: chair. Visual elements: clothing, person, text. Topics: Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=319.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=319.333"
+  },
+  {
+    "id": "uoel976yp8_scene_5",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "5",
+    "startTimeMs": 356366,
+    "endTimeMs": 451466,
+    "description": "",
+    "transcript": "On 312. 3. And now, and now. This is good. I got to look up hey stop stop, stop. Right, gentlemen, we're ready 123.",
+    "speakers": [
+      "Speaker #2",
+      "Speaker #1",
+      "Speaker #3"
+    ],
+    "ocrText": [
+      "AIRBUS",
+      "FIRE",
+      "BUS",
+      "EEL",
+      "EL",
+      "US",
+      "WHEEL LO",
+      "RE",
+      "CITY",
+      "LO",
+      "FIR",
+      "EXIT",
+      "HEEL",
+      "IRE",
+      "APACITY",
+      "IFT",
+      "AIR US",
+      "CAPACITY"
+    ],
+    "labels": [
+      "machine",
+      "transport",
+      "building",
+      "engineering"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "stop"
+    ],
+    "topics": [
+      "Technology"
+    ],
+    "objects": [
+      "car",
+      "chair"
+    ],
+    "searchText": "Dialogue: On 312. 3. And now, and now. This is good. I got to look up hey stop stop, stop. Right, gentlemen, we're ready 123. Speakers: Speaker #2, Speaker #1, Speaker #3. On-screen text: AIRBUS, FIRE, BUS, EEL. Detected objects: car, chair. Visual elements: machine, transport, building, engineering. Speech keywords: stop. Topics: Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=356.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=356.366"
+  },
+  {
+    "id": "uoel976yp8_scene_6",
+    "videoName": "KSC_Orion_2020_GA_V_SAJ_Stacking_Artemis",
+    "sceneId": "6",
+    "startTimeMs": 451466,
+    "endTimeMs": 488500,
+    "description": "",
+    "transcript": "Everything.",
+    "speakers": [
+      "Speaker #2"
+    ],
+    "ocrText": [
+      "NASA",
+      "FORM LOAD",
+      "CONC LOAD",
+      "1000 LB",
+      "125 PSF",
+      "125 PSF U FORM L",
+      "F UFORM LOAD",
+      "MAX CONC LOAD"
+    ],
+    "labels": [
+      "machine",
+      "engineering",
+      "indoor",
+      "transport",
+      "industry"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "load",
+      "conc load",
+      "uform load",
+      "form load"
+    ],
+    "topics": [
+      "Technology"
+    ],
+    "objects": [
+      "car"
+    ],
+    "searchText": "Dialogue: Everything. Speakers: Speaker #2. On-screen text: NASA, FORM LOAD, CONC LOAD, 1000 LB. Detected objects: car. Visual elements: machine, engineering, indoor, transport, industry. Speech keywords: load, conc load, uform load, form load. Topics: Technology.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8?t=451.466&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/uoel976yp8/?t=451.466"
+  }
+]

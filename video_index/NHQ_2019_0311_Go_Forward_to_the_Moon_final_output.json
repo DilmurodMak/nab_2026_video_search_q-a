@@ -1,0 +1,588 @@
+[
+  {
+    "id": "d2gsifdnj7_scene_1",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "1",
+    "startTimeMs": 0,
+    "endTimeMs": 5266,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "GO FORWARD",
+      "WE WILL",
+      "TO THE MOON",
+      "75"
+    ],
+    "labels": [
+      "building",
+      "clothing",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "moon"
+    ],
+    "topics": [
+      "Video games"
+    ],
+    "objects": [
+      "motorcycle"
+    ],
+    "searchText": "On-screen text: GO FORWARD, WE WILL, TO THE MOON, 75. Detected objects: motorcycle. Visual elements: building, clothing, text. Speech keywords: moon. Topics: Video games.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=0&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=0"
+  },
+  {
+    "id": "d2gsifdnj7_scene_2",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "2",
+    "startTimeMs": 5266,
+    "endTimeMs": 10333,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "EXPLORE",
+      "55"
+    ],
+    "labels": [
+      "text",
+      "moon",
+      "crater",
+      "nature"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "explore"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: EXPLORE, 55. Visual elements: text, moon, crater, nature. Speech keywords: explore.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=5.266&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=5.266"
+  },
+  {
+    "id": "d2gsifdnj7_scene_3",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "3",
+    "startTimeMs": 10333,
+    "endTimeMs": 13500,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [],
+    "labels": [
+      "cloud",
+      "outdoor",
+      "rocket",
+      "sky"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [],
+    "searchText": "Visual elements: cloud, outdoor, rocket, sky.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=10.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=10.333"
+  },
+  {
+    "id": "d2gsifdnj7_scene_4",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "4",
+    "startTimeMs": 13500,
+    "endTimeMs": 22333,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "THIS IS",
+      "BOLD EXPLORATION",
+      "LAND OUR ASTRONAUTS",
+      "ON THE MOON",
+      "WE WILL"
+    ],
+    "labels": [
+      "clothing",
+      "auto part",
+      "synthetic rubber",
+      "tire",
+      "wheel",
+      "astronaut",
+      "building",
+      "circle",
+      "person",
+      "personal protective equipment",
+      "pressure suit"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "exploration",
+      "moon"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: THIS IS, BOLD EXPLORATION, LAND OUR ASTRONAUTS, ON THE MOON. Visual elements: clothing, auto part, synthetic rubber, tire, wheel, astronaut, building, circle. Speech keywords: exploration, moon.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=13.5&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=13.5"
+  },
+  {
+    "id": "d2gsifdnj7_scene_5",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "5",
+    "startTimeMs": 22333,
+    "endTimeMs": 29633,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "ON THE MOON",
+      "LAND OUR ASTRONAUTS",
+      "WITHIN THE NEXT DECADE",
+      "WE WILL"
+    ],
+    "labels": [
+      "text",
+      "sky",
+      "building",
+      "indoor",
+      "outdoor",
+      "stairs"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "moon"
+    ],
+    "topics": [],
+    "objects": [
+      "car"
+    ],
+    "searchText": "On-screen text: ON THE MOON, LAND OUR ASTRONAUTS, WITHIN THE NEXT DECADE, WE WILL. Detected objects: car. Visual elements: text, sky, building, indoor, outdoor, stairs. Speech keywords: moon.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=22.333&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=22.333"
+  },
+  {
+    "id": "d2gsifdnj7_scene_6",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "6",
+    "startTimeMs": 29633,
+    "endTimeMs": 32533,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "THIS CRANE",
+      "TO PERFORM"
+    ],
+    "labels": [
+      "clothing",
+      "cloud",
+      "industry",
+      "man",
+      "outdoor",
+      "person",
+      "sky"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [],
+    "topics": [],
+    "objects": [
+      "train"
+    ],
+    "searchText": "On-screen text: THIS CRANE, TO PERFORM. Detected objects: train. Visual elements: clothing, cloud, industry, man, outdoor, person, sky.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=29.633&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=29.633"
+  },
+  {
+    "id": "d2gsifdnj7_scene_7",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "7",
+    "startTimeMs": 32533,
+    "endTimeMs": 35566,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "NEW ROCKETS",
+      "AND SPACECRAFT",
+      "WE WILL FLY"
+    ],
+    "labels": [
+      "sky"
+    ],
+    "brands": [],
+    "locations": [
+      "Spacecraft"
+    ],
+    "keywords": [
+      "space"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: NEW ROCKETS, AND SPACECRAFT, WE WILL FLY. Named locations: Spacecraft. Visual elements: sky. Speech keywords: space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=32.533&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=32.533"
+  },
+  {
+    "id": "d2gsifdnj7_scene_8",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "8",
+    "startTimeMs": 35566,
+    "endTimeMs": 37866,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "NEW ROCKETS",
+      "AND SPACECRAFT",
+      "WE WILL FLY"
+    ],
+    "labels": [],
+    "brands": [],
+    "locations": [
+      "Spacecraft"
+    ],
+    "keywords": [
+      "space"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: NEW ROCKETS, AND SPACECRAFT, WE WILL FLY. Named locations: Spacecraft. Speech keywords: space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=35.566&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=35.566"
+  },
+  {
+    "id": "d2gsifdnj7_scene_9",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "9",
+    "startTimeMs": 37866,
+    "endTimeMs": 49300,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "WE WILL CREATE",
+      "HUMAN EXPLORATION",
+      "A FOUNDATION FOR ONGOING",
+      "BEYOND EARTH",
+      "AND LEARN TO",
+      "LIVE AWAY FROM EARTH",
+      "THE SCIENCE WILL REVEAL",
+      "DISCOVERIES AND RESOURCES",
+      "SCIENCE WILL REVEAL NEW",
+      "AND I FARN TO"
+    ],
+    "labels": [
+      "text",
+      "transport",
+      "clothing",
+      "satellite",
+      "footwear",
+      "moon"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "earth",
+      "exploration",
+      "reveal",
+      "science"
+    ],
+    "topics": [
+      "Video games"
+    ],
+    "objects": [
+      "airplane",
+      "car"
+    ],
+    "searchText": "On-screen text: WE WILL CREATE, HUMAN EXPLORATION, A FOUNDATION FOR ONGOING, BEYOND EARTH. Detected objects: airplane, car. Visual elements: text, transport, clothing, satellite, footwear, moon. Speech keywords: earth, exploration, reveal, science. Topics: Video games.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=37.866&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=37.866"
+  },
+  {
+    "id": "d2gsifdnj7_scene_10",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "10",
+    "startTimeMs": 49300,
+    "endTimeMs": 51733,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "WE WILL CREATE",
+      "HUMAN EXPLORATION",
+      "A FOUNDATION FOR ONGOING",
+      "HUM ORATION"
+    ],
+    "labels": [
+      "aircraft"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "exploration"
+    ],
+    "topics": [
+      "Video games"
+    ],
+    "objects": [
+      "airplane"
+    ],
+    "searchText": "On-screen text: WE WILL CREATE, HUMAN EXPLORATION, A FOUNDATION FOR ONGOING, HUM ORATION. Detected objects: airplane. Visual elements: aircraft. Speech keywords: exploration. Topics: Video games.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=49.3&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=49.3"
+  },
+  {
+    "id": "d2gsifdnj7_scene_11",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "11",
+    "startTimeMs": 51733,
+    "endTimeMs": 58166,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "WE'RE GOING",
+      "TO THE MOON TO STAY",
+      "EXPLORE FARTHER",
+      "THEN, WE WILL"
+    ],
+    "labels": [
+      "astronomical object",
+      "crater",
+      "outer space",
+      "moon",
+      "nature",
+      "astronomy",
+      "planet",
+      "celestial event",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "moon",
+      "explore"
+    ],
+    "topics": [
+      "Video games"
+    ],
+    "objects": [],
+    "searchText": "On-screen text: WE'RE GOING, TO THE MOON TO STAY, EXPLORE FARTHER, THEN, WE WILL. Visual elements: astronomical object, crater, outer space, moon, nature, astronomy, planet, celestial event. Speech keywords: moon, explore. Topics: Video games.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=51.733&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=51.733"
+  },
+  {
+    "id": "d2gsifdnj7_scene_12",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "12",
+    "startTimeMs": 58166,
+    "endTimeMs": 59800,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "EXPLORE FARTHER",
+      "THEN, WE WILL"
+    ],
+    "labels": [],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "explore"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: EXPLORE FARTHER, THEN, WE WILL. Speech keywords: explore.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=58.166&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=58.166"
+  },
+  {
+    "id": "d2gsifdnj7_scene_13",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "13",
+    "startTimeMs": 59800,
+    "endTimeMs": 65366,
+    "description": "",
+    "transcript": "Yeah.",
+    "speakers": [
+      "Speaker #1"
+    ],
+    "ocrText": [
+      "TECHNOLOG Y WE DEVELOP",
+      "IMPROVE LIFE ON EARTH",
+      "FOR EXPLORATION WILL",
+      "HELP US AT HOME",
+      "OUR INNOVATIONS WILL"
+    ],
+    "labels": [
+      "text",
+      "cloud",
+      "sky",
+      "outdoor"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "exploration",
+      "earth"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "Dialogue: Yeah. Speakers: Speaker #1. On-screen text: TECHNOLOG Y WE DEVELOP, IMPROVE LIFE ON EARTH, FOR EXPLORATION WILL, HELP US AT HOME. Visual elements: text, cloud, sky, outdoor. Speech keywords: exploration, earth.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=59.8&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=59.8"
+  },
+  {
+    "id": "d2gsifdnj7_scene_14",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "14",
+    "startTimeMs": 65366,
+    "endTimeMs": 66866,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "IMPROVE LIFE ON EARTH",
+      "FOR EXPLORATION WILL",
+      "TECHNOLOG Y WE DEVELOP",
+      "SOLUTIONS"
+    ],
+    "labels": [
+      "text",
+      "clothing",
+      "helmet",
+      "person"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "exploration",
+      "earth"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: IMPROVE LIFE ON EARTH, FOR EXPLORATION WILL, TECHNOLOG Y WE DEVELOP, SOLUTIONS. Visual elements: text, clothing, helmet, person. Speech keywords: exploration, earth.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=65.366&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=65.366"
+  },
+  {
+    "id": "d2gsifdnj7_scene_15",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "15",
+    "startTimeMs": 66866,
+    "endTimeMs": 70566,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "GO FORWARD",
+      "AMERICAN LEADERSHIP IN SPACE",
+      "WE WILL",
+      "WITH"
+    ],
+    "labels": [
+      "clothing",
+      "clouds",
+      "footwear",
+      "man",
+      "nature",
+      "person",
+      "sky",
+      "text"
+    ],
+    "brands": [],
+    "locations": [],
+    "keywords": [
+      "space"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: GO FORWARD, AMERICAN LEADERSHIP IN SPACE, WE WILL, WITH. Visual elements: clothing, clouds, footwear, man, nature, person, sky, text. Speech keywords: space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=66.866&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=66.866"
+  },
+  {
+    "id": "d2gsifdnj7_scene_16",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "16",
+    "startTimeMs": 70566,
+    "endTimeMs": 74400,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "GLENN RESEARCH CENTER",
+      "NASA",
+      "GO FORWARD",
+      "AMERICAN LEADERSHIP IN SPACE",
+      "WE WILL",
+      "WITH",
+      "PLUM BROOK STATION",
+      "EXPLORE"
+    ],
+    "labels": [
+      "text",
+      "plane",
+      "airplane",
+      "spacecraft",
+      "transport"
+    ],
+    "brands": [],
+    "locations": [
+      "Glenn Research Center"
+    ],
+    "keywords": [
+      "nasa",
+      "space"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: GLENN RESEARCH CENTER, NASA, GO FORWARD, AMERICAN LEADERSHIP IN SPACE. Named locations: Glenn Research Center. Visual elements: text, plane, airplane, spacecraft, transport. Speech keywords: nasa, space.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=70.566&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=70.566"
+  },
+  {
+    "id": "d2gsifdnj7_scene_17",
+    "videoName": "NHQ_2019_0311_Go_Forward_to_the_Moon",
+    "sceneId": "17",
+    "startTimeMs": 74400,
+    "endTimeMs": 80500,
+    "description": "",
+    "transcript": "",
+    "speakers": [],
+    "ocrText": [
+      "VISIT",
+      "NASA.GOV/MOONTOMARS",
+      "EXPLORE",
+      "GLENN RESEARCH CENTER",
+      "PLUM BROOK STATION",
+      "NASA"
+    ],
+    "labels": [
+      "text",
+      "graphics",
+      "logo",
+      "graphic design"
+    ],
+    "brands": [],
+    "locations": [
+      "Glenn Research Center"
+    ],
+    "keywords": [
+      "nasa",
+      "moon"
+    ],
+    "topics": [],
+    "objects": [],
+    "searchText": "On-screen text: VISIT, NASA.GOV/MOONTOMARS, EXPLORE, GLENN RESEARCH CENTER. Named locations: Glenn Research Center. Visual elements: text, graphics, logo, graphic design. Speech keywords: nasa, moon.",
+    "url": "https://www.videoindexer.ai/embed/player/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7?t=74.4&location=trial",
+    "viInsightsUrl": "https://www.videoindexer.ai/embed/insights/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/d2gsifdnj7/?t=74.4"
+  }
+]

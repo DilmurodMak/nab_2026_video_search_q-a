@@ -1,0 +1,6305 @@
+{
+  "partition": null,
+  "description": null,
+  "privacyMode": "Public",
+  "state": "Processed",
+  "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+  "id": "921tzost9w",
+  "name": "NASA Artemis Overview",
+  "userName": "User 2G8X3WJF",
+  "created": "2026-04-10T17:38:32.7666667+00:00",
+  "isOwned": true,
+  "isEditable": false,
+  "isBase": true,
+  "durationInSeconds": 132,
+  "duration": "0:02:12.970667",
+  "summarizedInsights": {
+    "name": "NASA Artemis Overview",
+    "id": "921tzost9w",
+    "privacyMode": "Public",
+    "duration": {
+      "time": "0:02:12.970667",
+      "seconds": 133
+    },
+    "thumbnailVideoId": "921tzost9w",
+    "thumbnailId": "97518554-7b68-42af-93b1-9b02f104e0dd",
+    "faces": [],
+    "keywords": [
+      {
+        "isTranscript": true,
+        "id": 1,
+        "name": "solar system",
+        "appearances": [
+          {
+            "startTime": "0:00:10.12",
+            "endTime": "0:00:15.28",
+            "startSeconds": 10.1,
+            "endSeconds": 15.3
+          },
+          {
+            "startTime": "0:00:23.96",
+            "endTime": "0:00:30.72",
+            "startSeconds": 24,
+            "endSeconds": 30.7
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 2,
+        "name": "test mission",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          },
+          {
+            "startTime": "0:00:23.96",
+            "endTime": "0:00:41.56",
+            "startSeconds": 24,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:03.08",
+            "startSeconds": 54.4,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 3,
+        "name": "mission",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          },
+          {
+            "startTime": "0:00:23.96",
+            "endTime": "0:00:41.56",
+            "startSeconds": 24,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:03.08",
+            "startSeconds": 54.4,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 4,
+        "name": "planet",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          },
+          {
+            "startTime": "0:01:41.24",
+            "endTime": "0:01:47.68",
+            "startSeconds": 101.2,
+            "endSeconds": 107.7
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 5,
+        "name": "thing",
+        "appearances": [
+          {
+            "startTime": "0:00:41.56",
+            "endTime": "0:01:03.08",
+            "startSeconds": 41.6,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:51.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 111.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 6,
+        "name": "people",
+        "appearances": [
+          {
+            "startTime": "0:01:17.08",
+            "endTime": "0:01:29.4",
+            "startSeconds": 77.1,
+            "endSeconds": 89.4
+          },
+          {
+            "startTime": "0:01:47.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 107.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 7,
+        "name": "extraordinary",
+        "appearances": [
+          {
+            "startTime": "0:01:47.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 107.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 8,
+        "name": "earth",
+        "appearances": [
+          {
+            "startTime": "0:00:19.6",
+            "endTime": "0:00:21.68",
+            "startSeconds": 19.6,
+            "endSeconds": 21.7
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:47.68",
+            "startSeconds": 89.7,
+            "endSeconds": 107.7
+          },
+          {
+            "startTime": "0:01:51.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 111.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 9,
+        "name": "work",
+        "appearances": [
+          {
+            "startTime": "0:00:41.56",
+            "endTime": "0:00:54.08",
+            "startSeconds": 41.6,
+            "endSeconds": 54.1
+          },
+          {
+            "startTime": "0:01:17.08",
+            "endTime": "0:01:29.4",
+            "startSeconds": 77.1,
+            "endSeconds": 89.4
+          },
+          {
+            "startTime": "0:01:51.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 111.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 11,
+        "name": "back",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:07.96",
+            "startSeconds": 4.7,
+            "endSeconds": 8
+          },
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          },
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          },
+          {
+            "startTime": "0:01:51.84",
+            "endTime": "0:02:04.92",
+            "startSeconds": 111.8,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 12,
+        "name": "moon",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:10.12",
+            "startSeconds": 4.7,
+            "endSeconds": 10.1
+          },
+          {
+            "startTime": "0:00:21.68",
+            "endTime": "0:00:22.84",
+            "startSeconds": 21.7,
+            "endSeconds": 22.8
+          },
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:03.08",
+            "startSeconds": 54.4,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 13,
+        "name": "explore",
+        "appearances": [
+          {
+            "startTime": "0:00:08.32",
+            "endTime": "0:00:15.28",
+            "startSeconds": 8.3,
+            "endSeconds": 15.3
+          },
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 14,
+        "name": "space",
+        "appearances": [
+          {
+            "startTime": "0:00:23.96",
+            "endTime": "0:00:41.56",
+            "startSeconds": 24,
+            "endSeconds": 41.6
+          }
+        ]
+      },
+      {
+        "isTranscript": true,
+        "id": 15,
+        "name": "benefit",
+        "appearances": [
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:03.08",
+            "startSeconds": 54.4,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:06.16",
+            "endTime": "0:01:08",
+            "startSeconds": 66.2,
+            "endSeconds": 68
+          }
+        ]
+      },
+      {
+        "isTranscript": false,
+        "id": 10,
+        "name": "nasa",
+        "appearances": [
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          }
+        ]
+      }
+    ],
+    "sentiments": [
+      {
+        "sentimentKey": "Neutral",
+        "seenDurationRatio": 0.7024,
+        "appearances": [
+          {
+            "startTime": "0:00:00",
+            "endTime": "0:00:30.84",
+            "startSeconds": 0,
+            "endSeconds": 30.8
+          },
+          {
+            "startTime": "0:00:54.08",
+            "endTime": "0:01:17.08",
+            "startSeconds": 54.1,
+            "endSeconds": 77.1
+          },
+          {
+            "startTime": "0:01:29.4",
+            "endTime": "0:01:47.84",
+            "startSeconds": 89.4,
+            "endSeconds": 107.8
+          },
+          {
+            "startTime": "0:01:51.84",
+            "endTime": "0:02:12.970667",
+            "startSeconds": 111.8,
+            "endSeconds": 133
+          }
+        ]
+      },
+      {
+        "sentimentKey": "Positive",
+        "seenDurationRatio": 0.3482,
+        "appearances": [
+          {
+            "startTime": "0:00:08.32",
+            "endTime": "0:00:10.12",
+            "startSeconds": 8.3,
+            "endSeconds": 10.1
+          },
+          {
+            "startTime": "0:00:21.68",
+            "endTime": "0:00:23.96",
+            "startSeconds": 21.7,
+            "endSeconds": 24
+          },
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:54.08",
+            "startSeconds": 30.8,
+            "endSeconds": 54.1
+          },
+          {
+            "startTime": "0:01:03.08",
+            "endTime": "0:01:05.68",
+            "startSeconds": 63.1,
+            "endSeconds": 65.7
+          },
+          {
+            "startTime": "0:01:17.08",
+            "endTime": "0:01:29.4",
+            "startSeconds": 77.1,
+            "endSeconds": 89.4
+          },
+          {
+            "startTime": "0:01:47.84",
+            "endTime": "0:01:51.84",
+            "startSeconds": 107.8,
+            "endSeconds": 111.8
+          }
+        ]
+      }
+    ],
+    "emotions": [
+      {
+        "type": "Joy",
+        "seenDurationRatio": 0.3482,
+        "appearances": [
+          {
+            "startTime": "0:00:08.32",
+            "endTime": "0:00:10.12",
+            "startSeconds": 8.3,
+            "endSeconds": 10.1
+          },
+          {
+            "startTime": "0:00:21.68",
+            "endTime": "0:00:23.96",
+            "startSeconds": 21.7,
+            "endSeconds": 24
+          },
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:54.08",
+            "startSeconds": 30.8,
+            "endSeconds": 54.1
+          },
+          {
+            "startTime": "0:01:03.08",
+            "endTime": "0:01:05.68",
+            "startSeconds": 63.1,
+            "endSeconds": 65.7
+          },
+          {
+            "startTime": "0:01:17.08",
+            "endTime": "0:01:29.4",
+            "startSeconds": 77.1,
+            "endSeconds": 89.4
+          },
+          {
+            "startTime": "0:01:47.84",
+            "endTime": "0:01:51.84",
+            "startSeconds": 107.8,
+            "endSeconds": 111.8
+          }
+        ]
+      }
+    ],
+    "audioEffects": [
+      {
+        "audioEffectKey": "Silence",
+        "seenDurationRatio": 0.0075,
+        "seenDuration": 1,
+        "appearances": [
+          {
+            "confidence": 0.7861,
+            "startTime": "0:02:10.8",
+            "endTime": "0:02:11.8",
+            "startSeconds": 130.8,
+            "endSeconds": 131.8
+          }
+        ]
+      }
+    ],
+    "labels": [
+      {
+        "id": 1,
+        "name": "clothing",
+        "appearances": [
+          {
+            "confidence": 0.9971,
+            "startTime": "0:00:01",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 1,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9939,
+            "startTime": "0:00:31",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 31,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9508,
+            "startTime": "0:00:48",
+            "endTime": "0:00:48.0333333",
+            "startSeconds": 48,
+            "endSeconds": 48
+          },
+          {
+            "confidence": 0.9905,
+            "startTime": "0:00:54",
+            "endTime": "0:01:02.0333333",
+            "startSeconds": 54,
+            "endSeconds": 62
+          },
+          {
+            "confidence": 0.9546,
+            "startTime": "0:01:08",
+            "endTime": "0:01:11.0333333",
+            "startSeconds": 68,
+            "endSeconds": 71
+          },
+          {
+            "confidence": 0.9985,
+            "startTime": "0:01:17",
+            "endTime": "0:01:32.0333333",
+            "startSeconds": 77,
+            "endSeconds": 92
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "person",
+        "appearances": [
+          {
+            "confidence": 0.962,
+            "startTime": "0:00:01",
+            "endTime": "0:00:11.0333333",
+            "startSeconds": 1,
+            "endSeconds": 11
+          },
+          {
+            "confidence": 0.9901,
+            "startTime": "0:00:31",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 31,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9892,
+            "startTime": "0:00:55",
+            "endTime": "0:00:57.0333333",
+            "startSeconds": 55,
+            "endSeconds": 57
+          },
+          {
+            "confidence": 0.975,
+            "startTime": "0:01:01",
+            "endTime": "0:01:02.0333333",
+            "startSeconds": 61,
+            "endSeconds": 62
+          },
+          {
+            "confidence": 0.9974,
+            "startTime": "0:01:17",
+            "endTime": "0:01:30.0333333",
+            "startSeconds": 77,
+            "endSeconds": 90
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "moon",
+        "appearances": [
+          {
+            "confidence": 0.9719,
+            "startTime": "0:00:12",
+            "endTime": "0:00:15.0333333",
+            "startSeconds": 12,
+            "endSeconds": 15
+          },
+          {
+            "confidence": 0.9827,
+            "startTime": "0:00:24",
+            "endTime": "0:00:30.0333333",
+            "startSeconds": 24,
+            "endSeconds": 30
+          },
+          {
+            "confidence": 0.9916,
+            "startTime": "0:01:35",
+            "endTime": "0:01:36.0333333",
+            "startSeconds": 95,
+            "endSeconds": 96
+          },
+          {
+            "confidence": 0.9778,
+            "startTime": "0:01:42",
+            "endTime": "0:01:44.0333333",
+            "startSeconds": 102,
+            "endSeconds": 104
+          },
+          {
+            "confidence": 0.9905,
+            "startTime": "0:01:48",
+            "endTime": "0:01:48.0333333",
+            "startSeconds": 108,
+            "endSeconds": 108
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "man",
+        "appearances": [
+          {
+            "confidence": 0.9824,
+            "startTime": "0:00:33",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 33,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9814,
+            "startTime": "0:01:18",
+            "endTime": "0:01:29.0333333",
+            "startSeconds": 78,
+            "endSeconds": 89
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "name": "astronomical object",
+        "appearances": [
+          {
+            "confidence": 0.9807,
+            "startTime": "0:00:22",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 22,
+            "endSeconds": 24
+          },
+          {
+            "confidence": 0.951,
+            "startTime": "0:01:36",
+            "endTime": "0:01:36.0333333",
+            "startSeconds": 96,
+            "endSeconds": 96
+          },
+          {
+            "confidence": 0.9516,
+            "startTime": "0:01:42",
+            "endTime": "0:01:48.0333333",
+            "startSeconds": 102,
+            "endSeconds": 108
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "parachute",
+        "appearances": [
+          {
+            "confidence": 0.9957,
+            "startTime": "0:02:02",
+            "endTime": "0:02:10.0333333",
+            "startSeconds": 122,
+            "endSeconds": 130
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "sky",
+        "appearances": [
+          {
+            "confidence": 0.9695,
+            "startTime": "0:02:02",
+            "endTime": "0:02:10.0333333",
+            "startSeconds": 122,
+            "endSeconds": 130
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "human face",
+        "appearances": [
+          {
+            "confidence": 0.9602,
+            "startTime": "0:00:09",
+            "endTime": "0:00:09.0333333",
+            "startSeconds": 9,
+            "endSeconds": 9
+          },
+          {
+            "confidence": 0.9659,
+            "startTime": "0:00:31",
+            "endTime": "0:00:34.0333333",
+            "startSeconds": 31,
+            "endSeconds": 34
+          },
+          {
+            "confidence": 0.9987,
+            "startTime": "0:00:55",
+            "endTime": "0:00:56.0333333",
+            "startSeconds": 55,
+            "endSeconds": 56
+          },
+          {
+            "confidence": 0.9901,
+            "startTime": "0:01:01",
+            "endTime": "0:01:01.0333333",
+            "startSeconds": 61,
+            "endSeconds": 61
+          },
+          {
+            "confidence": 0.9954,
+            "startTime": "0:01:17",
+            "endTime": "0:01:20.0333333",
+            "startSeconds": 77,
+            "endSeconds": 80
+          },
+          {
+            "confidence": 0.9989,
+            "startTime": "0:01:30",
+            "endTime": "0:01:30.0333333",
+            "startSeconds": 90,
+            "endSeconds": 90
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "outdoor",
+        "appearances": [
+          {
+            "confidence": 0.9692,
+            "startTime": "0:02:02",
+            "endTime": "0:02:09.0333333",
+            "startSeconds": 122,
+            "endSeconds": 129
+          }
+        ]
+      },
+      {
+        "id": 27,
+        "name": "woman",
+        "appearances": [
+          {
+            "confidence": 0.9728,
+            "startTime": "0:01:20",
+            "endTime": "0:01:26.0333333",
+            "startSeconds": 80,
+            "endSeconds": 86
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "nature",
+        "appearances": [
+          {
+            "confidence": 0.9798,
+            "startTime": "0:00:12",
+            "endTime": "0:00:15.0333333",
+            "startSeconds": 12,
+            "endSeconds": 15
+          },
+          {
+            "confidence": 0.9896,
+            "startTime": "0:00:22",
+            "endTime": "0:00:24.0333333",
+            "startSeconds": 22,
+            "endSeconds": 24
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "space",
+        "appearances": [
+          {
+            "confidence": 0.9567,
+            "startTime": "0:00:16",
+            "endTime": "0:00:16.0333333",
+            "startSeconds": 16,
+            "endSeconds": 16
+          },
+          {
+            "confidence": 0.9637,
+            "startTime": "0:01:42",
+            "endTime": "0:01:47.0333333",
+            "startSeconds": 102,
+            "endSeconds": 107
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "indoor",
+        "appearances": [
+          {
+            "confidence": 0.9519,
+            "startTime": "0:00:46",
+            "endTime": "0:00:46.0333333",
+            "startSeconds": 46,
+            "endSeconds": 46
+          },
+          {
+            "confidence": 0.9629,
+            "startTime": "0:01:07",
+            "endTime": "0:01:07.0333333",
+            "startSeconds": 67,
+            "endSeconds": 67
+          },
+          {
+            "confidence": 0.9669,
+            "startTime": "0:01:22",
+            "endTime": "0:01:27.0333333",
+            "startSeconds": 82,
+            "endSeconds": 87
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "transport",
+        "appearances": [
+          {
+            "confidence": 0.9984,
+            "startTime": "0:00:17",
+            "endTime": "0:00:17.0333333",
+            "startSeconds": 17,
+            "endSeconds": 17
+          },
+          {
+            "confidence": 0.9778,
+            "startTime": "0:01:16",
+            "endTime": "0:01:16.0333333",
+            "startSeconds": 76,
+            "endSeconds": 76
+          },
+          {
+            "confidence": 0.988,
+            "startTime": "0:01:47",
+            "endTime": "0:01:51.0333333",
+            "startSeconds": 107,
+            "endSeconds": 111
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "satellite",
+        "appearances": [
+          {
+            "confidence": 0.9925,
+            "startTime": "0:00:17",
+            "endTime": "0:00:17.0333333",
+            "startSeconds": 17,
+            "endSeconds": 17
+          },
+          {
+            "confidence": 0.9672,
+            "startTime": "0:00:27",
+            "endTime": "0:00:27.0333333",
+            "startSeconds": 27,
+            "endSeconds": 27
+          },
+          {
+            "confidence": 0.9881,
+            "startTime": "0:01:47",
+            "endTime": "0:01:51.0333333",
+            "startSeconds": 107,
+            "endSeconds": 111
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "name": "plane",
+        "appearances": [
+          {
+            "confidence": 0.9573,
+            "startTime": "0:00:49",
+            "endTime": "0:00:49.0333333",
+            "startSeconds": 49,
+            "endSeconds": 49
+          },
+          {
+            "confidence": 0.9653,
+            "startTime": "0:01:34",
+            "endTime": "0:01:38.0333333",
+            "startSeconds": 94,
+            "endSeconds": 98
+          }
+        ]
+      },
+      {
+        "id": 26,
+        "name": "wall",
+        "appearances": [
+          {
+            "confidence": 0.9768,
+            "startTime": "0:01:19",
+            "endTime": "0:01:19.0333333",
+            "startSeconds": 79,
+            "endSeconds": 79
+          },
+          {
+            "confidence": 0.9629,
+            "startTime": "0:01:23",
+            "endTime": "0:01:27.0333333",
+            "startSeconds": 83,
+            "endSeconds": 87
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "outer space",
+        "appearances": [
+          {
+            "confidence": 0.9551,
+            "startTime": "0:01:42",
+            "endTime": "0:01:46.0333333",
+            "startSeconds": 102,
+            "endSeconds": 106
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "crater",
+        "appearances": [
+          {
+            "confidence": 0.9997,
+            "startTime": "0:00:12",
+            "endTime": "0:00:15.0333333",
+            "startSeconds": 12,
+            "endSeconds": 15
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "name": "pressure suit",
+        "appearances": [
+          {
+            "confidence": 0.9683,
+            "startTime": "0:00:58",
+            "endTime": "0:01:00.0333333",
+            "startSeconds": 58,
+            "endSeconds": 60
+          }
+        ]
+      },
+      {
+        "id": 25,
+        "name": "microphone",
+        "appearances": [
+          {
+            "confidence": 0.9732,
+            "startTime": "0:01:17",
+            "endTime": "0:01:19.0333333",
+            "startSeconds": 77,
+            "endSeconds": 79
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "chair",
+        "appearances": [
+          {
+            "confidence": 0.9593,
+            "startTime": "0:01:23",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 83,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "astronomy",
+        "appearances": [
+          {
+            "confidence": 0.9534,
+            "startTime": "0:01:42",
+            "endTime": "0:01:44.0333333",
+            "startSeconds": 102,
+            "endSeconds": 104
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "planet",
+        "appearances": [
+          {
+            "confidence": 0.9652,
+            "startTime": "0:01:52",
+            "endTime": "0:01:54.0333333",
+            "startSeconds": 112,
+            "endSeconds": 114
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "footwear",
+        "appearances": [
+          {
+            "confidence": 0.9964,
+            "startTime": "0:00:01",
+            "endTime": "0:00:02.0333333",
+            "startSeconds": 1,
+            "endSeconds": 2
+          },
+          {
+            "confidence": 0.9574,
+            "startTime": "0:01:26",
+            "endTime": "0:01:26.0333333",
+            "startSeconds": 86,
+            "endSeconds": 86
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "headphones",
+        "appearances": [
+          {
+            "confidence": 0.9702,
+            "startTime": "0:00:07",
+            "endTime": "0:00:08.0333333",
+            "startSeconds": 7,
+            "endSeconds": 8
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "celestial event",
+        "appearances": [
+          {
+            "confidence": 0.9523,
+            "startTime": "0:00:22",
+            "endTime": "0:00:23.0333333",
+            "startSeconds": 22,
+            "endSeconds": 23
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "personal protective equipment",
+        "appearances": [
+          {
+            "confidence": 0.966,
+            "startTime": "0:00:58",
+            "endTime": "0:00:59.0333333",
+            "startSeconds": 58,
+            "endSeconds": 59
+          }
+        ]
+      },
+      {
+        "id": 23,
+        "name": "rocket",
+        "appearances": [
+          {
+            "confidence": 0.9716,
+            "startTime": "0:01:08",
+            "endTime": "0:01:09.0333333",
+            "startSeconds": 68,
+            "endSeconds": 69
+          }
+        ]
+      },
+      {
+        "id": 24,
+        "name": "engineering",
+        "appearances": [
+          {
+            "confidence": 0.9616,
+            "startTime": "0:01:10",
+            "endTime": "0:01:11.0333333",
+            "startSeconds": 70,
+            "endSeconds": 71
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "people",
+        "appearances": [
+          {
+            "confidence": 0.963,
+            "startTime": "0:01:20",
+            "endTime": "0:01:21.0333333",
+            "startSeconds": 80,
+            "endSeconds": 81
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "furniture",
+        "appearances": [
+          {
+            "confidence": 0.963,
+            "startTime": "0:01:24",
+            "endTime": "0:01:25.0333333",
+            "startSeconds": 84,
+            "endSeconds": 85
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "parachuting",
+        "appearances": [
+          {
+            "confidence": 0.9541,
+            "startTime": "0:02:02",
+            "endTime": "0:02:03.0333333",
+            "startSeconds": 122,
+            "endSeconds": 123
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "earth",
+        "appearances": [
+          {
+            "confidence": 0.9704,
+            "startTime": "0:00:21",
+            "endTime": "0:00:21.0333333",
+            "startSeconds": 21,
+            "endSeconds": 21
+          },
+          {
+            "confidence": 0.9502,
+            "startTime": "0:01:52",
+            "endTime": "0:01:52.0333333",
+            "startSeconds": 112,
+            "endSeconds": 112
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "medical equipment",
+        "appearances": [
+          {
+            "confidence": 0.9635,
+            "startTime": "0:00:46",
+            "endTime": "0:00:46.0333333",
+            "startSeconds": 46,
+            "endSeconds": 46
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "workwear",
+        "appearances": [
+          {
+            "confidence": 0.9539,
+            "startTime": "0:00:54",
+            "endTime": "0:00:54.0333333",
+            "startSeconds": 54,
+            "endSeconds": 54
+          }
+        ]
+      },
+      {
+        "id": 22,
+        "name": "luggage and bags",
+        "appearances": [
+          {
+            "confidence": 0.9567,
+            "startTime": "0:01:02",
+            "endTime": "0:01:02.0333333",
+            "startSeconds": 62,
+            "endSeconds": 62
+          }
+        ]
+      },
+      {
+        "id": 29,
+        "name": "jeans",
+        "appearances": [
+          {
+            "confidence": 0.9772,
+            "startTime": "0:01:21",
+            "endTime": "0:01:21.0333333",
+            "startSeconds": 81,
+            "endSeconds": 81
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "airplane",
+        "appearances": [
+          {
+            "confidence": 0.9561,
+            "startTime": "0:01:37",
+            "endTime": "0:01:37.0333333",
+            "startSeconds": 97,
+            "endSeconds": 97
+          }
+        ]
+      },
+      {
+        "id": 40,
+        "name": "windsports",
+        "appearances": [
+          {
+            "confidence": 0.9529,
+            "startTime": "0:02:05",
+            "endTime": "0:02:05.0333333",
+            "startSeconds": 125,
+            "endSeconds": 125
+          }
+        ]
+      },
+      {
+        "id": 41,
+        "name": "water",
+        "appearances": [
+          {
+            "confidence": 0.9659,
+            "startTime": "0:02:10",
+            "endTime": "0:02:10.0333333",
+            "startSeconds": 130,
+            "endSeconds": 130
+          }
+        ]
+      }
+    ],
+    "framePatterns": [
+      {
+        "displayName": null,
+        "id": 1,
+        "name": "Black",
+        "appearances": [
+          {
+            "confidence": 0,
+            "startTime": "0:00:00",
+            "endTime": "0:00:00.9333333",
+            "startSeconds": 0,
+            "endSeconds": 0.9
+          },
+          {
+            "confidence": 0,
+            "startTime": "0:01:47.0666667",
+            "endTime": "0:01:48.9",
+            "startSeconds": 107.1,
+            "endSeconds": 108.9
+          },
+          {
+            "confidence": 0,
+            "startTime": "0:02:10.5",
+            "endTime": "0:02:12.9666667",
+            "startSeconds": 130.5,
+            "endSeconds": 133
+          }
+        ]
+      }
+    ],
+    "brands": [],
+    "namedLocations": [
+      {
+        "referenceId": "Earth",
+        "referenceUrl": "https://en.wikipedia.org/wiki/Earth",
+        "confidence": 0.945,
+        "description": "Earth /\u02c8\u025c\u02d0r\u03b8/ is the third planet from the Sun, the densest planet in the Solar System, the largest of the Solar System's four terrestrial planets, and the only astronomical object known to harbor life.",
+        "seenDuration": 46.3,
+        "id": 6,
+        "name": "Earth",
+        "appearances": [
+          {
+            "startTime": "0:00:19.6",
+            "endTime": "0:00:21.68",
+            "startSeconds": 19.6,
+            "endSeconds": 21.7
+          },
+          {
+            "startTime": "0:01:08",
+            "endTime": "0:01:16.96",
+            "startSeconds": 68,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:02:04.92",
+            "startSeconds": 89.7,
+            "endSeconds": 124.9
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.955,
+        "description": null,
+        "seenDuration": 45.4,
+        "id": 1,
+        "name": "moon",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:10.12",
+            "startSeconds": 4.7,
+            "endSeconds": 10.1
+          },
+          {
+            "startTime": "0:00:21.68",
+            "endTime": "0:00:41.56",
+            "startSeconds": 21.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:03.08",
+            "startSeconds": 54.4,
+            "endSeconds": 63.1
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.71,
+        "description": null,
+        "seenDuration": 10.8,
+        "id": 7,
+        "name": "Air",
+        "appearances": [
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.87,
+        "description": null,
+        "seenDuration": 10.8,
+        "id": 8,
+        "name": "Space",
+        "appearances": [
+          {
+            "startTime": "0:00:30.84",
+            "endTime": "0:00:41.56",
+            "startSeconds": 30.8,
+            "endSeconds": 41.6
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.75,
+        "description": null,
+        "seenDuration": 10.1,
+        "id": 4,
+        "name": "planet",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          },
+          {
+            "startTime": "0:01:41.24",
+            "endTime": "0:01:47.68",
+            "startSeconds": 101.2,
+            "endSeconds": 107.7
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.78,
+        "description": null,
+        "seenDuration": 5.2,
+        "id": 3,
+        "name": "solar system",
+        "appearances": [
+          {
+            "startTime": "0:00:10.12",
+            "endTime": "0:00:15.28",
+            "startSeconds": 10.1,
+            "endSeconds": 15.3
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.85,
+        "description": null,
+        "seenDuration": 3.6,
+        "id": 5,
+        "name": "home",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:19.6",
+            "startSeconds": 16,
+            "endSeconds": 19.6
+          }
+        ]
+      },
+      {
+        "referenceId": null,
+        "referenceUrl": null,
+        "confidence": 0.99,
+        "description": null,
+        "seenDuration": 3.3,
+        "id": 2,
+        "name": "Mars",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:07.96",
+            "startSeconds": 4.7,
+            "endSeconds": 8
+          }
+        ]
+      }
+    ],
+    "namedPeople": [],
+    "statistics": {
+      "correspondenceCount": 4,
+      "speakerTalkToListenRatio": {
+        "1": 0.212,
+        "2": 0.197,
+        "3": 0.293,
+        "4": 0.296
+      },
+      "speakerLongestMonolog": {
+        "1": 24,
+        "2": 23,
+        "3": 34,
+        "4": 34
+      },
+      "speakerNumberOfFragments": {
+        "1": 5,
+        "2": 1,
+        "3": 3,
+        "4": 3
+      },
+      "speakerWordCount": {
+        "1": 104,
+        "2": 85,
+        "3": 108,
+        "4": 115
+      }
+    },
+    "topics": [
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology",
+        "iabName": "Science",
+        "confidence": 0.9488,
+        "id": 1,
+        "name": "Science",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:16.96",
+            "startSeconds": 54.4,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:51.84",
+            "startSeconds": 89.7,
+            "endSeconds": 111.8
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.9146,
+        "id": 2,
+        "name": "Science/Outer Space",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:05.68",
+            "startSeconds": 54.4,
+            "endSeconds": 65.7
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.8412,
+        "id": 3,
+        "name": "Science/Outer Space/Space Exploration",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:16.96",
+            "startSeconds": 54.4,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.8396,
+        "id": 4,
+        "name": "Science/Outer Space/Nasa",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:16.96",
+            "startSeconds": 54.4,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.8121,
+        "id": 5,
+        "name": "Science/Outer Space/Spacecraft",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:41.56",
+            "startSeconds": 16,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:05.68",
+            "startSeconds": 54.4,
+            "endSeconds": 65.7
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.8071,
+        "id": 6,
+        "name": "Science/Outer Space/Space Travel",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:16.96",
+            "startSeconds": 54.4,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/astronomy",
+        "iabName": "Environment",
+        "confidence": 0.8009,
+        "id": 7,
+        "name": "Environment/Planets/Planetary Science",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:22.84",
+            "startSeconds": 4.7,
+            "endSeconds": 22.8
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:51.84",
+            "startSeconds": 89.7,
+            "endSeconds": 111.8
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/astronomy",
+        "iabName": "Science",
+        "confidence": 0.791,
+        "id": 8,
+        "name": "Science/Astronomy",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:41.56",
+            "startSeconds": 4.7,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:16.96",
+            "startSeconds": 54.4,
+            "endSeconds": 77
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:51.84",
+            "startSeconds": 89.7,
+            "endSeconds": 111.8
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/physics",
+        "iabName": "Science",
+        "confidence": 0.7289,
+        "id": 9,
+        "name": "Science/Physics",
+        "appearances": [
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/natural science/astronomy",
+        "iabName": "Environment",
+        "confidence": 0.6682,
+        "id": 10,
+        "name": "Environment/The Moon",
+        "appearances": [
+          {
+            "startTime": "0:00:04.72",
+            "endTime": "0:00:22.84",
+            "startSeconds": 4.7,
+            "endSeconds": 22.8
+          },
+          {
+            "startTime": "0:01:29.72",
+            "endTime": "0:01:41.08",
+            "startSeconds": 89.7,
+            "endSeconds": 101.1
+          }
+        ]
+      },
+      {
+        "referenceUrl": null,
+        "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+        "iabName": "Science",
+        "confidence": 0.5778,
+        "id": 11,
+        "name": "Science/Outer Space/Mars Planet",
+        "appearances": [
+          {
+            "startTime": "0:00:15.96",
+            "endTime": "0:00:41.56",
+            "startSeconds": 16,
+            "endSeconds": 41.6
+          },
+          {
+            "startTime": "0:00:54.36",
+            "endTime": "0:01:05.68",
+            "startSeconds": 54.4,
+            "endSeconds": 65.7
+          }
+        ]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "accountId": "e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e",
+      "id": "921tzost9w",
+      "state": "Processed",
+      "moderationState": "OK",
+      "reviewState": "None",
+      "privacyMode": "Public",
+      "processingProgress": "100%",
+      "failureMessage": "",
+      "externalId": null,
+      "externalUrl": null,
+      "metadata": null,
+      "insights": {
+        "version": "1.0.0.0",
+        "duration": "0:02:12.970667",
+        "sourceLanguage": "en-US",
+        "sourceLanguages": [
+          "en-US"
+        ],
+        "language": "en-US",
+        "languages": [
+          "en-US"
+        ],
+        "transcript": [
+          {
+            "id": 1,
+            "text": "We're going back to the moon because it's the next step in our journey to Mars.",
+            "confidence": 0.9594,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "We need to go explore the moon.",
+            "confidence": 0.9757,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "There's vast regions of unexplored areas with the coldest, darkest places in our solar system.",
+            "confidence": 0.9207,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:15.28",
+                "start": "0:00:10.12",
+                "end": "0:00:15.28"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "This is a test mission and when we get off the planet, we might come right back home.",
+            "confidence": 0.9249,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "We might spend 3 or 4 days around Earth.",
+            "confidence": 0.9713,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:21.68",
+                "start": "0:00:19.6",
+                "end": "0:00:21.68"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "We might go to the moon.",
+            "confidence": 0.9739,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:21.68",
+                "end": "0:00:22.84"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "That's where we want to go.",
+            "confidence": 0.9406,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:22.92",
+                "adjustedEnd": "0:00:23.96",
+                "start": "0:00:22.92",
+                "end": "0:00:23.96"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "But it is a test mission and we are ready for every scenario as as we ride this amazing Space Launch System in the Orion spacecraft.",
+            "confidence": 0.8985,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:23.96",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "But another reason we're going back to the moon is to fulfill NASA's mission, which is to explore the unknown and Air and Space, to innovate for the benefit of humanity, and to inspire the world through discovery.",
+            "confidence": 0.8869,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "And when we succeed and when we accomplish the things that we set out to accomplish, that inspiration not only can set up new things to happen, but it also is a reminder in tough times that we're capable of doing great things when we work together.",
+            "confidence": 0.9107,
+            "speakerId": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:41.56",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:41.56",
+                "end": "0:00:54.08"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "The thing I love about the moon is that it's not just a beacon for exploration and this platform of possibilities for incredible missions like this, but it has benefits.",
+            "confidence": 0.9144,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "That's actually why we're racing towards it.",
+            "confidence": 0.9518,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:03.08",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:01:03.08",
+                "end": "0:01:05.68"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "Those benefits are really wide in nature.",
+            "confidence": 0.9509,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:06.16",
+                "adjustedEnd": "0:01:08",
+                "start": "0:01:06.16",
+                "end": "0:01:08"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "You have everything from innovation, technology, development, not only for future missions going deeper into the solar system, but technologies as it come back to Earth.",
+            "confidence": 0.8541,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "You have inspiration, a whole generation of people starting this pipeline of STEM workers and manufacturers and operators that are excited to see what you can do when you work hard and you come together as a team.",
+            "confidence": 0.9629,
+            "speakerId": 3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "text": "When I think about the four of us flying around the far side of the moon, seeing that Earth rise, taking images and video and sending them back to you, the feeling that I have inside is hope.",
+            "confidence": 0.9282,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "text": "We know that Artemis 2 is not the solution for humanity on planet Earth, but it is a contribution in the positive column.",
+            "confidence": 0.9673,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "text": "We hope that just for a moment that people will pause and say, wow, it's extraordinary.",
+            "confidence": 0.9251,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "text": "When you look back upon the Earth with over 8 billion people and you see this concrete example of what humanity can do this extraordinary thing when we set big goals and we work together to achieve them.",
+            "confidence": 0.9363,
+            "speakerId": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "text": "I.",
+            "confidence": 0.024,
+            "speakerId": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:02:05.76",
+                "adjustedEnd": "0:02:05.8",
+                "start": "0:02:05.76",
+                "end": "0:02:05.8"
+              }
+            ]
+          }
+        ],
+        "ocrMaxTokenCount": 50000,
+        "ocrAnalyzedTokenCount": 52,
+        "ocr": [
+          {
+            "id": 1,
+            "text": "17",
+            "confidence": 0.93,
+            "left": 505,
+            "top": 505,
+            "width": 18,
+            "height": 12,
+            "angle": -3,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:11",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "ANIMATION",
+            "confidence": 0.992,
+            "left": 121,
+            "top": 523,
+            "width": 94,
+            "height": 18,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:17.0333333",
+                "start": "0:00:16",
+                "end": "0:00:17.0333333"
+              },
+              {
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:21.0333333",
+                "start": "0:00:21",
+                "end": "0:00:21.0333333"
+              },
+              {
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:46.0333333",
+                "start": "0:01:42",
+                "end": "0:01:46.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "NAS",
+            "confidence": 0.949,
+            "left": 530,
+            "top": 302,
+            "width": 288,
+            "height": 96,
+            "angle": 102,
+            "language": "pt-PT",
+            "instances": [
+              {
+                "adjustedStart": "0:00:25",
+                "adjustedEnd": "0:00:27.0333333",
+                "start": "0:00:25",
+                "end": "0:00:27.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "NASA",
+            "confidence": 0.992,
+            "left": 416,
+            "top": 128,
+            "width": 251,
+            "height": 65,
+            "angle": -1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "adjustedStart": "0:01:31",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:31",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "VICTOR GLOVER",
+            "confidence": 0.943,
+            "left": 674,
+            "top": 485,
+            "width": 70,
+            "height": 11,
+            "angle": 7,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:33",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "CHRISTINA H. KOCH",
+            "confidence": 0.9513,
+            "left": 461,
+            "top": 576,
+            "width": 91,
+            "height": 12,
+            "angle": 1,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:59",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:59",
+                "end": "0:01:00.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "XLarge",
+            "confidence": 0.983,
+            "left": 841,
+            "top": 576,
+            "width": 84,
+            "height": 25,
+            "angle": 4,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:03.0333333",
+                "start": "0:01:02",
+                "end": "0:01:03.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "MINISTRATION",
+            "confidence": 0.952,
+            "left": 864,
+            "top": 133,
+            "width": 340,
+            "height": 117,
+            "angle": 155,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:30.0333333",
+                "start": "0:01:30",
+                "end": "0:01:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "JEREMY HANSEN",
+            "confidence": 0.9905,
+            "left": 523,
+            "top": 430,
+            "width": 63,
+            "height": 9,
+            "angle": 2,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:30.0333333",
+                "start": "0:01:30",
+                "end": "0:01:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "ASA",
+            "confidence": 0.956,
+            "left": 265,
+            "top": 13,
+            "width": 382,
+            "height": 169,
+            "angle": 91,
+            "language": "ro-RO",
+            "instances": [
+              {
+                "adjustedStart": "0:01:37",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:37",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          {
+            "id": 1,
+            "text": "solar system",
+            "confidence": 0.9847,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:15.28",
+                "start": "0:00:10.12",
+                "end": "0:00:15.28"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "text": "test mission",
+            "confidence": 0.9793,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:23.96",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "text": "mission",
+            "confidence": 0.7514,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:23.96",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "text": "planet",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "text": "thing",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:41.56",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:41.56",
+                "end": "0:00:54.08"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "text": "people",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              },
+              {
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "text": "extraordinary",
+            "confidence": 0.7217,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "text": "earth",
+            "confidence": 0.7029,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:21.68",
+                "start": "0:00:19.6",
+                "end": "0:00:21.68"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              },
+              {
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "text": "work",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:41.56",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:41.56",
+                "end": "0:00:54.08"
+              },
+              {
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "text": "nasa",
+            "confidence": 0.69,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "text": "back",
+            "confidence": 0.6564,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              },
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "text": "moon",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              },
+              {
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:21.68",
+                "end": "0:00:22.84"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "text": "explore",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:15.28",
+                "start": "0:00:10.12",
+                "end": "0:00:15.28"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "text": "space",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:23.96",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "text": "benefit",
+            "confidence": 0.6211,
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:06.16",
+                "adjustedEnd": "0:01:08",
+                "start": "0:01:06.16",
+                "end": "0:01:08"
+              }
+            ]
+          }
+        ],
+        "topics": [
+          {
+            "id": 1,
+            "name": "Science",
+            "referenceId": "Science",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology",
+            "confidence": 0.9488,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:00:54.36",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:29.72",
+                "end": "0:01:51.84"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Outer Space",
+            "referenceId": "Science/Outer Space",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.9146,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:00:54.36",
+                "end": "0:01:05.68"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Space Exploration",
+            "referenceId": "Science/Outer Space/Space Exploration",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.8412,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:00:54.36",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Nasa",
+            "referenceId": "Science/Outer Space/Nasa",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.8396,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:00:54.36",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "Spacecraft",
+            "referenceId": "Science/Outer Space/Spacecraft",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.8121,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:15.96",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:00:54.36",
+                "end": "0:01:05.68"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Space Travel",
+            "referenceId": "Science/Outer Space/Space Travel",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.8071,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:00:54.36",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Planetary Science",
+            "referenceId": "Environment/Planets/Planetary Science",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/astronomy",
+            "confidence": 0.8009,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:04.72",
+                "end": "0:00:22.84"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:29.72",
+                "end": "0:01:51.84"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Astronomy",
+            "referenceId": "Science/Astronomy",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/astronomy",
+            "confidence": 0.791,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:04.72",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:00:54.36",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:29.72",
+                "end": "0:01:51.84"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "Physics",
+            "referenceId": "Science/Physics",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/physics",
+            "confidence": 0.7289,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "The Moon",
+            "referenceId": "Environment/The Moon",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/natural science/astronomy",
+            "confidence": 0.6682,
+            "iabName": "Environment",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:04.72",
+                "end": "0:00:22.84"
+              },
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "Mars Planet",
+            "referenceId": "Science/Outer Space/Mars Planet",
+            "referenceType": "VideoIndexer",
+            "iptcName": "science and technology/scientific research/scientific exploration/space exploration",
+            "confidence": 0.5778,
+            "iabName": "Science",
+            "language": "en-US",
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:15.96",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:00:54.36",
+                "end": "0:01:05.68"
+              }
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "id": 1,
+            "name": "clothing",
+            "referenceId": "consumer goods/clothing",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9971,
+                "adjustedStart": "0:00:01",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:01",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9939,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9508,
+                "adjustedStart": "0:00:48",
+                "adjustedEnd": "0:00:48.0333333",
+                "start": "0:00:48",
+                "end": "0:00:48.0333333"
+              },
+              {
+                "confidence": 0.9905,
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:01:02.0333333",
+                "start": "0:00:54",
+                "end": "0:01:02.0333333"
+              },
+              {
+                "confidence": 0.9693,
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:08.0333333",
+                "start": "0:01:08",
+                "end": "0:01:08.0333333"
+              },
+              {
+                "confidence": 0.9546,
+                "adjustedStart": "0:01:11",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:11",
+                "end": "0:01:11.0333333"
+              },
+              {
+                "confidence": 0.9985,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:32.0333333",
+                "start": "0:01:17",
+                "end": "0:01:32.0333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "footwear",
+            "referenceId": "consumer goods/clothing/footwear",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9964,
+                "adjustedStart": "0:00:01",
+                "adjustedEnd": "0:00:02.0333333",
+                "start": "0:00:01",
+                "end": "0:00:02.0333333"
+              },
+              {
+                "confidence": 0.9574,
+                "adjustedStart": "0:01:26",
+                "adjustedEnd": "0:01:26.0333333",
+                "start": "0:01:26",
+                "end": "0:01:26.0333333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "person",
+            "referenceId": "person",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9952,
+                "adjustedStart": "0:00:01",
+                "adjustedEnd": "0:00:04.0333333",
+                "start": "0:00:01",
+                "end": "0:00:04.0333333"
+              },
+              {
+                "confidence": 0.962,
+                "adjustedStart": "0:00:06",
+                "adjustedEnd": "0:00:11.0333333",
+                "start": "0:00:06",
+                "end": "0:00:11.0333333"
+              },
+              {
+                "confidence": 0.9901,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9892,
+                "adjustedStart": "0:00:55",
+                "adjustedEnd": "0:00:57.0333333",
+                "start": "0:00:55",
+                "end": "0:00:57.0333333"
+              },
+              {
+                "confidence": 0.975,
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:02.0333333",
+                "start": "0:01:01",
+                "end": "0:01:02.0333333"
+              },
+              {
+                "confidence": 0.9974,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:30.0333333",
+                "start": "0:01:17",
+                "end": "0:01:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "headphones",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9702,
+                "adjustedStart": "0:00:07",
+                "adjustedEnd": "0:00:08.0333333",
+                "start": "0:00:07",
+                "end": "0:00:08.0333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "human face",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9602,
+                "adjustedStart": "0:00:09",
+                "adjustedEnd": "0:00:09.0333333",
+                "start": "0:00:09",
+                "end": "0:00:09.0333333"
+              },
+              {
+                "confidence": 0.9659,
+                "adjustedStart": "0:00:31",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:31",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9987,
+                "adjustedStart": "0:00:55",
+                "adjustedEnd": "0:00:56.0333333",
+                "start": "0:00:55",
+                "end": "0:00:56.0333333"
+              },
+              {
+                "confidence": 0.9901,
+                "adjustedStart": "0:01:01",
+                "adjustedEnd": "0:01:01.0333333",
+                "start": "0:01:01",
+                "end": "0:01:01.0333333"
+              },
+              {
+                "confidence": 0.9954,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:20.0333333",
+                "start": "0:01:17",
+                "end": "0:01:20.0333333"
+              },
+              {
+                "confidence": 0.9989,
+                "adjustedStart": "0:01:30",
+                "adjustedEnd": "0:01:30.0333333",
+                "start": "0:01:30",
+                "end": "0:01:30.0333333"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "crater",
+            "referenceId": "geological formation/volcanic crater",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9997,
+                "adjustedStart": "0:00:12",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:12",
+                "end": "0:00:15.0333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "nature",
+            "referenceId": "nature",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9798,
+                "adjustedStart": "0:00:12",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:12",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "confidence": 0.9896,
+                "adjustedStart": "0:00:22",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:22",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "moon",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9719,
+                "adjustedStart": "0:00:12",
+                "adjustedEnd": "0:00:15.0333333",
+                "start": "0:00:12",
+                "end": "0:00:15.0333333"
+              },
+              {
+                "confidence": 0.9827,
+                "adjustedStart": "0:00:24",
+                "adjustedEnd": "0:00:30.0333333",
+                "start": "0:00:24",
+                "end": "0:00:30.0333333"
+              },
+              {
+                "confidence": 0.9916,
+                "adjustedStart": "0:01:35",
+                "adjustedEnd": "0:01:36.0333333",
+                "start": "0:01:35",
+                "end": "0:01:36.0333333"
+              },
+              {
+                "confidence": 0.9778,
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:44.0333333",
+                "start": "0:01:42",
+                "end": "0:01:44.0333333"
+              },
+              {
+                "confidence": 0.9905,
+                "adjustedStart": "0:01:48",
+                "adjustedEnd": "0:01:48.0333333",
+                "start": "0:01:48",
+                "end": "0:01:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "name": "space",
+            "referenceId": "space",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9567,
+                "adjustedStart": "0:00:16",
+                "adjustedEnd": "0:00:16.0333333",
+                "start": "0:00:16",
+                "end": "0:00:16.0333333"
+              },
+              {
+                "confidence": 0.9637,
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:47.0333333",
+                "start": "0:01:42",
+                "end": "0:01:47.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "name": "transport",
+            "referenceId": "conveyance/transport",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9984,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:17.0333333",
+                "start": "0:00:17",
+                "end": "0:00:17.0333333"
+              },
+              {
+                "confidence": 0.9778,
+                "adjustedStart": "0:01:16",
+                "adjustedEnd": "0:01:16.0333333",
+                "start": "0:01:16",
+                "end": "0:01:16.0333333"
+              },
+              {
+                "confidence": 0.982,
+                "adjustedStart": "0:01:47",
+                "adjustedEnd": "0:01:47.0333333",
+                "start": "0:01:47",
+                "end": "0:01:47.0333333"
+              },
+              {
+                "confidence": 0.988,
+                "adjustedStart": "0:01:49",
+                "adjustedEnd": "0:01:51.0333333",
+                "start": "0:01:49",
+                "end": "0:01:51.0333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "name": "satellite",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9925,
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:17.0333333",
+                "start": "0:00:17",
+                "end": "0:00:17.0333333"
+              },
+              {
+                "confidence": 0.9672,
+                "adjustedStart": "0:00:27",
+                "adjustedEnd": "0:00:27.0333333",
+                "start": "0:00:27",
+                "end": "0:00:27.0333333"
+              },
+              {
+                "confidence": 0.9823,
+                "adjustedStart": "0:01:47",
+                "adjustedEnd": "0:01:47.0333333",
+                "start": "0:01:47",
+                "end": "0:01:47.0333333"
+              },
+              {
+                "confidence": 0.9881,
+                "adjustedStart": "0:01:49",
+                "adjustedEnd": "0:01:51.0333333",
+                "start": "0:01:49",
+                "end": "0:01:51.0333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "name": "earth",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9704,
+                "adjustedStart": "0:00:21",
+                "adjustedEnd": "0:00:21.0333333",
+                "start": "0:00:21",
+                "end": "0:00:21.0333333"
+              },
+              {
+                "confidence": 0.9502,
+                "adjustedStart": "0:01:52",
+                "adjustedEnd": "0:01:52.0333333",
+                "start": "0:01:52",
+                "end": "0:01:52.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "name": "astronomical object",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9807,
+                "adjustedStart": "0:00:22",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:22",
+                "end": "0:00:24.0333333"
+              },
+              {
+                "confidence": 0.951,
+                "adjustedStart": "0:01:36",
+                "adjustedEnd": "0:01:36.0333333",
+                "start": "0:01:36",
+                "end": "0:01:36.0333333"
+              },
+              {
+                "confidence": 0.9767,
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:45.0333333",
+                "start": "0:01:42",
+                "end": "0:01:45.0333333"
+              },
+              {
+                "confidence": 0.9516,
+                "adjustedStart": "0:01:48",
+                "adjustedEnd": "0:01:48.0333333",
+                "start": "0:01:48",
+                "end": "0:01:48.0333333"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "name": "celestial event",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9523,
+                "adjustedStart": "0:00:22",
+                "adjustedEnd": "0:00:23.0333333",
+                "start": "0:00:22",
+                "end": "0:00:23.0333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "name": "man",
+            "referenceId": "person/man",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9824,
+                "adjustedStart": "0:00:33",
+                "adjustedEnd": "0:00:34.0333333",
+                "start": "0:00:33",
+                "end": "0:00:34.0333333"
+              },
+              {
+                "confidence": 0.9695,
+                "adjustedStart": "0:01:18",
+                "adjustedEnd": "0:01:22.0333333",
+                "start": "0:01:18",
+                "end": "0:01:22.0333333"
+              },
+              {
+                "confidence": 0.9625,
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:24",
+                "end": "0:01:24.0333333"
+              },
+              {
+                "confidence": 0.9814,
+                "adjustedStart": "0:01:27",
+                "adjustedEnd": "0:01:29.0333333",
+                "start": "0:01:27",
+                "end": "0:01:29.0333333"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "name": "medical equipment",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9635,
+                "adjustedStart": "0:00:46",
+                "adjustedEnd": "0:00:46.0333333",
+                "start": "0:00:46",
+                "end": "0:00:46.0333333"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "name": "indoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9519,
+                "adjustedStart": "0:00:46",
+                "adjustedEnd": "0:00:46.0333333",
+                "start": "0:00:46",
+                "end": "0:00:46.0333333"
+              },
+              {
+                "confidence": 0.9629,
+                "adjustedStart": "0:01:07",
+                "adjustedEnd": "0:01:07.0333333",
+                "start": "0:01:07",
+                "end": "0:01:07.0333333"
+              },
+              {
+                "confidence": 0.9669,
+                "adjustedStart": "0:01:22",
+                "adjustedEnd": "0:01:27.0333333",
+                "start": "0:01:22",
+                "end": "0:01:27.0333333"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "name": "plane",
+            "referenceId": "vehicle/airplane",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9573,
+                "adjustedStart": "0:00:49",
+                "adjustedEnd": "0:00:49.0333333",
+                "start": "0:00:49",
+                "end": "0:00:49.0333333"
+              },
+              {
+                "confidence": 0.9556,
+                "adjustedStart": "0:01:34",
+                "adjustedEnd": "0:01:34.0333333",
+                "start": "0:01:34",
+                "end": "0:01:34.0333333"
+              },
+              {
+                "confidence": 0.9653,
+                "adjustedStart": "0:01:37",
+                "adjustedEnd": "0:01:38.0333333",
+                "start": "0:01:37",
+                "end": "0:01:38.0333333"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "name": "workwear",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9539,
+                "adjustedStart": "0:00:54",
+                "adjustedEnd": "0:00:54.0333333",
+                "start": "0:00:54",
+                "end": "0:00:54.0333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "name": "pressure suit",
+            "referenceId": "consumer goods/clothing/pressure suit/pressure suit",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9683,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:01:00.0333333",
+                "start": "0:00:58",
+                "end": "0:01:00.0333333"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "name": "personal protective equipment",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.966,
+                "adjustedStart": "0:00:58",
+                "adjustedEnd": "0:00:59.0333333",
+                "start": "0:00:58",
+                "end": "0:00:59.0333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "name": "luggage and bags",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9567,
+                "adjustedStart": "0:01:02",
+                "adjustedEnd": "0:01:02.0333333",
+                "start": "0:01:02",
+                "end": "0:01:02.0333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "name": "rocket",
+            "referenceId": "vehicle/rocket",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9716,
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:09.0333333",
+                "start": "0:01:08",
+                "end": "0:01:09.0333333"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "engineering",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9616,
+                "adjustedStart": "0:01:10",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:10",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "name": "microphone",
+            "referenceId": "device/microphone",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9747,
+                "adjustedStart": "0:01:17",
+                "adjustedEnd": "0:01:17.0333333",
+                "start": "0:01:17",
+                "end": "0:01:17.0333333"
+              },
+              {
+                "confidence": 0.9732,
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:19.0333333",
+                "start": "0:01:19",
+                "end": "0:01:19.0333333"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "name": "wall",
+            "referenceId": "structure/wall",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9768,
+                "adjustedStart": "0:01:19",
+                "adjustedEnd": "0:01:19.0333333",
+                "start": "0:01:19",
+                "end": "0:01:19.0333333"
+              },
+              {
+                "confidence": 0.9678,
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:24.0333333",
+                "start": "0:01:23",
+                "end": "0:01:24.0333333"
+              },
+              {
+                "confidence": 0.9629,
+                "adjustedStart": "0:01:27",
+                "adjustedEnd": "0:01:27.0333333",
+                "start": "0:01:27",
+                "end": "0:01:27.0333333"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "name": "woman",
+            "referenceId": "person/woman",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9728,
+                "adjustedStart": "0:01:20",
+                "adjustedEnd": "0:01:26.0333333",
+                "start": "0:01:20",
+                "end": "0:01:26.0333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "name": "people",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.963,
+                "adjustedStart": "0:01:20",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:20",
+                "end": "0:01:21.0333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "name": "jeans",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9772,
+                "adjustedStart": "0:01:21",
+                "adjustedEnd": "0:01:21.0333333",
+                "start": "0:01:21",
+                "end": "0:01:21.0333333"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "name": "chair",
+            "referenceId": "instrumentality/furnishing/furniture/seat/chair",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9593,
+                "adjustedStart": "0:01:23",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:23",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "name": "furniture",
+            "referenceId": "furniture",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.963,
+                "adjustedStart": "0:01:24",
+                "adjustedEnd": "0:01:25.0333333",
+                "start": "0:01:24",
+                "end": "0:01:25.0333333"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "name": "airplane",
+            "referenceId": "vehicle/aircraft/airplane",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9561,
+                "adjustedStart": "0:01:37",
+                "adjustedEnd": "0:01:37.0333333",
+                "start": "0:01:37",
+                "end": "0:01:37.0333333"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "name": "outer space",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9551,
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:46.0333333",
+                "start": "0:01:42",
+                "end": "0:01:46.0333333"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "name": "astronomy",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9561,
+                "adjustedStart": "0:01:42",
+                "adjustedEnd": "0:01:42.0333333",
+                "start": "0:01:42",
+                "end": "0:01:42.0333333"
+              },
+              {
+                "confidence": 0.9534,
+                "adjustedStart": "0:01:44",
+                "adjustedEnd": "0:01:44.0333333",
+                "start": "0:01:44",
+                "end": "0:01:44.0333333"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "name": "planet",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9652,
+                "adjustedStart": "0:01:52",
+                "adjustedEnd": "0:01:54.0333333",
+                "start": "0:01:52",
+                "end": "0:01:54.0333333"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "name": "parachute",
+            "referenceId": "equipment/rescue equipment/parachute",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9957,
+                "adjustedStart": "0:02:02",
+                "adjustedEnd": "0:02:10.0333333",
+                "start": "0:02:02",
+                "end": "0:02:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "name": "outdoor",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9692,
+                "adjustedStart": "0:02:02",
+                "adjustedEnd": "0:02:09.0333333",
+                "start": "0:02:02",
+                "end": "0:02:09.0333333"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "name": "sky",
+            "referenceId": "atmosphere/sky",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9695,
+                "adjustedStart": "0:02:02",
+                "adjustedEnd": "0:02:10.0333333",
+                "start": "0:02:02",
+                "end": "0:02:10.0333333"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "name": "parachuting",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9541,
+                "adjustedStart": "0:02:02",
+                "adjustedEnd": "0:02:03.0333333",
+                "start": "0:02:02",
+                "end": "0:02:03.0333333"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "name": "windsports",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9529,
+                "adjustedStart": "0:02:05",
+                "adjustedEnd": "0:02:05.0333333",
+                "start": "0:02:05",
+                "end": "0:02:05.0333333"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "name": "water",
+            "referenceId": "matter/liquid/water",
+            "language": "en-US",
+            "instances": [
+              {
+                "confidence": 0.9659,
+                "adjustedStart": "0:02:10",
+                "adjustedEnd": "0:02:10.0333333",
+                "start": "0:02:10",
+                "end": "0:02:10.0333333"
+              }
+            ]
+          }
+        ],
+        "scenes": [
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:08.1",
+                "start": "0:00:00",
+                "end": "0:00:08.1"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.1",
+                "adjustedEnd": "0:00:20.0666667",
+                "start": "0:00:08.1",
+                "end": "0:00:20.0666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:00:20.0666667",
+                "adjustedEnd": "0:00:39.3",
+                "start": "0:00:20.0666667",
+                "end": "0:00:39.3"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.3",
+                "adjustedEnd": "0:00:45.4333333",
+                "start": "0:00:39.3",
+                "end": "0:00:45.4333333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "instances": [
+              {
+                "adjustedStart": "0:00:45.6333333",
+                "adjustedEnd": "0:00:54.3",
+                "start": "0:00:45.6333333",
+                "end": "0:00:54.3"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "instances": [
+              {
+                "adjustedStart": "0:00:54.3",
+                "adjustedEnd": "0:00:56.8333333",
+                "start": "0:00:54.3",
+                "end": "0:00:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.8333333",
+                "adjustedEnd": "0:01:04",
+                "start": "0:00:56.8333333",
+                "end": "0:01:04"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "instances": [
+              {
+                "adjustedStart": "0:01:04",
+                "adjustedEnd": "0:01:07.9666667",
+                "start": "0:01:04",
+                "end": "0:01:07.9666667"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "instances": [
+              {
+                "adjustedStart": "0:01:07.9666667",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:07.9666667",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "instances": [
+              {
+                "adjustedStart": "0:01:11.0333333",
+                "adjustedEnd": "0:01:16.3333333",
+                "start": "0:01:11.0333333",
+                "end": "0:01:16.3333333"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.3333333",
+                "adjustedEnd": "0:01:29.6333333",
+                "start": "0:01:16.3333333",
+                "end": "0:01:29.6333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.6333333",
+                "adjustedEnd": "0:01:32.2",
+                "start": "0:01:29.6333333",
+                "end": "0:01:32.2"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.2",
+                "adjustedEnd": "0:01:36.2666667",
+                "start": "0:01:32.2",
+                "end": "0:01:36.2666667"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "instances": [
+              {
+                "adjustedStart": "0:01:36.2666667",
+                "adjustedEnd": "0:01:38.5333333",
+                "start": "0:01:36.2666667",
+                "end": "0:01:38.5333333"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "instances": [
+              {
+                "adjustedStart": "0:01:38.5333333",
+                "adjustedEnd": "0:01:54.7666667",
+                "start": "0:01:38.5333333",
+                "end": "0:01:54.7666667"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.7666667",
+                "adjustedEnd": "0:02:00.6",
+                "start": "0:01:54.7666667",
+                "end": "0:02:00.6"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "instances": [
+              {
+                "adjustedStart": "0:02:00.6",
+                "adjustedEnd": "0:02:08.7",
+                "start": "0:02:00.6",
+                "end": "0:02:08.7"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "instances": [
+              {
+                "adjustedStart": "0:02:08.7",
+                "adjustedEnd": "0:02:12.9666667",
+                "start": "0:02:08.7",
+                "end": "0:02:12.9666667"
+              }
+            ]
+          }
+        ],
+        "shots": [
+          {
+            "id": 1,
+            "keyFrames": [
+              {
+                "id": 1,
+                "instances": [
+                  {
+                    "thumbnailId": "285d0922-a9bb-4625-a30d-378e7e978811",
+                    "adjustedStart": "0:00:00.1666667",
+                    "adjustedEnd": "0:00:00.2",
+                    "start": "0:00:00.1666667",
+                    "end": "0:00:00.2"
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "instances": [
+                  {
+                    "thumbnailId": "a9439e7a-b2e7-4d61-b23c-642601a17963",
+                    "adjustedStart": "0:00:01.1",
+                    "adjustedEnd": "0:00:01.1333333",
+                    "start": "0:00:01.1",
+                    "end": "0:00:01.1333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:01.1333333",
+                "start": "0:00:00",
+                "end": "0:00:01.1333333"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "keyFrames": [
+              {
+                "id": 3,
+                "instances": [
+                  {
+                    "thumbnailId": "6cb58fb0-edf2-499a-9ca4-91e8baf662af",
+                    "adjustedStart": "0:00:01.4",
+                    "adjustedEnd": "0:00:01.4333333",
+                    "start": "0:00:01.4",
+                    "end": "0:00:01.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:01.1333333",
+                "adjustedEnd": "0:00:02.8666667",
+                "start": "0:00:01.1333333",
+                "end": "0:00:02.8666667"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "keyFrames": [
+              {
+                "id": 4,
+                "instances": [
+                  {
+                    "thumbnailId": "449ffab6-8b3f-4360-ade5-a0e55a159763",
+                    "adjustedStart": "0:00:02.9333333",
+                    "adjustedEnd": "0:00:02.9666667",
+                    "start": "0:00:02.9333333",
+                    "end": "0:00:02.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:02.8666667",
+                "adjustedEnd": "0:00:04.5666667",
+                "start": "0:00:02.8666667",
+                "end": "0:00:04.5666667"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "keyFrames": [
+              {
+                "id": 5,
+                "instances": [
+                  {
+                    "thumbnailId": "774bc8de-2400-44b9-8763-a39392309e35",
+                    "adjustedStart": "0:00:04.9333333",
+                    "adjustedEnd": "0:00:04.9666667",
+                    "start": "0:00:04.9333333",
+                    "end": "0:00:04.9666667"
+                  }
+                ]
+              },
+              {
+                "id": 6,
+                "instances": [
+                  {
+                    "thumbnailId": "0c588ecc-133e-4d2a-9e85-b73b92c49148",
+                    "adjustedStart": "0:00:05.2",
+                    "adjustedEnd": "0:00:05.2333333",
+                    "start": "0:00:05.2",
+                    "end": "0:00:05.2333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.5666667",
+                "adjustedEnd": "0:00:06.3",
+                "start": "0:00:04.5666667",
+                "end": "0:00:06.3"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "keyFrames": [
+              {
+                "id": 7,
+                "instances": [
+                  {
+                    "thumbnailId": "2463144d-3805-4904-8069-60f94134f8a4",
+                    "adjustedStart": "0:00:06.3666667",
+                    "adjustedEnd": "0:00:06.4",
+                    "start": "0:00:06.3666667",
+                    "end": "0:00:06.4"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:06.3",
+                "adjustedEnd": "0:00:08.1",
+                "start": "0:00:06.3",
+                "end": "0:00:08.1"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "keyFrames": [
+              {
+                "id": 8,
+                "instances": [
+                  {
+                    "thumbnailId": "e32b6828-8e52-40ef-9635-cae1c3b586e4",
+                    "adjustedStart": "0:00:08.1666667",
+                    "adjustedEnd": "0:00:08.2",
+                    "start": "0:00:08.1666667",
+                    "end": "0:00:08.2"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.1",
+                "adjustedEnd": "0:00:09.8666667",
+                "start": "0:00:08.1",
+                "end": "0:00:09.8666667"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "keyFrames": [
+              {
+                "id": 9,
+                "instances": [
+                  {
+                    "thumbnailId": "abbb7a7d-ff95-47cc-88a7-8a77753321cd",
+                    "adjustedStart": "0:00:09.9333333",
+                    "adjustedEnd": "0:00:09.9666667",
+                    "start": "0:00:09.9333333",
+                    "end": "0:00:09.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:09.8666667",
+                "adjustedEnd": "0:00:11.6",
+                "start": "0:00:09.8666667",
+                "end": "0:00:11.6"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "keyFrames": [
+              {
+                "id": 10,
+                "instances": [
+                  {
+                    "thumbnailId": "c7299f4d-ebe7-49ff-835d-36aab4beec1c",
+                    "adjustedStart": "0:00:11.8666667",
+                    "adjustedEnd": "0:00:11.9",
+                    "start": "0:00:11.8666667",
+                    "end": "0:00:11.9"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:11.6",
+                "adjustedEnd": "0:00:15.2333333",
+                "start": "0:00:11.6",
+                "end": "0:00:15.2333333"
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "keyFrames": [
+              {
+                "id": 11,
+                "instances": [
+                  {
+                    "thumbnailId": "77f0d1a2-7515-4377-a1f4-cb6b7337e8e8",
+                    "adjustedStart": "0:00:15.2666667",
+                    "adjustedEnd": "0:00:15.3",
+                    "start": "0:00:15.2666667",
+                    "end": "0:00:15.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:15.2333333",
+                "adjustedEnd": "0:00:16.8",
+                "start": "0:00:15.2333333",
+                "end": "0:00:16.8"
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "keyFrames": [
+              {
+                "id": 12,
+                "instances": [
+                  {
+                    "thumbnailId": "8f162c44-eeb8-46f3-b080-c12563363b8e",
+                    "adjustedStart": "0:00:17.0333333",
+                    "adjustedEnd": "0:00:17.0666667",
+                    "start": "0:00:17.0333333",
+                    "end": "0:00:17.0666667"
+                  }
+                ]
+              },
+              {
+                "id": 13,
+                "instances": [
+                  {
+                    "thumbnailId": "7add4cff-54d0-41aa-b531-470775b321dd",
+                    "adjustedStart": "0:00:17.8666667",
+                    "adjustedEnd": "0:00:17.9",
+                    "start": "0:00:17.8666667",
+                    "end": "0:00:17.9"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:17",
+                "adjustedEnd": "0:00:20.0666667",
+                "start": "0:00:17",
+                "end": "0:00:20.0666667"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "keyFrames": [
+              {
+                "id": 14,
+                "instances": [
+                  {
+                    "thumbnailId": "27b13caf-041b-432d-8a30-3adece4ad6ac",
+                    "adjustedStart": "0:00:20.3333333",
+                    "adjustedEnd": "0:00:20.3666667",
+                    "start": "0:00:20.3333333",
+                    "end": "0:00:20.3666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:20.0666667",
+                "adjustedEnd": "0:00:21.8333333",
+                "start": "0:00:20.0666667",
+                "end": "0:00:21.8333333"
+              }
+            ]
+          },
+          {
+            "id": 12,
+            "keyFrames": [
+              {
+                "id": 15,
+                "instances": [
+                  {
+                    "thumbnailId": "01bcfff0-96a0-4554-92cc-4cd8e58776c3",
+                    "adjustedStart": "0:00:21.9",
+                    "adjustedEnd": "0:00:21.9333333",
+                    "start": "0:00:21.9",
+                    "end": "0:00:21.9333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:21.8333333",
+                "adjustedEnd": "0:00:24.0333333",
+                "start": "0:00:21.8333333",
+                "end": "0:00:24.0333333"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "keyFrames": [
+              {
+                "id": 16,
+                "instances": [
+                  {
+                    "thumbnailId": "b96f5e1d-23ca-40f3-91c2-4100cf1167c2",
+                    "adjustedStart": "0:00:24.1",
+                    "adjustedEnd": "0:00:24.1333333",
+                    "start": "0:00:24.1",
+                    "end": "0:00:24.1333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:24.0333333",
+                "adjustedEnd": "0:00:27.2666667",
+                "start": "0:00:24.0333333",
+                "end": "0:00:27.2666667"
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "keyFrames": [
+              {
+                "id": 17,
+                "instances": [
+                  {
+                    "thumbnailId": "2416ae2f-af6c-4b66-aa6b-0b98efe819d8",
+                    "adjustedStart": "0:00:27.6666667",
+                    "adjustedEnd": "0:00:27.7",
+                    "start": "0:00:27.6666667",
+                    "end": "0:00:27.7"
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "instances": [
+                  {
+                    "thumbnailId": "a0d51d2b-6107-4e36-a543-e4f9bec2ce04",
+                    "adjustedStart": "0:00:27.9333333",
+                    "adjustedEnd": "0:00:27.9666667",
+                    "start": "0:00:27.9333333",
+                    "end": "0:00:27.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:27.4666667",
+                "adjustedEnd": "0:00:30.8666667",
+                "start": "0:00:27.4666667",
+                "end": "0:00:30.8666667"
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "keyFrames": [
+              {
+                "id": 19,
+                "instances": [
+                  {
+                    "thumbnailId": "d17af911-3778-4a6c-b4f4-582b82292ff3",
+                    "adjustedStart": "0:00:30.9333333",
+                    "adjustedEnd": "0:00:30.9666667",
+                    "start": "0:00:30.9333333",
+                    "end": "0:00:30.9666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.8666667",
+                "adjustedEnd": "0:00:32.7",
+                "start": "0:00:30.8666667",
+                "end": "0:00:32.7"
+              }
+            ]
+          },
+          {
+            "id": 16,
+            "keyFrames": [
+              {
+                "id": 20,
+                "instances": [
+                  {
+                    "thumbnailId": "bcac5c48-3301-476b-a719-ad348db0e134",
+                    "adjustedStart": "0:00:32.7666667",
+                    "adjustedEnd": "0:00:32.8",
+                    "start": "0:00:32.7666667",
+                    "end": "0:00:32.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:32.7",
+                "adjustedEnd": "0:00:34.5",
+                "start": "0:00:32.7",
+                "end": "0:00:34.5"
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "keyFrames": [
+              {
+                "id": 21,
+                "instances": [
+                  {
+                    "thumbnailId": "7005815d-6d92-4609-979c-1a690dcb1dfb",
+                    "adjustedStart": "0:00:34.7666667",
+                    "adjustedEnd": "0:00:34.8",
+                    "start": "0:00:34.7666667",
+                    "end": "0:00:34.8"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:34.5",
+                "adjustedEnd": "0:00:36.7",
+                "start": "0:00:34.5",
+                "end": "0:00:36.7"
+              }
+            ]
+          },
+          {
+            "id": 18,
+            "keyFrames": [
+              {
+                "id": 22,
+                "instances": [
+                  {
+                    "thumbnailId": "2133f408-164c-45a3-80f8-3c8582bdd2a3",
+                    "adjustedStart": "0:00:36.9666667",
+                    "adjustedEnd": "0:00:37",
+                    "start": "0:00:36.9666667",
+                    "end": "0:00:37"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:36.7",
+                "adjustedEnd": "0:00:39.3",
+                "start": "0:00:36.7",
+                "end": "0:00:39.3"
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "keyFrames": [
+              {
+                "id": 23,
+                "instances": [
+                  {
+                    "thumbnailId": "4b6d3ebb-14ac-4c71-a654-574cfdfc4597",
+                    "adjustedStart": "0:00:39.3666667",
+                    "adjustedEnd": "0:00:39.4",
+                    "start": "0:00:39.3666667",
+                    "end": "0:00:39.4"
+                  }
+                ]
+              },
+              {
+                "id": 24,
+                "instances": [
+                  {
+                    "thumbnailId": "5fa3812c-95b3-48bf-927d-ca2c906a1dd4",
+                    "adjustedStart": "0:00:43.0666667",
+                    "adjustedEnd": "0:00:43.1",
+                    "start": "0:00:43.0666667",
+                    "end": "0:00:43.1"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:39.3",
+                "adjustedEnd": "0:00:45.4333333",
+                "start": "0:00:39.3",
+                "end": "0:00:45.4333333"
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "keyFrames": [
+              {
+                "id": 25,
+                "instances": [
+                  {
+                    "thumbnailId": "0d11ac42-0473-49d1-aa80-6b4e23488c15",
+                    "adjustedStart": "0:00:46.2",
+                    "adjustedEnd": "0:00:46.2333333",
+                    "start": "0:00:46.2",
+                    "end": "0:00:46.2333333"
+                  }
+                ]
+              },
+              {
+                "id": 26,
+                "instances": [
+                  {
+                    "thumbnailId": "74856b54-6d95-4d3a-b941-b990918a9018",
+                    "adjustedStart": "0:00:49.7333333",
+                    "adjustedEnd": "0:00:49.7666667",
+                    "start": "0:00:49.7333333",
+                    "end": "0:00:49.7666667"
+                  }
+                ]
+              },
+              {
+                "id": 27,
+                "instances": [
+                  {
+                    "thumbnailId": "d670cd64-a019-44d6-94f3-5c6740cf745c",
+                    "adjustedStart": "0:00:52.4",
+                    "adjustedEnd": "0:00:52.4333333",
+                    "start": "0:00:52.4",
+                    "end": "0:00:52.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:45.6333333",
+                "adjustedEnd": "0:00:54.3",
+                "start": "0:00:45.6333333",
+                "end": "0:00:54.3"
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "keyFrames": [
+              {
+                "id": 28,
+                "instances": [
+                  {
+                    "thumbnailId": "baf50029-234a-4bcf-92e0-e597c447358f",
+                    "adjustedStart": "0:00:54.5666667",
+                    "adjustedEnd": "0:00:54.6",
+                    "start": "0:00:54.5666667",
+                    "end": "0:00:54.6"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:54.3",
+                "adjustedEnd": "0:00:56.8333333",
+                "start": "0:00:54.3",
+                "end": "0:00:56.8333333"
+              }
+            ]
+          },
+          {
+            "id": 22,
+            "keyFrames": [
+              {
+                "id": 29,
+                "instances": [
+                  {
+                    "thumbnailId": "4c204ec7-d0a8-4185-87d1-1cc8f9a4e1bc",
+                    "adjustedStart": "0:00:56.8666667",
+                    "adjustedEnd": "0:00:56.9",
+                    "start": "0:00:56.8666667",
+                    "end": "0:00:56.9"
+                  }
+                ]
+              },
+              {
+                "id": 30,
+                "instances": [
+                  {
+                    "thumbnailId": "3fd52b27-7fce-4d29-b765-cbe03d0d610c",
+                    "adjustedStart": "0:00:59.6666667",
+                    "adjustedEnd": "0:00:59.7",
+                    "start": "0:00:59.6666667",
+                    "end": "0:00:59.7"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:00:56.8333333",
+                "adjustedEnd": "0:01:00.3333333",
+                "start": "0:00:56.8333333",
+                "end": "0:01:00.3333333"
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "keyFrames": [
+              {
+                "id": 31,
+                "instances": [
+                  {
+                    "thumbnailId": "545b07e4-9907-4644-b218-ccaebd7f8633",
+                    "adjustedStart": "0:01:00.6",
+                    "adjustedEnd": "0:01:00.6333333",
+                    "start": "0:01:00.6",
+                    "end": "0:01:00.6333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:00.3333333",
+                "adjustedEnd": "0:01:04",
+                "start": "0:01:00.3333333",
+                "end": "0:01:04"
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "keyFrames": [
+              {
+                "id": 32,
+                "instances": [
+                  {
+                    "thumbnailId": "9e171fae-56ad-49e2-ab3d-07c9e8baa13c",
+                    "adjustedStart": "0:01:04.2666667",
+                    "adjustedEnd": "0:01:04.3",
+                    "start": "0:01:04.2666667",
+                    "end": "0:01:04.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:04",
+                "adjustedEnd": "0:01:06.4333333",
+                "start": "0:01:04",
+                "end": "0:01:06.4333333"
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "keyFrames": [
+              {
+                "id": 33,
+                "instances": [
+                  {
+                    "thumbnailId": "7b127fb6-8a54-4ddb-89ff-5a2b6a6003cf",
+                    "adjustedStart": "0:01:06.7",
+                    "adjustedEnd": "0:01:06.7333333",
+                    "start": "0:01:06.7",
+                    "end": "0:01:06.7333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:06.4333333",
+                "adjustedEnd": "0:01:07.9666667",
+                "start": "0:01:06.4333333",
+                "end": "0:01:07.9666667"
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "keyFrames": [
+              {
+                "id": 34,
+                "instances": [
+                  {
+                    "thumbnailId": "ac3f3c79-3613-4169-8c2d-ae79f28f6f5c",
+                    "adjustedStart": "0:01:08.0333333",
+                    "adjustedEnd": "0:01:08.0666667",
+                    "start": "0:01:08.0333333",
+                    "end": "0:01:08.0666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:07.9666667",
+                "adjustedEnd": "0:01:09.0666667",
+                "start": "0:01:07.9666667",
+                "end": "0:01:09.0666667"
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "keyFrames": [
+              {
+                "id": 35,
+                "instances": [
+                  {
+                    "thumbnailId": "607ba3d3-a71d-446c-a68c-7282c379af3d",
+                    "adjustedStart": "0:01:09.3333333",
+                    "adjustedEnd": "0:01:09.3666667",
+                    "start": "0:01:09.3333333",
+                    "end": "0:01:09.3666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:09.0666667",
+                "adjustedEnd": "0:01:11.0333333",
+                "start": "0:01:09.0666667",
+                "end": "0:01:11.0333333"
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "keyFrames": [
+              {
+                "id": 36,
+                "instances": [
+                  {
+                    "thumbnailId": "1e9dad7e-aa6b-4da4-9294-5c9005b9ab8f",
+                    "adjustedStart": "0:01:11.0666667",
+                    "adjustedEnd": "0:01:11.1",
+                    "start": "0:01:11.0666667",
+                    "end": "0:01:11.1"
+                  }
+                ]
+              },
+              {
+                "id": 37,
+                "instances": [
+                  {
+                    "thumbnailId": "838cd942-0492-4e82-bdfd-f79ce3c3f4d6",
+                    "adjustedStart": "0:01:14.1666667",
+                    "adjustedEnd": "0:01:14.2",
+                    "start": "0:01:14.1666667",
+                    "end": "0:01:14.2"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:11.0333333",
+                "adjustedEnd": "0:01:16.3333333",
+                "start": "0:01:11.0333333",
+                "end": "0:01:16.3333333"
+              }
+            ]
+          },
+          {
+            "id": 29,
+            "keyFrames": [
+              {
+                "id": 38,
+                "instances": [
+                  {
+                    "thumbnailId": "d42bc2ea-4279-4aee-a424-66274ecc4cb1",
+                    "adjustedStart": "0:01:16.6",
+                    "adjustedEnd": "0:01:16.6333333",
+                    "start": "0:01:16.6",
+                    "end": "0:01:16.6333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:16.3333333",
+                "adjustedEnd": "0:01:19.6666667",
+                "start": "0:01:16.3333333",
+                "end": "0:01:19.6666667"
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "keyFrames": [
+              {
+                "id": 39,
+                "instances": [
+                  {
+                    "thumbnailId": "b893efd5-5f4e-41ee-8d42-2d9ee5435903",
+                    "adjustedStart": "0:01:19.7333333",
+                    "adjustedEnd": "0:01:19.7666667",
+                    "start": "0:01:19.7333333",
+                    "end": "0:01:19.7666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:19.6666667",
+                "adjustedEnd": "0:01:22.8666667",
+                "start": "0:01:19.6666667",
+                "end": "0:01:22.8666667"
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "keyFrames": [
+              {
+                "id": 40,
+                "instances": [
+                  {
+                    "thumbnailId": "62199f27-1cfa-4798-88d9-40a070b35164",
+                    "adjustedStart": "0:01:23.1333333",
+                    "adjustedEnd": "0:01:23.1666667",
+                    "start": "0:01:23.1333333",
+                    "end": "0:01:23.1666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:22.8666667",
+                "adjustedEnd": "0:01:26.2333333",
+                "start": "0:01:22.8666667",
+                "end": "0:01:26.2333333"
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "keyFrames": [
+              {
+                "id": 41,
+                "instances": [
+                  {
+                    "thumbnailId": "ad6626ff-d4be-4e86-8b37-5ecefedc02a1",
+                    "adjustedStart": "0:01:26.5",
+                    "adjustedEnd": "0:01:26.5333333",
+                    "start": "0:01:26.5",
+                    "end": "0:01:26.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:26.2333333",
+                "adjustedEnd": "0:01:29.6333333",
+                "start": "0:01:26.2333333",
+                "end": "0:01:29.6333333"
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "keyFrames": [
+              {
+                "id": 42,
+                "instances": [
+                  {
+                    "thumbnailId": "2d488e96-5eb8-48ed-8a5f-f6ae37c79d19",
+                    "adjustedStart": "0:01:29.7",
+                    "adjustedEnd": "0:01:29.7333333",
+                    "start": "0:01:29.7",
+                    "end": "0:01:29.7333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.6333333",
+                "adjustedEnd": "0:01:30.6666667",
+                "start": "0:01:29.6333333",
+                "end": "0:01:30.6666667"
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "keyFrames": [
+              {
+                "id": 43,
+                "instances": [
+                  {
+                    "thumbnailId": "53a931e6-8ad1-4b63-8387-4a3831547fff",
+                    "adjustedStart": "0:01:30.7333333",
+                    "adjustedEnd": "0:01:30.7666667",
+                    "start": "0:01:30.7333333",
+                    "end": "0:01:30.7666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:30.6666667",
+                "adjustedEnd": "0:01:32.2",
+                "start": "0:01:30.6666667",
+                "end": "0:01:32.2"
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "keyFrames": [
+              {
+                "id": 44,
+                "instances": [
+                  {
+                    "thumbnailId": "fb8a63bf-7a5c-4401-ad08-c544fdd6239e",
+                    "adjustedStart": "0:01:32.2666667",
+                    "adjustedEnd": "0:01:32.3",
+                    "start": "0:01:32.2666667",
+                    "end": "0:01:32.3"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:32.2",
+                "adjustedEnd": "0:01:34.3333333",
+                "start": "0:01:32.2",
+                "end": "0:01:34.3333333"
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "keyFrames": [
+              {
+                "id": 45,
+                "instances": [
+                  {
+                    "thumbnailId": "eddae68d-9f7f-4ff9-9eaa-27d4568f1eae",
+                    "adjustedStart": "0:01:34.4",
+                    "adjustedEnd": "0:01:34.4333333",
+                    "start": "0:01:34.4",
+                    "end": "0:01:34.4333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:34.3333333",
+                "adjustedEnd": "0:01:36.2666667",
+                "start": "0:01:34.3333333",
+                "end": "0:01:36.2666667"
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "keyFrames": [
+              {
+                "id": 46,
+                "instances": [
+                  {
+                    "thumbnailId": "7afc5e83-becb-4e2b-96a9-8d1f2efadd5e",
+                    "adjustedStart": "0:01:36.5333333",
+                    "adjustedEnd": "0:01:36.5666667",
+                    "start": "0:01:36.5333333",
+                    "end": "0:01:36.5666667"
+                  }
+                ]
+              },
+              {
+                "id": 47,
+                "instances": [
+                  {
+                    "thumbnailId": "1b25b1a1-74f1-480f-ba72-b309a0fbe78e",
+                    "adjustedStart": "0:01:37.3",
+                    "adjustedEnd": "0:01:37.3333333",
+                    "start": "0:01:37.3",
+                    "end": "0:01:37.3333333"
+                  }
+                ]
+              },
+              {
+                "id": 48,
+                "instances": [
+                  {
+                    "thumbnailId": "0df14c54-2396-4d9c-8ca4-90d38ea2d24a",
+                    "adjustedStart": "0:01:38.4666667",
+                    "adjustedEnd": "0:01:38.5",
+                    "start": "0:01:38.4666667",
+                    "end": "0:01:38.5"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:36.2666667",
+                "adjustedEnd": "0:01:38.5333333",
+                "start": "0:01:36.2666667",
+                "end": "0:01:38.5333333"
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "keyFrames": [
+              {
+                "id": 49,
+                "instances": [
+                  {
+                    "thumbnailId": "a8ca7ccf-21ee-4757-89e3-99d0ceeefc3e",
+                    "adjustedStart": "0:01:38.8",
+                    "adjustedEnd": "0:01:38.8333333",
+                    "start": "0:01:38.8",
+                    "end": "0:01:38.8333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:38.5333333",
+                "adjustedEnd": "0:01:41.1",
+                "start": "0:01:38.5333333",
+                "end": "0:01:41.1"
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "keyFrames": [
+              {
+                "id": 50,
+                "instances": [
+                  {
+                    "thumbnailId": "cf2b63c2-5575-4b43-8f83-c43d77164595",
+                    "adjustedStart": "0:01:41.4",
+                    "adjustedEnd": "0:01:41.4333333",
+                    "start": "0:01:41.4",
+                    "end": "0:01:41.4333333"
+                  }
+                ]
+              },
+              {
+                "id": 51,
+                "instances": [
+                  {
+                    "thumbnailId": "b4b13812-fbf7-4568-889e-c9396cda3758",
+                    "adjustedStart": "0:01:41.6333333",
+                    "adjustedEnd": "0:01:41.6666667",
+                    "start": "0:01:41.6333333",
+                    "end": "0:01:41.6666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:41.3",
+                "adjustedEnd": "0:01:47.0666667",
+                "start": "0:01:41.3",
+                "end": "0:01:47.0666667"
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "keyFrames": [
+              {
+                "id": 52,
+                "instances": [
+                  {
+                    "thumbnailId": "dba1db44-dd63-4ecc-b587-bcba0e14d7df",
+                    "adjustedStart": "0:01:49.2",
+                    "adjustedEnd": "0:01:49.2333333",
+                    "start": "0:01:49.2",
+                    "end": "0:01:49.2333333"
+                  }
+                ]
+              },
+              {
+                "id": 53,
+                "instances": [
+                  {
+                    "thumbnailId": "2dbe311d-52bc-49d2-8d65-47f6d7703834",
+                    "adjustedStart": "0:01:51.1666667",
+                    "adjustedEnd": "0:01:51.2",
+                    "start": "0:01:51.1666667",
+                    "end": "0:01:51.2"
+                  }
+                ]
+              },
+              {
+                "id": 54,
+                "instances": [
+                  {
+                    "thumbnailId": "b4d120cc-fd9b-47ae-af34-6a42e43f763c",
+                    "adjustedStart": "0:01:51.8",
+                    "adjustedEnd": "0:01:51.8333333",
+                    "start": "0:01:51.8",
+                    "end": "0:01:51.8333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:47.0666667",
+                "adjustedEnd": "0:01:54.7666667",
+                "start": "0:01:47.0666667",
+                "end": "0:01:54.7666667"
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "keyFrames": [
+              {
+                "id": 55,
+                "instances": [
+                  {
+                    "thumbnailId": "e669d472-96a0-4c4d-96d8-8be6845ebdd8",
+                    "adjustedStart": "0:01:55.0333333",
+                    "adjustedEnd": "0:01:55.0666667",
+                    "start": "0:01:55.0333333",
+                    "end": "0:01:55.0666667"
+                  }
+                ]
+              },
+              {
+                "id": 56,
+                "instances": [
+                  {
+                    "thumbnailId": "d8b40f9c-8417-4690-bb28-e7e5f904913c",
+                    "adjustedStart": "0:01:55.2333333",
+                    "adjustedEnd": "0:01:55.2666667",
+                    "start": "0:01:55.2333333",
+                    "end": "0:01:55.2666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:54.7666667",
+                "adjustedEnd": "0:01:56.1666667",
+                "start": "0:01:54.7666667",
+                "end": "0:01:56.1666667"
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "keyFrames": [
+              {
+                "id": 57,
+                "instances": [
+                  {
+                    "thumbnailId": "40e1c4c9-670d-4eb4-888a-1df3f37d8e8b",
+                    "adjustedStart": "0:01:56.2333333",
+                    "adjustedEnd": "0:01:56.2666667",
+                    "start": "0:01:56.2333333",
+                    "end": "0:01:56.2666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:56.1666667",
+                "adjustedEnd": "0:01:57.8333333",
+                "start": "0:01:56.1666667",
+                "end": "0:01:57.8333333"
+              }
+            ]
+          },
+          {
+            "id": 43,
+            "keyFrames": [
+              {
+                "id": 58,
+                "instances": [
+                  {
+                    "thumbnailId": "e6e8eee2-b81a-4080-847e-223145480542",
+                    "adjustedStart": "0:01:57.9",
+                    "adjustedEnd": "0:01:57.9333333",
+                    "start": "0:01:57.9",
+                    "end": "0:01:57.9333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:01:57.8333333",
+                "adjustedEnd": "0:02:00.6",
+                "start": "0:01:57.8333333",
+                "end": "0:02:00.6"
+              }
+            ]
+          },
+          {
+            "id": 44,
+            "keyFrames": [
+              {
+                "id": 59,
+                "instances": [
+                  {
+                    "thumbnailId": "dc0d09c4-8f27-4f3f-ac6f-c7a1c8a12408",
+                    "adjustedStart": "0:02:01.1666667",
+                    "adjustedEnd": "0:02:01.2",
+                    "start": "0:02:01.1666667",
+                    "end": "0:02:01.2"
+                  }
+                ]
+              },
+              {
+                "id": 60,
+                "instances": [
+                  {
+                    "thumbnailId": "6f4d39eb-ae7b-471c-94ac-55847ce7be43",
+                    "adjustedStart": "0:02:04.5",
+                    "adjustedEnd": "0:02:04.5333333",
+                    "start": "0:02:04.5",
+                    "end": "0:02:04.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:02:00.6",
+                "adjustedEnd": "0:02:08.7",
+                "start": "0:02:00.6",
+                "end": "0:02:08.7"
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "keyFrames": [
+              {
+                "id": 61,
+                "instances": [
+                  {
+                    "thumbnailId": "bddd8643-578d-4cec-b24b-64b2cb6b2f58",
+                    "adjustedStart": "0:02:08.9333333",
+                    "adjustedEnd": "0:02:08.9666667",
+                    "start": "0:02:08.9333333",
+                    "end": "0:02:08.9666667"
+                  }
+                ]
+              },
+              {
+                "id": 62,
+                "instances": [
+                  {
+                    "thumbnailId": "df108a4a-b046-4fb6-8a05-6e66f7388939",
+                    "adjustedStart": "0:02:09.2",
+                    "adjustedEnd": "0:02:09.2333333",
+                    "start": "0:02:09.2",
+                    "end": "0:02:09.2333333"
+                  }
+                ]
+              },
+              {
+                "id": 63,
+                "instances": [
+                  {
+                    "thumbnailId": "28fa2dab-683f-477d-9de8-879e06b5f38d",
+                    "adjustedStart": "0:02:09.5",
+                    "adjustedEnd": "0:02:09.5333333",
+                    "start": "0:02:09.5",
+                    "end": "0:02:09.5333333"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:02:08.7",
+                "adjustedEnd": "0:02:09.7333333",
+                "start": "0:02:08.7",
+                "end": "0:02:09.7333333"
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "keyFrames": [
+              {
+                "id": 64,
+                "instances": [
+                  {
+                    "thumbnailId": "e7482181-3e52-49bd-b11c-296cb2d3849c",
+                    "adjustedStart": "0:02:09.7666667",
+                    "adjustedEnd": "0:02:09.8",
+                    "start": "0:02:09.7666667",
+                    "end": "0:02:09.8"
+                  }
+                ]
+              },
+              {
+                "id": 65,
+                "instances": [
+                  {
+                    "thumbnailId": "48745d0d-8d33-4bd5-9a2d-6e29e32ebade",
+                    "adjustedStart": "0:02:09.8333333",
+                    "adjustedEnd": "0:02:09.8666667",
+                    "start": "0:02:09.8333333",
+                    "end": "0:02:09.8666667"
+                  }
+                ]
+              }
+            ],
+            "instances": [
+              {
+                "adjustedStart": "0:02:09.7333333",
+                "adjustedEnd": "0:02:12.9666667",
+                "start": "0:02:09.7333333",
+                "end": "0:02:12.9666667"
+              }
+            ]
+          }
+        ],
+        "namedLocations": [
+          {
+            "id": 1,
+            "name": "moon",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.955,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:21.68",
+                "end": "0:00:22.84"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Mars",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.99,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "solar system",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.78,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:15.28",
+                "start": "0:00:10.12",
+                "end": "0:00:15.28"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "planet",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.75,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "name": "home",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.85,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              }
+            ]
+          },
+          {
+            "id": 6,
+            "name": "Earth",
+            "referenceId": "Earth",
+            "referenceUrl": "https://en.wikipedia.org/wiki/Earth",
+            "description": "Earth /\u02c8\u025c\u02d0r\u03b8/ is the third planet from the Sun, the densest planet in the Solar System, the largest of the Solar System's four terrestrial planets, and the only astronomical object known to harbor life.",
+            "tags": [],
+            "confidence": 0.945,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:21.68",
+                "start": "0:00:19.6",
+                "end": "0:00:21.68"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              },
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          },
+          {
+            "id": 7,
+            "name": "Air",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.71,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "name": "Space",
+            "referenceId": null,
+            "referenceUrl": null,
+            "description": null,
+            "tags": [],
+            "confidence": 0.87,
+            "isCustom": false,
+            "instances": [
+              {
+                "instanceSource": "Transcript",
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              }
+            ]
+          }
+        ],
+        "audioEffects": [
+          {
+            "id": 0,
+            "type": "Silence",
+            "instances": [
+              {
+                "confidence": 0.7861,
+                "adjustedStart": "0:02:10.8",
+                "adjustedEnd": "0:02:11.8",
+                "start": "0:02:10.8",
+                "end": "0:02:11.8"
+              }
+            ]
+          }
+        ],
+        "detectedObjects": [
+          {
+            "id": 1,
+            "type": "SportsBall",
+            "thumbnailId": "0bae4fc6-6469-4554-926f-63cecb4d0528",
+            "displayName": "sports ball",
+            "wikiDataId": "Q18545",
+            "instances": [
+              {
+                "confidence": 0.862,
+                "adjustedStart": "0:00:09.866667",
+                "adjustedEnd": "0:00:11.6",
+                "start": "0:00:09.866667",
+                "end": "0:00:11.6"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "type": "Bottle",
+            "thumbnailId": "bc02a5e0-bb96-47a5-8371-45ee73f32ea5",
+            "displayName": "bottle",
+            "wikiDataId": "Q80228",
+            "instances": [
+              {
+                "confidence": 0.619,
+                "adjustedStart": "0:00:54.3",
+                "adjustedEnd": "0:00:56.833333",
+                "start": "0:00:54.3",
+                "end": "0:00:56.833333"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "type": "Car",
+            "thumbnailId": "69453ad7-0ce2-4221-aec0-56e1fc489ac2",
+            "displayName": "car",
+            "wikiDataId": "Q1420",
+            "instances": [
+              {
+                "confidence": 0.305,
+                "adjustedStart": "0:01:06.433333",
+                "adjustedEnd": "0:01:07.633333",
+                "start": "0:01:06.433333",
+                "end": "0:01:07.633333"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "type": "Chair",
+            "thumbnailId": "9ba362d0-c963-4b18-a77d-60259985507e",
+            "displayName": "chair",
+            "wikiDataId": "Q15026",
+            "instances": [
+              {
+                "confidence": 0.664,
+                "adjustedStart": "0:01:22.866667",
+                "adjustedEnd": "0:01:26.233333",
+                "start": "0:01:22.866667",
+                "end": "0:01:26.233333"
+              }
+            ]
+          },
+          {
+            "id": 5,
+            "type": "Chair",
+            "thumbnailId": "9280cfe1-a6ee-42e6-aad3-e271a703e7a6",
+            "displayName": "chair",
+            "wikiDataId": "Q15026",
+            "instances": [
+              {
+                "confidence": 0.525,
+                "adjustedStart": "0:01:22.866667",
+                "adjustedEnd": "0:01:26.233333",
+                "start": "0:01:22.866667",
+                "end": "0:01:26.233333"
+              }
+            ]
+          }
+        ],
+        "sentiments": [
+          {
+            "id": 1,
+            "averageScore": 0.5,
+            "sentimentType": "Neutral",
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:08.32",
+                "start": "0:00:00",
+                "end": "0:00:08.32"
+              },
+              {
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:21.68",
+                "start": "0:00:10.12",
+                "end": "0:00:21.68"
+              },
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.84",
+                "start": "0:00:23.96",
+                "end": "0:00:30.84"
+              },
+              {
+                "adjustedStart": "0:00:54.08",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.08",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:05.68",
+                "adjustedEnd": "0:01:17.08",
+                "start": "0:01:05.68",
+                "end": "0:01:17.08"
+              },
+              {
+                "adjustedStart": "0:01:29.4",
+                "adjustedEnd": "0:01:47.84",
+                "start": "0:01:29.4",
+                "end": "0:01:47.84"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:12.970667",
+                "start": "0:01:51.84",
+                "end": "0:02:12.970667"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "averageScore": 0.9416,
+            "sentimentType": "Positive",
+            "instances": [
+              {
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:23.96",
+                "start": "0:00:21.68",
+                "end": "0:00:23.96"
+              },
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:30.84",
+                "end": "0:00:54.08"
+              },
+              {
+                "adjustedStart": "0:01:03.08",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:01:03.08",
+                "end": "0:01:05.68"
+              },
+              {
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              },
+              {
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              }
+            ]
+          }
+        ],
+        "emotions": [
+          {
+            "id": 1,
+            "type": "Joy",
+            "instances": [
+              {
+                "confidence": 0.597,
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "confidence": 0.7311,
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:23.96",
+                "start": "0:00:21.68",
+                "end": "0:00:23.96"
+              },
+              {
+                "confidence": 0.5145,
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:30.84",
+                "end": "0:00:54.08"
+              },
+              {
+                "confidence": 0.9156,
+                "adjustedStart": "0:01:03.08",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:01:03.08",
+                "end": "0:01:05.68"
+              },
+              {
+                "confidence": 0.7151,
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              },
+              {
+                "confidence": 0.5848,
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              }
+            ]
+          }
+        ],
+        "blocks": [
+          {
+            "id": 0,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:00",
+                "end": "0:00:30.72"
+              }
+            ]
+          },
+          {
+            "id": 1,
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.72",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:30.72",
+                "end": "0:01:03.08"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "instances": [
+              {
+                "adjustedStart": "0:01:03.08",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:03.08",
+                "end": "0:01:41.08"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "instances": [
+              {
+                "adjustedStart": "0:01:41.08",
+                "adjustedEnd": "0:02:12.970667",
+                "start": "0:01:41.08",
+                "end": "0:02:12.970667"
+              }
+            ]
+          }
+        ],
+        "framePatterns": [
+          {
+            "id": 1,
+            "patternType": "Black",
+            "confidence": 1,
+            "displayName": null,
+            "instances": [
+              {
+                "adjustedStart": "0:00:00",
+                "adjustedEnd": "0:00:00.9333333",
+                "start": "0:00:00",
+                "end": "0:00:00.9333333"
+              },
+              {
+                "adjustedStart": "0:01:47.0666667",
+                "adjustedEnd": "0:01:48.9",
+                "start": "0:01:47.0666667",
+                "end": "0:01:48.9"
+              },
+              {
+                "adjustedStart": "0:02:10.5",
+                "adjustedEnd": "0:02:12.9666667",
+                "start": "0:02:10.5",
+                "end": "0:02:12.9666667"
+              }
+            ]
+          }
+        ],
+        "speakers": [
+          {
+            "id": 1,
+            "name": "Speaker #1",
+            "instances": [
+              {
+                "adjustedStart": "0:00:04.72",
+                "adjustedEnd": "0:00:07.96",
+                "start": "0:00:04.72",
+                "end": "0:00:07.96"
+              },
+              {
+                "adjustedStart": "0:00:08.32",
+                "adjustedEnd": "0:00:10.12",
+                "start": "0:00:08.32",
+                "end": "0:00:10.12"
+              },
+              {
+                "adjustedStart": "0:00:10.12",
+                "adjustedEnd": "0:00:15.28",
+                "start": "0:00:10.12",
+                "end": "0:00:15.28"
+              },
+              {
+                "adjustedStart": "0:00:15.96",
+                "adjustedEnd": "0:00:19.6",
+                "start": "0:00:15.96",
+                "end": "0:00:19.6"
+              },
+              {
+                "adjustedStart": "0:00:19.6",
+                "adjustedEnd": "0:00:21.68",
+                "start": "0:00:19.6",
+                "end": "0:00:21.68"
+              },
+              {
+                "adjustedStart": "0:00:21.68",
+                "adjustedEnd": "0:00:22.84",
+                "start": "0:00:21.68",
+                "end": "0:00:22.84"
+              },
+              {
+                "adjustedStart": "0:00:22.92",
+                "adjustedEnd": "0:00:23.96",
+                "start": "0:00:22.92",
+                "end": "0:00:23.96"
+              },
+              {
+                "adjustedStart": "0:00:23.96",
+                "adjustedEnd": "0:00:30.72",
+                "start": "0:00:23.96",
+                "end": "0:00:30.72"
+              },
+              {
+                "adjustedStart": "0:02:05.76",
+                "adjustedEnd": "0:02:05.8",
+                "start": "0:02:05.76",
+                "end": "0:02:05.8"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "name": "Speaker #2",
+            "instances": [
+              {
+                "adjustedStart": "0:00:30.84",
+                "adjustedEnd": "0:00:41.56",
+                "start": "0:00:30.84",
+                "end": "0:00:41.56"
+              },
+              {
+                "adjustedStart": "0:00:41.56",
+                "adjustedEnd": "0:00:54.08",
+                "start": "0:00:41.56",
+                "end": "0:00:54.08"
+              }
+            ]
+          },
+          {
+            "id": 3,
+            "name": "Speaker #3",
+            "instances": [
+              {
+                "adjustedStart": "0:00:54.36",
+                "adjustedEnd": "0:01:03.08",
+                "start": "0:00:54.36",
+                "end": "0:01:03.08"
+              },
+              {
+                "adjustedStart": "0:01:03.08",
+                "adjustedEnd": "0:01:05.68",
+                "start": "0:01:03.08",
+                "end": "0:01:05.68"
+              },
+              {
+                "adjustedStart": "0:01:06.16",
+                "adjustedEnd": "0:01:08",
+                "start": "0:01:06.16",
+                "end": "0:01:08"
+              },
+              {
+                "adjustedStart": "0:01:08",
+                "adjustedEnd": "0:01:16.96",
+                "start": "0:01:08",
+                "end": "0:01:16.96"
+              },
+              {
+                "adjustedStart": "0:01:17.08",
+                "adjustedEnd": "0:01:29.4",
+                "start": "0:01:17.08",
+                "end": "0:01:29.4"
+              }
+            ]
+          },
+          {
+            "id": 4,
+            "name": "Speaker #4",
+            "instances": [
+              {
+                "adjustedStart": "0:01:29.72",
+                "adjustedEnd": "0:01:41.08",
+                "start": "0:01:29.72",
+                "end": "0:01:41.08"
+              },
+              {
+                "adjustedStart": "0:01:41.24",
+                "adjustedEnd": "0:01:47.68",
+                "start": "0:01:41.24",
+                "end": "0:01:47.68"
+              },
+              {
+                "adjustedStart": "0:01:47.84",
+                "adjustedEnd": "0:01:51.84",
+                "start": "0:01:47.84",
+                "end": "0:01:51.84"
+              },
+              {
+                "adjustedStart": "0:01:51.84",
+                "adjustedEnd": "0:02:04.92",
+                "start": "0:01:51.84",
+                "end": "0:02:04.92"
+              }
+            ]
+          }
+        ],
+        "textualContentModeration": {
+          "id": 0,
+          "bannedWordsCount": 0,
+          "bannedWordsRatio": 0,
+          "instances": []
+        },
+        "statistics": {
+          "correspondenceCount": 4,
+          "speakerTalkToListenRatio": {
+            "1": 0.212,
+            "2": 0.197,
+            "3": 0.293,
+            "4": 0.296
+          },
+          "speakerLongestMonolog": {
+            "1": 24,
+            "2": 23,
+            "3": 34,
+            "4": 34
+          },
+          "speakerNumberOfFragments": {
+            "1": 5,
+            "2": 1,
+            "3": 3,
+            "4": 3
+          },
+          "speakerWordCount": {
+            "1": 104,
+            "2": 85,
+            "3": 108,
+            "4": 115
+          }
+        }
+      },
+      "thumbnailId": "97518554-7b68-42af-93b1-9b02f104e0dd",
+      "width": 1080,
+      "height": 608,
+      "detectSourceLanguage": false,
+      "languageAutoDetectMode": "None",
+      "sourceLanguage": "en-US",
+      "sourceLanguages": [
+        "en-US"
+      ],
+      "language": "en-US",
+      "languages": [
+        "en-US"
+      ],
+      "indexingPreset": "Default",
+      "streamingPreset": "SingleBitrate",
+      "linguisticModelId": "00000000-0000-0000-0000-000000000000",
+      "personModelId": "00000000-0000-0000-0000-000000000000",
+      "logoGroupId": null,
+      "isAdult": false,
+      "excludedAIs": [
+        "Faces",
+        "Celebrities",
+        "KnownPeople",
+        "ShotType"
+      ],
+      "isSearchable": true,
+      "publishedUrl": "https://api.videoindexer.ai/internals/Trial/Accounts/e5a49f9c-17fe-4d06-b721-7f0cb88a7a8e/Videos/921tzost9w/streaming-manifest/manifest.m3u8",
+      "publishedProxyUrl": null,
+      "viewToken": null
+    }
+  ],
+  "videosRanges": [
+    {
+      "videoId": "921tzost9w",
+      "range": {
+        "start": "0:00:00",
+        "end": "0:02:12.970667"
+      }
+    }
+  ]
+}
